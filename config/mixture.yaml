@@ -1,0 +1,11 @@
+model:
+  name: Mixture
+  module: models.mixture
+
+base_model: openai:gpt-4o-mini
+api_key: 
+
+temperature: 0.3
+max_workers: 4
+max_retries: 4
+num_agents: 3
