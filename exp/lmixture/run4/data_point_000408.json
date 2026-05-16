@@ -1,0 +1,181 @@
+{
+  "data_point_id": 408,
+  "timestamp": "2026-05-16T01:55:41.736030+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        5.699999809265137,
+        5.880000114440918,
+        5.539999961853027,
+        5.610000133514404,
+        949157.0
+      ],
+      [
+        5.53000020980835,
+        6.150000095367432,
+        5.53000020980835,
+        5.809999942779541,
+        999577.0
+      ],
+      [
+        5.800000190734863,
+        6.070000171661377,
+        5.650100231170654,
+        5.909999847412109,
+        1139143.0
+      ],
+      [
+        5.860000133514404,
+        6.800000190734863,
+        5.860000133514404,
+        6.710000038146973,
+        2253264.0
+      ],
+      [
+        6.670000076293945,
+        6.800000190734863,
+        6.139999866485596,
+        6.329999923706055,
+        894804.0
+      ],
+      [
+        6.21999979019165,
+        6.594699859619141,
+        6.110000133514404,
+        6.289999961853027,
+        453280.0
+      ],
+      [
+        6.199999809265137,
+        6.449999809265137,
+        5.940000057220459,
+        6.360000133514404,
+        788061.0
+      ],
+      [
+        6.369999885559082,
+        6.449999809265137,
+        6.079999923706055,
+        6.150000095367432,
+        467570.0
+      ],
+      [
+        6.050000190734863,
+        6.360000133514404,
+        6.0,
+        6.050000190734863,
+        933774.0
+      ],
+      [
+        6.170000076293945,
+        6.28000020980835,
+        5.880000114440918,
+        6.010000228881836,
+        996134.0
+      ],
+      [
+        6.010000228881836,
+        6.130000114440918,
+        5.800000190734863,
+        5.940000057220459,
+        772149.0
+      ],
+      [
+        5.949999809265137,
+        6.050000190734863,
+        5.639999866485596,
+        5.800000190734863,
+        778012.0
+      ],
+      [
+        5.75,
+        6.099999904632568,
+        5.65939998626709,
+        6.050000190734863,
+        748627.0
+      ],
+      [
+        5.929999828338623,
+        6.179999828338623,
+        5.900000095367432,
+        5.960000038146973,
+        433045.0
+      ],
+      [
+        6.010000228881836,
+        6.139999866485596,
+        5.630000114440918,
+        6.059999942779541,
+        755506.0
+      ],
+      [
+        6.050000190734863,
+        6.150000095367432,
+        5.849999904632568,
+        5.909999847412109,
+        647742.0
+      ],
+      [
+        5.809999942779541,
+        5.949999809265137,
+        5.599999904632568,
+        5.699999809265137,
+        908347.0
+      ],
+      [
+        5.659999847412109,
+        5.840000152587891,
+        5.401199817657471,
+        5.5,
+        602577.0
+      ],
+      [
+        5.670000076293945,
+        6.429999828338623,
+        5.519999980926514,
+        6.099999904632568,
+        1912336.0
+      ],
+      [
+        6.300000190734863,
+        6.360000133514404,
+        5.906300067901611,
+        6.099999904632568,
+        740046.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     5.7000 |     5.8800 |     5.5400 |     5.6100 |     949157\n t-18 |     5.5300 |     6.1500 |     5.5300 |     5.8100 |     999577\n t-17 |     5.8000 |     6.0700 |     5.6501 |     5.9100 |    1139143\n t-16 |     5.8600 |     6.8000 |     5.8600 |     6.7100 |    2253264\n t-15 |     6.6700 |     6.8000 |     6.1400 |     6.3300 |     894804\n t-14 |     6.2200 |     6.5947 |     6.1100 |     6.2900 |     453280\n t-13 |     6.2000 |     6.4500 |     5.9400 |     6.3600 |     788061\n t-12 |     6.3700 |     6.4500 |     6.0800 |     6.1500 |     467570\n t-11 |     6.0500 |     6.3600 |     6.0000 |     6.0500 |     933774\n t-10 |     6.1700 |     6.2800 |     5.8800 |     6.0100 |     996134\n t-09 |     6.0100 |     6.1300 |     5.8000 |     5.9400 |     772149\n t-08 |     5.9500 |     6.0500 |     5.6400 |     5.8000 |     778012\n t-07 |     5.7500 |     6.1000 |     5.6594 |     6.0500 |     748627\n t-06 |     5.9300 |     6.1800 |     5.9000 |     5.9600 |     433045\n t-05 |     6.0100 |     6.1400 |     5.6300 |     6.0600 |     755506\n t-04 |     6.0500 |     6.1500 |     5.8500 |     5.9100 |     647742\n t-03 |     5.8100 |     5.9500 |     5.6000 |     5.7000 |     908347\n t-02 |     5.6600 |     5.8400 |     5.4012 |     5.5000 |     602577\n t-01 |     5.6700 |     6.4300 |     5.5200 |     6.1000 |    1912336\n t-00 |     6.3000 |     6.3600 |     5.9063 |     6.1000 |     740046"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  1. When a persistent lower-high/lower-low downtrend ends with a high-volume breakdown or weak consolidation near fresh lows, favor short.\n  2. When a multi-day pullback stabilizes into higher lows and the latest bar reclaims the short-term range near its high, favor long.\n\nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     5.7000 |     5.8800 |     5.5400 |     5.6100 |     949157\n t-18 |     5.5300 |     6.1500 |     5.5300 |     5.8100 |     999577\n t-17 |     5.8000 |     6.0700 |     5.6501 |     5.9100 |    1139143\n t-16 |     5.8600 |     6.8000 |     5.8600 |     6.7100 |    2253264\n t-15 |     6.6700 |     6.8000 |     6.1400 |     6.3300 |     894804\n t-14 |     6.2200 |     6.5947 |     6.1100 |     6.2900 |     453280\n t-13 |     6.2000 |     6.4500 |     5.9400 |     6.3600 |     788061\n t-12 |     6.3700 |     6.4500 |     6.0800 |     6.1500 |     467570\n t-11 |     6.0500 |     6.3600 |     6.0000 |     6.0500 |     933774\n t-10 |     6.1700 |     6.2800 |     5.8800 |     6.0100 |     996134\n t-09 |     6.0100 |     6.1300 |     5.8000 |     5.9400 |     772149\n t-08 |     5.9500 |     6.0500 |     5.6400 |     5.8000 |     778012\n t-07 |     5.7500 |     6.1000 |     5.6594 |     6.0500 |     748627\n t-06 |     5.9300 |     6.1800 |     5.9000 |     5.9600 |     433045\n t-05 |     6.0100 |     6.1400 |     5.6300 |     6.0600 |     755506\n t-04 |     6.0500 |     6.1500 |     5.8500 |     5.9100 |     647742\n t-03 |     5.8100 |     5.9500 |     5.6000 |     5.7000 |     908347\n t-02 |     5.6600 |     5.8400 |     5.4012 |     5.5000 |     602577\n t-01 |     5.6700 |     6.4300 |     5.5200 |     6.1000 |    1912336\n t-00 |     6.3000 |     6.3600 |     5.9063 |     6.1000 |     740046\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock had a strong spike up at t-16 to 6.71 on very high volume, then spent many days drifting lower in a choppy, slightly bearish consolidation with lower highs and repeated tests of the 5.5–5.9 area.\n- t-02 made a fresh local low at 5.50, but t-01 reversed sharply to 6.10 on the highest volume in the window, signaling a potential failed breakdown / bullish reclaim of the recent range.\n- t-00 did not continue higher; it opened strong near 6.30 but faded to 6.10, leaving a small-range, indecisive bar near the upper half of the recent range rather than a clean breakout.\n- Signals are mixed: the rebound from the low and volume surge favor long, but the lack of follow-through and the prior downtrend keep conviction moderate.\n- Net view: slight bullish bias, but not enough for high confidence; still, the most recent structure looks more like stabilization and reclaim than renewed breakdown.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock had a strong spike up at t-16, then spent many days drifting lower in a choppy but generally weak range, with lower highs and lower lows into t-02.\n- t-01 showed a sharp bullish reversal: a large-range up day from 5.67 to 6.10 on the highest volume in the window, reclaiming the recent range and closing near the upper half of the move.\n- t-00 held that gain rather than giving it back, with a relatively tight candle near 6.10 after opening higher, suggesting consolidation rather than immediate rejection.\n- Key signals:\n  - Prior downtrend/pullback appears to have stabilized.\n  - Strong volume confirmation on the rebound.\n  - Latest close is near the upper end of the recent multi-day range and above the recent lows.\n  - No clear bearish reversal pattern at the top; instead the recent action looks like a breakout/reclaim attempt.\n- Resolution: the balance of evidence favors continuation higher next day, though not with extreme confidence because t-00 did not expand upward further.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock has been in a broad downtrend from the t-16 spike near 6.71, with a sequence of lower highs/lower lows into t-02 at 5.50.\n- That decline was followed by a strong rebound on t-01: a large-range bullish candle from 5.67 to 6.10 on very high volume, reclaiming the prior short-term range and closing near the upper half of the day’s range.\n- t-00 held that gain: it opened high, traded down intraday, but still closed at 6.10, showing the rebound has not immediately failed. Volume was lower than t-01 but still decent.\n- Support/resistance: 5.50-5.60 looks like a near-term support zone from the recent low area; 6.30-6.43 is the immediate resistance from t-01/t-00 highs and prior congestion.\n- Momentum/structure: the latest two sessions suggest stabilization and a possible higher-low base after the selloff, which aligns with the lesson favoring long when a pullback stabilizes and reclaims the short-term range.\n- However, the stock has not yet broken above resistance, so the edge is moderate rather than strong.\n- Directional view: mildly bullish for next day continuation, with moderate confidence.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  1. When a persistent lower-high/lower-low downtrend ends with a high-volume breakdown or weak consolidation near fresh lows, favor short.\n  2. When a multi-day pullback stabilizes into higher lows and the latest bar reclaims the short-term range near its high, favor long.\n\nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     5.7000 |     5.8800 |     5.5400 |     5.6100 |     949157\n t-18 |     5.5300 |     6.1500 |     5.5300 |     5.8100 |     999577\n t-17 |     5.8000 |     6.0700 |     5.6501 |     5.9100 |    1139143\n t-16 |     5.8600 |     6.8000 |     5.8600 |     6.7100 |    2253264\n t-15 |     6.6700 |     6.8000 |     6.1400 |     6.3300 |     894804\n t-14 |     6.2200 |     6.5947 |     6.1100 |     6.2900 |     453280\n t-13 |     6.2000 |     6.4500 |     5.9400 |     6.3600 |     788061\n t-12 |     6.3700 |     6.4500 |     6.0800 |     6.1500 |     467570\n t-11 |     6.0500 |     6.3600 |     6.0000 |     6.0500 |     933774\n t-10 |     6.1700 |     6.2800 |     5.8800 |     6.0100 |     996134\n t-09 |     6.0100 |     6.1300 |     5.8000 |     5.9400 |     772149\n t-08 |     5.9500 |     6.0500 |     5.6400 |     5.8000 |     778012\n t-07 |     5.7500 |     6.1000 |     5.6594 |     6.0500 |     748627\n t-06 |     5.9300 |     6.1800 |     5.9000 |     5.9600 |     433045\n t-05 |     6.0100 |     6.1400 |     5.6300 |     6.0600 |     755506\n t-04 |     6.0500 |     6.1500 |     5.8500 |     5.9100 |     647742\n t-03 |     5.8100 |     5.9500 |     5.6000 |     5.7000 |     908347\n t-02 |     5.6600 |     5.8400 |     5.4012 |     5.5000 |     602577\n t-01 |     5.6700 |     6.4300 |     5.5200 |     6.1000 |    1912336\n t-00 |     6.3000 |     6.3600 |     5.9063 |     6.1000 |     740046\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The stock had a strong spike up at t-16 to 6.71 on very high volume, then spent many days drifting lower in a choppy, slightly bearish consolidation with lower highs and repeated tests of the 5.5–5.9 area.\n- t-02 made a fresh local low at 5.50, but t-01 reversed sharply to 6.10 on the highest volume in the window, signaling a potential failed breakdown / bullish reclaim of the recent range.\n- t-00 did not continue higher; it opened strong near 6.30 but faded to 6.10, leaving a small-range, indecisive bar near the upper half of the recent range rather than a clean breakout.\n- Signals are mixed: the rebound from the low and volume surge favor long, but the lack of follow-through and the prior downtrend keep conviction moderate.\n- Net view: slight bullish bias, but not enough for high confidence; still, the most recent structure looks more like stabilization and reclaim than renewed breakdown.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The stock had a strong spike up at t-16, then spent many days drifting lower in a choppy but generally weak range, with lower highs and lower lows into t-02.\n- t-01 showed a sharp bullish reversal: a large-range up day from 5.67 to 6.10 on the highest volume in the window, reclaiming the recent range and closing near the upper half of the move.\n- t-00 held that gain rather than giving it back, with a relatively tight candle near 6.10 after opening higher, suggesting consolidation rather than immediate rejection.\n- Key signals:\n  - Prior downtrend/pullback appears to have stabilized.\n  - Strong volume confirmation on the rebound.\n  - Latest close is near the upper end of the recent multi-day range and above the recent lows.\n  - No clear bearish reversal pattern at the top; instead the recent action looks like a breakout/reclaim attempt.\n- Resolution: the balance of evidence favors continuation higher next day, though not with extreme confidence because t-00 did not expand upward further.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The stock has been in a broad downtrend from the t-16 spike near 6.71, with a sequence of lower highs/lower lows into t-02 at 5.50.\n- That decline was followed by a strong rebound on t-01: a large-range bullish candle from 5.67 to 6.10 on very high volume, reclaiming the prior short-term range and closing near the upper half of the day’s range.\n- t-00 held that gain: it opened high, traded down intraday, but still closed at 6.10, showing the rebound has not immediately failed. Volume was lower than t-01 but still decent.\n- Support/resistance: 5.50-5.60 looks like a near-term support zone from the recent low area; 6.30-6.43 is the immediate resistance from t-01/t-00 highs and prior congestion.\n- Momentum/structure: the latest two sessions suggest stabilization and a possible higher-low base after the selloff, which aligns with the lesson favoring long when a pullback stabilizes and reclaims the short-term range.\n- However, the stock has not yet broken above resistance, so the edge is moderate rather than strong.\n- Directional view: mildly bullish for next day continuation, with moderate confidence.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- All three analysts agree: they are each mildly bullish and vote LONG.\n- The shared rationale is that the prior drift lower appears to have stabilized, and the sharp high-volume rebound on t-01 reclaimed the short-term range after a fresh local low at t-02.\n- t-00 did not break out further, but it held the rebound rather than reversing it, so there is no strong bearish cancellation.\n- The dominant view is therefore the consensus long signal, supported by the recent higher-low / reclaim behavior and volume confirmation.\n</think>\n<action>\n1\n</action>",
+    "parsed_vote": 1.0
+  },
+  "final_decision": 1.0,
+  "eval": {
+    "target_return": 0.29340338706970215,
+    "hit": 1.0
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "data_point_id": 172,
+  "timestamp": "2026-05-16T00:09:46.662272+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        8.800000190734863,
+        8.850000381469727,
+        8.765000343322754,
+        8.779999732971191,
+        664448.0
+      ],
+      [
+        8.75,
+        8.760000228881836,
+        8.609999656677246,
+        8.649999618530273,
+        921474.0
+      ],
+      [
+        8.670000076293945,
+        8.789999961853027,
+        8.539999961853027,
+        8.5600004196167,
+        960711.0
+      ],
+      [
+        8.449999809265137,
+        8.460800170898438,
+        8.260000228881836,
+        8.399999618530273,
+        943740.0
+      ],
+      [
+        8.279999732971191,
+        8.34000015258789,
+        8.149999618530273,
+        8.149999618530273,
+        904852.0
+      ],
+      [
+        8.149999618530273,
+        8.149999618530273,
+        8.0,
+        8.010000228881836,
+        1281030.0
+      ],
+      [
+        8.069999694824219,
+        8.109999656677246,
+        7.989999771118164,
+        8.079999923706055,
+        726620.0
+      ],
+      [
+        8.029999732971191,
+        8.039999961853027,
+        7.829999923706055,
+        7.880000114440918,
+        1337769.0
+      ],
+      [
+        7.860000133514404,
+        7.945000171661377,
+        7.800000190734863,
+        7.920000076293945,
+        789737.0
+      ],
+      [
+        8.050000190734863,
+        8.239999771118164,
+        8.024999618530273,
+        8.220000267028809,
+        1269649.0
+      ],
+      [
+        8.039999961853027,
+        8.050000190734863,
+        7.824999809265137,
+        7.900000095367432,
+        1237613.0
+      ],
+      [
+        7.809999942779541,
+        7.809999942779541,
+        7.550000190734863,
+        7.75,
+        2218341.0
+      ],
+      [
+        7.690000057220459,
+        7.96999979019165,
+        7.65500020980835,
+        7.940000057220459,
+        1837575.0
+      ],
+      [
+        7.829999923706055,
+        8.220000267028809,
+        7.829999923706055,
+        8.069999694824219,
+        2346367.0
+      ],
+      [
+        8.100000381469727,
+        8.279999732971191,
+        8.0600004196167,
+        8.15999984741211,
+        1797123.0
+      ],
+      [
+        7.949999809265137,
+        8.011099815368652,
+        7.820000171661377,
+        7.96999979019165,
+        1884018.0
+      ],
+      [
+        7.920000076293945,
+        8.024999618530273,
+        7.881999969482422,
+        7.960000038146973,
+        835483.0
+      ],
+      [
+        7.960000038146973,
+        7.989999771118164,
+        7.820000171661377,
+        7.949999809265137,
+        1698871.0
+      ],
+      [
+        7.989999771118164,
+        8.09000015258789,
+        7.968999862670898,
+        7.989999771118164,
+        1007486.0
+      ],
+      [
+        7.989999771118164,
+        8.0600004196167,
+        7.920000076293945,
+        7.989999771118164,
+        905904.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     8.8000 |     8.8500 |     8.7650 |     8.7800 |     664448\n t-18 |     8.7500 |     8.7600 |     8.6100 |     8.6500 |     921474\n t-17 |     8.6700 |     8.7900 |     8.5400 |     8.5600 |     960711\n t-16 |     8.4500 |     8.4608 |     8.2600 |     8.4000 |     943740\n t-15 |     8.2800 |     8.3400 |     8.1500 |     8.1500 |     904852\n t-14 |     8.1500 |     8.1500 |     8.0000 |     8.0100 |    1281030\n t-13 |     8.0700 |     8.1100 |     7.9900 |     8.0800 |     726620\n t-12 |     8.0300 |     8.0400 |     7.8300 |     7.8800 |    1337769\n t-11 |     7.8600 |     7.9450 |     7.8000 |     7.9200 |     789737\n t-10 |     8.0500 |     8.2400 |     8.0250 |     8.2200 |    1269649\n t-09 |     8.0400 |     8.0500 |     7.8250 |     7.9000 |    1237613\n t-08 |     7.8100 |     7.8100 |     7.5500 |     7.7500 |    2218341\n t-07 |     7.6900 |     7.9700 |     7.6550 |     7.9400 |    1837575\n t-06 |     7.8300 |     8.2200 |     7.8300 |     8.0700 |    2346367\n t-05 |     8.1000 |     8.2800 |     8.0600 |     8.1600 |    1797123\n t-04 |     7.9500 |     8.0111 |     7.8200 |     7.9700 |    1884018\n t-03 |     7.9200 |     8.0250 |     7.8820 |     7.9600 |     835483\n t-02 |     7.9600 |     7.9900 |     7.8200 |     7.9500 |    1698871\n t-01 |     7.9900 |     8.0900 |     7.9690 |     7.9900 |    1007486\n t-00 |     7.9900 |     8.0600 |     7.9200 |     7.9900 |     905904"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     8.8000 |     8.8500 |     8.7650 |     8.7800 |     664448\n t-18 |     8.7500 |     8.7600 |     8.6100 |     8.6500 |     921474\n t-17 |     8.6700 |     8.7900 |     8.5400 |     8.5600 |     960711\n t-16 |     8.4500 |     8.4608 |     8.2600 |     8.4000 |     943740\n t-15 |     8.2800 |     8.3400 |     8.1500 |     8.1500 |     904852\n t-14 |     8.1500 |     8.1500 |     8.0000 |     8.0100 |    1281030\n t-13 |     8.0700 |     8.1100 |     7.9900 |     8.0800 |     726620\n t-12 |     8.0300 |     8.0400 |     7.8300 |     7.8800 |    1337769\n t-11 |     7.8600 |     7.9450 |     7.8000 |     7.9200 |     789737\n t-10 |     8.0500 |     8.2400 |     8.0250 |     8.2200 |    1269649\n t-09 |     8.0400 |     8.0500 |     7.8250 |     7.9000 |    1237613\n t-08 |     7.8100 |     7.8100 |     7.5500 |     7.7500 |    2218341\n t-07 |     7.6900 |     7.9700 |     7.6550 |     7.9400 |    1837575\n t-06 |     7.8300 |     8.2200 |     7.8300 |     8.0700 |    2346367\n t-05 |     8.1000 |     8.2800 |     8.0600 |     8.1600 |    1797123\n t-04 |     7.9500 |     8.0111 |     7.8200 |     7.9700 |    1884018\n t-03 |     7.9200 |     8.0250 |     7.8820 |     7.9600 |     835483\n t-02 |     7.9600 |     7.9900 |     7.8200 |     7.9500 |    1698871\n t-01 |     7.9900 |     8.0900 |     7.9690 |     7.9900 |    1007486\n t-00 |     7.9900 |     8.0600 |     7.9200 |     7.9900 |     905904\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The broader 20-day context starts with a clear downtrend from 8.78 to the 7.55 low at t-08, with heavy selling into that low. After that, price rebounded sharply on strong volume from t-07 to t-05, recovering to 8.16.\n- Since that rebound, the stock has gone sideways in a tight range roughly 7.82/7.88 support to 8.06/8.09 resistance. Recent closes from t-04 to t-00 are very compressed around 7.95-7.99, showing consolidation rather than directional expansion.\n- The heavy-volume selloff into t-08 was followed by immediate rejection and recovery on strong volume at t-07/t-06, which is an exhaustion/reversal-type signal and argues against aggressive shorting.\n- The subsequent pullback/consolidation from t-05 onward has mostly occurred on lower or mixed volume versus the rebound thrust, and support near 7.82 has held multiple times. That fits a muted pullback into support rather than fresh breakdown pressure.\n- However, the stock has also failed repeatedly near 8.06-8.09 and has not reclaimed the stronger resistance/breakdown area around 8.16-8.24. Momentum has flattened, and the last two sessions are doji-like, indecisive candles with no volume confirmation.\n- Latest close 7.99 sits near the middle of the recent 7.92-8.06 daily range and near the center of the multi-day consolidation, which reduces edge.\n- Signals that matter:\n  - Positive: high-volume selloff exhaustion at t-08 followed by strong rebound; support around 7.82 holding; recent drift is low-energy, so short setup is weak.\n  - Negative: rebound stalled below 8.16-8.24 resistance; no breakout through 8.09; momentum and volume have faded; price trapped in range.\n- Resolution: bearish continuation is not well supported because support has held and the pullback is not expanding lower on volume. Bullish continuation also lacks confirmation because resistance remains intact and recent candles are neutral. Best synthesis is insufficient edge while range-bound, with a slight anti-short bias but not enough for a clean long.\n- Confidence level: low to moderate.\n</think>\n<action>\n0\n</action>",
+        "parsed_vote": 0.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The broader 20-day context starts with a clear downtrend from 8.78 to the 7.55 low at t-08, including heavy-volume selling into t-12 and especially t-08.\n- That selloff was followed by a sharp rebound: t-07 and t-06 recovered strongly on high volume, with t-06 closing at 8.07 after undercut/rejection behavior near the lows. This argues against pressing shorts at the lows.\n- Since that rebound, price has gone sideways in a tight range roughly 7.82/7.88 support to 8.06/8.09 resistance. Recent closes: 7.97, 7.96, 7.95, 7.99, 7.99 — very compressed and directionless.\n- Resistance remains near 8.06-8.09 and then 8.22-8.28 from the rebound highs. Support sits near 7.92, then 7.82, then 7.75.\n- The latest two sessions are small-bodied, low-volume, and closed near the middle of the recent range, not near a breakout point. No decisive bullish reclaim above resistance and no expanding-volume breakdown below support.\n- Volume has generally faded after the rebound impulse, which is consistent with consolidation rather than a fresh trend leg. But there is also no strong bullish trigger yet.\n- Candlestick-wise, there is no strong reversal bar or exhaustion bar on t-00; it is essentially neutral.\n- Momentum is flat. The stock is neither trending strongly nor showing a high-conviction mean-reversion setup at an extreme.\n\nSignals that matter:\n- Positive: heavy selloff appears exhausted; rebound from 7.55 had strong volume; support around 7.82 has held.\n- Negative: rebound stalled below prior higher resistance around 8.22/8.28; multiple failures around 8.06-8.09; no breakout confirmation.\n- Neutral/decisive: tight sideways range, declining volume, latest close in the middle of the range, no clear edge for next day.\n\nDirectional view and confidence:\n- This looks like consolidation after a rebound, with neither breakout nor breakdown confirmed.\n- Because price is not at support for a favorable bounce entry and not breaking resistance for continuation, the edge is insufficient.\n- Confidence: low/moderate in a non-action stance.\n</think>\n<action>\n0\n</action>",
+        "parsed_vote": 0.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The broader 20-day structure started as a clear downtrend from 8.78 to the 7.55 low at t-08, with heavy selling into that low. After that, price rebounded sharply on strong volume from t-07 to t-05, recovering back into the 8.07-8.28 area.\n- Since the rebound, the last five sessions have gone sideways in a tight range roughly 7.82-8.09. Closes are clustered around 7.95-7.99, showing compression and lack of directional follow-through.\n- Key support sits around 7.82-7.95, with stronger support near 7.55-7.65. Resistance is around 8.05-8.10, then 8.22-8.28. The latest close at 7.99 is near the middle-upper part of the recent tight range, but still below the more important rebound highs.\n- The heavy selloff into t-08 was followed by immediate high-volume reversal days, which argues against pressing shorts here. That fits the exhaustion/reversal lesson better than continuation breakdown.\n- However, the rebound has also stalled below the 8.22-8.28 resistance zone. Recent candles are small-bodied, mixed, and volume has generally faded, indicating consolidation rather than a fresh impulse.\n- There is no decisive breakout above 8.05-8.10 on expanding volume, but also no support break below 7.82 on expanding volume. Momentum is flat, and the market appears range-bound rather than trending.\n- Signals that matter:\n  - Prior downtrend interrupted by strong high-volume rebound: bearish trend weakened.\n  - Tight low-volatility consolidation after rebound: neutral, waiting for resolution.\n  - Pullback/sideways action on muted volume above the major low: not a strong short setup.\n  - Failure to reclaim 8.22-8.28 resistance: not yet a strong long continuation setup.\n- Resolution: both directional edges are weak. Shorts are unattractive because the selloff likely exhausted and support has held; longs are also low edge because price is trapped under resistance with no breakout confirmation. Confidence is low, so best action is no trade.\n</think>\n<action>\n0\n</action>",
+        "parsed_vote": 0.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     8.8000 |     8.8500 |     8.7650 |     8.7800 |     664448\n t-18 |     8.7500 |     8.7600 |     8.6100 |     8.6500 |     921474\n t-17 |     8.6700 |     8.7900 |     8.5400 |     8.5600 |     960711\n t-16 |     8.4500 |     8.4608 |     8.2600 |     8.4000 |     943740\n t-15 |     8.2800 |     8.3400 |     8.1500 |     8.1500 |     904852\n t-14 |     8.1500 |     8.1500 |     8.0000 |     8.0100 |    1281030\n t-13 |     8.0700 |     8.1100 |     7.9900 |     8.0800 |     726620\n t-12 |     8.0300 |     8.0400 |     7.8300 |     7.8800 |    1337769\n t-11 |     7.8600 |     7.9450 |     7.8000 |     7.9200 |     789737\n t-10 |     8.0500 |     8.2400 |     8.0250 |     8.2200 |    1269649\n t-09 |     8.0400 |     8.0500 |     7.8250 |     7.9000 |    1237613\n t-08 |     7.8100 |     7.8100 |     7.5500 |     7.7500 |    2218341\n t-07 |     7.6900 |     7.9700 |     7.6550 |     7.9400 |    1837575\n t-06 |     7.8300 |     8.2200 |     7.8300 |     8.0700 |    2346367\n t-05 |     8.1000 |     8.2800 |     8.0600 |     8.1600 |    1797123\n t-04 |     7.9500 |     8.0111 |     7.8200 |     7.9700 |    1884018\n t-03 |     7.9200 |     8.0250 |     7.8820 |     7.9600 |     835483\n t-02 |     7.9600 |     7.9900 |     7.8200 |     7.9500 |    1698871\n t-01 |     7.9900 |     8.0900 |     7.9690 |     7.9900 |    1007486\n t-00 |     7.9900 |     8.0600 |     7.9200 |     7.9900 |     905904\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The broader 20-day context starts with a clear downtrend from 8.78 to the 7.55 low at t-08, with heavy selling into that low. After that, price rebounded sharply on strong volume from t-07 to t-05, recovering to 8.16.\n- Since that rebound, the stock has gone sideways in a tight range roughly 7.82/7.88 support to 8.06/8.09 resistance. Recent closes from t-04 to t-00 are very compressed around 7.95-7.99, showing consolidation rather than directional expansion.\n- The heavy-volume selloff into t-08 was followed by immediate rejection and recovery on strong volume at t-07/t-06, which is an exhaustion/reversal-type signal and argues against aggressive shorting.\n- The subsequent pullback/consolidation from t-05 onward has mostly occurred on lower or mixed volume versus the rebound thrust, and support near 7.82 has held multiple times. That fits a muted pullback into support rather than fresh breakdown pressure.\n- However, the stock has also failed repeatedly near 8.06-8.09 and has not reclaimed the stronger resistance/breakdown area around 8.16-8.24. Momentum has flattened, and the last two sessions are doji-like, indecisive candles with no volume confirmation.\n- Latest close 7.99 sits near the middle of the recent 7.92-8.06 daily range and near the center of the multi-day consolidation, which reduces edge.\n- Signals that matter:\n  - Positive: high-volume selloff exhaustion at t-08 followed by strong rebound; support around 7.82 holding; recent drift is low-energy, so short setup is weak.\n  - Negative: rebound stalled below 8.16-8.24 resistance; no breakout through 8.09; momentum and volume have faded; price trapped in range.\n- Resolution: bearish continuation is not well supported because support has held and the pullback is not expanding lower on volume. Bullish continuation also lacks confirmation because resistance remains intact and recent candles are neutral. Best synthesis is insufficient edge while range-bound, with a slight anti-short bias but not enough for a clean long.\n- Confidence level: low to moderate.\n</think>\n<action>\n0\n</action>\n(parsed vote: NO ACTION (0))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The broader 20-day context starts with a clear downtrend from 8.78 to the 7.55 low at t-08, including heavy-volume selling into t-12 and especially t-08.\n- That selloff was followed by a sharp rebound: t-07 and t-06 recovered strongly on high volume, with t-06 closing at 8.07 after undercut/rejection behavior near the lows. This argues against pressing shorts at the lows.\n- Since that rebound, price has gone sideways in a tight range roughly 7.82/7.88 support to 8.06/8.09 resistance. Recent closes: 7.97, 7.96, 7.95, 7.99, 7.99 — very compressed and directionless.\n- Resistance remains near 8.06-8.09 and then 8.22-8.28 from the rebound highs. Support sits near 7.92, then 7.82, then 7.75.\n- The latest two sessions are small-bodied, low-volume, and closed near the middle of the recent range, not near a breakout point. No decisive bullish reclaim above resistance and no expanding-volume breakdown below support.\n- Volume has generally faded after the rebound impulse, which is consistent with consolidation rather than a fresh trend leg. But there is also no strong bullish trigger yet.\n- Candlestick-wise, there is no strong reversal bar or exhaustion bar on t-00; it is essentially neutral.\n- Momentum is flat. The stock is neither trending strongly nor showing a high-conviction mean-reversion setup at an extreme.\n\nSignals that matter:\n- Positive: heavy selloff appears exhausted; rebound from 7.55 had strong volume; support around 7.82 has held.\n- Negative: rebound stalled below prior higher resistance around 8.22/8.28; multiple failures around 8.06-8.09; no breakout confirmation.\n- Neutral/decisive: tight sideways range, declining volume, latest close in the middle of the range, no clear edge for next day.\n\nDirectional view and confidence:\n- This looks like consolidation after a rebound, with neither breakout nor breakdown confirmed.\n- Because price is not at support for a favorable bounce entry and not breaking resistance for continuation, the edge is insufficient.\n- Confidence: low/moderate in a non-action stance.\n</think>\n<action>\n0\n</action>\n(parsed vote: NO ACTION (0))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The broader 20-day structure started as a clear downtrend from 8.78 to the 7.55 low at t-08, with heavy selling into that low. After that, price rebounded sharply on strong volume from t-07 to t-05, recovering back into the 8.07-8.28 area.\n- Since the rebound, the last five sessions have gone sideways in a tight range roughly 7.82-8.09. Closes are clustered around 7.95-7.99, showing compression and lack of directional follow-through.\n- Key support sits around 7.82-7.95, with stronger support near 7.55-7.65. Resistance is around 8.05-8.10, then 8.22-8.28. The latest close at 7.99 is near the middle-upper part of the recent tight range, but still below the more important rebound highs.\n- The heavy selloff into t-08 was followed by immediate high-volume reversal days, which argues against pressing shorts here. That fits the exhaustion/reversal lesson better than continuation breakdown.\n- However, the rebound has also stalled below the 8.22-8.28 resistance zone. Recent candles are small-bodied, mixed, and volume has generally faded, indicating consolidation rather than a fresh impulse.\n- There is no decisive breakout above 8.05-8.10 on expanding volume, but also no support break below 7.82 on expanding volume. Momentum is flat, and the market appears range-bound rather than trending.\n- Signals that matter:\n  - Prior downtrend interrupted by strong high-volume rebound: bearish trend weakened.\n  - Tight low-volatility consolidation after rebound: neutral, waiting for resolution.\n  - Pullback/sideways action on muted volume above the major low: not a strong short setup.\n  - Failure to reclaim 8.22-8.28 resistance: not yet a strong long continuation setup.\n- Resolution: both directional edges are weak. Shorts are unattractive because the selloff likely exhausted and support has held; longs are also low edge because price is trapped under resistance with no breakout confirmation. Confidence is low, so best action is no trade.\n</think>\n<action>\n0\n</action>\n(parsed vote: NO ACTION (0))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- All three analysts agree: the stock is in a tight, low-conviction consolidation after a high-volume selloff and rebound, and all vote 0.\n- There is no disagreement to resolve. The dominant view is that shorts are unattractive because the prior selloff showed exhaustion and support has held, while longs also lack confirmation because price remains trapped below resistance with flat momentum and fading volume.\n- With consensus and weak directional edge, the correct combined decision is no action.\n</think>\n<action>\n0\n</action>",
+    "parsed_vote": 0.0
+  },
+  "final_decision": 0.0,
+  "eval": {
+    "target_return": 0.016139455139636993,
+    "hit": null
+  }
+}

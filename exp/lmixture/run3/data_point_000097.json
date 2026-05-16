@@ -1,0 +1,181 @@
+{
+  "data_point_id": 97,
+  "timestamp": "2026-05-16T00:18:25.621793+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        21.18000030517578,
+        21.399999618530273,
+        21.1299991607666,
+        21.389999389648438,
+        585720.0
+      ],
+      [
+        21.3700008392334,
+        21.469999313354492,
+        21.260000228881836,
+        21.3700008392334,
+        564901.0
+      ],
+      [
+        21.479999542236328,
+        21.700000762939453,
+        21.469499588012695,
+        21.59000015258789,
+        436754.0
+      ],
+      [
+        21.700000762939453,
+        21.790000915527344,
+        21.440000534057617,
+        21.770000457763672,
+        585369.0
+      ],
+      [
+        21.739999771118164,
+        21.799999237060547,
+        21.604999542236328,
+        21.719999313354492,
+        558770.0
+      ],
+      [
+        21.690000534057617,
+        21.739999771118164,
+        21.315000534057617,
+        21.420000076293945,
+        988549.0
+      ],
+      [
+        21.360000610351562,
+        21.6200008392334,
+        21.299999237060547,
+        21.43000030517578,
+        640032.0
+      ],
+      [
+        21.360000610351562,
+        21.360000610351562,
+        20.989999771118164,
+        20.989999771118164,
+        655340.0
+      ],
+      [
+        20.989999771118164,
+        21.020000457763672,
+        20.610000610351562,
+        20.6200008392334,
+        853902.0
+      ],
+      [
+        20.770000457763672,
+        20.93000030517578,
+        20.670000076293945,
+        20.850000381469727,
+        1017304.0
+      ],
+      [
+        20.90999984741211,
+        21.049999237060547,
+        20.799999237060547,
+        21.020000457763672,
+        841669.0
+      ],
+      [
+        20.989999771118164,
+        21.30500030517578,
+        20.959999084472656,
+        21.209999084472656,
+        693799.0
+      ],
+      [
+        21.239999771118164,
+        21.31999969482422,
+        21.0,
+        21.09000015258789,
+        505828.0
+      ],
+      [
+        21.1299991607666,
+        21.149999618530273,
+        20.8700008392334,
+        20.8700008392334,
+        1825790.0
+      ],
+      [
+        20.780000686645508,
+        21.079999923706055,
+        20.65999984741211,
+        21.030000686645508,
+        1217310.0
+      ],
+      [
+        21.100000381469727,
+        21.209999084472656,
+        20.8799991607666,
+        20.8799991607666,
+        523792.0
+      ],
+      [
+        20.979999542236328,
+        21.270000457763672,
+        20.90999984741211,
+        21.1200008392334,
+        633237.0
+      ],
+      [
+        21.219999313354492,
+        21.5,
+        21.145000457763672,
+        21.229999542236328,
+        681652.0
+      ],
+      [
+        21.190000534057617,
+        21.31999969482422,
+        20.959999084472656,
+        20.969999313354492,
+        435338.0
+      ],
+      [
+        20.979999542236328,
+        21.260000228881836,
+        20.799999237060547,
+        20.809999465942383,
+        816570.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    21.1800 |    21.4000 |    21.1300 |    21.3900 |     585720\n t-18 |    21.3700 |    21.4700 |    21.2600 |    21.3700 |     564901\n t-17 |    21.4800 |    21.7000 |    21.4695 |    21.5900 |     436754\n t-16 |    21.7000 |    21.7900 |    21.4400 |    21.7700 |     585369\n t-15 |    21.7400 |    21.8000 |    21.6050 |    21.7200 |     558770\n t-14 |    21.6900 |    21.7400 |    21.3150 |    21.4200 |     988549\n t-13 |    21.3600 |    21.6200 |    21.3000 |    21.4300 |     640032\n t-12 |    21.3600 |    21.3600 |    20.9900 |    20.9900 |     655340\n t-11 |    20.9900 |    21.0200 |    20.6100 |    20.6200 |     853902\n t-10 |    20.7700 |    20.9300 |    20.6700 |    20.8500 |    1017304\n t-09 |    20.9100 |    21.0500 |    20.8000 |    21.0200 |     841669\n t-08 |    20.9900 |    21.3050 |    20.9600 |    21.2100 |     693799\n t-07 |    21.2400 |    21.3200 |    21.0000 |    21.0900 |     505828\n t-06 |    21.1300 |    21.1500 |    20.8700 |    20.8700 |    1825790\n t-05 |    20.7800 |    21.0800 |    20.6600 |    21.0300 |    1217310\n t-04 |    21.1000 |    21.2100 |    20.8800 |    20.8800 |     523792\n t-03 |    20.9800 |    21.2700 |    20.9100 |    21.1200 |     633237\n t-02 |    21.2200 |    21.5000 |    21.1450 |    21.2300 |     681652\n t-01 |    21.1900 |    21.3200 |    20.9600 |    20.9700 |     435338\n t-00 |    20.9800 |    21.2600 |    20.8000 |    20.8100 |     816570"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. Do not short a sharp multi-day selloff into recent range support on elevated volume unless price decisively closes below that support on expanding volume with follow-through.\n  1. When a persistent lower-high/lower-low downtrend ends with a high-volume breakdown or weak consolidation near fresh lows, favor short.\n  2. When a multi-day pullback stabilizes into higher lows and the latest bar reclaims the short-term range near its high, favor long.\n\nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    21.1800 |    21.4000 |    21.1300 |    21.3900 |     585720\n t-18 |    21.3700 |    21.4700 |    21.2600 |    21.3700 |     564901\n t-17 |    21.4800 |    21.7000 |    21.4695 |    21.5900 |     436754\n t-16 |    21.7000 |    21.7900 |    21.4400 |    21.7700 |     585369\n t-15 |    21.7400 |    21.8000 |    21.6050 |    21.7200 |     558770\n t-14 |    21.6900 |    21.7400 |    21.3150 |    21.4200 |     988549\n t-13 |    21.3600 |    21.6200 |    21.3000 |    21.4300 |     640032\n t-12 |    21.3600 |    21.3600 |    20.9900 |    20.9900 |     655340\n t-11 |    20.9900 |    21.0200 |    20.6100 |    20.6200 |     853902\n t-10 |    20.7700 |    20.9300 |    20.6700 |    20.8500 |    1017304\n t-09 |    20.9100 |    21.0500 |    20.8000 |    21.0200 |     841669\n t-08 |    20.9900 |    21.3050 |    20.9600 |    21.2100 |     693799\n t-07 |    21.2400 |    21.3200 |    21.0000 |    21.0900 |     505828\n t-06 |    21.1300 |    21.1500 |    20.8700 |    20.8700 |    1825790\n t-05 |    20.7800 |    21.0800 |    20.6600 |    21.0300 |    1217310\n t-04 |    21.1000 |    21.2100 |    20.8800 |    20.8800 |     523792\n t-03 |    20.9800 |    21.2700 |    20.9100 |    21.1200 |     633237\n t-02 |    21.2200 |    21.5000 |    21.1450 |    21.2300 |     681652\n t-01 |    21.1900 |    21.3200 |    20.9600 |    20.9700 |     435338\n t-00 |    20.9800 |    21.2600 |    20.8000 |    20.8100 |     816570\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock has been range-bound to mildly down over the full window: it peaked near 21.8, sold off to the 20.6-20.9 area, and has since failed to reclaim the upper half of the range.\n- Recent action shows repeated lower highs around 21.3-21.5 and closes clustering near 20.8-21.0, which suggests weak momentum rather than a clean reversal.\n- The latest bar (t-00) closed near the low of the day after an intraday bounce attempt, which is a mild bearish signal and keeps price in the lower part of the recent range.\n- However, this is not a decisive breakdown: support around 20.8-20.6 has held multiple times, and the selloff is not a sharp follow-through below support on expanding volume.\n- Given the mixed signals—bearish short-term structure but no confirmed breakdown—edge is limited.\n</think>\n<action>\n0\n</action>",
+        "parsed_vote": 0.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock has been range-bound to mildly down over the last several sessions, with repeated tests of the 20.8–21.0 area and failed pushes toward 21.3–21.5.\n- The most recent bar (t-0) is a red candle closing near the low of the day after opening above 20.98, which shows weak intraday demand and a lack of reclaim.\n- Volume on t-0 is above the prior day and decent, but not a decisive breakdown volume; price is still holding above the recent support zone around 20.8 and has not closed below it.\n- The broader pattern looks like consolidation after a decline, but not yet a clean higher-low reversal or a confirmed breakdown. Momentum is slightly negative, yet the stock is sitting close to support rather than extending lower.\n- Given the lesson not to short into nearby support without a decisive break and follow-through, the edge is insufficient for a directional bet.\n</think>\n<action>\n0\n</action>",
+        "parsed_vote": 0.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock has been range-bound for most of the window, roughly between 20.6 and 21.8, with no sustained trend.\n- There was a sharp selloff from the 21.7s down to 20.6-20.9 around t-12 to t-10, but price then stabilized and recovered back toward 21.2-21.5.\n- More recently, the rebound has stalled: t-02 was a local high near 21.50, followed by a weaker close at t-01 and another down close at t-00.\n- The latest bar closed near the lower end of its daily range, and the two most recent closes are below the short-term highs, suggesting fading momentum.\n- However, the stock is still sitting in the middle/lower part of the broader recent range, not in a decisive breakdown below support, so this is not a strong short setup.\n- Signals are mixed: short-term weakness and failed push higher versus broader range support and lack of breakdown confirmation.\n- Confidence is low, so the best decision is no action.\n</think>\n<action>\n0\n</action>",
+        "parsed_vote": 0.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. Do not short a sharp multi-day selloff into recent range support on elevated volume unless price decisively closes below that support on expanding volume with follow-through.\n  1. When a persistent lower-high/lower-low downtrend ends with a high-volume breakdown or weak consolidation near fresh lows, favor short.\n  2. When a multi-day pullback stabilizes into higher lows and the latest bar reclaims the short-term range near its high, favor long.\n\nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    21.1800 |    21.4000 |    21.1300 |    21.3900 |     585720\n t-18 |    21.3700 |    21.4700 |    21.2600 |    21.3700 |     564901\n t-17 |    21.4800 |    21.7000 |    21.4695 |    21.5900 |     436754\n t-16 |    21.7000 |    21.7900 |    21.4400 |    21.7700 |     585369\n t-15 |    21.7400 |    21.8000 |    21.6050 |    21.7200 |     558770\n t-14 |    21.6900 |    21.7400 |    21.3150 |    21.4200 |     988549\n t-13 |    21.3600 |    21.6200 |    21.3000 |    21.4300 |     640032\n t-12 |    21.3600 |    21.3600 |    20.9900 |    20.9900 |     655340\n t-11 |    20.9900 |    21.0200 |    20.6100 |    20.6200 |     853902\n t-10 |    20.7700 |    20.9300 |    20.6700 |    20.8500 |    1017304\n t-09 |    20.9100 |    21.0500 |    20.8000 |    21.0200 |     841669\n t-08 |    20.9900 |    21.3050 |    20.9600 |    21.2100 |     693799\n t-07 |    21.2400 |    21.3200 |    21.0000 |    21.0900 |     505828\n t-06 |    21.1300 |    21.1500 |    20.8700 |    20.8700 |    1825790\n t-05 |    20.7800 |    21.0800 |    20.6600 |    21.0300 |    1217310\n t-04 |    21.1000 |    21.2100 |    20.8800 |    20.8800 |     523792\n t-03 |    20.9800 |    21.2700 |    20.9100 |    21.1200 |     633237\n t-02 |    21.2200 |    21.5000 |    21.1450 |    21.2300 |     681652\n t-01 |    21.1900 |    21.3200 |    20.9600 |    20.9700 |     435338\n t-00 |    20.9800 |    21.2600 |    20.8000 |    20.8100 |     816570\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The stock has been range-bound to mildly down over the full window: it peaked near 21.8, sold off to the 20.6-20.9 area, and has since failed to reclaim the upper half of the range.\n- Recent action shows repeated lower highs around 21.3-21.5 and closes clustering near 20.8-21.0, which suggests weak momentum rather than a clean reversal.\n- The latest bar (t-00) closed near the low of the day after an intraday bounce attempt, which is a mild bearish signal and keeps price in the lower part of the recent range.\n- However, this is not a decisive breakdown: support around 20.8-20.6 has held multiple times, and the selloff is not a sharp follow-through below support on expanding volume.\n- Given the mixed signals—bearish short-term structure but no confirmed breakdown—edge is limited.\n</think>\n<action>\n0\n</action>\n(parsed vote: NO ACTION (0))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The stock has been range-bound to mildly down over the last several sessions, with repeated tests of the 20.8–21.0 area and failed pushes toward 21.3–21.5.\n- The most recent bar (t-0) is a red candle closing near the low of the day after opening above 20.98, which shows weak intraday demand and a lack of reclaim.\n- Volume on t-0 is above the prior day and decent, but not a decisive breakdown volume; price is still holding above the recent support zone around 20.8 and has not closed below it.\n- The broader pattern looks like consolidation after a decline, but not yet a clean higher-low reversal or a confirmed breakdown. Momentum is slightly negative, yet the stock is sitting close to support rather than extending lower.\n- Given the lesson not to short into nearby support without a decisive break and follow-through, the edge is insufficient for a directional bet.\n</think>\n<action>\n0\n</action>\n(parsed vote: NO ACTION (0))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The stock has been range-bound for most of the window, roughly between 20.6 and 21.8, with no sustained trend.\n- There was a sharp selloff from the 21.7s down to 20.6-20.9 around t-12 to t-10, but price then stabilized and recovered back toward 21.2-21.5.\n- More recently, the rebound has stalled: t-02 was a local high near 21.50, followed by a weaker close at t-01 and another down close at t-00.\n- The latest bar closed near the lower end of its daily range, and the two most recent closes are below the short-term highs, suggesting fading momentum.\n- However, the stock is still sitting in the middle/lower part of the broader recent range, not in a decisive breakdown below support, so this is not a strong short setup.\n- Signals are mixed: short-term weakness and failed push higher versus broader range support and lack of breakdown confirmation.\n- Confidence is low, so the best decision is no action.\n</think>\n<action>\n0\n</action>\n(parsed vote: NO ACTION (0))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- All three analysts agree: no action.\n- Their reasoning also aligns: the stock is weak and failing to reclaim the upper part of the range, but it has not broken decisively below nearby support with convincing follow-through.\n- This is exactly the kind of mixed setup where conviction is low and the signals cancel out, so the consensus and the data both favor standing aside.\n</think>\n<action>\n0\n</action>",
+    "parsed_vote": 0.0
+  },
+  "final_decision": 0.0,
+  "eval": {
+    "target_return": -0.00048064813017845154,
+    "hit": null
+  }
+}

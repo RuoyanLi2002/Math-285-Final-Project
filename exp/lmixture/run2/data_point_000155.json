@@ -1,0 +1,181 @@
+{
+  "data_point_id": 155,
+  "timestamp": "2026-05-16T00:06:33.556979+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        15.800000190734863,
+        15.850000381469727,
+        15.779999732971191,
+        15.8100004196167,
+        4275973.0
+      ],
+      [
+        15.760000228881836,
+        15.800000190734863,
+        15.734999656677246,
+        15.800000190734863,
+        7176707.0
+      ],
+      [
+        15.720000267028809,
+        15.770000457763672,
+        15.71500015258789,
+        15.770000457763672,
+        4922099.0
+      ],
+      [
+        15.670000076293945,
+        15.789999961853027,
+        15.65999984741211,
+        15.779999732971191,
+        5932638.0
+      ],
+      [
+        15.75,
+        15.789999961853027,
+        15.71500015258789,
+        15.739999771118164,
+        5751670.0
+      ],
+      [
+        15.847000122070312,
+        15.899999618530273,
+        15.760000228881836,
+        15.800000190734863,
+        10287160.0
+      ],
+      [
+        15.739999771118164,
+        15.739999771118164,
+        15.649999618530273,
+        15.65999984741211,
+        4650796.0
+      ],
+      [
+        15.65999984741211,
+        15.720000267028809,
+        15.654999732971191,
+        15.670000076293945,
+        3256873.0
+      ],
+      [
+        15.630000114440918,
+        15.744999885559082,
+        15.630000114440918,
+        15.680000305175781,
+        5030804.0
+      ],
+      [
+        15.649999618530273,
+        15.710000038146973,
+        15.630000114440918,
+        15.699999809265137,
+        3066668.0
+      ],
+      [
+        15.649999618530273,
+        15.699999809265137,
+        15.580100059509277,
+        15.619999885559082,
+        4981888.0
+      ],
+      [
+        15.59000015258789,
+        15.649999618530273,
+        15.59000015258789,
+        15.600000381469727,
+        4087353.0
+      ],
+      [
+        15.59000015258789,
+        15.640000343322754,
+        15.5600004196167,
+        15.5600004196167,
+        3536506.0
+      ],
+      [
+        15.569999694824219,
+        15.625,
+        15.550000190734863,
+        15.59000015258789,
+        4385906.0
+      ],
+      [
+        15.59000015258789,
+        15.760000228881836,
+        15.578800201416016,
+        15.680000305175781,
+        7346629.0
+      ],
+      [
+        15.699999809265137,
+        15.779999732971191,
+        15.640000343322754,
+        15.670000076293945,
+        7665555.0
+      ],
+      [
+        15.800000190734863,
+        15.899999618530273,
+        15.779999732971191,
+        15.880000114440918,
+        11638225.0
+      ],
+      [
+        15.829999923706055,
+        15.850000381469727,
+        15.649999618530273,
+        15.65999984741211,
+        7186817.0
+      ],
+      [
+        15.649999618530273,
+        15.6899995803833,
+        15.539999961853027,
+        15.579999923706055,
+        4956073.0
+      ],
+      [
+        15.579999923706055,
+        15.600000381469727,
+        15.539999961853027,
+        15.59000015258789,
+        4052633.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    15.8000 |    15.8500 |    15.7800 |    15.8100 |    4275973\n t-18 |    15.7600 |    15.8000 |    15.7350 |    15.8000 |    7176707\n t-17 |    15.7200 |    15.7700 |    15.7150 |    15.7700 |    4922099\n t-16 |    15.6700 |    15.7900 |    15.6600 |    15.7800 |    5932638\n t-15 |    15.7500 |    15.7900 |    15.7150 |    15.7400 |    5751670\n t-14 |    15.8470 |    15.9000 |    15.7600 |    15.8000 |   10287160\n t-13 |    15.7400 |    15.7400 |    15.6500 |    15.6600 |    4650796\n t-12 |    15.6600 |    15.7200 |    15.6550 |    15.6700 |    3256873\n t-11 |    15.6300 |    15.7450 |    15.6300 |    15.6800 |    5030804\n t-10 |    15.6500 |    15.7100 |    15.6300 |    15.7000 |    3066668\n t-09 |    15.6500 |    15.7000 |    15.5801 |    15.6200 |    4981888\n t-08 |    15.5900 |    15.6500 |    15.5900 |    15.6000 |    4087353\n t-07 |    15.5900 |    15.6400 |    15.5600 |    15.5600 |    3536506\n t-06 |    15.5700 |    15.6250 |    15.5500 |    15.5900 |    4385906\n t-05 |    15.5900 |    15.7600 |    15.5788 |    15.6800 |    7346629\n t-04 |    15.7000 |    15.7800 |    15.6400 |    15.6700 |    7665555\n t-03 |    15.8000 |    15.9000 |    15.7800 |    15.8800 |   11638225\n t-02 |    15.8300 |    15.8500 |    15.6500 |    15.6600 |    7186817\n t-01 |    15.6500 |    15.6900 |    15.5400 |    15.5800 |    4956073\n t-00 |    15.5800 |    15.6000 |    15.5400 |    15.5900 |    4052633"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    15.8000 |    15.8500 |    15.7800 |    15.8100 |    4275973\n t-18 |    15.7600 |    15.8000 |    15.7350 |    15.8000 |    7176707\n t-17 |    15.7200 |    15.7700 |    15.7150 |    15.7700 |    4922099\n t-16 |    15.6700 |    15.7900 |    15.6600 |    15.7800 |    5932638\n t-15 |    15.7500 |    15.7900 |    15.7150 |    15.7400 |    5751670\n t-14 |    15.8470 |    15.9000 |    15.7600 |    15.8000 |   10287160\n t-13 |    15.7400 |    15.7400 |    15.6500 |    15.6600 |    4650796\n t-12 |    15.6600 |    15.7200 |    15.6550 |    15.6700 |    3256873\n t-11 |    15.6300 |    15.7450 |    15.6300 |    15.6800 |    5030804\n t-10 |    15.6500 |    15.7100 |    15.6300 |    15.7000 |    3066668\n t-09 |    15.6500 |    15.7000 |    15.5801 |    15.6200 |    4981888\n t-08 |    15.5900 |    15.6500 |    15.5900 |    15.6000 |    4087353\n t-07 |    15.5900 |    15.6400 |    15.5600 |    15.5600 |    3536506\n t-06 |    15.5700 |    15.6250 |    15.5500 |    15.5900 |    4385906\n t-05 |    15.5900 |    15.7600 |    15.5788 |    15.6800 |    7346629\n t-04 |    15.7000 |    15.7800 |    15.6400 |    15.6700 |    7665555\n t-03 |    15.8000 |    15.9000 |    15.7800 |    15.8800 |   11638225\n t-02 |    15.8300 |    15.8500 |    15.6500 |    15.6600 |    7186817\n t-01 |    15.6500 |    15.6900 |    15.5400 |    15.5800 |    4956073\n t-00 |    15.5800 |    15.6000 |    15.5400 |    15.5900 |    4052633\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The data shows a mostly sideways-to-slightly-down range over 20 days, roughly bounded by support near 15.54-15.56 and resistance near 15.78-15.90.\n- There was a strong upside attempt at t-03 with a high-volume breakout to 15.88 close, but it immediately failed on t-02 with a wide-range bearish reversal back to 15.66 on still-elevated volume.\n- Follow-through after that failure was weak: t-01 pushed down to 15.54 support, and t-00 was only a tiny bounce to 15.59 with lower volume.\n\nSignals that matter:\n- Failed breakout / bull trap: t-03 breakout above prior range on very high volume, then sharp reversal the next day. That is a bearish signal.\n- Lower high structure after the failed breakout: after 15.90 high, price could not reclaim even 15.60s strongly.\n- Weak rebound: t-00 is a small-bodied day, close still near the lower part of the recent range, and volume is light. This looks like a low-energy bounce rather than strong reclaim.\n- Support is nearby at 15.54-15.56 and has not decisively broken yet. That limits downside edge somewhat and argues against high-confidence shorting.\n- No strong exhaustion/reversal candle at support: no notable long lower wick or powerful reclaim from the undercut area.\n\nDirectional view and confidence:\n- Net bias is bearish because the dominant recent event is the high-volume failed breakout followed by inability to recover, with price pinned near range lows.\n- However, because price is sitting just above established support and the latest decline has not expanded on volume, confidence is only moderate.\n</think>\n<action>\n-1\n</action>",
+        "parsed_vote": -1.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The series is mostly range-bound with a mild drift lower from the 15.80 area into the 15.55-15.60 area. Key resistance sits around 15.76-15.90, while support is around 15.54-15.56.\n- There was a strong upside push at t-03 to 15.88 on the highest volume in the window, but it immediately failed on t-02 with a wide-range down day and then followed through lower at t-01. That looks like a failed breakout / bull trap near resistance.\n- t-00 stabilized slightly, but only as a very small bounce from support with low volume. The rebound lacks conviction and remains well below the failed-breakout zone.\n- Signals that matter:\n  - Repeated inability to sustain above 15.76-15.80 resistance.\n  - High-volume breakout at t-03 reversed quickly: bearish failed breakout signal.\n  - Subsequent rebound is weak and on declining volume, consistent with distribution rather than accumulation.\n  - Price is near support, which reduces short edge somewhat, but there is no strong rejection candle or high-volume undercut-reclaim to support a long.\n  - Latest close is in the lower part of the recent range, and momentum after t-03 remains negative.\n- Resolution:\n  - Bearish bias from failed breakout and weak bounce outweighs the nearby support. Confidence is moderate, not high, because support is close and the range is tight.\n</think>\n<action>\n-1\n</action>",
+        "parsed_vote": -1.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The data shows a mostly range-bound stock with a mild downward drift from the mid-window into t-07, then a rebound into t-03, followed by a sharp rejection.\n- Key range appears roughly 15.54-15.56 support and 15.85-15.90 resistance.\n- t-03 was a strong breakout attempt to 15.90 on the highest volume in the sample, but it failed immediately: t-02 reversed hard lower on still-elevated volume, and t-01 extended lower to 15.54 support.\n- t-00 was only a tiny bounce from support, with a narrow range and lower volume, closing near the middle/upper part of its small daily range but still well below the failed-breakout zone.\n\nSignals that matter:\n- Failed breakout / bull trap at t-03 to prior resistance near 15.90, followed by bearish reversal: bearish.\n- Lower highs after the failed breakout: t-03 high 15.90, t-02 high 15.85, t-01 high 15.69, t-00 high 15.60: bearish short-term momentum.\n- Support near 15.54 has held twice (t-01 and t-00), preventing a clean breakdown: offsets bearishness somewhat.\n- The rebound off support is weak and on declining volume, stalling far below resistance and below the breakdown area around 15.66-15.70: bearish per weak rebound lesson.\n- No strong exhaustion candle at support: t-01 had some lower tail but not a convincing reversal close; t-00 is indecisive rather than impulsively bullish.\n- Close is in the lower portion of the broader 20-day range, with momentum still soft.\n\nResolve into directional view and confidence level:\n- The dominant signal is a failed high-volume breakout followed by weak, low-volume stabilization just above support. That usually favors downside continuation unless there is a decisive reclaim of 15.66-15.70 on stronger volume.\n- Support is close, so edge is moderate rather than high, but the next-day directional lean is still bearish.\n- Confidence: moderate.\n</think>\n<action>\n-1\n</action>",
+        "parsed_vote": -1.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    15.8000 |    15.8500 |    15.7800 |    15.8100 |    4275973\n t-18 |    15.7600 |    15.8000 |    15.7350 |    15.8000 |    7176707\n t-17 |    15.7200 |    15.7700 |    15.7150 |    15.7700 |    4922099\n t-16 |    15.6700 |    15.7900 |    15.6600 |    15.7800 |    5932638\n t-15 |    15.7500 |    15.7900 |    15.7150 |    15.7400 |    5751670\n t-14 |    15.8470 |    15.9000 |    15.7600 |    15.8000 |   10287160\n t-13 |    15.7400 |    15.7400 |    15.6500 |    15.6600 |    4650796\n t-12 |    15.6600 |    15.7200 |    15.6550 |    15.6700 |    3256873\n t-11 |    15.6300 |    15.7450 |    15.6300 |    15.6800 |    5030804\n t-10 |    15.6500 |    15.7100 |    15.6300 |    15.7000 |    3066668\n t-09 |    15.6500 |    15.7000 |    15.5801 |    15.6200 |    4981888\n t-08 |    15.5900 |    15.6500 |    15.5900 |    15.6000 |    4087353\n t-07 |    15.5900 |    15.6400 |    15.5600 |    15.5600 |    3536506\n t-06 |    15.5700 |    15.6250 |    15.5500 |    15.5900 |    4385906\n t-05 |    15.5900 |    15.7600 |    15.5788 |    15.6800 |    7346629\n t-04 |    15.7000 |    15.7800 |    15.6400 |    15.6700 |    7665555\n t-03 |    15.8000 |    15.9000 |    15.7800 |    15.8800 |   11638225\n t-02 |    15.8300 |    15.8500 |    15.6500 |    15.6600 |    7186817\n t-01 |    15.6500 |    15.6900 |    15.5400 |    15.5800 |    4956073\n t-00 |    15.5800 |    15.6000 |    15.5400 |    15.5900 |    4052633\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The data shows a mostly sideways-to-slightly-down range over 20 days, roughly bounded by support near 15.54-15.56 and resistance near 15.78-15.90.\n- There was a strong upside attempt at t-03 with a high-volume breakout to 15.88 close, but it immediately failed on t-02 with a wide-range bearish reversal back to 15.66 on still-elevated volume.\n- Follow-through after that failure was weak: t-01 pushed down to 15.54 support, and t-00 was only a tiny bounce to 15.59 with lower volume.\n\nSignals that matter:\n- Failed breakout / bull trap: t-03 breakout above prior range on very high volume, then sharp reversal the next day. That is a bearish signal.\n- Lower high structure after the failed breakout: after 15.90 high, price could not reclaim even 15.60s strongly.\n- Weak rebound: t-00 is a small-bodied day, close still near the lower part of the recent range, and volume is light. This looks like a low-energy bounce rather than strong reclaim.\n- Support is nearby at 15.54-15.56 and has not decisively broken yet. That limits downside edge somewhat and argues against high-confidence shorting.\n- No strong exhaustion/reversal candle at support: no notable long lower wick or powerful reclaim from the undercut area.\n\nDirectional view and confidence:\n- Net bias is bearish because the dominant recent event is the high-volume failed breakout followed by inability to recover, with price pinned near range lows.\n- However, because price is sitting just above established support and the latest decline has not expanded on volume, confidence is only moderate.\n</think>\n<action>\n-1\n</action>\n(parsed vote: SHORT (-1))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The series is mostly range-bound with a mild drift lower from the 15.80 area into the 15.55-15.60 area. Key resistance sits around 15.76-15.90, while support is around 15.54-15.56.\n- There was a strong upside push at t-03 to 15.88 on the highest volume in the window, but it immediately failed on t-02 with a wide-range down day and then followed through lower at t-01. That looks like a failed breakout / bull trap near resistance.\n- t-00 stabilized slightly, but only as a very small bounce from support with low volume. The rebound lacks conviction and remains well below the failed-breakout zone.\n- Signals that matter:\n  - Repeated inability to sustain above 15.76-15.80 resistance.\n  - High-volume breakout at t-03 reversed quickly: bearish failed breakout signal.\n  - Subsequent rebound is weak and on declining volume, consistent with distribution rather than accumulation.\n  - Price is near support, which reduces short edge somewhat, but there is no strong rejection candle or high-volume undercut-reclaim to support a long.\n  - Latest close is in the lower part of the recent range, and momentum after t-03 remains negative.\n- Resolution:\n  - Bearish bias from failed breakout and weak bounce outweighs the nearby support. Confidence is moderate, not high, because support is close and the range is tight.\n</think>\n<action>\n-1\n</action>\n(parsed vote: SHORT (-1))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The data shows a mostly range-bound stock with a mild downward drift from the mid-window into t-07, then a rebound into t-03, followed by a sharp rejection.\n- Key range appears roughly 15.54-15.56 support and 15.85-15.90 resistance.\n- t-03 was a strong breakout attempt to 15.90 on the highest volume in the sample, but it failed immediately: t-02 reversed hard lower on still-elevated volume, and t-01 extended lower to 15.54 support.\n- t-00 was only a tiny bounce from support, with a narrow range and lower volume, closing near the middle/upper part of its small daily range but still well below the failed-breakout zone.\n\nSignals that matter:\n- Failed breakout / bull trap at t-03 to prior resistance near 15.90, followed by bearish reversal: bearish.\n- Lower highs after the failed breakout: t-03 high 15.90, t-02 high 15.85, t-01 high 15.69, t-00 high 15.60: bearish short-term momentum.\n- Support near 15.54 has held twice (t-01 and t-00), preventing a clean breakdown: offsets bearishness somewhat.\n- The rebound off support is weak and on declining volume, stalling far below resistance and below the breakdown area around 15.66-15.70: bearish per weak rebound lesson.\n- No strong exhaustion candle at support: t-01 had some lower tail but not a convincing reversal close; t-00 is indecisive rather than impulsively bullish.\n- Close is in the lower portion of the broader 20-day range, with momentum still soft.\n\nResolve into directional view and confidence level:\n- The dominant signal is a failed high-volume breakout followed by weak, low-volume stabilization just above support. That usually favors downside continuation unless there is a decisive reclaim of 15.66-15.70 on stronger volume.\n- Support is close, so edge is moderate rather than high, but the next-day directional lean is still bearish.\n- Confidence: moderate.\n</think>\n<action>\n-1\n</action>\n(parsed vote: SHORT (-1))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- All three analysts agree: each votes -1 (SHORT).\n- Their shared rationale is consistent: a high-volume breakout attempt at t-03 failed immediately, then price sold off back toward range support and only produced a weak, low-volume bounce at t-00.\n- The main caution is nearby support around 15.54-15.56, which lowers confidence somewhat, but none of the analysts sees a convincing exhaustion/reversal signal there.\n- Since there is full consensus and the data supports the failed-breakout/weak-rebound bearish view, the dominant decision is SHORT.\n</think>\n<action>\n-1\n</action>",
+    "parsed_vote": -1.0
+  },
+  "final_decision": -1.0,
+  "eval": {
+    "target_return": -0.0057896762154996395,
+    "hit": 1.0
+  }
+}

@@ -5,6 +5,7 @@ import importlib
 from types import SimpleNamespace
 import argparse
 import numpy as np
+import torch
 
 from eval import eval
 
@@ -87,6 +88,10 @@ def main():
     args = parser.parse_args()
 
     np.random.seed(args.seed)
+    torch.manual_seed(args.seed)
+    torch.cuda.manual_seed(args.seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
 
     if not os.path.exists(args.exp_name):
         os.makedirs(args.exp_name)

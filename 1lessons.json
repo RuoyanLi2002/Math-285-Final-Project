@@ -1,0 +1,1148 @@
+{
+  "num_lessons": 5,
+  "lessons": [
+    "In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.",
+    "After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.",
+    "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+    "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.",
+    "After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts."
+  ],
+  "history": [
+    {
+      "data_point_id": 2,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000002.json",
+      "distilled_lesson": "After a high-volume breakdown, treat a low-volume rebound into prior support-turned-resistance that fails to close above recent highs as a dead-cat bounce; avoid longs and consider shorting the rejection.",
+      "judge_decision": {
+        "action": "APPEND",
+        "target_index": null,
+        "updated_lesson": null,
+        "reasoning": "With no existing lessons, this adds the first trading rule."
+      },
+      "applied": "APPEND",
+      "book_before": [],
+      "book_after": [
+        "After a high-volume breakdown, treat a low-volume rebound into prior support-turned-resistance that fails to close above recent highs as a dead-cat bounce; avoid longs and consider shorting the rejection."
+      ]
+    },
+    {
+      "data_point_id": 5,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000005.json",
+      "distilled_lesson": "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+      "judge_decision": {
+        "action": "APPEND",
+        "target_index": null,
+        "updated_lesson": null,
+        "reasoning": "The new lesson covers a distinct bullish reversal setup near support, while the existing lesson covers a bearish failed rebound into resistance."
+      },
+      "applied": "APPEND",
+      "book_before": [
+        "After a high-volume breakdown, treat a low-volume rebound into prior support-turned-resistance that fails to close above recent highs as a dead-cat bounce; avoid longs and consider shorting the rejection."
+      ],
+      "book_after": [
+        "After a high-volume breakdown, treat a low-volume rebound into prior support-turned-resistance that fails to close above recent highs as a dead-cat bounce; avoid longs and consider shorting the rejection.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low."
+      ]
+    },
+    {
+      "data_point_id": 6,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000006.json",
+      "distilled_lesson": "When a stock in a 20-day downtrend posts 3–4 higher closes into prior swing resistance on only average volume, treat it as a relief rally rather than a breakout and avoid or fade the long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After a breakdown/downtrend, treat weak-to-average-volume multi-day rebounds into prior support or swing resistance that fail to clear highs as relief rallies; avoid longs or fade.",
+        "reasoning": "The new lesson refines the existing dead-cat-bounce rule with a downtrend and multi-day rebound context."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After a high-volume breakdown, treat a low-volume rebound into prior support-turned-resistance that fails to close above recent highs as a dead-cat bounce; avoid longs and consider shorting the rejection.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low."
+      ],
+      "book_after": [
+        "After a breakdown/downtrend, treat weak-to-average-volume multi-day rebounds into prior support or swing resistance that fail to clear highs as relief rallies; avoid longs or fade.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low."
+      ]
+    },
+    {
+      "data_point_id": 7,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000007.json",
+      "distilled_lesson": "After a high-volume bearish reversal from recent highs, treat subsequent low-volume bounces that fail to reclaim the reversal high as distribution, and avoid longs or lean short.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After a breakdown or high-volume bearish reversal, treat weak-volume bounces into prior support/resistance that fail to reclaim key highs as distribution/relief rallies; avoid longs or lean short.",
+        "reasoning": "The new lesson refines the existing relief-rally rule with high-volume reversal context and distribution framing."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After a breakdown/downtrend, treat weak-to-average-volume multi-day rebounds into prior support or swing resistance that fail to clear highs as relief rallies; avoid longs or fade.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low."
+      ],
+      "book_after": [
+        "After a breakdown or high-volume bearish reversal, treat weak-volume bounces into prior support/resistance that fail to reclaim key highs as distribution/relief rallies; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low."
+      ]
+    },
+    {
+      "data_point_id": 8,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000008.json",
+      "distilled_lesson": "When a higher-high breakout is followed by only a shallow 1–2 day pullback on sharply contracting volume that holds above the breakout/support zone, don’t short the lower closes; favor a long/hold unless price breaks support on expanding volume.",
+      "judge_decision": {
+        "action": "APPEND",
+        "target_index": null,
+        "updated_lesson": null,
+        "reasoning": "The lesson adds a distinct bullish breakout-pullback setup not covered by the existing selloff or bearish-reversal rules."
+      },
+      "applied": "APPEND",
+      "book_before": [
+        "After a breakdown or high-volume bearish reversal, treat weak-volume bounces into prior support/resistance that fail to reclaim key highs as distribution/relief rallies; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low."
+      ],
+      "book_after": [
+        "After a breakdown or high-volume bearish reversal, treat weak-volume bounces into prior support/resistance that fail to reclaim key highs as distribution/relief rallies; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When a higher-high breakout is followed by only a shallow 1–2 day pullback on sharply contracting volume that holds above the breakout/support zone, don’t short the lower closes; favor a long/hold unless price breaks support on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 12,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000012.json",
+      "distilled_lesson": "When price drifts to the lower boundary of a multi-week tight range on only average/declining volume and has not closed decisively below support, avoid initiating shorts and favor a mean-reversion long/hold.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 2,
+        "updated_lesson": "When price holds support—whether a breakout zone after a shallow pullback or a range floor—on contracting/average volume, avoid shorts and favor long/hold unless support breaks on expanding volume.",
+        "reasoning": "The new lesson complements the existing support-holding, low-volume pullback rule with a range-bound context."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After a breakdown or high-volume bearish reversal, treat weak-volume bounces into prior support/resistance that fail to reclaim key highs as distribution/relief rallies; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When a higher-high breakout is followed by only a shallow 1–2 day pullback on sharply contracting volume that holds above the breakout/support zone, don’t short the lower closes; favor a long/hold unless price breaks support on expanding volume."
+      ],
+      "book_after": [
+        "After a breakdown or high-volume bearish reversal, treat weak-volume bounces into prior support/resistance that fail to reclaim key highs as distribution/relief rallies; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price holds support—whether a breakout zone after a shallow pullback or a range floor—on contracting/average volume, avoid shorts and favor long/hold unless support breaks on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 13,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000013.json",
+      "distilled_lesson": "When a multi-day rebound after a sharp drop rises on steadily declining volume into prior congestion/resistance without a decisive breakout, treat the higher lows as a weak retracement and favor short/avoid long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After a sharp drop or bearish breakdown, treat declining-volume rebounds into prior congestion/resistance that lack a decisive breakout as weak retracements/distribution; avoid longs or lean short.",
+        "reasoning": "The new lesson refines the existing weak-volume relief-rally rule with declining-volume multi-day rebound specifics."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After a breakdown or high-volume bearish reversal, treat weak-volume bounces into prior support/resistance that fail to reclaim key highs as distribution/relief rallies; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price holds support—whether a breakout zone after a shallow pullback or a range floor—on contracting/average volume, avoid shorts and favor long/hold unless support breaks on expanding volume."
+      ],
+      "book_after": [
+        "After a sharp drop or bearish breakdown, treat declining-volume rebounds into prior congestion/resistance that lack a decisive breakout as weak retracements/distribution; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price holds support—whether a breakout zone after a shallow pullback or a range floor—on contracting/average volume, avoid shorts and favor long/hold unless support breaks on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 14,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000014.json",
+      "distilled_lesson": "When a high-volume down day is followed by a lower-volume rebound that stalls below the prior swing high/resistance, treat the bounce as weak and avoid longs or lean short.",
+      "judge_decision": {
+        "action": "SKIP",
+        "target_index": null,
+        "updated_lesson": null,
+        "reasoning": "The new lesson is already covered by lesson_0’s rule on low-volume rebounds into resistance after bearish drops."
+      },
+      "applied": "SKIP",
+      "book_before": [
+        "After a sharp drop or bearish breakdown, treat declining-volume rebounds into prior congestion/resistance that lack a decisive breakout as weak retracements/distribution; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price holds support—whether a breakout zone after a shallow pullback or a range floor—on contracting/average volume, avoid shorts and favor long/hold unless support breaks on expanding volume."
+      ],
+      "book_after": [
+        "After a sharp drop or bearish breakdown, treat declining-volume rebounds into prior congestion/resistance that lack a decisive breakout as weak retracements/distribution; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price holds support—whether a breakout zone after a shallow pullback or a range floor—on contracting/average volume, avoid shorts and favor long/hold unless support breaks on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 16,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000016.json",
+      "distilled_lesson": "When price makes a short-term high after several consecutive up closes but volume fails to expand or declines, treat the “close at high” as exhaustion/resistance and avoid longs; consider a fade/short.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "Treat low/declining-volume rallies into resistance—especially rebounds after bearish breakdowns or several consecutive up closes making a short-term high—as weak/exhaustion moves; avoid longs or lean short.",
+        "reasoning": "The new lesson extends the existing weak low-volume rally-into-resistance rule to exhaustion after consecutive up closes."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After a sharp drop or bearish breakdown, treat declining-volume rebounds into prior congestion/resistance that lack a decisive breakout as weak retracements/distribution; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price holds support—whether a breakout zone after a shallow pullback or a range floor—on contracting/average volume, avoid shorts and favor long/hold unless support breaks on expanding volume."
+      ],
+      "book_after": [
+        "Treat low/declining-volume rallies into resistance—especially rebounds after bearish breakdowns or several consecutive up closes making a short-term high—as weak/exhaustion moves; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price holds support—whether a breakout zone after a shallow pullback or a range floor—on contracting/average volume, avoid shorts and favor long/hold unless support breaks on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 17,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000017.json",
+      "distilled_lesson": "After a high-volume bounce off a sharp selloff, treat a low-volume pullback that holds above the panic low as a bullish retest; avoid shorting unless price breaks that low on expanding volume.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 2,
+        "updated_lesson": "When price retests key support—breakout zone, range floor, or post-selloff panic low—on contracting/average volume, avoid shorts and favor long/hold unless support breaks on expanding volume.",
+        "reasoning": "The new lesson is a specific post-selloff retest case of holding support on weak volume."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "Treat low/declining-volume rallies into resistance—especially rebounds after bearish breakdowns or several consecutive up closes making a short-term high—as weak/exhaustion moves; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price holds support—whether a breakout zone after a shallow pullback or a range floor—on contracting/average volume, avoid shorts and favor long/hold unless support breaks on expanding volume."
+      ],
+      "book_after": [
+        "Treat low/declining-volume rallies into resistance—especially rebounds after bearish breakdowns or several consecutive up closes making a short-term high—as weak/exhaustion moves; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests key support—breakout zone, range floor, or post-selloff panic low—on contracting/average volume, avoid shorts and favor long/hold unless support breaks on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 20,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000020.json",
+      "distilled_lesson": "When a pullback retests a recent capitulation support zone on lower volume and still holds above the prior panic low, don’t chase a short at the lows; favor a mean-reversion long or stand aside.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 2,
+        "updated_lesson": "When price retests key support, especially a prior panic low, on contracting volume and holds above it, avoid shorts and favor mean-reversion long/hold unless support breaks on volume.",
+        "reasoning": "The new lesson refines the existing support-retest rule with prior panic-low and mean-reversion framing."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "Treat low/declining-volume rallies into resistance—especially rebounds after bearish breakdowns or several consecutive up closes making a short-term high—as weak/exhaustion moves; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests key support—breakout zone, range floor, or post-selloff panic low—on contracting/average volume, avoid shorts and favor long/hold unless support breaks on expanding volume."
+      ],
+      "book_after": [
+        "Treat low/declining-volume rallies into resistance—especially rebounds after bearish breakdowns or several consecutive up closes making a short-term high—as weak/exhaustion moves; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests key support, especially a prior panic low, on contracting volume and holds above it, avoid shorts and favor mean-reversion long/hold unless support breaks on volume."
+      ]
+    },
+    {
+      "data_point_id": 26,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000026.json",
+      "distilled_lesson": "When a downtrend pulls back into a repeatedly defended support zone and the latest down day shows contracting volume without a clean breakdown, avoid shorting and prefer a small mean-reversion long/hold.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 2,
+        "updated_lesson": "When a downtrend retests repeatedly defended/key support on contracting volume and holds without a clean breakdown, avoid shorts and favor small mean-reversion long/hold unless support breaks on volume.",
+        "reasoning": "The new lesson refines the existing support-retest lesson with repeated defense and downtrend context."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "Treat low/declining-volume rallies into resistance—especially rebounds after bearish breakdowns or several consecutive up closes making a short-term high—as weak/exhaustion moves; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests key support, especially a prior panic low, on contracting volume and holds above it, avoid shorts and favor mean-reversion long/hold unless support breaks on volume."
+      ],
+      "book_after": [
+        "Treat low/declining-volume rallies into resistance—especially rebounds after bearish breakdowns or several consecutive up closes making a short-term high—as weak/exhaustion moves; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When a downtrend retests repeatedly defended/key support on contracting volume and holds without a clean breakdown, avoid shorts and favor small mean-reversion long/hold unless support breaks on volume."
+      ]
+    },
+    {
+      "data_point_id": 30,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000030.json",
+      "distilled_lesson": "After a high-volume breakdown in a clear lower-high/lower-low downtrend, treat a one-day high-volume bounce that remains below prior support/resistance as a dead-cat bounce; avoid longs and prefer short/neutral until price reclaims the breakdown level.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "Treat rallies/bounces into resistance after bearish breakdowns—whether low/declining-volume or one-day high-volume dead-cat moves below reclaimed support—as weak; avoid longs and lean short/neutral.",
+        "reasoning": "The new lesson refines the existing breakdown-rebound exhaustion rule with a high-volume dead-cat bounce case."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "Treat low/declining-volume rallies into resistance—especially rebounds after bearish breakdowns or several consecutive up closes making a short-term high—as weak/exhaustion moves; avoid longs or lean short.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When a downtrend retests repeatedly defended/key support on contracting volume and holds without a clean breakdown, avoid shorts and favor small mean-reversion long/hold unless support breaks on volume."
+      ],
+      "book_after": [
+        "Treat rallies/bounces into resistance after bearish breakdowns—whether low/declining-volume or one-day high-volume dead-cat moves below reclaimed support—as weak; avoid longs and lean short/neutral.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When a downtrend retests repeatedly defended/key support on contracting volume and holds without a clean breakdown, avoid shorts and favor small mean-reversion long/hold unless support breaks on volume."
+      ]
+    },
+    {
+      "data_point_id": 32,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000032.json",
+      "distilled_lesson": "When price drifts down into a well-tested support area but then prints a higher close near the day’s high after an intraday support test, treat it as a bounce signal and avoid shorting or favor a small long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 2,
+        "updated_lesson": "When price retests well-defended support and holds, especially on contracting volume or a higher close near the day’s high after an intraday test, avoid shorts and favor small longs.",
+        "reasoning": "The new lesson refines the existing well-tested support bounce rule with a specific intraday reversal trigger."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "Treat rallies/bounces into resistance after bearish breakdowns—whether low/declining-volume or one-day high-volume dead-cat moves below reclaimed support—as weak; avoid longs and lean short/neutral.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When a downtrend retests repeatedly defended/key support on contracting volume and holds without a clean breakdown, avoid shorts and favor small mean-reversion long/hold unless support breaks on volume."
+      ],
+      "book_after": [
+        "Treat rallies/bounces into resistance after bearish breakdowns—whether low/declining-volume or one-day high-volume dead-cat moves below reclaimed support—as weak; avoid longs and lean short/neutral.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests well-defended support and holds, especially on contracting volume or a higher close near the day’s high after an intraday test, avoid shorts and favor small longs."
+      ]
+    },
+    {
+      "data_point_id": 34,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000034.json",
+      "distilled_lesson": "When price bounces into prior breakdown resistance after a run of lower highs/lows but volume is below recent selloff volume, treat it as a weak relief rally and avoid longs or favor short until resistance is cleared on expanding volume.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "Treat bounces into prior breakdown resistance after bearish structure as weak when volume lags selloff volume; avoid longs and lean short/neutral until resistance clears on expanding volume.",
+        "reasoning": "The new lesson refines the existing breakdown-resistance bounce rule with a confirmation condition for clearing resistance."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "Treat rallies/bounces into resistance after bearish breakdowns—whether low/declining-volume or one-day high-volume dead-cat moves below reclaimed support—as weak; avoid longs and lean short/neutral.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests well-defended support and holds, especially on contracting volume or a higher close near the day’s high after an intraday test, avoid shorts and favor small longs."
+      ],
+      "book_after": [
+        "Treat bounces into prior breakdown resistance after bearish structure as weak when volume lags selloff volume; avoid longs and lean short/neutral until resistance clears on expanding volume.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests well-defended support and holds, especially on contracting volume or a higher close near the day’s high after an intraday test, avoid shorts and favor small longs."
+      ]
+    },
+    {
+      "data_point_id": 35,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000035.json",
+      "distilled_lesson": "In a sideways range, when price sells off into well-tested support on below-average volume but closes above the intraday low, avoid fresh shorts and favor a mean-reversion long unless support breaks on strong volume.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 2,
+        "updated_lesson": "When price retests well-defended range support and holds on contracting volume or closes off the low, avoid shorts and favor small longs unless support breaks on strong volume.",
+        "reasoning": "The new lesson refines the existing support-retest rule with range context and a strong-volume breakdown condition."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "Treat bounces into prior breakdown resistance after bearish structure as weak when volume lags selloff volume; avoid longs and lean short/neutral until resistance clears on expanding volume.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests well-defended support and holds, especially on contracting volume or a higher close near the day’s high after an intraday test, avoid shorts and favor small longs."
+      ],
+      "book_after": [
+        "Treat bounces into prior breakdown resistance after bearish structure as weak when volume lags selloff volume; avoid longs and lean short/neutral until resistance clears on expanding volume.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests well-defended range support and holds on contracting volume or closes off the low, avoid shorts and favor small longs unless support breaks on strong volume."
+      ]
+    },
+    {
+      "data_point_id": 37,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000037.json",
+      "distilled_lesson": "When a close-near-high bounce occurs after high-volume down days but remains below recent swing-high resistance, treat it as a low-conviction relief rally and avoid longs or favor short unless volume confirms a breakout.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After high-volume bearish breakdowns, treat low-volume relief bounces—even close-near-high—below prior or swing-high resistance as weak; avoid longs and lean short until volume confirms breakout.",
+        "reasoning": "The new lesson refines the existing resistance-bounce weakness rule with close-near-high relief rally context."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "Treat bounces into prior breakdown resistance after bearish structure as weak when volume lags selloff volume; avoid longs and lean short/neutral until resistance clears on expanding volume.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests well-defended range support and holds on contracting volume or closes off the low, avoid shorts and favor small longs unless support breaks on strong volume."
+      ],
+      "book_after": [
+        "After high-volume bearish breakdowns, treat low-volume relief bounces—even close-near-high—below prior or swing-high resistance as weak; avoid longs and lean short until volume confirms breakout.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests well-defended range support and holds on contracting volume or closes off the low, avoid shorts and favor small longs unless support breaks on strong volume."
+      ]
+    },
+    {
+      "data_point_id": 38,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000038.json",
+      "distilled_lesson": "When a rebound within a broader downtrend tests prior swing resistance and closes well below the day’s high on weak/declining volume, treat it as rejection and avoid longs or favor a short fade.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "In downtrends after bearish breaks, treat weak-volume rebounds below prior swing resistance—especially closes off highs—as rejection; avoid longs and favor short fades until volume confirms breakout.",
+        "reasoning": "The new lesson refines the existing weak rebound below resistance rule with close-off-high rejection context."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After high-volume bearish breakdowns, treat low-volume relief bounces—even close-near-high—below prior or swing-high resistance as weak; avoid longs and lean short until volume confirms breakout.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests well-defended range support and holds on contracting volume or closes off the low, avoid shorts and favor small longs unless support breaks on strong volume."
+      ],
+      "book_after": [
+        "In downtrends after bearish breaks, treat weak-volume rebounds below prior swing resistance—especially closes off highs—as rejection; avoid longs and favor short fades until volume confirms breakout.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests well-defended range support and holds on contracting volume or closes off the low, avoid shorts and favor small longs unless support breaks on strong volume."
+      ]
+    },
+    {
+      "data_point_id": 41,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000041.json",
+      "distilled_lesson": "After a sharp multi-day decline, when price tests a new range low but then prints consecutive non-lower closes and higher lows, treat it as seller exhaustion and avoid trend-following shorts; prefer a mean-reversion long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 1,
+        "updated_lesson": "After a sharp multi-day selloff near support/range lows, consecutive non-lower closes and higher lows signal seller exhaustion; avoid new shorts and favor mean-reversion longs unless that low breaks.",
+        "reasoning": "The new lesson refines the existing post-selloff reversal rule with stronger exhaustion criteria near range lows."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "In downtrends after bearish breaks, treat weak-volume rebounds below prior swing resistance—especially closes off highs—as rejection; avoid longs and favor short fades until volume confirms breakout.",
+        "After a sharp multi-day selloff, treat a higher close with a higher low near support as a short-term reversal signal; avoid initiating shorts and consider a long unless price breaks that low.",
+        "When price retests well-defended range support and holds on contracting volume or closes off the low, avoid shorts and favor small longs unless support breaks on strong volume."
+      ],
+      "book_after": [
+        "In downtrends after bearish breaks, treat weak-volume rebounds below prior swing resistance—especially closes off highs—as rejection; avoid longs and favor short fades until volume confirms breakout.",
+        "After a sharp multi-day selloff near support/range lows, consecutive non-lower closes and higher lows signal seller exhaustion; avoid new shorts and favor mean-reversion longs unless that low breaks.",
+        "When price retests well-defended range support and holds on contracting volume or closes off the low, avoid shorts and favor small longs unless support breaks on strong volume."
+      ]
+    },
+    {
+      "data_point_id": 43,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000043.json",
+      "distilled_lesson": "When a sharp rebound reaches prior swing resistance and the latest candle makes a higher high but closes below the previous close without volume expansion, treat it as a failed breakout and favor short/neutral over long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "In downtrends after bearish breaks, weak-volume rebounds into prior swing resistance—especially higher-high candles closing below the previous close or off highs—signal failed breakouts; avoid longs and favor short/neutral.",
+        "reasoning": "The new lesson adds a specific failed-breakout candle pattern to the existing resistance-rejection rule."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "In downtrends after bearish breaks, treat weak-volume rebounds below prior swing resistance—especially closes off highs—as rejection; avoid longs and favor short fades until volume confirms breakout.",
+        "After a sharp multi-day selloff near support/range lows, consecutive non-lower closes and higher lows signal seller exhaustion; avoid new shorts and favor mean-reversion longs unless that low breaks.",
+        "When price retests well-defended range support and holds on contracting volume or closes off the low, avoid shorts and favor small longs unless support breaks on strong volume."
+      ],
+      "book_after": [
+        "In downtrends after bearish breaks, weak-volume rebounds into prior swing resistance—especially higher-high candles closing below the previous close or off highs—signal failed breakouts; avoid longs and favor short/neutral.",
+        "After a sharp multi-day selloff near support/range lows, consecutive non-lower closes and higher lows signal seller exhaustion; avoid new shorts and favor mean-reversion longs unless that low breaks.",
+        "When price retests well-defended range support and holds on contracting volume or closes off the low, avoid shorts and favor small longs unless support breaks on strong volume."
+      ]
+    },
+    {
+      "data_point_id": 45,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000045.json",
+      "distilled_lesson": "After an extended decline, when price undercuts recent lows intraday but closes near the session high and above the prior close on steady volume, treat it as a failed breakdown—avoid initiating shorts and consider a contrarian long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 2,
+        "updated_lesson": "When support/recent lows are retested or undercut intraday but price closes off lows/near highs on non-expanding volume, avoid shorts and consider small contrarian longs unless support breaks strongly.",
+        "reasoning": "The new failed-breakdown reversal signal refines the existing lesson about support holds discouraging shorts."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "In downtrends after bearish breaks, weak-volume rebounds into prior swing resistance—especially higher-high candles closing below the previous close or off highs—signal failed breakouts; avoid longs and favor short/neutral.",
+        "After a sharp multi-day selloff near support/range lows, consecutive non-lower closes and higher lows signal seller exhaustion; avoid new shorts and favor mean-reversion longs unless that low breaks.",
+        "When price retests well-defended range support and holds on contracting volume or closes off the low, avoid shorts and favor small longs unless support breaks on strong volume."
+      ],
+      "book_after": [
+        "In downtrends after bearish breaks, weak-volume rebounds into prior swing resistance—especially higher-high candles closing below the previous close or off highs—signal failed breakouts; avoid longs and favor short/neutral.",
+        "After a sharp multi-day selloff near support/range lows, consecutive non-lower closes and higher lows signal seller exhaustion; avoid new shorts and favor mean-reversion longs unless that low breaks.",
+        "When support/recent lows are retested or undercut intraday but price closes off lows/near highs on non-expanding volume, avoid shorts and consider small contrarian longs unless support breaks strongly."
+      ]
+    },
+    {
+      "data_point_id": 47,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000047.json",
+      "distilled_lesson": "When a sharp multi-day rebound runs into prior swing-high resistance but closes back below that high with an upper wick and no clear volume expansion, avoid chasing the breakout and favor a fade/short bias.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "In downtrends after bearish breaks, weak-volume rebounds into prior swing-high resistance that close back below resistance/off highs with upper wicks signal failed breakouts; avoid longs and favor fades/short-neutral.",
+        "reasoning": "The new lesson refines the existing failed-breakout-at-resistance rule with upper-wick and no-volume-expansion details."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "In downtrends after bearish breaks, weak-volume rebounds into prior swing resistance—especially higher-high candles closing below the previous close or off highs—signal failed breakouts; avoid longs and favor short/neutral.",
+        "After a sharp multi-day selloff near support/range lows, consecutive non-lower closes and higher lows signal seller exhaustion; avoid new shorts and favor mean-reversion longs unless that low breaks.",
+        "When support/recent lows are retested or undercut intraday but price closes off lows/near highs on non-expanding volume, avoid shorts and consider small contrarian longs unless support breaks strongly."
+      ],
+      "book_after": [
+        "In downtrends after bearish breaks, weak-volume rebounds into prior swing-high resistance that close back below resistance/off highs with upper wicks signal failed breakouts; avoid longs and favor fades/short-neutral.",
+        "After a sharp multi-day selloff near support/range lows, consecutive non-lower closes and higher lows signal seller exhaustion; avoid new shorts and favor mean-reversion longs unless that low breaks.",
+        "When support/recent lows are retested or undercut intraday but price closes off lows/near highs on non-expanding volume, avoid shorts and consider small contrarian longs unless support breaks strongly."
+      ]
+    },
+    {
+      "data_point_id": 48,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000048.json",
+      "distilled_lesson": "After an extended multi-day selloff into a fresh window low, if the latest candle makes a lower low but closes green and off the intraday low, treat it as exhaustion and avoid chasing shorts; prefer neutral or a short-term bounce long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 2,
+        "updated_lesson": "After extended selloffs into support/recent or fresh lows, intraday undercuts/lower lows that close green/off lows—especially on non-expanding volume—signal exhaustion; avoid shorts, consider bounce longs unless lows break.",
+        "reasoning": "The new lesson refines the existing undercut-and-close-off-lows exhaustion setup with extended selloff and green-candle context."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "In downtrends after bearish breaks, weak-volume rebounds into prior swing-high resistance that close back below resistance/off highs with upper wicks signal failed breakouts; avoid longs and favor fades/short-neutral.",
+        "After a sharp multi-day selloff near support/range lows, consecutive non-lower closes and higher lows signal seller exhaustion; avoid new shorts and favor mean-reversion longs unless that low breaks.",
+        "When support/recent lows are retested or undercut intraday but price closes off lows/near highs on non-expanding volume, avoid shorts and consider small contrarian longs unless support breaks strongly."
+      ],
+      "book_after": [
+        "In downtrends after bearish breaks, weak-volume rebounds into prior swing-high resistance that close back below resistance/off highs with upper wicks signal failed breakouts; avoid longs and favor fades/short-neutral.",
+        "After a sharp multi-day selloff near support/range lows, consecutive non-lower closes and higher lows signal seller exhaustion; avoid new shorts and favor mean-reversion longs unless that low breaks.",
+        "After extended selloffs into support/recent or fresh lows, intraday undercuts/lower lows that close green/off lows—especially on non-expanding volume—signal exhaustion; avoid shorts, consider bounce longs unless lows break."
+      ]
+    },
+    {
+      "data_point_id": 49,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000049.json",
+      "distilled_lesson": "When a single high-volume selloff closes near the lower end of a multi-week range but remains at/above prior swing-low support, treat it as a potential exhaustion flush—avoid chasing shorts and prefer waiting for downside follow-through or a rebound long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 1,
+        "updated_lesson": "After sharp selloffs to support/range lows—especially high-volume flushes holding prior swing lows or followed by non-lower closes/higher lows—avoid chasing shorts; favor rebound longs unless lows break.",
+        "reasoning": "The new lesson refines the existing seller-exhaustion-at-support rule by adding the single high-volume flush case."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "In downtrends after bearish breaks, weak-volume rebounds into prior swing-high resistance that close back below resistance/off highs with upper wicks signal failed breakouts; avoid longs and favor fades/short-neutral.",
+        "After a sharp multi-day selloff near support/range lows, consecutive non-lower closes and higher lows signal seller exhaustion; avoid new shorts and favor mean-reversion longs unless that low breaks.",
+        "After extended selloffs into support/recent or fresh lows, intraday undercuts/lower lows that close green/off lows—especially on non-expanding volume—signal exhaustion; avoid shorts, consider bounce longs unless lows break."
+      ],
+      "book_after": [
+        "In downtrends after bearish breaks, weak-volume rebounds into prior swing-high resistance that close back below resistance/off highs with upper wicks signal failed breakouts; avoid longs and favor fades/short-neutral.",
+        "After sharp selloffs to support/range lows—especially high-volume flushes holding prior swing lows or followed by non-lower closes/higher lows—avoid chasing shorts; favor rebound longs unless lows break.",
+        "After extended selloffs into support/recent or fresh lows, intraday undercuts/lower lows that close green/off lows—especially on non-expanding volume—signal exhaustion; avoid shorts, consider bounce longs unless lows break."
+      ]
+    },
+    {
+      "data_point_id": 50,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000050.json",
+      "distilled_lesson": "After a multi-day advance, if price makes a fresh high but closes in the lower half of the day’s range on sharply declining volume, treat it as an exhaustion/rejection signal and avoid or fade longs.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After bearish breaks or multi-day advances, weak/declining-volume pushes to swing resistance or fresh highs that close off highs/lower half signal exhaustion; avoid longs and favor fades.",
+        "reasoning": "The new lesson extends the existing weak-volume rejection/fade rule to fresh highs after advances."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "In downtrends after bearish breaks, weak-volume rebounds into prior swing-high resistance that close back below resistance/off highs with upper wicks signal failed breakouts; avoid longs and favor fades/short-neutral.",
+        "After sharp selloffs to support/range lows—especially high-volume flushes holding prior swing lows or followed by non-lower closes/higher lows—avoid chasing shorts; favor rebound longs unless lows break.",
+        "After extended selloffs into support/recent or fresh lows, intraday undercuts/lower lows that close green/off lows—especially on non-expanding volume—signal exhaustion; avoid shorts, consider bounce longs unless lows break."
+      ],
+      "book_after": [
+        "After bearish breaks or multi-day advances, weak/declining-volume pushes to swing resistance or fresh highs that close off highs/lower half signal exhaustion; avoid longs and favor fades.",
+        "After sharp selloffs to support/range lows—especially high-volume flushes holding prior swing lows or followed by non-lower closes/higher lows—avoid chasing shorts; favor rebound longs unless lows break.",
+        "After extended selloffs into support/recent or fresh lows, intraday undercuts/lower lows that close green/off lows—especially on non-expanding volume—signal exhaustion; avoid shorts, consider bounce longs unless lows break."
+      ]
+    },
+    {
+      "data_point_id": 51,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000051.json",
+      "distilled_lesson": "After a multi-day decline, if price repeatedly probes the same support/20-day low but closes back above it on non-expanding volume, treat it as seller exhaustion: avoid shorts and consider a contrarian long for a bounce.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 2,
+        "updated_lesson": "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break.",
+        "reasoning": "The new lesson refines the existing selloff-into-support exhaustion rule with repeated support probes and non-expanding volume."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After bearish breaks or multi-day advances, weak/declining-volume pushes to swing resistance or fresh highs that close off highs/lower half signal exhaustion; avoid longs and favor fades.",
+        "After sharp selloffs to support/range lows—especially high-volume flushes holding prior swing lows or followed by non-lower closes/higher lows—avoid chasing shorts; favor rebound longs unless lows break.",
+        "After extended selloffs into support/recent or fresh lows, intraday undercuts/lower lows that close green/off lows—especially on non-expanding volume—signal exhaustion; avoid shorts, consider bounce longs unless lows break."
+      ],
+      "book_after": [
+        "After bearish breaks or multi-day advances, weak/declining-volume pushes to swing resistance or fresh highs that close off highs/lower half signal exhaustion; avoid longs and favor fades.",
+        "After sharp selloffs to support/range lows—especially high-volume flushes holding prior swing lows or followed by non-lower closes/higher lows—avoid chasing shorts; favor rebound longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break."
+      ]
+    },
+    {
+      "data_point_id": 53,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000053.json",
+      "distilled_lesson": "After a steep multi-day run to fresh window highs, if the latest breakout candle shows waning volume and an upper wick/close off the high, treat it as exhaustion and avoid longs or lean short.",
+      "judge_decision": {
+        "action": "SKIP",
+        "target_index": null,
+        "updated_lesson": null,
+        "reasoning": "The new lesson is already covered by lesson_0’s rule on weak-volume multi-day advances to fresh highs closing off highs as exhaustion."
+      },
+      "applied": "SKIP",
+      "book_before": [
+        "After bearish breaks or multi-day advances, weak/declining-volume pushes to swing resistance or fresh highs that close off highs/lower half signal exhaustion; avoid longs and favor fades.",
+        "After sharp selloffs to support/range lows—especially high-volume flushes holding prior swing lows or followed by non-lower closes/higher lows—avoid chasing shorts; favor rebound longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break."
+      ],
+      "book_after": [
+        "After bearish breaks or multi-day advances, weak/declining-volume pushes to swing resistance or fresh highs that close off highs/lower half signal exhaustion; avoid longs and favor fades.",
+        "After sharp selloffs to support/range lows—especially high-volume flushes holding prior swing lows or followed by non-lower closes/higher lows—avoid chasing shorts; favor rebound longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break."
+      ]
+    },
+    {
+      "data_point_id": 54,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000054.json",
+      "distilled_lesson": "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation.",
+      "judge_decision": {
+        "action": "APPEND",
+        "target_index": null,
+        "updated_lesson": null,
+        "reasoning": "The lesson adds a distinct bullish-continuation setup after high-volume breakouts not covered by the existing exhaustion or support-rebound rules."
+      },
+      "applied": "APPEND",
+      "book_before": [
+        "After bearish breaks or multi-day advances, weak/declining-volume pushes to swing resistance or fresh highs that close off highs/lower half signal exhaustion; avoid longs and favor fades.",
+        "After sharp selloffs to support/range lows—especially high-volume flushes holding prior swing lows or followed by non-lower closes/higher lows—avoid chasing shorts; favor rebound longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break."
+      ],
+      "book_after": [
+        "After bearish breaks or multi-day advances, weak/declining-volume pushes to swing resistance or fresh highs that close off highs/lower half signal exhaustion; avoid longs and favor fades.",
+        "After sharp selloffs to support/range lows—especially high-volume flushes holding prior swing lows or followed by non-lower closes/higher lows—avoid chasing shorts; favor rebound longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ]
+    },
+    {
+      "data_point_id": 55,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000055.json",
+      "distilled_lesson": "When price makes a marginal new 20-day low after an extended decline on elevated volume, treat it as a possible exhaustion flush: avoid chasing shorts and favor a mean-reversion long unless the next bar confirms with follow-through below the low.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 1,
+        "updated_lesson": "After sharp/extended selloffs to support or marginal new lows, high-volume flushes without follow-through warn exhaustion; avoid chasing shorts and favor rebound longs unless lows break.",
+        "reasoning": "The new lesson refines the existing high-volume selloff-to-support exhaustion rule with marginal new lows and follow-through confirmation."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After bearish breaks or multi-day advances, weak/declining-volume pushes to swing resistance or fresh highs that close off highs/lower half signal exhaustion; avoid longs and favor fades.",
+        "After sharp selloffs to support/range lows—especially high-volume flushes holding prior swing lows or followed by non-lower closes/higher lows—avoid chasing shorts; favor rebound longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ],
+      "book_after": [
+        "After bearish breaks or multi-day advances, weak/declining-volume pushes to swing resistance or fresh highs that close off highs/lower half signal exhaustion; avoid longs and favor fades.",
+        "After sharp/extended selloffs to support or marginal new lows, high-volume flushes without follow-through warn exhaustion; avoid chasing shorts and favor rebound longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ]
+    },
+    {
+      "data_point_id": 57,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000057.json",
+      "distilled_lesson": "When price holds above recent support after a high-volume selloff and rebounds, then drifts sideways/down on shrinking volume, treat it as seller exhaustion and avoid shorts; prefer neutral or small long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 1,
+        "updated_lesson": "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "reasoning": "The new lesson refines the existing high-volume selloff exhaustion rule with a low-volume drift confirmation."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After bearish breaks or multi-day advances, weak/declining-volume pushes to swing resistance or fresh highs that close off highs/lower half signal exhaustion; avoid longs and favor fades.",
+        "After sharp/extended selloffs to support or marginal new lows, high-volume flushes without follow-through warn exhaustion; avoid chasing shorts and favor rebound longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ],
+      "book_after": [
+        "After bearish breaks or multi-day advances, weak/declining-volume pushes to swing resistance or fresh highs that close off highs/lower half signal exhaustion; avoid longs and favor fades.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ]
+    },
+    {
+      "data_point_id": 60,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000060.json",
+      "distilled_lesson": "When price has advanced >10% over ~2 weeks and makes consecutive new highs after a gap-up while volume stalls or declines, treat it as exhaustion and avoid LONGs or favor SHORT mean reversion.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After multi-day or >10% advances, weak/declining-volume pushes, gap-ups, or consecutive fresh highs near resistance—especially closing off highs—signal exhaustion; avoid longs and favor fades.",
+        "reasoning": "The new lesson is a specific refinement of the existing exhaustion-after-advance rule."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After bearish breaks or multi-day advances, weak/declining-volume pushes to swing resistance or fresh highs that close off highs/lower half signal exhaustion; avoid longs and favor fades.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ],
+      "book_after": [
+        "After multi-day or >10% advances, weak/declining-volume pushes, gap-ups, or consecutive fresh highs near resistance—especially closing off highs—signal exhaustion; avoid longs and favor fades.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ]
+    },
+    {
+      "data_point_id": 62,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000062.json",
+      "distilled_lesson": "In a dominant multi-week downtrend, if a short rebound reaches prior resistance/swing highs on flat or declining volume without a decisive breakout close, treat it as a bear-market bounce and prefer SHORT over LONG.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After multi-day/>10% advances or bear-market rebounds into resistance, weak/declining-volume pushes without decisive breakout closes—especially closing off highs—signal exhaustion; avoid longs, favor fades/shorts.",
+        "reasoning": "The new lesson refines the existing exhaustion-at-resistance rule by adding downtrend bear-market bounce context."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After multi-day or >10% advances, weak/declining-volume pushes, gap-ups, or consecutive fresh highs near resistance—especially closing off highs—signal exhaustion; avoid longs and favor fades.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ],
+      "book_after": [
+        "After multi-day/>10% advances or bear-market rebounds into resistance, weak/declining-volume pushes without decisive breakout closes—especially closing off highs—signal exhaustion; avoid longs, favor fades/shorts.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ]
+    },
+    {
+      "data_point_id": 63,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000063.json",
+      "distilled_lesson": "When a stock has made lower highs/lower lows since a recent peak and the latest bullish candle only rebounds into prior breakdown resistance without closing above the last swing high, treat it as a countertrend bounce and avoid/short longs.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After extended advances or downtrend/bear rebounds into resistance, weak-volume or swing-high-failing pushes without decisive breakout closes signal exhaustion; avoid longs, favor fades/shorts.",
+        "reasoning": "The new lesson refines the existing resistance-failure short setup with downtrend structure and swing-high confirmation."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After multi-day/>10% advances or bear-market rebounds into resistance, weak/declining-volume pushes without decisive breakout closes—especially closing off highs—signal exhaustion; avoid longs, favor fades/shorts.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ],
+      "book_after": [
+        "After extended advances or downtrend/bear rebounds into resistance, weak-volume or swing-high-failing pushes without decisive breakout closes signal exhaustion; avoid longs, favor fades/shorts.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ]
+    },
+    {
+      "data_point_id": 64,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000064.json",
+      "distilled_lesson": "After 3+ consecutive lower closes into a fresh 20-day low with non-accelerating volume, don’t chase the breakdown short; wait for confirmation or favor a short-term mean-reversion long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 2,
+        "updated_lesson": "After multi-day/3+ close selloffs into support or fresh lows on non-expanding volume, especially undercuts closing off lows, avoid chasing shorts and favor bounce longs unless lows break.",
+        "reasoning": "The new lesson meaningfully refines the existing selloff-into-lows exhaustion rule with a 3+ lower-close fresh-low setup."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After extended advances or downtrend/bear rebounds into resistance, weak-volume or swing-high-failing pushes without decisive breakout closes signal exhaustion; avoid longs, favor fades/shorts.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day selloffs into support/recent lows, repeated probes or undercuts that close back above/off lows on non-expanding volume signal exhaustion; avoid shorts, favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ],
+      "book_after": [
+        "After extended advances or downtrend/bear rebounds into resistance, weak-volume or swing-high-failing pushes without decisive breakout closes signal exhaustion; avoid longs, favor fades/shorts.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day/3+ close selloffs into support or fresh lows on non-expanding volume, especially undercuts closing off lows, avoid chasing shorts and favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ]
+    },
+    {
+      "data_point_id": 70,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000070.json",
+      "distilled_lesson": "When a pullback closes near the bottom of a multi-day range/support on declining or below-average volume without a decisive breakdown, avoid chasing shorts and favor a mean-reversion long/bounce setup.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 2,
+        "updated_lesson": "After multi-day selloffs/pullbacks into support or range lows on non-expanding volume without decisive breakdown, avoid chasing shorts and favor bounce longs unless lows break.",
+        "reasoning": "The new lesson refines the existing support-test bounce rule with range-low pullbacks and declining volume."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After extended advances or downtrend/bear rebounds into resistance, weak-volume or swing-high-failing pushes without decisive breakout closes signal exhaustion; avoid longs, favor fades/shorts.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day/3+ close selloffs into support or fresh lows on non-expanding volume, especially undercuts closing off lows, avoid chasing shorts and favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ],
+      "book_after": [
+        "After extended advances or downtrend/bear rebounds into resistance, weak-volume or swing-high-failing pushes without decisive breakout closes signal exhaustion; avoid longs, favor fades/shorts.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day selloffs/pullbacks into support or range lows on non-expanding volume without decisive breakdown, avoid chasing shorts and favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ]
+    },
+    {
+      "data_point_id": 71,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000071.json",
+      "distilled_lesson": "When a high-volume wide-range bearish day is followed by a rebound on sharply declining volume into that day’s high/resistance, treat it as a weak retest and prefer SHORT/avoid LONG unless price breaks above resistance on expanding volume.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After extended advances or bearish impulses, weak-volume rebounds/pushes into resistance or the prior wide-range bearish day’s high without decisive expanding-volume breakout signal exhaustion; avoid longs, favor fades/shorts.",
+        "reasoning": "The new lesson refines the existing weak-volume rebound-into-resistance short/fade rule with a specific bearish wide-range day retest context."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After extended advances or downtrend/bear rebounds into resistance, weak-volume or swing-high-failing pushes without decisive breakout closes signal exhaustion; avoid longs, favor fades/shorts.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day selloffs/pullbacks into support or range lows on non-expanding volume without decisive breakdown, avoid chasing shorts and favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ],
+      "book_after": [
+        "After extended advances or bearish impulses, weak-volume rebounds/pushes into resistance or the prior wide-range bearish day’s high without decisive expanding-volume breakout signal exhaustion; avoid longs, favor fades/shorts.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day selloffs/pullbacks into support or range lows on non-expanding volume without decisive breakdown, avoid chasing shorts and favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ]
+    },
+    {
+      "data_point_id": 72,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000072.json",
+      "distilled_lesson": "After a high-volume selloff, if price holds the same low for several sessions on contracting volume with no follow-through breakdown, avoid shorting the downtrend and favor a mean-reversion long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 1,
+        "updated_lesson": "After sharp high-volume selloffs into support, repeated low holds/reclaims with weak contracting-volume drift and no breakdown signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "reasoning": "The new lesson refines the existing seller-exhaustion-at-support rule with repeated low holds after a high-volume selloff."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After extended advances or bearish impulses, weak-volume rebounds/pushes into resistance or the prior wide-range bearish day’s high without decisive expanding-volume breakout signal exhaustion; avoid longs, favor fades/shorts.",
+        "After sharp selloffs to support, high-volume flushes that hold/reclaim support and are followed by weak, shrinking-volume drifts signal seller exhaustion; avoid shorts, favor cautious longs unless lows break.",
+        "After multi-day selloffs/pullbacks into support or range lows on non-expanding volume without decisive breakdown, avoid chasing shorts and favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ],
+      "book_after": [
+        "After extended advances or bearish impulses, weak-volume rebounds/pushes into resistance or the prior wide-range bearish day’s high without decisive expanding-volume breakout signal exhaustion; avoid longs, favor fades/shorts.",
+        "After sharp high-volume selloffs into support, repeated low holds/reclaims with weak contracting-volume drift and no breakdown signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "After multi-day selloffs/pullbacks into support or range lows on non-expanding volume without decisive breakdown, avoid chasing shorts and favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ]
+    },
+    {
+      "data_point_id": 75,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000075.json",
+      "distilled_lesson": "After a high-volume selloff, if several sessions probe the same support but closes hold/reclaim it and the latest close is up versus the prior close on lighter volume, do not chase shorts; favor a mean-reversion long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 1,
+        "updated_lesson": "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "reasoning": "The new lesson refines the existing seller-exhaustion support-hold rule with a lighter-volume up-close condition."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After extended advances or bearish impulses, weak-volume rebounds/pushes into resistance or the prior wide-range bearish day’s high without decisive expanding-volume breakout signal exhaustion; avoid longs, favor fades/shorts.",
+        "After sharp high-volume selloffs into support, repeated low holds/reclaims with weak contracting-volume drift and no breakdown signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "After multi-day selloffs/pullbacks into support or range lows on non-expanding volume without decisive breakdown, avoid chasing shorts and favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ],
+      "book_after": [
+        "After extended advances or bearish impulses, weak-volume rebounds/pushes into resistance or the prior wide-range bearish day’s high without decisive expanding-volume breakout signal exhaustion; avoid longs, favor fades/shorts.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "After multi-day selloffs/pullbacks into support or range lows on non-expanding volume without decisive breakdown, avoid chasing shorts and favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ]
+    },
+    {
+      "data_point_id": 77,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000077.json",
+      "distilled_lesson": "When price drifts down on muted volume into a repeatedly tested range support, avoid shorting lower-high/lower-low patterns unless support breaks on expanding volume; bias toward a mean-reversion long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 2,
+        "updated_lesson": "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "reasoning": "The new lesson refines lesson_2 by adding lower-high/lower-low context and requiring expanding volume for a valid support break."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After extended advances or bearish impulses, weak-volume rebounds/pushes into resistance or the prior wide-range bearish day’s high without decisive expanding-volume breakout signal exhaustion; avoid longs, favor fades/shorts.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "After multi-day selloffs/pullbacks into support or range lows on non-expanding volume without decisive breakdown, avoid chasing shorts and favor bounce longs unless lows break.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ],
+      "book_after": [
+        "After extended advances or bearish impulses, weak-volume rebounds/pushes into resistance or the prior wide-range bearish day’s high without decisive expanding-volume breakout signal exhaustion; avoid longs, favor fades/shorts.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ]
+    },
+    {
+      "data_point_id": 79,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000079.json",
+      "distilled_lesson": "After a sharp high-volume breakout, if price retraces 20%+ into the breakout/support zone while sell volume fades, avoid shorting the downtrend and favor a rebound long unless support breaks on expanding volume.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 3,
+        "updated_lesson": "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.",
+        "reasoning": "The new lesson refines the existing breakout-pullback continuation rule with retracement depth and explicit invalidation."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After extended advances or bearish impulses, weak-volume rebounds/pushes into resistance or the prior wide-range bearish day’s high without decisive expanding-volume breakout signal exhaustion; avoid longs, favor fades/shorts.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout/impulse, if the next candle pulls back on sharply lower volume while holding above recent support, treat it as consolidation and avoid shorts; favor long/hold continuation."
+      ],
+      "book_after": [
+        "After extended advances or bearish impulses, weak-volume rebounds/pushes into resistance or the prior wide-range bearish day’s high without decisive expanding-volume breakout signal exhaustion; avoid longs, favor fades/shorts.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 81,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000081.json",
+      "distilled_lesson": "When a rebound stalls for several sessions at the same resistance below a prior swing high, and the latest bar closes below its high after testing that ceiling, fade the breakout narrative and prefer short/neutral over long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After extended advances or bearish impulses, weak-volume rebounds that repeatedly stall at resistance/prior bearish highs and fail to close strong signal exhaustion; avoid longs, favor fades/shorts.",
+        "reasoning": "The new lesson refines the existing resistance-stall exhaustion rule with repeated failure and weak close details."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After extended advances or bearish impulses, weak-volume rebounds/pushes into resistance or the prior wide-range bearish day’s high without decisive expanding-volume breakout signal exhaustion; avoid longs, favor fades/shorts.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ],
+      "book_after": [
+        "After extended advances or bearish impulses, weak-volume rebounds that repeatedly stall at resistance/prior bearish highs and fail to close strong signal exhaustion; avoid longs, favor fades/shorts.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 85,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000085.json",
+      "distilled_lesson": "After a persistent downtrend, treat a one-day bounce on below-average volume that fails to reclaim the prior swing high as a weak relief rally; avoid going long and favor short/neutral.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After bearish impulses, weak-volume rebounds—one-day or repeated—that stall below resistance/prior swing highs and fail to close strong signal exhaustion; avoid longs, favor short/neutral fades.",
+        "reasoning": "The new lesson refines the existing weak rebound after bearish impulse rule by adding one-day relief rallies."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After extended advances or bearish impulses, weak-volume rebounds that repeatedly stall at resistance/prior bearish highs and fail to close strong signal exhaustion; avoid longs, favor fades/shorts.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ],
+      "book_after": [
+        "After bearish impulses, weak-volume rebounds—one-day or repeated—that stall below resistance/prior swing highs and fail to close strong signal exhaustion; avoid longs, favor short/neutral fades.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 87,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000087.json",
+      "distilled_lesson": "When a large volume spike accompanies an up day but the close remains below recent swing highs/resistance, treat it as possible distribution/exhaustion rather than confirmation and avoid longs or bias short.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After bearish impulses, rebounds that stall below resistance/prior highs—whether weak-volume or high-volume up-day spikes failing to close through—signal exhaustion/distribution; avoid longs, favor short/neutral fades.",
+        "reasoning": "The new lesson complements lesson_0 by adding that high-volume up-day spikes below resistance can also signal exhaustion."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After bearish impulses, weak-volume rebounds—one-day or repeated—that stall below resistance/prior swing highs and fail to close strong signal exhaustion; avoid longs, favor short/neutral fades.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ],
+      "book_after": [
+        "After bearish impulses, rebounds that stall below resistance/prior highs—whether weak-volume or high-volume up-day spikes failing to close through—signal exhaustion/distribution; avoid longs, favor short/neutral fades.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 88,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000088.json",
+      "distilled_lesson": "After a sharp selloff, if a 3–5 day rebound stalls below prior breakdown resistance despite elevated volume, treat the higher lows as a bear-market bounce and avoid/short unless price closes decisively above resistance.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After bearish impulses, multi-day rebounds that stall below resistance/prior highs—even on elevated volume or with higher lows—signal distribution; avoid longs/favor fades unless price decisively closes above resistance.",
+        "reasoning": "The new lesson refines the existing bearish rebound-stall rule with timeframe and confirmation details."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After bearish impulses, rebounds that stall below resistance/prior highs—whether weak-volume or high-volume up-day spikes failing to close through—signal exhaustion/distribution; avoid longs, favor short/neutral fades.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ],
+      "book_after": [
+        "After bearish impulses, multi-day rebounds that stall below resistance/prior highs—even on elevated volume or with higher lows—signal distribution; avoid longs/favor fades unless price decisively closes above resistance.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 89,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000089.json",
+      "distilled_lesson": "After an extended decline, if price undercuts recent lows on extreme volume but rejects the low and closes in the upper half of the day’s range, avoid trend-following shorts and favor a bounce long.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 1,
+        "updated_lesson": "After high-volume selloffs into support, lows that are held/reclaimed or undercut then rejected with an upper-half/up close signal seller exhaustion; avoid shorts, favor cautious bounce longs unless lows break.",
+        "reasoning": "The new lesson is a specific seller-exhaustion reversal pattern already closely aligned with lesson 1."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After bearish impulses, multi-day rebounds that stall below resistance/prior highs—even on elevated volume or with higher lows—signal distribution; avoid longs/favor fades unless price decisively closes above resistance.",
+        "After high-volume selloffs into support, repeated probes that hold/reclaim lows and an up close on lighter volume signal seller exhaustion; avoid shorts, favor cautious mean-reversion longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ],
+      "book_after": [
+        "After bearish impulses, multi-day rebounds that stall below resistance/prior highs—even on elevated volume or with higher lows—signal distribution; avoid longs/favor fades unless price decisively closes above resistance.",
+        "After high-volume selloffs into support, lows that are held/reclaimed or undercut then rejected with an upper-half/up close signal seller exhaustion; avoid shorts, favor cautious bounce longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 90,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000090.json",
+      "distilled_lesson": "When a sharp down day breaks below a multi-day range/support, treat the next small low-volume uptick that fails to reclaim the breakdown level as a bearish retest—avoid longs and prefer short.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "After bearish impulses or support breaks, rebounds/low-volume upticks stalling below resistance, prior highs, or breakdown levels signal distribution; avoid longs/favor shorts unless price decisively reclaims.",
+        "reasoning": "The new lesson refines the existing bearish rebound/fade rule with breakdown-retest context."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After bearish impulses, multi-day rebounds that stall below resistance/prior highs—even on elevated volume or with higher lows—signal distribution; avoid longs/favor fades unless price decisively closes above resistance.",
+        "After high-volume selloffs into support, lows that are held/reclaimed or undercut then rejected with an upper-half/up close signal seller exhaustion; avoid shorts, favor cautious bounce longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ],
+      "book_after": [
+        "After bearish impulses or support breaks, rebounds/low-volume upticks stalling below resistance, prior highs, or breakdown levels signal distribution; avoid longs/favor shorts unless price decisively reclaims.",
+        "After high-volume selloffs into support, lows that are held/reclaimed or undercut then rejected with an upper-half/up close signal seller exhaustion; avoid shorts, favor cautious bounce longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 91,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000091.json",
+      "distilled_lesson": "After a multi-day decline, if a high-volume new low prints with a long lower wick and closes well off the intraday low, treat it as capitulation/exhaustion and avoid initiating shorts; consider a short-term long reversal instead.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 1,
+        "updated_lesson": "After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.",
+        "reasoning": "The new lesson is a specific capitulation-wick example of the existing seller-exhaustion reversal rule."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After bearish impulses or support breaks, rebounds/low-volume upticks stalling below resistance, prior highs, or breakdown levels signal distribution; avoid longs/favor shorts unless price decisively reclaims.",
+        "After high-volume selloffs into support, lows that are held/reclaimed or undercut then rejected with an upper-half/up close signal seller exhaustion; avoid shorts, favor cautious bounce longs unless lows break.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ],
+      "book_after": [
+        "After bearish impulses or support breaks, rebounds/low-volume upticks stalling below resistance, prior highs, or breakdown levels signal distribution; avoid longs/favor shorts unless price decisively reclaims.",
+        "After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ]
+    },
+    {
+      "data_point_id": 94,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000094.json",
+      "distilled_lesson": "When price makes a marginal new range high after a multi-day rally but volume is only average or below prior breakout-volume days, treat the breakout as exhaustion/false-break risk and avoid chasing long; consider a short bias.",
+      "judge_decision": {
+        "action": "APPEND",
+        "target_index": null,
+        "updated_lesson": null,
+        "reasoning": "The lesson adds a distinct weak marginal breakout/exhaustion pattern not covered by existing pullback or breakdown lessons."
+      },
+      "applied": "APPEND",
+      "book_before": [
+        "After bearish impulses or support breaks, rebounds/low-volume upticks stalling below resistance, prior highs, or breakdown levels signal distribution; avoid longs/favor shorts unless price decisively reclaims.",
+        "After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume."
+      ],
+      "book_after": [
+        "After bearish impulses or support breaks, rebounds/low-volume upticks stalling below resistance, prior highs, or breakdown levels signal distribution; avoid longs/favor shorts unless price decisively reclaims.",
+        "After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.",
+        "When price makes a marginal new range high after a multi-day rally but volume is only average or below prior breakout-volume days, treat the breakout as exhaustion/false-break risk and avoid chasing long; consider a short bias."
+      ]
+    },
+    {
+      "data_point_id": 95,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000095.json",
+      "distilled_lesson": "After a sharp multi-day rally, if price makes a fresh high but closes below the open and in the lower half of the range with a long upper wick, treat it as exhaustion/rejection and avoid longs or favor a short.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 4,
+        "updated_lesson": "After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.",
+        "reasoning": "The new lesson refines the existing rally-fresh-high exhaustion rule with candlestick rejection evidence."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After bearish impulses or support breaks, rebounds/low-volume upticks stalling below resistance, prior highs, or breakdown levels signal distribution; avoid longs/favor shorts unless price decisively reclaims.",
+        "After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.",
+        "When price makes a marginal new range high after a multi-day rally but volume is only average or below prior breakout-volume days, treat the breakout as exhaustion/false-break risk and avoid chasing long; consider a short bias."
+      ],
+      "book_after": [
+        "After bearish impulses or support breaks, rebounds/low-volume upticks stalling below resistance, prior highs, or breakdown levels signal distribution; avoid longs/favor shorts unless price decisively reclaims.",
+        "After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.",
+        "After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts."
+      ]
+    },
+    {
+      "data_point_id": 96,
+      "path": "/local2/liruoyan/285/exp/cmixture/run0/data_point_000096.json",
+      "distilled_lesson": "In a persistent lower-high/lower-low downtrend, if a one-day up-close occurs on declining volume and remains below recent spike highs/resistance, treat it as a weak bear-market bounce and prefer short over long until a high-volume breakout confirms reversal.",
+      "judge_decision": {
+        "action": "UPDATE",
+        "target_index": 0,
+        "updated_lesson": "In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.",
+        "reasoning": "The new lesson refines the existing low-volume rebound-below-resistance short setup in downtrends."
+      },
+      "applied": "UPDATE",
+      "book_before": [
+        "After bearish impulses or support breaks, rebounds/low-volume upticks stalling below resistance, prior highs, or breakdown levels signal distribution; avoid longs/favor shorts unless price decisively reclaims.",
+        "After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.",
+        "After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts."
+      ],
+      "book_after": [
+        "In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.",
+        "After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.",
+        "When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.",
+        "After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.",
+        "After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts."
+      ]
+    }
+  ]
+}

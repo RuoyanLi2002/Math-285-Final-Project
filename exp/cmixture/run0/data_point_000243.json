@@ -1,0 +1,181 @@
+{
+  "data_point_id": 243,
+  "timestamp": "2026-05-15T20:47:13.706991+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        54.599998474121094,
+        55.06999969482422,
+        54.11000061035156,
+        54.790000915527344,
+        3686409.0
+      ],
+      [
+        56.369998931884766,
+        58.08000183105469,
+        56.36000061035156,
+        57.13999938964844,
+        5103093.0
+      ],
+      [
+        57.43000030517578,
+        58.8849983215332,
+        57.099998474121094,
+        58.68000030517578,
+        3342458.0
+      ],
+      [
+        59.11000061035156,
+        60.075199127197266,
+        58.709999084472656,
+        59.810001373291016,
+        3480970.0
+      ],
+      [
+        59.61000061035156,
+        59.65999984741211,
+        58.2599983215332,
+        59.119998931884766,
+        2556584.0
+      ],
+      [
+        59.70000076293945,
+        60.65999984741211,
+        59.650001525878906,
+        60.33000183105469,
+        3011387.0
+      ],
+      [
+        60.04999923706055,
+        61.20000076293945,
+        59.66999816894531,
+        60.900001525878906,
+        2806644.0
+      ],
+      [
+        61.34000015258789,
+        61.557899475097656,
+        60.349998474121094,
+        61.119998931884766,
+        3220308.0
+      ],
+      [
+        61.439998626708984,
+        61.61000061035156,
+        60.029998779296875,
+        60.61000061035156,
+        2717532.0
+      ],
+      [
+        60.720001220703125,
+        62.0099983215332,
+        59.849998474121094,
+        61.72999954223633,
+        2725189.0
+      ],
+      [
+        61.91999816894531,
+        63.904998779296875,
+        61.619998931884766,
+        62.349998474121094,
+        3009277.0
+      ],
+      [
+        61.540000915527344,
+        61.97999954223633,
+        59.150001525878906,
+        59.540000915527344,
+        3499618.0
+      ],
+      [
+        59.08000183105469,
+        59.29999923706055,
+        55.15999984741211,
+        55.40999984741211,
+        4718080.0
+      ],
+      [
+        55.7599983215332,
+        58.48500061035156,
+        55.66999816894531,
+        58.060001373291016,
+        4290522.0
+      ],
+      [
+        58.459999084472656,
+        59.31999969482422,
+        58.099998474121094,
+        58.459999084472656,
+        1969403.0
+      ],
+      [
+        58.209999084472656,
+        58.41999816894531,
+        56.61000061035156,
+        57.9900016784668,
+        2142693.0
+      ],
+      [
+        58.11000061035156,
+        58.255001068115234,
+        56.029998779296875,
+        56.130001068115234,
+        2365928.0
+      ],
+      [
+        55.130001068115234,
+        56.25,
+        54.277801513671875,
+        55.58000183105469,
+        3139987.0
+      ],
+      [
+        55.540000915527344,
+        56.459999084472656,
+        55.36000061035156,
+        56.060001373291016,
+        1496381.0
+      ],
+      [
+        56.459999084472656,
+        57.15999984741211,
+        55.7400016784668,
+        55.77000045776367,
+        2408490.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    54.6000 |    55.0700 |    54.1100 |    54.7900 |    3686409\n t-18 |    56.3700 |    58.0800 |    56.3600 |    57.1400 |    5103093\n t-17 |    57.4300 |    58.8850 |    57.1000 |    58.6800 |    3342458\n t-16 |    59.1100 |    60.0752 |    58.7100 |    59.8100 |    3480970\n t-15 |    59.6100 |    59.6600 |    58.2600 |    59.1200 |    2556584\n t-14 |    59.7000 |    60.6600 |    59.6500 |    60.3300 |    3011387\n t-13 |    60.0500 |    61.2000 |    59.6700 |    60.9000 |    2806644\n t-12 |    61.3400 |    61.5579 |    60.3500 |    61.1200 |    3220308\n t-11 |    61.4400 |    61.6100 |    60.0300 |    60.6100 |    2717532\n t-10 |    60.7200 |    62.0100 |    59.8500 |    61.7300 |    2725189\n t-09 |    61.9200 |    63.9050 |    61.6200 |    62.3500 |    3009277\n t-08 |    61.5400 |    61.9800 |    59.1500 |    59.5400 |    3499618\n t-07 |    59.0800 |    59.3000 |    55.1600 |    55.4100 |    4718080\n t-06 |    55.7600 |    58.4850 |    55.6700 |    58.0600 |    4290522\n t-05 |    58.4600 |    59.3200 |    58.1000 |    58.4600 |    1969403\n t-04 |    58.2100 |    58.4200 |    56.6100 |    57.9900 |    2142693\n t-03 |    58.1100 |    58.2550 |    56.0300 |    56.1300 |    2365928\n t-02 |    55.1300 |    56.2500 |    54.2778 |    55.5800 |    3139987\n t-01 |    55.5400 |    56.4600 |    55.3600 |    56.0600 |    1496381\n t-00 |    56.4600 |    57.1600 |    55.7400 |    55.7700 |    2408490"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    54.6000 |    55.0700 |    54.1100 |    54.7900 |    3686409\n t-18 |    56.3700 |    58.0800 |    56.3600 |    57.1400 |    5103093\n t-17 |    57.4300 |    58.8850 |    57.1000 |    58.6800 |    3342458\n t-16 |    59.1100 |    60.0752 |    58.7100 |    59.8100 |    3480970\n t-15 |    59.6100 |    59.6600 |    58.2600 |    59.1200 |    2556584\n t-14 |    59.7000 |    60.6600 |    59.6500 |    60.3300 |    3011387\n t-13 |    60.0500 |    61.2000 |    59.6700 |    60.9000 |    2806644\n t-12 |    61.3400 |    61.5579 |    60.3500 |    61.1200 |    3220308\n t-11 |    61.4400 |    61.6100 |    60.0300 |    60.6100 |    2717532\n t-10 |    60.7200 |    62.0100 |    59.8500 |    61.7300 |    2725189\n t-09 |    61.9200 |    63.9050 |    61.6200 |    62.3500 |    3009277\n t-08 |    61.5400 |    61.9800 |    59.1500 |    59.5400 |    3499618\n t-07 |    59.0800 |    59.3000 |    55.1600 |    55.4100 |    4718080\n t-06 |    55.7600 |    58.4850 |    55.6700 |    58.0600 |    4290522\n t-05 |    58.4600 |    59.3200 |    58.1000 |    58.4600 |    1969403\n t-04 |    58.2100 |    58.4200 |    56.6100 |    57.9900 |    2142693\n t-03 |    58.1100 |    58.2550 |    56.0300 |    56.1300 |    2365928\n t-02 |    55.1300 |    56.2500 |    54.2778 |    55.5800 |    3139987\n t-01 |    55.5400 |    56.4600 |    55.3600 |    56.0600 |    1496381\n t-00 |    56.4600 |    57.1600 |    55.7400 |    55.7700 |    2408490\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The most recent close (t-0) is 55.7700, which is lower than the previous close (t-1) of 56.0600, indicating a slight downward movement.\n- The recent price action shows a downtrend from t-1 to t-0, with lower highs and lower lows observed in the last few days.\n- The volume on t-0 is relatively low compared to the previous days, suggesting a lack of strong selling pressure.\n- The price is currently near the recent support level around 55.5, which could provide a bounce if buyers step in.\n- Overall, the recent trend is bearish, but the proximity to support and the low volume suggest a potential for a reversal or stabilization.\n- Confidence level is moderate due to the mixed signals (downtrend vs. support level).\n\n</think>\n<action>\n0\n</action>",
+        "parsed_vote": 0.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The most recent close (t-0) is 55.7700, which is below the previous close (t-01) of 56.0600, indicating a slight downward movement.\n- The stock has shown a general downtrend in the last few days, with lower highs and lower lows observed from t-01 to t-00.\n- The volume on t-00 is relatively low compared to previous days, suggesting a lack of strong conviction in the current price action.\n- The recent high (t-00) is 57.1600, but the stock has not been able to sustain above the 56.0000 level, which could act as a resistance.\n- There are no clear bullish patterns or signals present, and the stock appears to be in a bearish phase.\n\nSignals:\n- Recent price action indicates a downtrend.\n- Low volume on the latest day suggests weak buying interest.\n- Resistance at 56.0000 level.\n\nResolving these signals into a directional view:\n- Given the downtrend and lack of bullish signals, the confidence level in a further decline is moderate.\n\n</think>\n<action>\n-1\n</action>",
+        "parsed_vote": -1.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The most recent close (t-0) is 55.7700, which is below the previous close (t-01) of 56.0600, indicating a slight downward movement.\n- The price has been trending downwards over the last few days, with lower highs and lower lows observed, particularly from t-08 to t-00.\n- The volume on t-00 is relatively low compared to the previous days, suggesting a lack of strong conviction in the recent price movement.\n- The recent high (t-01) was 56.4600, and the recent low (t-00) was 55.7400, indicating a tight range with no clear breakout.\n- Overall, the stock is showing signs of weakness with no strong bullish signals present.\n\nSignals that matter:\n- Recent downtrend in price.\n- Lower close compared to the previous day.\n- Low volume on the latest day.\n\nResolving these signals, the directional view is bearish, and the confidence level is moderate due to the lack of strong selling pressure or significant volume.\n</think>\n<action>\n-1\n</action>",
+        "parsed_vote": -1.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n \nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    54.6000 |    55.0700 |    54.1100 |    54.7900 |    3686409\n t-18 |    56.3700 |    58.0800 |    56.3600 |    57.1400 |    5103093\n t-17 |    57.4300 |    58.8850 |    57.1000 |    58.6800 |    3342458\n t-16 |    59.1100 |    60.0752 |    58.7100 |    59.8100 |    3480970\n t-15 |    59.6100 |    59.6600 |    58.2600 |    59.1200 |    2556584\n t-14 |    59.7000 |    60.6600 |    59.6500 |    60.3300 |    3011387\n t-13 |    60.0500 |    61.2000 |    59.6700 |    60.9000 |    2806644\n t-12 |    61.3400 |    61.5579 |    60.3500 |    61.1200 |    3220308\n t-11 |    61.4400 |    61.6100 |    60.0300 |    60.6100 |    2717532\n t-10 |    60.7200 |    62.0100 |    59.8500 |    61.7300 |    2725189\n t-09 |    61.9200 |    63.9050 |    61.6200 |    62.3500 |    3009277\n t-08 |    61.5400 |    61.9800 |    59.1500 |    59.5400 |    3499618\n t-07 |    59.0800 |    59.3000 |    55.1600 |    55.4100 |    4718080\n t-06 |    55.7600 |    58.4850 |    55.6700 |    58.0600 |    4290522\n t-05 |    58.4600 |    59.3200 |    58.1000 |    58.4600 |    1969403\n t-04 |    58.2100 |    58.4200 |    56.6100 |    57.9900 |    2142693\n t-03 |    58.1100 |    58.2550 |    56.0300 |    56.1300 |    2365928\n t-02 |    55.1300 |    56.2500 |    54.2778 |    55.5800 |    3139987\n t-01 |    55.5400 |    56.4600 |    55.3600 |    56.0600 |    1496381\n t-00 |    56.4600 |    57.1600 |    55.7400 |    55.7700 |    2408490\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The most recent close (t-0) is 55.7700, which is lower than the previous close (t-1) of 56.0600, indicating a slight downward movement.\n- The recent price action shows a downtrend from t-1 to t-0, with lower highs and lower lows observed in the last few days.\n- The volume on t-0 is relatively low compared to the previous days, suggesting a lack of strong selling pressure.\n- The price is currently near the recent support level around 55.5, which could provide a bounce if buyers step in.\n- Overall, the recent trend is bearish, but the proximity to support and the low volume suggest a potential for a reversal or stabilization.\n- Confidence level is moderate due to the mixed signals (downtrend vs. support level).\n\n</think>\n<action>\n0\n</action>\n(parsed vote: NO ACTION (0))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The most recent close (t-0) is 55.7700, which is below the previous close (t-01) of 56.0600, indicating a slight downward movement.\n- The stock has shown a general downtrend in the last few days, with lower highs and lower lows observed from t-01 to t-00.\n- The volume on t-00 is relatively low compared to previous days, suggesting a lack of strong conviction in the current price action.\n- The recent high (t-00) is 57.1600, but the stock has not been able to sustain above the 56.0000 level, which could act as a resistance.\n- There are no clear bullish patterns or signals present, and the stock appears to be in a bearish phase.\n\nSignals:\n- Recent price action indicates a downtrend.\n- Low volume on the latest day suggests weak buying interest.\n- Resistance at 56.0000 level.\n\nResolving these signals into a directional view:\n- Given the downtrend and lack of bullish signals, the confidence level in a further decline is moderate.\n\n</think>\n<action>\n-1\n</action>\n(parsed vote: SHORT (-1))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The most recent close (t-0) is 55.7700, which is below the previous close (t-01) of 56.0600, indicating a slight downward movement.\n- The price has been trending downwards over the last few days, with lower highs and lower lows observed, particularly from t-08 to t-00.\n- The volume on t-00 is relatively low compared to the previous days, suggesting a lack of strong conviction in the recent price movement.\n- The recent high (t-01) was 56.4600, and the recent low (t-00) was 55.7400, indicating a tight range with no clear breakout.\n- Overall, the stock is showing signs of weakness with no strong bullish signals present.\n\nSignals that matter:\n- Recent downtrend in price.\n- Lower close compared to the previous day.\n- Low volume on the latest day.\n\nResolving these signals, the directional view is bearish, and the confidence level is moderate due to the lack of strong selling pressure or significant volume.\n</think>\n<action>\n-1\n</action>\n(parsed vote: SHORT (-1))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- Analyst 1 voted for NO ACTION (0), citing mixed signals with proximity to support but a bearish trend.\n- Analyst 2 voted for SHORT (-1), highlighting a clear downtrend and resistance levels without bullish patterns.\n- Analyst 3 also voted for SHORT (-1), emphasizing the weakness in price action and lack of strong bullish signals.\n\nThe majority (2 out of 3 analysts) voted for SHORT (-1), indicating a stronger consensus on the bearish outlook. Analyst 1's vote for NO ACTION reflects uncertainty but does not outweigh the bearish sentiment from the other two analysts. Therefore, the decision leans towards the bearish analysis supported by the data.\n</think>\n<action>\n-1\n</action>",
+    "parsed_vote": -1.0
+  },
+  "final_decision": -1.0,
+  "eval": {
+    "target_return": 0.004472728352993727,
+    "hit": 0.0
+  }
+}

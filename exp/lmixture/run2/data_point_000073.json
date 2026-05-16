@@ -1,0 +1,181 @@
+{
+  "data_point_id": 73,
+  "timestamp": "2026-05-15T23:50:25.889236+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        3.869999885559082,
+        3.878499984741211,
+        3.7799999713897705,
+        3.7827000617980957,
+        16415.0
+      ],
+      [
+        3.75,
+        3.8499999046325684,
+        3.75,
+        3.809999942779541,
+        12620.0
+      ],
+      [
+        3.7899999618530273,
+        4.0,
+        3.7899999618530273,
+        3.9600000381469727,
+        23068.0
+      ],
+      [
+        3.9100000858306885,
+        3.950000047683716,
+        3.869999885559082,
+        3.950000047683716,
+        23345.0
+      ],
+      [
+        3.88100004196167,
+        3.9600000381469727,
+        3.8499999046325684,
+        3.9600000381469727,
+        102988.0
+      ],
+      [
+        4.010000228881836,
+        4.010000228881836,
+        3.930000066757202,
+        3.944999933242798,
+        10363.0
+      ],
+      [
+        3.859999895095825,
+        3.8721001148223877,
+        3.819999933242798,
+        3.839200019836426,
+        15097.0
+      ],
+      [
+        3.8299999237060547,
+        3.9200000762939453,
+        3.815000057220459,
+        3.890000104904175,
+        57521.0
+      ],
+      [
+        3.940000057220459,
+        3.950000047683716,
+        3.880000114440918,
+        3.950000047683716,
+        60806.0
+      ],
+      [
+        3.890000104904175,
+        3.9800000190734863,
+        3.890000104904175,
+        3.9700000286102295,
+        63140.0
+      ],
+      [
+        3.940000057220459,
+        4.050000190734863,
+        3.940000057220459,
+        3.9700000286102295,
+        34280.0
+      ],
+      [
+        4.0,
+        4.110000133514404,
+        3.983799934387207,
+        4.039999961853027,
+        11871.0
+      ],
+      [
+        4.03000020980835,
+        4.03000020980835,
+        3.9200000762939453,
+        3.930000066757202,
+        13081.0
+      ],
+      [
+        3.9700000286102295,
+        4.070000171661377,
+        3.9000000953674316,
+        4.03000020980835,
+        188313.0
+      ],
+      [
+        4.119999885559082,
+        4.130000114440918,
+        4.010000228881836,
+        4.099999904632568,
+        16184.0
+      ],
+      [
+        4.019999980926514,
+        4.159999847412109,
+        4.018099784851074,
+        4.090000152587891,
+        12317.0
+      ],
+      [
+        4.130000114440918,
+        4.159999847412109,
+        4.079999923706055,
+        4.079999923706055,
+        7459.0
+      ],
+      [
+        4.059999942779541,
+        4.139999866485596,
+        4.059999942779541,
+        4.139999866485596,
+        11957.0
+      ],
+      [
+        4.170000076293945,
+        4.199999809265137,
+        4.139999866485596,
+        4.199999809265137,
+        12419.0
+      ],
+      [
+        4.199999809265137,
+        4.199999809265137,
+        4.090000152587891,
+        4.190000057220459,
+        98825.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     3.8700 |     3.8785 |     3.7800 |     3.7827 |      16415\n t-18 |     3.7500 |     3.8500 |     3.7500 |     3.8100 |      12620\n t-17 |     3.7900 |     4.0000 |     3.7900 |     3.9600 |      23068\n t-16 |     3.9100 |     3.9500 |     3.8700 |     3.9500 |      23345\n t-15 |     3.8810 |     3.9600 |     3.8500 |     3.9600 |     102988\n t-14 |     4.0100 |     4.0100 |     3.9300 |     3.9450 |      10363\n t-13 |     3.8600 |     3.8721 |     3.8200 |     3.8392 |      15097\n t-12 |     3.8300 |     3.9200 |     3.8150 |     3.8900 |      57521\n t-11 |     3.9400 |     3.9500 |     3.8800 |     3.9500 |      60806\n t-10 |     3.8900 |     3.9800 |     3.8900 |     3.9700 |      63140\n t-09 |     3.9400 |     4.0500 |     3.9400 |     3.9700 |      34280\n t-08 |     4.0000 |     4.1100 |     3.9838 |     4.0400 |      11871\n t-07 |     4.0300 |     4.0300 |     3.9200 |     3.9300 |      13081\n t-06 |     3.9700 |     4.0700 |     3.9000 |     4.0300 |     188313\n t-05 |     4.1200 |     4.1300 |     4.0100 |     4.1000 |      16184\n t-04 |     4.0200 |     4.1600 |     4.0181 |     4.0900 |      12317\n t-03 |     4.1300 |     4.1600 |     4.0800 |     4.0800 |       7459\n t-02 |     4.0600 |     4.1400 |     4.0600 |     4.1400 |      11957\n t-01 |     4.1700 |     4.2000 |     4.1400 |     4.2000 |      12419\n t-00 |     4.2000 |     4.2000 |     4.0900 |     4.1900 |      98825"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     3.8700 |     3.8785 |     3.7800 |     3.7827 |      16415\n t-18 |     3.7500 |     3.8500 |     3.7500 |     3.8100 |      12620\n t-17 |     3.7900 |     4.0000 |     3.7900 |     3.9600 |      23068\n t-16 |     3.9100 |     3.9500 |     3.8700 |     3.9500 |      23345\n t-15 |     3.8810 |     3.9600 |     3.8500 |     3.9600 |     102988\n t-14 |     4.0100 |     4.0100 |     3.9300 |     3.9450 |      10363\n t-13 |     3.8600 |     3.8721 |     3.8200 |     3.8392 |      15097\n t-12 |     3.8300 |     3.9200 |     3.8150 |     3.8900 |      57521\n t-11 |     3.9400 |     3.9500 |     3.8800 |     3.9500 |      60806\n t-10 |     3.8900 |     3.9800 |     3.8900 |     3.9700 |      63140\n t-09 |     3.9400 |     4.0500 |     3.9400 |     3.9700 |      34280\n t-08 |     4.0000 |     4.1100 |     3.9838 |     4.0400 |      11871\n t-07 |     4.0300 |     4.0300 |     3.9200 |     3.9300 |      13081\n t-06 |     3.9700 |     4.0700 |     3.9000 |     4.0300 |     188313\n t-05 |     4.1200 |     4.1300 |     4.0100 |     4.1000 |      16184\n t-04 |     4.0200 |     4.1600 |     4.0181 |     4.0900 |      12317\n t-03 |     4.1300 |     4.1600 |     4.0800 |     4.0800 |       7459\n t-02 |     4.0600 |     4.1400 |     4.0600 |     4.1400 |      11957\n t-01 |     4.1700 |     4.2000 |     4.1400 |     4.2000 |      12419\n t-00 |     4.2000 |     4.2000 |     4.0900 |     4.1900 |      98825\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- Price has been in a steady short-term uptrend from the 3.78 area to 4.20, with a sequence of higher lows and higher highs. Recent closes are near the top of the 20-day range.\n- Key support appears around 4.08-4.10, then 4.03-4.05. Resistance was 4.16-4.20, and price has recently pushed through that zone.\n- The most important signal is t-00: very high volume, but the day made no progress versus t-01 close and closed below the open after tagging 4.20. That looks like a potential distribution/exhaustion day near range highs rather than a clean breakout expansion.\n- There is also a pattern of marginal fresh highs over the last few days on relatively light volume, matching an exhaustion/false-break setup. t-00 confirms supply showing up at the highs.\n- Counterpoint: the broader trend is still up, and the pullback on t-00 was modest, with the close still holding above prior breakout area around 4.14-4.16. So this is not a strong breakdown yet.\n- Weighing signals: trend is bullish, but the latest bar’s high-volume stall at resistance after a rally is a stronger next-day tactical warning. This favors a short-term fade rather than chasing long.\n- Confidence: moderate, not high, because support has not decisively broken.\n</think>\n<action>\n-1\n</action>",
+        "parsed_vote": -1.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock has been in a gradual uptrend from the 3.78 area to 4.20, with higher lows and higher highs over the 20-day window.\n- Key resistance around 4.16-4.20 was recently broken: t-02 closed 4.14, t-01 closed at a new high 4.20.\n- t-00 is a small red day after that breakout, with high volume, but the close at 4.19 remains near the top of the full recent range and above prior breakout/resistance around 4.10-4.16.\n- Support appears at 4.14-4.16 first, then 4.08-4.10. No decisive breakdown occurred.\n\n- Signals that matter:\n  - Trend is bullish overall; price is holding near highs.\n  - Breakout above prior range highs has not failed yet.\n  - Latest bar has elevated volume and some upper resistance at 4.20, which could hint at distribution or profit-taking.\n  - However, the pullback is shallow relative to the prior advance and did not close back into the old range in a meaningful way.\n  - The latest close is in the upper portion of the 20-day range, favoring continuation over reversal.\n  - No strong bearish reversal pattern like a clear double top rejection, bearish engulfing after extended run, or breakdown through support.\n\n- Resolution:\n  - Bullish trend and successful hold above breakout zone outweigh the caution from the high-volume red day.\n  - This looks more like post-breakout consolidation than a failed breakout.\n  - Confidence is moderate, not high, because t-00 volume spike on a red candle warns of possible near-term stalling.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- Price has been in a gradual uptrend from the 3.78 area to 4.20, with a series of higher lows and higher highs. Recent closes are near the top of the 20-day range.\n- Key support sits around 4.08-4.10, then 4.03-4.05. Resistance was 4.16-4.20 and price has recently pushed through it.\n- t-06 was a very high-volume bullish impulse closing strong. Since then, price consolidated above that breakout zone rather than failing back below it.\n- The latest bar t-00 is a small red day from 4.20 to 4.19, but volume expanded sharply. However, despite the heavy volume, the stock only pulled back modestly and held above prior breakout/support around 4.14-4.16 and above 4.10 intraday support.\n- There is some caution: t-00 tagged 4.20 and closed off the high, which can hint at near-term supply after a multi-day rally. But the close remains near the highs of the whole window, and there is no decisive bearish breakdown or reversal pattern.\n- Volume pattern overall favors accumulation more than distribution: major high-volume days were associated with upward progress, and pullbacks after breakout have been shallow.\n\nSignals that matter:\n- Uptrend intact with higher highs/higher lows.\n- Breakout above prior resistance around 4.10-4.16 has held.\n- Latest close is in the upper part of the recent range.\n- No clear bearish breakdown; pullback is modest relative to prior advance.\n- Elevated volume on t-00 adds some uncertainty, but price damage was limited.\n\nResolve into directional view and confidence:\n- Bias remains bullish continuation rather than reversal.\n- Confidence is moderate, not high, because the last bar shows some possible exhaustion/supply near 4.20, but trend and support-holding behavior still favor upside.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     3.8700 |     3.8785 |     3.7800 |     3.7827 |      16415\n t-18 |     3.7500 |     3.8500 |     3.7500 |     3.8100 |      12620\n t-17 |     3.7900 |     4.0000 |     3.7900 |     3.9600 |      23068\n t-16 |     3.9100 |     3.9500 |     3.8700 |     3.9500 |      23345\n t-15 |     3.8810 |     3.9600 |     3.8500 |     3.9600 |     102988\n t-14 |     4.0100 |     4.0100 |     3.9300 |     3.9450 |      10363\n t-13 |     3.8600 |     3.8721 |     3.8200 |     3.8392 |      15097\n t-12 |     3.8300 |     3.9200 |     3.8150 |     3.8900 |      57521\n t-11 |     3.9400 |     3.9500 |     3.8800 |     3.9500 |      60806\n t-10 |     3.8900 |     3.9800 |     3.8900 |     3.9700 |      63140\n t-09 |     3.9400 |     4.0500 |     3.9400 |     3.9700 |      34280\n t-08 |     4.0000 |     4.1100 |     3.9838 |     4.0400 |      11871\n t-07 |     4.0300 |     4.0300 |     3.9200 |     3.9300 |      13081\n t-06 |     3.9700 |     4.0700 |     3.9000 |     4.0300 |     188313\n t-05 |     4.1200 |     4.1300 |     4.0100 |     4.1000 |      16184\n t-04 |     4.0200 |     4.1600 |     4.0181 |     4.0900 |      12317\n t-03 |     4.1300 |     4.1600 |     4.0800 |     4.0800 |       7459\n t-02 |     4.0600 |     4.1400 |     4.0600 |     4.1400 |      11957\n t-01 |     4.1700 |     4.2000 |     4.1400 |     4.2000 |      12419\n t-00 |     4.2000 |     4.2000 |     4.0900 |     4.1900 |      98825\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- Price has been in a steady short-term uptrend from the 3.78 area to 4.20, with a sequence of higher lows and higher highs. Recent closes are near the top of the 20-day range.\n- Key support appears around 4.08-4.10, then 4.03-4.05. Resistance was 4.16-4.20, and price has recently pushed through that zone.\n- The most important signal is t-00: very high volume, but the day made no progress versus t-01 close and closed below the open after tagging 4.20. That looks like a potential distribution/exhaustion day near range highs rather than a clean breakout expansion.\n- There is also a pattern of marginal fresh highs over the last few days on relatively light volume, matching an exhaustion/false-break setup. t-00 confirms supply showing up at the highs.\n- Counterpoint: the broader trend is still up, and the pullback on t-00 was modest, with the close still holding above prior breakout area around 4.14-4.16. So this is not a strong breakdown yet.\n- Weighing signals: trend is bullish, but the latest bar’s high-volume stall at resistance after a rally is a stronger next-day tactical warning. This favors a short-term fade rather than chasing long.\n- Confidence: moderate, not high, because support has not decisively broken.\n</think>\n<action>\n-1\n</action>\n(parsed vote: SHORT (-1))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The stock has been in a gradual uptrend from the 3.78 area to 4.20, with higher lows and higher highs over the 20-day window.\n- Key resistance around 4.16-4.20 was recently broken: t-02 closed 4.14, t-01 closed at a new high 4.20.\n- t-00 is a small red day after that breakout, with high volume, but the close at 4.19 remains near the top of the full recent range and above prior breakout/resistance around 4.10-4.16.\n- Support appears at 4.14-4.16 first, then 4.08-4.10. No decisive breakdown occurred.\n\n- Signals that matter:\n  - Trend is bullish overall; price is holding near highs.\n  - Breakout above prior range highs has not failed yet.\n  - Latest bar has elevated volume and some upper resistance at 4.20, which could hint at distribution or profit-taking.\n  - However, the pullback is shallow relative to the prior advance and did not close back into the old range in a meaningful way.\n  - The latest close is in the upper portion of the 20-day range, favoring continuation over reversal.\n  - No strong bearish reversal pattern like a clear double top rejection, bearish engulfing after extended run, or breakdown through support.\n\n- Resolution:\n  - Bullish trend and successful hold above breakout zone outweigh the caution from the high-volume red day.\n  - This looks more like post-breakout consolidation than a failed breakout.\n  - Confidence is moderate, not high, because t-00 volume spike on a red candle warns of possible near-term stalling.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- Price has been in a gradual uptrend from the 3.78 area to 4.20, with a series of higher lows and higher highs. Recent closes are near the top of the 20-day range.\n- Key support sits around 4.08-4.10, then 4.03-4.05. Resistance was 4.16-4.20 and price has recently pushed through it.\n- t-06 was a very high-volume bullish impulse closing strong. Since then, price consolidated above that breakout zone rather than failing back below it.\n- The latest bar t-00 is a small red day from 4.20 to 4.19, but volume expanded sharply. However, despite the heavy volume, the stock only pulled back modestly and held above prior breakout/support around 4.14-4.16 and above 4.10 intraday support.\n- There is some caution: t-00 tagged 4.20 and closed off the high, which can hint at near-term supply after a multi-day rally. But the close remains near the highs of the whole window, and there is no decisive bearish breakdown or reversal pattern.\n- Volume pattern overall favors accumulation more than distribution: major high-volume days were associated with upward progress, and pullbacks after breakout have been shallow.\n\nSignals that matter:\n- Uptrend intact with higher highs/higher lows.\n- Breakout above prior resistance around 4.10-4.16 has held.\n- Latest close is in the upper part of the recent range.\n- No clear bearish breakdown; pullback is modest relative to prior advance.\n- Elevated volume on t-00 adds some uncertainty, but price damage was limited.\n\nResolve into directional view and confidence:\n- Bias remains bullish continuation rather than reversal.\n- Confidence is moderate, not high, because the last bar shows some possible exhaustion/supply near 4.20, but trend and support-holding behavior still favor upside.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- Analysts 2 and 3 agree on LONG; Analyst 1 is SHORT.\n- All three agree on the core facts: strong short-term uptrend, recent breakout above roughly 4.14-4.16, and a cautionary high-volume red/stall day at t-00 near 4.20.\n- The disagreement is about whether t-00 is decisive distribution/exhaustion or just post-breakout consolidation.\n- The bullish view dominates because despite the heavy volume on t-00, price damage was minimal: the close stayed near the top of the range and above the recent breakout zone. There is no actual support break or clear failed breakout yet.\n- Given the lessons, avoid fading a breakout that is still holding unless there is decisive bearish confirmation. So the combined decision is LONG, with only moderate conviction.\n</think>\n<action>\n1\n</action>",
+    "parsed_vote": 1.0
+  },
+  "final_decision": 1.0,
+  "eval": {
+    "target_return": 0.0011926926672458649,
+    "hit": 1.0
+  }
+}

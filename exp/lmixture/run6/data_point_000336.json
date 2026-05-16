@@ -1,0 +1,181 @@
+{
+  "data_point_id": 336,
+  "timestamp": "2026-05-16T04:53:25.728560+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        131.4199981689453,
+        131.49000549316406,
+        130.02000427246094,
+        130.1199951171875,
+        2793864.0
+      ],
+      [
+        129.3699951171875,
+        130.38999938964844,
+        128.89500427246094,
+        129.97000122070312,
+        3279088.0
+      ],
+      [
+        130.25999450683594,
+        131.61500549316406,
+        130.0,
+        131.1999969482422,
+        3875118.0
+      ],
+      [
+        132.0800018310547,
+        132.3000030517578,
+        130.91000366210938,
+        131.5,
+        4239158.0
+      ],
+      [
+        130.6699981689453,
+        131.2100067138672,
+        129.77999877929688,
+        130.9199981689453,
+        4866478.0
+      ],
+      [
+        131.75999450683594,
+        131.91000366210938,
+        130.89999389648438,
+        131.1999969482422,
+        3109857.0
+      ],
+      [
+        130.8699951171875,
+        130.99000549316406,
+        128.07000732421875,
+        128.5,
+        6659133.0
+      ],
+      [
+        128.36000061035156,
+        128.4499969482422,
+        126.41000366210938,
+        127.0,
+        7670895.0
+      ],
+      [
+        126.73999786376953,
+        127.5,
+        125.81999969482422,
+        127.30000305175781,
+        4449461.0
+      ],
+      [
+        127.44999694824219,
+        128.44000244140625,
+        126.5199966430664,
+        126.69999694824219,
+        3871140.0
+      ],
+      [
+        127.0,
+        128.04249572753906,
+        126.83000183105469,
+        126.9000015258789,
+        3866411.0
+      ],
+      [
+        126.30000305175781,
+        126.73999786376953,
+        124.44000244140625,
+        125.22000122070312,
+        3501433.0
+      ],
+      [
+        124.38999938964844,
+        124.9000015258789,
+        122.86000061035156,
+        123.12000274658203,
+        4796297.0
+      ],
+      [
+        123.37999725341797,
+        124.98999786376953,
+        123.30999755859375,
+        124.19000244140625,
+        3261797.0
+      ],
+      [
+        124.79000091552734,
+        125.63999938964844,
+        124.56999969482422,
+        125.2699966430664,
+        3687588.0
+      ],
+      [
+        125.44999694824219,
+        126.12999725341797,
+        125.05999755859375,
+        125.52999877929688,
+        3007962.0
+      ],
+      [
+        125.4800033569336,
+        127.13999938964844,
+        125.4800033569336,
+        125.8499984741211,
+        4232873.0
+      ],
+      [
+        125.0999984741211,
+        125.88999938964844,
+        124.4000015258789,
+        125.66999816894531,
+        4608897.0
+      ],
+      [
+        125.44999694824219,
+        127.27999877929688,
+        125.30999755859375,
+        126.69999694824219,
+        3385058.0
+      ],
+      [
+        127.30000305175781,
+        128.56500244140625,
+        127.16000366210938,
+        127.29000091552734,
+        3647617.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |   131.4200 |   131.4900 |   130.0200 |   130.1200 |    2793864\n t-18 |   129.3700 |   130.3900 |   128.8950 |   129.9700 |    3279088\n t-17 |   130.2600 |   131.6150 |   130.0000 |   131.2000 |    3875118\n t-16 |   132.0800 |   132.3000 |   130.9100 |   131.5000 |    4239158\n t-15 |   130.6700 |   131.2100 |   129.7800 |   130.9200 |    4866478\n t-14 |   131.7600 |   131.9100 |   130.9000 |   131.2000 |    3109857\n t-13 |   130.8700 |   130.9900 |   128.0700 |   128.5000 |    6659133\n t-12 |   128.3600 |   128.4500 |   126.4100 |   127.0000 |    7670895\n t-11 |   126.7400 |   127.5000 |   125.8200 |   127.3000 |    4449461\n t-10 |   127.4500 |   128.4400 |   126.5200 |   126.7000 |    3871140\n t-09 |   127.0000 |   128.0425 |   126.8300 |   126.9000 |    3866411\n t-08 |   126.3000 |   126.7400 |   124.4400 |   125.2200 |    3501433\n t-07 |   124.3900 |   124.9000 |   122.8600 |   123.1200 |    4796297\n t-06 |   123.3800 |   124.9900 |   123.3100 |   124.1900 |    3261797\n t-05 |   124.7900 |   125.6400 |   124.5700 |   125.2700 |    3687588\n t-04 |   125.4500 |   126.1300 |   125.0600 |   125.5300 |    3007962\n t-03 |   125.4800 |   127.1400 |   125.4800 |   125.8500 |    4232873\n t-02 |   125.1000 |   125.8900 |   124.4000 |   125.6700 |    4608897\n t-01 |   125.4500 |   127.2800 |   125.3100 |   126.7000 |    3385058\n t-00 |   127.3000 |   128.5650 |   127.1600 |   127.2900 |    3647617"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. Do not short a sharp multi-day selloff into recent range support on elevated volume unless price decisively closes below that support on expanding volume with follow-through.\n  1. When a persistent lower-high/lower-low downtrend ends with a high-volume breakdown or weak consolidation near fresh lows, favor short.\n  2. When a multi-day pullback stabilizes into higher lows and the latest bar reclaims the short-term range near its high, favor long.\n  3. Do not take a long on a short-term rebound into range resistance unless it closes decisively above prior highs with strong volume.\n  4. Do not short a high-volume close near 20-day lows after a multi-day selloff unless there is clear next-day downside follow-through confirmation, such as a support break on expanding volume.\n  5. When a multi-day pullback ends with a strong bullish reversal candle closing above the prior close and near the day’s high, favor long.\n  6. When a steady uptrend culminates in a close at fresh 20-day highs, favor long.\n  7. When price breaks out of a multi-day consolidation after a pullback and closes near recent highs, favor long.\n\nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |   131.4200 |   131.4900 |   130.0200 |   130.1200 |    2793864\n t-18 |   129.3700 |   130.3900 |   128.8950 |   129.9700 |    3279088\n t-17 |   130.2600 |   131.6150 |   130.0000 |   131.2000 |    3875118\n t-16 |   132.0800 |   132.3000 |   130.9100 |   131.5000 |    4239158\n t-15 |   130.6700 |   131.2100 |   129.7800 |   130.9200 |    4866478\n t-14 |   131.7600 |   131.9100 |   130.9000 |   131.2000 |    3109857\n t-13 |   130.8700 |   130.9900 |   128.0700 |   128.5000 |    6659133\n t-12 |   128.3600 |   128.4500 |   126.4100 |   127.0000 |    7670895\n t-11 |   126.7400 |   127.5000 |   125.8200 |   127.3000 |    4449461\n t-10 |   127.4500 |   128.4400 |   126.5200 |   126.7000 |    3871140\n t-09 |   127.0000 |   128.0425 |   126.8300 |   126.9000 |    3866411\n t-08 |   126.3000 |   126.7400 |   124.4400 |   125.2200 |    3501433\n t-07 |   124.3900 |   124.9000 |   122.8600 |   123.1200 |    4796297\n t-06 |   123.3800 |   124.9900 |   123.3100 |   124.1900 |    3261797\n t-05 |   124.7900 |   125.6400 |   124.5700 |   125.2700 |    3687588\n t-04 |   125.4500 |   126.1300 |   125.0600 |   125.5300 |    3007962\n t-03 |   125.4800 |   127.1400 |   125.4800 |   125.8500 |    4232873\n t-02 |   125.1000 |   125.8900 |   124.4000 |   125.6700 |    4608897\n t-01 |   125.4500 |   127.2800 |   125.3100 |   126.7000 |    3385058\n t-00 |   127.3000 |   128.5650 |   127.1600 |   127.2900 |    3647617\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock sold off from the 131-132 area down to a low near 122.86, then spent several days stabilizing and recovering back into the 125-128 zone.\n- The recent sequence shows higher lows and a modest rebound: 125.22 -> 123.12 -> 124.19 -> 125.27 -> 125.53 -> 125.85 -> 125.67 -> 126.70 -> 127.29.\n- The latest bar is bullish in the sense that it closed above the prior close and near the upper part of its range, but it did not break decisively above the recent resistance zone around 127.3-128.5.\n- Volume is not especially confirming on the latest push; it is moderate rather than expansionary, so the move looks more like a recovery within a range than a confirmed breakout.\n- This is not a clean short setup either, because the prior selloff has already stabilized and there is no fresh breakdown below support.\n- Overall, the signal mix is mildly constructive but not strong enough for a high-conviction long, and not bearish enough for a short.\n</think>\n<action>\n0\n</action>",
+        "parsed_vote": 0.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock sold off from the 131-132 area down to a low near 122.86, then spent several days stabilizing and grinding higher.\n- The recent sequence shows higher lows and higher closes from t-07 through t-00, with the latest close near the upper half of the recent range.\n- The last two bars are constructive: t-01 closed above t-02 and near its high, and t-00 held gains with a small-range continuation rather than a rejection.\n- Volume on the rebound is not explosive, but it is adequate and not showing distribution. Price has reclaimed the short-term range around 126-127 and is pressing toward the 128.5 area.\n- There is no clear bearish reversal, no failed breakout, and no decisive resistance rejection. The pattern fits a stabilized pullback with improving momentum.\n- Directional view: modest bullish edge for a next-day continuation higher. Confidence is moderate.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock sold off from the 131-132 area down to a low near 122.86, then spent several days basing and recovering back into the 125-128 zone.\n- The recent sequence shows higher lows and a modest rebound: 124.19 -> 125.27 -> 125.53 -> 125.85 -> 125.67 -> 126.70 -> 127.29.\n- The latest bar is constructive but not decisive: it closed near the upper part of its range and above the prior close, yet it did not break above the recent swing high around 128.44/128.57.\n- Volume on the latest day is moderate, not a clear breakout confirmation. The move is more of a recovery within a range than a confirmed trend reversal.\n- There is nearby resistance in the 127.3-128.6 area from recent highs, while support sits around 125-126 and lower near 123.\n- Given the lack of a decisive breakout above resistance and no strong bearish breakdown either, the edge is insufficient for a directional trade.\n</think>\n<action>\n0\n</action>",
+        "parsed_vote": 0.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. Do not short a sharp multi-day selloff into recent range support on elevated volume unless price decisively closes below that support on expanding volume with follow-through.\n  1. When a persistent lower-high/lower-low downtrend ends with a high-volume breakdown or weak consolidation near fresh lows, favor short.\n  2. When a multi-day pullback stabilizes into higher lows and the latest bar reclaims the short-term range near its high, favor long.\n  3. Do not take a long on a short-term rebound into range resistance unless it closes decisively above prior highs with strong volume.\n  4. Do not short a high-volume close near 20-day lows after a multi-day selloff unless there is clear next-day downside follow-through confirmation, such as a support break on expanding volume.\n  5. When a multi-day pullback ends with a strong bullish reversal candle closing above the prior close and near the day’s high, favor long.\n  6. When a steady uptrend culminates in a close at fresh 20-day highs, favor long.\n  7. When price breaks out of a multi-day consolidation after a pullback and closes near recent highs, favor long.\n\nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |   131.4200 |   131.4900 |   130.0200 |   130.1200 |    2793864\n t-18 |   129.3700 |   130.3900 |   128.8950 |   129.9700 |    3279088\n t-17 |   130.2600 |   131.6150 |   130.0000 |   131.2000 |    3875118\n t-16 |   132.0800 |   132.3000 |   130.9100 |   131.5000 |    4239158\n t-15 |   130.6700 |   131.2100 |   129.7800 |   130.9200 |    4866478\n t-14 |   131.7600 |   131.9100 |   130.9000 |   131.2000 |    3109857\n t-13 |   130.8700 |   130.9900 |   128.0700 |   128.5000 |    6659133\n t-12 |   128.3600 |   128.4500 |   126.4100 |   127.0000 |    7670895\n t-11 |   126.7400 |   127.5000 |   125.8200 |   127.3000 |    4449461\n t-10 |   127.4500 |   128.4400 |   126.5200 |   126.7000 |    3871140\n t-09 |   127.0000 |   128.0425 |   126.8300 |   126.9000 |    3866411\n t-08 |   126.3000 |   126.7400 |   124.4400 |   125.2200 |    3501433\n t-07 |   124.3900 |   124.9000 |   122.8600 |   123.1200 |    4796297\n t-06 |   123.3800 |   124.9900 |   123.3100 |   124.1900 |    3261797\n t-05 |   124.7900 |   125.6400 |   124.5700 |   125.2700 |    3687588\n t-04 |   125.4500 |   126.1300 |   125.0600 |   125.5300 |    3007962\n t-03 |   125.4800 |   127.1400 |   125.4800 |   125.8500 |    4232873\n t-02 |   125.1000 |   125.8900 |   124.4000 |   125.6700 |    4608897\n t-01 |   125.4500 |   127.2800 |   125.3100 |   126.7000 |    3385058\n t-00 |   127.3000 |   128.5650 |   127.1600 |   127.2900 |    3647617\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The stock sold off from the 131-132 area down to a low near 122.86, then spent several days stabilizing and recovering back into the 125-128 zone.\n- The recent sequence shows higher lows and a modest rebound: 125.22 -> 123.12 -> 124.19 -> 125.27 -> 125.53 -> 125.85 -> 125.67 -> 126.70 -> 127.29.\n- The latest bar is bullish in the sense that it closed above the prior close and near the upper part of its range, but it did not break decisively above the recent resistance zone around 127.3-128.5.\n- Volume is not especially confirming on the latest push; it is moderate rather than expansionary, so the move looks more like a recovery within a range than a confirmed breakout.\n- This is not a clean short setup either, because the prior selloff has already stabilized and there is no fresh breakdown below support.\n- Overall, the signal mix is mildly constructive but not strong enough for a high-conviction long, and not bearish enough for a short.\n</think>\n<action>\n0\n</action>\n(parsed vote: NO ACTION (0))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The stock sold off from the 131-132 area down to a low near 122.86, then spent several days stabilizing and grinding higher.\n- The recent sequence shows higher lows and higher closes from t-07 through t-00, with the latest close near the upper half of the recent range.\n- The last two bars are constructive: t-01 closed above t-02 and near its high, and t-00 held gains with a small-range continuation rather than a rejection.\n- Volume on the rebound is not explosive, but it is adequate and not showing distribution. Price has reclaimed the short-term range around 126-127 and is pressing toward the 128.5 area.\n- There is no clear bearish reversal, no failed breakout, and no decisive resistance rejection. The pattern fits a stabilized pullback with improving momentum.\n- Directional view: modest bullish edge for a next-day continuation higher. Confidence is moderate.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The stock sold off from the 131-132 area down to a low near 122.86, then spent several days basing and recovering back into the 125-128 zone.\n- The recent sequence shows higher lows and a modest rebound: 124.19 -> 125.27 -> 125.53 -> 125.85 -> 125.67 -> 126.70 -> 127.29.\n- The latest bar is constructive but not decisive: it closed near the upper part of its range and above the prior close, yet it did not break above the recent swing high around 128.44/128.57.\n- Volume on the latest day is moderate, not a clear breakout confirmation. The move is more of a recovery within a range than a confirmed trend reversal.\n- There is nearby resistance in the 127.3-128.6 area from recent highs, while support sits around 125-126 and lower near 123.\n- Given the lack of a decisive breakout above resistance and no strong bearish breakdown either, the edge is insufficient for a directional trade.\n</think>\n<action>\n0\n</action>\n(parsed vote: NO ACTION (0))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- Analysts 1 and 3 agree on NO ACTION: they see a stabilizing pullback and higher lows, but no decisive breakout above nearby resistance and no strong volume confirmation.\n- Analyst 2 is mildly bullish, arguing the rebound has improved momentum and the latest bars are constructive.\n- The data supports the cautious view more than the bullish one: price has recovered, but it is still below the recent resistance band around 128.4-128.6, and the latest close did not break out decisively.\n- This is not a short setup either, since the prior selloff has already stabilized and there is no fresh support break or downside follow-through.\n- With mixed signals and no clear edge, conviction is low.\n</think>\n<action>\n0\n</action>",
+    "parsed_vote": 0.0
+  },
+  "final_decision": 0.0,
+  "eval": {
+    "target_return": 0.006343349348753691,
+    "hit": null
+  }
+}

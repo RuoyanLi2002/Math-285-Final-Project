@@ -1,0 +1,181 @@
+{
+  "data_point_id": 87,
+  "timestamp": "2026-05-15T23:53:09.308239+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        2.2509000301361084,
+        2.352099895477295,
+        2.2200000286102295,
+        2.2200000286102295,
+        58549.0
+      ],
+      [
+        2.2100000381469727,
+        2.3208999633789062,
+        2.2100000381469727,
+        2.25,
+        39472.0
+      ],
+      [
+        2.2100000381469727,
+        2.309999942779541,
+        2.2100000381469727,
+        2.2699999809265137,
+        38716.0
+      ],
+      [
+        2.2699999809265137,
+        2.279900074005127,
+        2.2100000381469727,
+        2.2100000381469727,
+        9427.0
+      ],
+      [
+        2.2100000381469727,
+        2.2100000381469727,
+        2.009999990463257,
+        2.049999952316284,
+        123766.0
+      ],
+      [
+        2.049999952316284,
+        2.0999999046325684,
+        2.0,
+        2.0,
+        20136.0
+      ],
+      [
+        2.0,
+        2.0999999046325684,
+        2.0,
+        2.0999999046325684,
+        39928.0
+      ],
+      [
+        2.049999952316284,
+        2.069999933242798,
+        2.0199999809265137,
+        2.069999933242798,
+        21186.0
+      ],
+      [
+        2.0199999809265137,
+        2.140000104904175,
+        2.0199999809265137,
+        2.119999885559082,
+        37833.0
+      ],
+      [
+        2.0799999237060547,
+        2.1700000762939453,
+        2.0671000480651855,
+        2.1600000858306885,
+        9261.0
+      ],
+      [
+        2.0999999046325684,
+        2.140000104904175,
+        2.069999933242798,
+        2.0799999237060547,
+        5055.0
+      ],
+      [
+        2.0799999237060547,
+        2.1350998878479004,
+        2.0799999237060547,
+        2.109999895095825,
+        11517.0
+      ],
+      [
+        2.0799999237060547,
+        2.200000047683716,
+        2.0799999237060547,
+        2.140000104904175,
+        29209.0
+      ],
+      [
+        2.190000057220459,
+        2.190000057220459,
+        2.140000104904175,
+        2.140000104904175,
+        20479.0
+      ],
+      [
+        2.140000104904175,
+        2.180000066757202,
+        2.109999895095825,
+        2.1500000953674316,
+        17163.0
+      ],
+      [
+        2.0999999046325684,
+        2.1449999809265137,
+        2.0999999046325684,
+        2.118499994277954,
+        15579.0
+      ],
+      [
+        2.109999895095825,
+        2.119999885559082,
+        2.0799999237060547,
+        2.0799999237060547,
+        10703.0
+      ],
+      [
+        2.119999885559082,
+        2.119999885559082,
+        2.049999952316284,
+        2.049999952316284,
+        13391.0
+      ],
+      [
+        2.0299999713897705,
+        2.0799999237060547,
+        2.0199999809265137,
+        2.069999933242798,
+        12647.0
+      ],
+      [
+        2.0399999618530273,
+        2.1500000953674316,
+        2.0,
+        2.130000114440918,
+        131219.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     2.2509 |     2.3521 |     2.2200 |     2.2200 |      58549\n t-18 |     2.2100 |     2.3209 |     2.2100 |     2.2500 |      39472\n t-17 |     2.2100 |     2.3100 |     2.2100 |     2.2700 |      38716\n t-16 |     2.2700 |     2.2799 |     2.2100 |     2.2100 |       9427\n t-15 |     2.2100 |     2.2100 |     2.0100 |     2.0500 |     123766\n t-14 |     2.0500 |     2.1000 |     2.0000 |     2.0000 |      20136\n t-13 |     2.0000 |     2.1000 |     2.0000 |     2.1000 |      39928\n t-12 |     2.0500 |     2.0700 |     2.0200 |     2.0700 |      21186\n t-11 |     2.0200 |     2.1400 |     2.0200 |     2.1200 |      37833\n t-10 |     2.0800 |     2.1700 |     2.0671 |     2.1600 |       9261\n t-09 |     2.1000 |     2.1400 |     2.0700 |     2.0800 |       5055\n t-08 |     2.0800 |     2.1351 |     2.0800 |     2.1100 |      11517\n t-07 |     2.0800 |     2.2000 |     2.0800 |     2.1400 |      29209\n t-06 |     2.1900 |     2.1900 |     2.1400 |     2.1400 |      20479\n t-05 |     2.1400 |     2.1800 |     2.1100 |     2.1500 |      17163\n t-04 |     2.1000 |     2.1450 |     2.1000 |     2.1185 |      15579\n t-03 |     2.1100 |     2.1200 |     2.0800 |     2.0800 |      10703\n t-02 |     2.1200 |     2.1200 |     2.0500 |     2.0500 |      13391\n t-01 |     2.0300 |     2.0800 |     2.0200 |     2.0700 |      12647\n t-00 |     2.0400 |     2.1500 |     2.0000 |     2.1300 |     131219"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     2.2509 |     2.3521 |     2.2200 |     2.2200 |      58549\n t-18 |     2.2100 |     2.3209 |     2.2100 |     2.2500 |      39472\n t-17 |     2.2100 |     2.3100 |     2.2100 |     2.2700 |      38716\n t-16 |     2.2700 |     2.2799 |     2.2100 |     2.2100 |       9427\n t-15 |     2.2100 |     2.2100 |     2.0100 |     2.0500 |     123766\n t-14 |     2.0500 |     2.1000 |     2.0000 |     2.0000 |      20136\n t-13 |     2.0000 |     2.1000 |     2.0000 |     2.1000 |      39928\n t-12 |     2.0500 |     2.0700 |     2.0200 |     2.0700 |      21186\n t-11 |     2.0200 |     2.1400 |     2.0200 |     2.1200 |      37833\n t-10 |     2.0800 |     2.1700 |     2.0671 |     2.1600 |       9261\n t-09 |     2.1000 |     2.1400 |     2.0700 |     2.0800 |       5055\n t-08 |     2.0800 |     2.1351 |     2.0800 |     2.1100 |      11517\n t-07 |     2.0800 |     2.2000 |     2.0800 |     2.1400 |      29209\n t-06 |     2.1900 |     2.1900 |     2.1400 |     2.1400 |      20479\n t-05 |     2.1400 |     2.1800 |     2.1100 |     2.1500 |      17163\n t-04 |     2.1000 |     2.1450 |     2.1000 |     2.1185 |      15579\n t-03 |     2.1100 |     2.1200 |     2.0800 |     2.0800 |      10703\n t-02 |     2.1200 |     2.1200 |     2.0500 |     2.0500 |      13391\n t-01 |     2.0300 |     2.0800 |     2.0200 |     2.0700 |      12647\n t-00 |     2.0400 |     2.1500 |     2.0000 |     2.1300 |     131219\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The broader 20-day picture shows an early breakdown from the 2.22-2.27 area down to 2.00 on heavy volume at t-15, then a basing/range phase mostly between roughly 2.05 and 2.16.\n- Recent price action from t-07 to t-02 drifted lower from 2.14 toward 2.05 on relatively muted volume, suggesting a pullback within the range rather than aggressive fresh distribution.\n- t-00 is the key bar: it opened weak, traded down to 2.00, then reversed sharply to close at 2.13 near the upper part of the day’s range, with by far the highest volume in the recent window. That looks like an undercut-and-reclaim of major support around 2.00 with strong demand.\n- Support is clearly 2.00-2.05. Resistance is around 2.14-2.16, then 2.20. The latest close at 2.13 reclaimed the middle/upper part of the recent range and sits just under resistance.\n- Candlestick-wise, t-00 is a strong reversal bar with a long lower shadow and strong close. Volume confirmation is excellent.\n- Momentum had been soft, but the latest session likely shifts short-term momentum upward. This fits the lesson that after selloffs/pullbacks into support, a high-volume rejection of lows argues against shorts and favors a cautious reversal long.\n- Main caution: price is still inside the broader range and not yet above 2.14-2.16 resistance, so this is not a high-confidence breakout continuation. But the asymmetry favors upside follow-through over immediate downside.\n\nSignals that matter:\n- High-volume undercut/reclaim of 2.00 support: bullish.\n- Long lower wick and upper-half/strong close on t-00: bullish exhaustion/reversal.\n- Prior pullback into support occurred on muted volume: bullish for bounce.\n- Close reclaimed above 2.10 and near recent range highs: bullish.\n- Overhead resistance at 2.14-2.16 limits confidence but does not negate the reversal.\n\nDirectional view and confidence:\n- Bias is LONG for next day on strong reversal from support with exceptional volume.\n- Confidence: moderate, not high, because resistance is nearby and the stock remains in a broader sideways-to-down recovery structure.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock sold off sharply from the 2.25-2.27 area to 2.00 around t-15/t-14, with the breakdown day t-15 occurring on very high volume. That established 2.00 as major support and 2.20-2.27 as overhead resistance.\n- After that, price based between roughly 2.05 and 2.16 for many sessions. Recent bars from t-07 to t-02 show a mild drift lower from 2.14/2.15 to 2.05 on generally muted volume, suggesting a pullback/consolidation rather than aggressive distribution.\n- t-00 is the key bar: it opened weak, traded down to exactly 2.00, then reversed sharply to close at 2.13 near the upper part of the day’s range. Volume exploded to the highest in the whole sample, even above the prior breakdown day. This looks like an undercut-and-reclaim of major support with strong demand.\n- Candlestick-wise, t-00 is a bullish reversal/hammer-type bar with a long lower shadow and strong close. That aligns with seller exhaustion at support.\n- Support/resistance: 2.00 has now been tested and rejected multiple times; 2.12-2.15 is being reclaimed. Next resistance is around 2.14-2.16 and then 2.20, but the forceful reversal improves odds of near-term follow-through.\n- Momentum and volume confirmation favor upside: the latest close is much stronger than the prior few sessions, and the reversal came on exceptional volume, not weak short-covering-looking activity.\n- This fits the lesson to avoid shorts after a high-volume selloff into support when lows are undercut and rejected with a strong close; instead favor cautious reversal longs.\n\nSignals that matter:\n- Major support at 2.00 held and was undercut-reclaimed.\n- Highest volume in the window on the reversal day.\n- Strong close near upper half/top of range after probing lower.\n- Prior decline into support happened on relatively muted volume.\n- Overhead resistance still exists near 2.15-2.20, so upside may be somewhat capped short term, but next-day bias is still positive.\n\nDirectional view and confidence:\n- Bias is LONG for next day due to strong bullish reversal at key support with decisive volume confirmation.\n- Confidence: moderate.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The broader 20-day picture shows an early breakdown from the 2.22-2.27 area down to 2.00 on heavy volume at t-15, then a stabilization/range phase between roughly 2.05 and 2.16.\n- Recent bars from t-07 to t-02 drifted lower on relatively muted volume, testing the lower part of that range rather than impulsively breaking down.\n- t-00 is the key bar: it undercut support to 2.00 intraday, then reversed sharply to close at 2.13 near the upper half of the day’s range, with by far the highest volume in the sample. That looks like a support undercut-and-reclaim / exhaustion reversal.\n- Price is now back above the recent closes and near the upper end of the short-term range, though still below the older resistance band around 2.14-2.17 and well below the larger breakdown zone near 2.20+.\n\nSignals that matter:\n- Bullish: high-volume reversal from 2.00 support; long lower wick; close strong versus the day’s range; prior pullback into support happened on lighter volume; support rejection aligns with exhaustion rather than fresh breakdown.\n- Bearish: overhead resistance remains around 2.14-2.17 and then 2.20; the stock is still in a larger sideways-to-down structure since t-15.\n- Volume confirmation strongly favors the bullish side because the reclaim day had exceptional participation.\n\nResolve them into a directional view and a confidence level:\n- The strongest signal is the t-00 high-volume rejection of 2.00 support after a muted pullback. Per the lessons, this argues against shorting and favors a cautious reversal/bounce long.\n- Confidence: moderate, because resistance is nearby, but the next-day edge is still upward.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     2.2509 |     2.3521 |     2.2200 |     2.2200 |      58549\n t-18 |     2.2100 |     2.3209 |     2.2100 |     2.2500 |      39472\n t-17 |     2.2100 |     2.3100 |     2.2100 |     2.2700 |      38716\n t-16 |     2.2700 |     2.2799 |     2.2100 |     2.2100 |       9427\n t-15 |     2.2100 |     2.2100 |     2.0100 |     2.0500 |     123766\n t-14 |     2.0500 |     2.1000 |     2.0000 |     2.0000 |      20136\n t-13 |     2.0000 |     2.1000 |     2.0000 |     2.1000 |      39928\n t-12 |     2.0500 |     2.0700 |     2.0200 |     2.0700 |      21186\n t-11 |     2.0200 |     2.1400 |     2.0200 |     2.1200 |      37833\n t-10 |     2.0800 |     2.1700 |     2.0671 |     2.1600 |       9261\n t-09 |     2.1000 |     2.1400 |     2.0700 |     2.0800 |       5055\n t-08 |     2.0800 |     2.1351 |     2.0800 |     2.1100 |      11517\n t-07 |     2.0800 |     2.2000 |     2.0800 |     2.1400 |      29209\n t-06 |     2.1900 |     2.1900 |     2.1400 |     2.1400 |      20479\n t-05 |     2.1400 |     2.1800 |     2.1100 |     2.1500 |      17163\n t-04 |     2.1000 |     2.1450 |     2.1000 |     2.1185 |      15579\n t-03 |     2.1100 |     2.1200 |     2.0800 |     2.0800 |      10703\n t-02 |     2.1200 |     2.1200 |     2.0500 |     2.0500 |      13391\n t-01 |     2.0300 |     2.0800 |     2.0200 |     2.0700 |      12647\n t-00 |     2.0400 |     2.1500 |     2.0000 |     2.1300 |     131219\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The broader 20-day picture shows an early breakdown from the 2.22-2.27 area down to 2.00 on heavy volume at t-15, then a basing/range phase mostly between roughly 2.05 and 2.16.\n- Recent price action from t-07 to t-02 drifted lower from 2.14 toward 2.05 on relatively muted volume, suggesting a pullback within the range rather than aggressive fresh distribution.\n- t-00 is the key bar: it opened weak, traded down to 2.00, then reversed sharply to close at 2.13 near the upper part of the day’s range, with by far the highest volume in the recent window. That looks like an undercut-and-reclaim of major support around 2.00 with strong demand.\n- Support is clearly 2.00-2.05. Resistance is around 2.14-2.16, then 2.20. The latest close at 2.13 reclaimed the middle/upper part of the recent range and sits just under resistance.\n- Candlestick-wise, t-00 is a strong reversal bar with a long lower shadow and strong close. Volume confirmation is excellent.\n- Momentum had been soft, but the latest session likely shifts short-term momentum upward. This fits the lesson that after selloffs/pullbacks into support, a high-volume rejection of lows argues against shorts and favors a cautious reversal long.\n- Main caution: price is still inside the broader range and not yet above 2.14-2.16 resistance, so this is not a high-confidence breakout continuation. But the asymmetry favors upside follow-through over immediate downside.\n\nSignals that matter:\n- High-volume undercut/reclaim of 2.00 support: bullish.\n- Long lower wick and upper-half/strong close on t-00: bullish exhaustion/reversal.\n- Prior pullback into support occurred on muted volume: bullish for bounce.\n- Close reclaimed above 2.10 and near recent range highs: bullish.\n- Overhead resistance at 2.14-2.16 limits confidence but does not negate the reversal.\n\nDirectional view and confidence:\n- Bias is LONG for next day on strong reversal from support with exceptional volume.\n- Confidence: moderate, not high, because resistance is nearby and the stock remains in a broader sideways-to-down recovery structure.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The stock sold off sharply from the 2.25-2.27 area to 2.00 around t-15/t-14, with the breakdown day t-15 occurring on very high volume. That established 2.00 as major support and 2.20-2.27 as overhead resistance.\n- After that, price based between roughly 2.05 and 2.16 for many sessions. Recent bars from t-07 to t-02 show a mild drift lower from 2.14/2.15 to 2.05 on generally muted volume, suggesting a pullback/consolidation rather than aggressive distribution.\n- t-00 is the key bar: it opened weak, traded down to exactly 2.00, then reversed sharply to close at 2.13 near the upper part of the day’s range. Volume exploded to the highest in the whole sample, even above the prior breakdown day. This looks like an undercut-and-reclaim of major support with strong demand.\n- Candlestick-wise, t-00 is a bullish reversal/hammer-type bar with a long lower shadow and strong close. That aligns with seller exhaustion at support.\n- Support/resistance: 2.00 has now been tested and rejected multiple times; 2.12-2.15 is being reclaimed. Next resistance is around 2.14-2.16 and then 2.20, but the forceful reversal improves odds of near-term follow-through.\n- Momentum and volume confirmation favor upside: the latest close is much stronger than the prior few sessions, and the reversal came on exceptional volume, not weak short-covering-looking activity.\n- This fits the lesson to avoid shorts after a high-volume selloff into support when lows are undercut and rejected with a strong close; instead favor cautious reversal longs.\n\nSignals that matter:\n- Major support at 2.00 held and was undercut-reclaimed.\n- Highest volume in the window on the reversal day.\n- Strong close near upper half/top of range after probing lower.\n- Prior decline into support happened on relatively muted volume.\n- Overhead resistance still exists near 2.15-2.20, so upside may be somewhat capped short term, but next-day bias is still positive.\n\nDirectional view and confidence:\n- Bias is LONG for next day due to strong bullish reversal at key support with decisive volume confirmation.\n- Confidence: moderate.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The broader 20-day picture shows an early breakdown from the 2.22-2.27 area down to 2.00 on heavy volume at t-15, then a stabilization/range phase between roughly 2.05 and 2.16.\n- Recent bars from t-07 to t-02 drifted lower on relatively muted volume, testing the lower part of that range rather than impulsively breaking down.\n- t-00 is the key bar: it undercut support to 2.00 intraday, then reversed sharply to close at 2.13 near the upper half of the day’s range, with by far the highest volume in the sample. That looks like a support undercut-and-reclaim / exhaustion reversal.\n- Price is now back above the recent closes and near the upper end of the short-term range, though still below the older resistance band around 2.14-2.17 and well below the larger breakdown zone near 2.20+.\n\nSignals that matter:\n- Bullish: high-volume reversal from 2.00 support; long lower wick; close strong versus the day’s range; prior pullback into support happened on lighter volume; support rejection aligns with exhaustion rather than fresh breakdown.\n- Bearish: overhead resistance remains around 2.14-2.17 and then 2.20; the stock is still in a larger sideways-to-down structure since t-15.\n- Volume confirmation strongly favors the bullish side because the reclaim day had exceptional participation.\n\nResolve them into a directional view and a confidence level:\n- The strongest signal is the t-00 high-volume rejection of 2.00 support after a muted pullback. Per the lessons, this argues against shorting and favors a cautious reversal/bounce long.\n- Confidence: moderate, because resistance is nearby, but the next-day edge is still upward.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- All three analysts agree: each votes LONG (+1).\n- Their analyses are aligned on the key evidence: a muted pullback into major 2.00 support, followed by a very high-volume undercut-and-reclaim on t-00 with a long lower wick and strong close near the upper part of the range.\n- The main shared caution is nearby resistance around 2.14-2.16/2.20, which lowers confidence somewhat, but it does not overturn the bullish reversal signal.\n- Consensus dominates clearly because there is no disagreement and the data strongly supports a cautious bounce/reversal long rather than a short or no-action stance.\n</think>\n<action>\n1\n</action>",
+    "parsed_vote": 1.0
+  },
+  "final_decision": 1.0,
+  "eval": {
+    "target_return": -0.0530245304107666,
+    "hit": 0.0
+  }
+}

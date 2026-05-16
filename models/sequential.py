@@ -370,11 +370,6 @@ class Sequential(torch.nn.Module):
             "data_point_id": dp_id,
             "timestamp": datetime.now(timezone.utc).isoformat(),
             "pipeline": "sequential",
-            "model": {
-                "provider": self.provider,
-                "name": self.model_name,
-                "temperature": self.temperature,
-            },
             "input": {
                 "ohlcv_window": x_single.detach().cpu().tolist(),
                 "formatted_series": self._format_series(x_single),

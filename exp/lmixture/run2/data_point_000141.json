@@ -1,0 +1,181 @@
+{
+  "data_point_id": 141,
+  "timestamp": "2026-05-16T00:03:44.010846+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        353.8399963378906,
+        359.07000732421875,
+        351.5799865722656,
+        357.7300109863281,
+        2139067.0
+      ],
+      [
+        359.4200134277344,
+        363.7900085449219,
+        355.2200012207031,
+        359.6400146484375,
+        1582829.0
+      ],
+      [
+        356.0,
+        357.4049987792969,
+        346.3599853515625,
+        353.1400146484375,
+        2566047.0
+      ],
+      [
+        354.79998779296875,
+        358.04998779296875,
+        351.010009765625,
+        356.7900085449219,
+        1468367.0
+      ],
+      [
+        357.92999267578125,
+        365.7900085449219,
+        357.2799987792969,
+        364.79998779296875,
+        2103120.0
+      ],
+      [
+        367.1000061035156,
+        374.8699951171875,
+        364.0,
+        370.7300109863281,
+        1527456.0
+      ],
+      [
+        371.05999755859375,
+        377.1300048828125,
+        363.67999267578125,
+        376.70001220703125,
+        2128317.0
+      ],
+      [
+        370.29998779296875,
+        372.1099853515625,
+        358.9200134277344,
+        361.0799865722656,
+        2362425.0
+      ],
+      [
+        364.3399963378906,
+        372.0,
+        364.1400146484375,
+        369.1400146484375,
+        1587051.0
+      ],
+      [
+        377.3900146484375,
+        386.989990234375,
+        374.6199951171875,
+        386.5,
+        2997066.0
+      ],
+      [
+        385.5,
+        394.7182922363281,
+        383.6700134277344,
+        393.70001220703125,
+        3745730.0
+      ],
+      [
+        395.0,
+        403.6499938964844,
+        392.8500061035156,
+        401.8900146484375,
+        3374739.0
+      ],
+      [
+        400.8299865722656,
+        405.0,
+        395.54998779296875,
+        398.0,
+        2837819.0
+      ],
+      [
+        399.0,
+        404.364990234375,
+        396.3900146484375,
+        397.42999267578125,
+        2799384.0
+      ],
+      [
+        395.0,
+        400.6033935546875,
+        390.54998779296875,
+        392.1499938964844,
+        2335032.0
+      ],
+      [
+        392.1000061035156,
+        392.39990234375,
+        353.2901916503906,
+        355.9599914550781,
+        6071926.0
+      ],
+      [
+        343.0,
+        353.5,
+        335.04998779296875,
+        343.57000732421875,
+        4762684.0
+      ],
+      [
+        340.0,
+        357.8500061035156,
+        337.5,
+        355.3599853515625,
+        2380691.0
+      ],
+      [
+        349.9200134277344,
+        363.45001220703125,
+        349.25,
+        362.6000061035156,
+        1571620.0
+      ],
+      [
+        372.3599853515625,
+        378.1050109863281,
+        356.70098876953125,
+        364.7799987792969,
+        3126538.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |   353.8400 |   359.0700 |   351.5800 |   357.7300 |    2139067\n t-18 |   359.4200 |   363.7900 |   355.2200 |   359.6400 |    1582829\n t-17 |   356.0000 |   357.4050 |   346.3600 |   353.1400 |    2566047\n t-16 |   354.8000 |   358.0500 |   351.0100 |   356.7900 |    1468367\n t-15 |   357.9300 |   365.7900 |   357.2800 |   364.8000 |    2103120\n t-14 |   367.1000 |   374.8700 |   364.0000 |   370.7300 |    1527456\n t-13 |   371.0600 |   377.1300 |   363.6800 |   376.7000 |    2128317\n t-12 |   370.3000 |   372.1100 |   358.9200 |   361.0800 |    2362425\n t-11 |   364.3400 |   372.0000 |   364.1400 |   369.1400 |    1587051\n t-10 |   377.3900 |   386.9900 |   374.6200 |   386.5000 |    2997066\n t-09 |   385.5000 |   394.7183 |   383.6700 |   393.7000 |    3745730\n t-08 |   395.0000 |   403.6500 |   392.8500 |   401.8900 |    3374739\n t-07 |   400.8300 |   405.0000 |   395.5500 |   398.0000 |    2837819\n t-06 |   399.0000 |   404.3650 |   396.3900 |   397.4300 |    2799384\n t-05 |   395.0000 |   400.6034 |   390.5500 |   392.1500 |    2335032\n t-04 |   392.1000 |   392.3999 |   353.2902 |   355.9600 |    6071926\n t-03 |   343.0000 |   353.5000 |   335.0500 |   343.5700 |    4762684\n t-02 |   340.0000 |   357.8500 |   337.5000 |   355.3600 |    2380691\n t-01 |   349.9200 |   363.4500 |   349.2500 |   362.6000 |    1571620\n t-00 |   372.3600 |   378.1050 |   356.7010 |   364.7800 |    3126538"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |   353.8400 |   359.0700 |   351.5800 |   357.7300 |    2139067\n t-18 |   359.4200 |   363.7900 |   355.2200 |   359.6400 |    1582829\n t-17 |   356.0000 |   357.4050 |   346.3600 |   353.1400 |    2566047\n t-16 |   354.8000 |   358.0500 |   351.0100 |   356.7900 |    1468367\n t-15 |   357.9300 |   365.7900 |   357.2800 |   364.8000 |    2103120\n t-14 |   367.1000 |   374.8700 |   364.0000 |   370.7300 |    1527456\n t-13 |   371.0600 |   377.1300 |   363.6800 |   376.7000 |    2128317\n t-12 |   370.3000 |   372.1100 |   358.9200 |   361.0800 |    2362425\n t-11 |   364.3400 |   372.0000 |   364.1400 |   369.1400 |    1587051\n t-10 |   377.3900 |   386.9900 |   374.6200 |   386.5000 |    2997066\n t-09 |   385.5000 |   394.7183 |   383.6700 |   393.7000 |    3745730\n t-08 |   395.0000 |   403.6500 |   392.8500 |   401.8900 |    3374739\n t-07 |   400.8300 |   405.0000 |   395.5500 |   398.0000 |    2837819\n t-06 |   399.0000 |   404.3650 |   396.3900 |   397.4300 |    2799384\n t-05 |   395.0000 |   400.6034 |   390.5500 |   392.1500 |    2335032\n t-04 |   392.1000 |   392.3999 |   353.2902 |   355.9600 |    6071926\n t-03 |   343.0000 |   353.5000 |   335.0500 |   343.5700 |    4762684\n t-02 |   340.0000 |   357.8500 |   337.5000 |   355.3600 |    2380691\n t-01 |   349.9200 |   363.4500 |   349.2500 |   362.6000 |    1571620\n t-00 |   372.3600 |   378.1050 |   356.7010 |   364.7800 |    3126538\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock had a strong uptrend into t-08, then a sharp regime change: t-04 was a massive high-volume breakdown from ~392 to ~356, followed by another heavy selloff to ~343 on t-03.\n- Since that bearish impulse, price has rebounded for three sessions: 355.36, 362.60, 364.78. However, this rebound has not reclaimed the key breakdown zone around 372-392, especially the pre-break support near 390 and nearer resistance around 377-378 / 372.\n- The latest day t-00 opened strong at 372.36, traded up to 378.11, but sold off hard intraday to close at 364.78. That is a clear long upper wick / failed breakout into resistance, with the close in the lower half of the day’s range.\n- Volume on t-00 rose versus the prior two rebound days, suggesting the rally into resistance met supply rather than clean continuation demand.\n- Support is around 355-357, then 343. Resistance is 378, then 392. Latest close sits below the midpoint of the post-break rebound range and below the intraday rejection zone.\n- Candlestick/context signal: after a multi-day rebound from oversold, the fresh push higher failed and reversed, which fits exhaustion/false-break behavior rather than strong reclaim.\n- Although t-03 likely marked panic selling and t-02/t-01 showed some recovery, the rebound has been unable to decisively reclaim broken levels on sustained strength. In a post-breakdown environment, that favors the short side when rallies stall below resistance.\n\nSignals that matter:\n- Major high-volume bearish breakdown on t-04 and follow-through on t-03.\n- Rebound on lighter volume than the breakdown days.\n- t-00 intraday breakout failure at resistance with long upper wick and weak close.\n- Resistance overhead at 372-378 remains unclaimed.\n- Trend regime shifted from uptrend to corrective/downtrend after breakdown.\n\nDirectional view and confidence:\n- Bias is SHORT: failed rebound into resistance after a major breakdown is the dominant signal.\n- Confidence is moderate, not maximum, because there is nearby support around 355 and prior washout risk of another bounce.\n</think>\n<action>\n-1\n</action>",
+        "parsed_vote": -1.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock had a strong uptrend into t-08, then a sharp regime change: t-04 was a massive bearish breakdown from the 390s to 355.96 on huge volume, followed by another weak day to 343.57 on elevated volume at t-03.\n- Since that selloff, price has rebounded for three sessions: 355.36, 362.60, 364.78. However, this rebound has not reclaimed the key breakdown zone around 372-392, especially the t-04 open/upper area and prior support turned resistance.\n- The rebound volume is mixed to weak relative to the breakdown: t-02 and t-01 were clearly lighter volume than the selloff days. t-00 volume picked up, but the candle is not strong: opened at 372.36, traded up to 378.11, then sold off hard intraday to close only 364.78, near the lower half of the day’s range.\n- That makes t-00 a bearish rejection / long upper wick day right into resistance near the breakdown area. It also failed to hold above the prior close by much despite a gap up.\n- Support sits around 355 and then 343-337. Resistance is around 372-378 first, then 390+. Latest close is below near-term resistance and only modestly above first support.\n- Signals that matter:\n  - Major high-volume bearish impulse and support break at t-04/t-03.\n  - Subsequent rebound mostly on lighter volume, suggesting weak recovery rather than strong accumulation.\n  - t-00 gap-up into resistance failed, leaving a rejection candle with upper wick and lower-half close.\n  - Price remains below the breakdown zone; no decisive high-volume reclaim.\n- Resolution:\n  - This fits the lesson that after a bearish impulse/support break, low-quality rebounds stalling below resistance favor shorts.\n  - Confidence is moderate: there was some rebound strength off the lows, so not maximum conviction, but the latest rejection at resistance tilts next day bearish.\n</think>\n<action>\n-1\n</action>",
+        "parsed_vote": -1.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock had a strong uptrend into t-08, then a sharp regime change: t-04 was a massive high-volume breakdown from the 390s to 356, followed by another heavy selloff to 343 on t-03.\n- Since that bearish impulse, price has rebounded for three sessions: 355.36, 362.60, 364.78 closes. However, this rebound has mostly occurred on lighter volume on t-02 and t-01, with t-00 volume picking up but still not reclaiming key resistance.\n- Important levels: support sits around 335-343 from t-03/t-02 lows, then 353-356 from the breakdown close area. Resistance is around 372-378 (t-14/t-13 area and t-00 high), and more importantly 390-400 from the broken prior range.\n- t-00 opened strong and traded up to 378.10 but sold off hard intraday to close only at 364.78, near the lower half of the day’s range. That creates an upper-wick rejection right into resistance after a rebound.\n- The rebound from t-03 low has not yet decisively reclaimed the breakdown zone from t-04; instead, it stalled below/into resistance. This fits a weak rebound after a bearish impulse rather than a confirmed reversal.\n- Positive signal: the t-03 washout was followed by a decent bounce, suggesting some exhaustion near 335-343. That argues against aggressive shorting at the lows.\n- Negative signals that matter more now: major prior support was broken on huge volume; rebound volume faded initially; latest day shows rejection at resistance with increased volume and a weak close relative to the day’s range; price remains below the pre-breakdown area.\n- Net view: this looks like a bear-market bounce stalling under resistance after a high-volume breakdown. The latest candle suggests sellers are defending overhead supply. Confidence is moderate.\n</think>\n<action>\n-1\n</action>",
+        "parsed_vote": -1.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |   353.8400 |   359.0700 |   351.5800 |   357.7300 |    2139067\n t-18 |   359.4200 |   363.7900 |   355.2200 |   359.6400 |    1582829\n t-17 |   356.0000 |   357.4050 |   346.3600 |   353.1400 |    2566047\n t-16 |   354.8000 |   358.0500 |   351.0100 |   356.7900 |    1468367\n t-15 |   357.9300 |   365.7900 |   357.2800 |   364.8000 |    2103120\n t-14 |   367.1000 |   374.8700 |   364.0000 |   370.7300 |    1527456\n t-13 |   371.0600 |   377.1300 |   363.6800 |   376.7000 |    2128317\n t-12 |   370.3000 |   372.1100 |   358.9200 |   361.0800 |    2362425\n t-11 |   364.3400 |   372.0000 |   364.1400 |   369.1400 |    1587051\n t-10 |   377.3900 |   386.9900 |   374.6200 |   386.5000 |    2997066\n t-09 |   385.5000 |   394.7183 |   383.6700 |   393.7000 |    3745730\n t-08 |   395.0000 |   403.6500 |   392.8500 |   401.8900 |    3374739\n t-07 |   400.8300 |   405.0000 |   395.5500 |   398.0000 |    2837819\n t-06 |   399.0000 |   404.3650 |   396.3900 |   397.4300 |    2799384\n t-05 |   395.0000 |   400.6034 |   390.5500 |   392.1500 |    2335032\n t-04 |   392.1000 |   392.3999 |   353.2902 |   355.9600 |    6071926\n t-03 |   343.0000 |   353.5000 |   335.0500 |   343.5700 |    4762684\n t-02 |   340.0000 |   357.8500 |   337.5000 |   355.3600 |    2380691\n t-01 |   349.9200 |   363.4500 |   349.2500 |   362.6000 |    1571620\n t-00 |   372.3600 |   378.1050 |   356.7010 |   364.7800 |    3126538\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The stock had a strong uptrend into t-08, then a sharp regime change: t-04 was a massive high-volume breakdown from ~392 to ~356, followed by another heavy selloff to ~343 on t-03.\n- Since that bearish impulse, price has rebounded for three sessions: 355.36, 362.60, 364.78. However, this rebound has not reclaimed the key breakdown zone around 372-392, especially the pre-break support near 390 and nearer resistance around 377-378 / 372.\n- The latest day t-00 opened strong at 372.36, traded up to 378.11, but sold off hard intraday to close at 364.78. That is a clear long upper wick / failed breakout into resistance, with the close in the lower half of the day’s range.\n- Volume on t-00 rose versus the prior two rebound days, suggesting the rally into resistance met supply rather than clean continuation demand.\n- Support is around 355-357, then 343. Resistance is 378, then 392. Latest close sits below the midpoint of the post-break rebound range and below the intraday rejection zone.\n- Candlestick/context signal: after a multi-day rebound from oversold, the fresh push higher failed and reversed, which fits exhaustion/false-break behavior rather than strong reclaim.\n- Although t-03 likely marked panic selling and t-02/t-01 showed some recovery, the rebound has been unable to decisively reclaim broken levels on sustained strength. In a post-breakdown environment, that favors the short side when rallies stall below resistance.\n\nSignals that matter:\n- Major high-volume bearish breakdown on t-04 and follow-through on t-03.\n- Rebound on lighter volume than the breakdown days.\n- t-00 intraday breakout failure at resistance with long upper wick and weak close.\n- Resistance overhead at 372-378 remains unclaimed.\n- Trend regime shifted from uptrend to corrective/downtrend after breakdown.\n\nDirectional view and confidence:\n- Bias is SHORT: failed rebound into resistance after a major breakdown is the dominant signal.\n- Confidence is moderate, not maximum, because there is nearby support around 355 and prior washout risk of another bounce.\n</think>\n<action>\n-1\n</action>\n(parsed vote: SHORT (-1))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The stock had a strong uptrend into t-08, then a sharp regime change: t-04 was a massive bearish breakdown from the 390s to 355.96 on huge volume, followed by another weak day to 343.57 on elevated volume at t-03.\n- Since that selloff, price has rebounded for three sessions: 355.36, 362.60, 364.78. However, this rebound has not reclaimed the key breakdown zone around 372-392, especially the t-04 open/upper area and prior support turned resistance.\n- The rebound volume is mixed to weak relative to the breakdown: t-02 and t-01 were clearly lighter volume than the selloff days. t-00 volume picked up, but the candle is not strong: opened at 372.36, traded up to 378.11, then sold off hard intraday to close only 364.78, near the lower half of the day’s range.\n- That makes t-00 a bearish rejection / long upper wick day right into resistance near the breakdown area. It also failed to hold above the prior close by much despite a gap up.\n- Support sits around 355 and then 343-337. Resistance is around 372-378 first, then 390+. Latest close is below near-term resistance and only modestly above first support.\n- Signals that matter:\n  - Major high-volume bearish impulse and support break at t-04/t-03.\n  - Subsequent rebound mostly on lighter volume, suggesting weak recovery rather than strong accumulation.\n  - t-00 gap-up into resistance failed, leaving a rejection candle with upper wick and lower-half close.\n  - Price remains below the breakdown zone; no decisive high-volume reclaim.\n- Resolution:\n  - This fits the lesson that after a bearish impulse/support break, low-quality rebounds stalling below resistance favor shorts.\n  - Confidence is moderate: there was some rebound strength off the lows, so not maximum conviction, but the latest rejection at resistance tilts next day bearish.\n</think>\n<action>\n-1\n</action>\n(parsed vote: SHORT (-1))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The stock had a strong uptrend into t-08, then a sharp regime change: t-04 was a massive high-volume breakdown from the 390s to 356, followed by another heavy selloff to 343 on t-03.\n- Since that bearish impulse, price has rebounded for three sessions: 355.36, 362.60, 364.78 closes. However, this rebound has mostly occurred on lighter volume on t-02 and t-01, with t-00 volume picking up but still not reclaiming key resistance.\n- Important levels: support sits around 335-343 from t-03/t-02 lows, then 353-356 from the breakdown close area. Resistance is around 372-378 (t-14/t-13 area and t-00 high), and more importantly 390-400 from the broken prior range.\n- t-00 opened strong and traded up to 378.10 but sold off hard intraday to close only at 364.78, near the lower half of the day’s range. That creates an upper-wick rejection right into resistance after a rebound.\n- The rebound from t-03 low has not yet decisively reclaimed the breakdown zone from t-04; instead, it stalled below/into resistance. This fits a weak rebound after a bearish impulse rather than a confirmed reversal.\n- Positive signal: the t-03 washout was followed by a decent bounce, suggesting some exhaustion near 335-343. That argues against aggressive shorting at the lows.\n- Negative signals that matter more now: major prior support was broken on huge volume; rebound volume faded initially; latest day shows rejection at resistance with increased volume and a weak close relative to the day’s range; price remains below the pre-breakdown area.\n- Net view: this looks like a bear-market bounce stalling under resistance after a high-volume breakdown. The latest candle suggests sellers are defending overhead supply. Confidence is moderate.\n</think>\n<action>\n-1\n</action>\n(parsed vote: SHORT (-1))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- All three analysts agree on SHORT (-1).\n- Their shared basis is consistent: a major high-volume breakdown at t-04/t-03 changed the regime, the subsequent rebound was weaker than the selloff, and t-00 showed a gap-up failure/long upper wick rejection into resistance around 372-378.\n- The dominant view is that this is a weak post-breakdown rebound stalling below key resistance, which matches the lesson favoring shorts until a decisive high-volume reclaim occurs.\n</think>\n<action>\n-1\n</action>",
+    "parsed_vote": -1.0
+  },
+  "final_decision": -1.0,
+  "eval": {
+    "target_return": -0.06990772485733032,
+    "hit": 1.0
+  }
+}

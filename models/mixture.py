@@ -297,11 +297,6 @@ class Mixture(torch.nn.Module):
         trace = {
             "data_point_id": dp_id,
             "timestamp": datetime.now(timezone.utc).isoformat(),
-            "model": {
-                "provider": self.provider,
-                "name": self.model_name,
-                "temperature": self.temperature,
-            },
             "input": {
                 "ohlcv_window": x_single.detach().cpu().tolist(),
                 "formatted_series": self._format_series(x_single),

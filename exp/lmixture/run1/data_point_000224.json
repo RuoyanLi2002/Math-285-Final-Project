@@ -1,0 +1,181 @@
+{
+  "data_point_id": 224,
+  "timestamp": "2026-05-15T23:49:54.558582+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        177.83999633789062,
+        180.38999938964844,
+        176.5,
+        178.2899932861328,
+        470554.0
+      ],
+      [
+        178.7899932861328,
+        181.5,
+        178.72000122070312,
+        181.16000366210938,
+        286043.0
+      ],
+      [
+        183.67999267578125,
+        187.78500366210938,
+        183.375,
+        185.8699951171875,
+        339725.0
+      ],
+      [
+        185.66000366210938,
+        187.02000427246094,
+        184.57000732421875,
+        184.69000244140625,
+        362145.0
+      ],
+      [
+        184.8300018310547,
+        187.2949981689453,
+        184.5,
+        186.33999633789062,
+        264851.0
+      ],
+      [
+        184.8300018310547,
+        186.17999267578125,
+        182.92999267578125,
+        185.9499969482422,
+        306730.0
+      ],
+      [
+        187.0500030517578,
+        188.02000427246094,
+        184.77000427246094,
+        185.97000122070312,
+        243271.0
+      ],
+      [
+        186.0,
+        188.4499969482422,
+        184.4600067138672,
+        187.35000610351562,
+        245792.0
+      ],
+      [
+        187.41000366210938,
+        190.94000244140625,
+        185.69000244140625,
+        186.1999969482422,
+        315830.0
+      ],
+      [
+        187.67999267578125,
+        190.16000366210938,
+        183.99000549316406,
+        189.41000366210938,
+        417977.0
+      ],
+      [
+        190.58999633789062,
+        193.66000366210938,
+        188.61000061035156,
+        188.72999572753906,
+        280206.0
+      ],
+      [
+        189.77999877929688,
+        190.13999938964844,
+        183.67999267578125,
+        184.11000061035156,
+        575982.0
+      ],
+      [
+        181.75999450683594,
+        181.75999450683594,
+        176.8699951171875,
+        179.5800018310547,
+        291830.0
+      ],
+      [
+        181.05999755859375,
+        184.94000244140625,
+        181.05999755859375,
+        183.13999938964844,
+        204210.0
+      ],
+      [
+        182.97999572753906,
+        183.99000549316406,
+        179.69000244140625,
+        180.33999633789062,
+        208876.0
+      ],
+      [
+        181.14999389648438,
+        183.00999450683594,
+        181.0,
+        182.2100067138672,
+        205190.0
+      ],
+      [
+        181.9600067138672,
+        184.3800048828125,
+        181.39999389648438,
+        184.17999267578125,
+        145317.0
+      ],
+      [
+        184.0,
+        187.24000549316406,
+        184.0,
+        186.27999877929688,
+        131374.0
+      ],
+      [
+        185.77000427246094,
+        186.72000122070312,
+        185.02999877929688,
+        185.47999572753906,
+        125979.0
+      ],
+      [
+        185.94000244140625,
+        187.2899932861328,
+        184.91000366210938,
+        185.22999572753906,
+        121592.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |   177.8400 |   180.3900 |   176.5000 |   178.2900 |     470554\n t-18 |   178.7900 |   181.5000 |   178.7200 |   181.1600 |     286043\n t-17 |   183.6800 |   187.7850 |   183.3750 |   185.8700 |     339725\n t-16 |   185.6600 |   187.0200 |   184.5700 |   184.6900 |     362145\n t-15 |   184.8300 |   187.2950 |   184.5000 |   186.3400 |     264851\n t-14 |   184.8300 |   186.1800 |   182.9300 |   185.9500 |     306730\n t-13 |   187.0500 |   188.0200 |   184.7700 |   185.9700 |     243271\n t-12 |   186.0000 |   188.4500 |   184.4600 |   187.3500 |     245792\n t-11 |   187.4100 |   190.9400 |   185.6900 |   186.2000 |     315830\n t-10 |   187.6800 |   190.1600 |   183.9900 |   189.4100 |     417977\n t-09 |   190.5900 |   193.6600 |   188.6100 |   188.7300 |     280206\n t-08 |   189.7800 |   190.1400 |   183.6800 |   184.1100 |     575982\n t-07 |   181.7600 |   181.7600 |   176.8700 |   179.5800 |     291830\n t-06 |   181.0600 |   184.9400 |   181.0600 |   183.1400 |     204210\n t-05 |   182.9800 |   183.9900 |   179.6900 |   180.3400 |     208876\n t-04 |   181.1500 |   183.0100 |   181.0000 |   182.2100 |     205190\n t-03 |   181.9600 |   184.3800 |   181.4000 |   184.1800 |     145317\n t-02 |   184.0000 |   187.2400 |   184.0000 |   186.2800 |     131374\n t-01 |   185.7700 |   186.7200 |   185.0300 |   185.4800 |     125979\n t-00 |   185.9400 |   187.2900 |   184.9100 |   185.2300 |     121592"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |   177.8400 |   180.3900 |   176.5000 |   178.2900 |     470554\n t-18 |   178.7900 |   181.5000 |   178.7200 |   181.1600 |     286043\n t-17 |   183.6800 |   187.7850 |   183.3750 |   185.8700 |     339725\n t-16 |   185.6600 |   187.0200 |   184.5700 |   184.6900 |     362145\n t-15 |   184.8300 |   187.2950 |   184.5000 |   186.3400 |     264851\n t-14 |   184.8300 |   186.1800 |   182.9300 |   185.9500 |     306730\n t-13 |   187.0500 |   188.0200 |   184.7700 |   185.9700 |     243271\n t-12 |   186.0000 |   188.4500 |   184.4600 |   187.3500 |     245792\n t-11 |   187.4100 |   190.9400 |   185.6900 |   186.2000 |     315830\n t-10 |   187.6800 |   190.1600 |   183.9900 |   189.4100 |     417977\n t-09 |   190.5900 |   193.6600 |   188.6100 |   188.7300 |     280206\n t-08 |   189.7800 |   190.1400 |   183.6800 |   184.1100 |     575982\n t-07 |   181.7600 |   181.7600 |   176.8700 |   179.5800 |     291830\n t-06 |   181.0600 |   184.9400 |   181.0600 |   183.1400 |     204210\n t-05 |   182.9800 |   183.9900 |   179.6900 |   180.3400 |     208876\n t-04 |   181.1500 |   183.0100 |   181.0000 |   182.2100 |     205190\n t-03 |   181.9600 |   184.3800 |   181.4000 |   184.1800 |     145317\n t-02 |   184.0000 |   187.2400 |   184.0000 |   186.2800 |     131374\n t-01 |   185.7700 |   186.7200 |   185.0300 |   185.4800 |     125979\n t-00 |   185.9400 |   187.2900 |   184.9100 |   185.2300 |     121592\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock had a strong run up into the 193.66 area, then suffered a sharp selloff down to 176.87 on elevated volume, which looks like a prior bullish breakout failure / distribution event.\n- Since that drop, price has stabilized and rebounded back into the 184-187 zone, but the rebound has been on steadily declining volume.\n- The last few sessions show tight, small-range candles near the upper-middle of the recent range, but closes are slightly weaker over the last two days (186.28 -> 185.48 -> 185.23), suggesting the bounce is stalling.\n- Key resistance is overhead around 186.7-187.3 and then 188+; the latest close is just below that zone, so there is no decisive reclaim.\n- Support is around 184-185 and then the prior swing low near 176.9. The current action is not breaking support, but it also is not showing strong upside momentum or volume confirmation.\n- Given the earlier failed rally, the weak-volume rebound, and the stall just under resistance, the edge is mildly bearish for the next day.\n- Confidence is moderate, not high, because the recent range is still intact and there is no fresh breakdown yet.\n</think>\n<action>\n-1\n</action>",
+        "parsed_vote": -1.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock had a strong rally into t-10/t-09, then a sharp selloff from the 193.66 high down to 176.87 on t-07, followed by a recovery back into the 184-187 area.\n- Since t-03, price has been grinding higher, but the latest candles (t-02 to t-00) show stalling just below the 187.24/187.29 resistance zone, with small real bodies and slightly lower closes.\n- Volume has been steadily declining on the rebound, which weakens the bullish case and suggests the bounce is losing momentum rather than expanding into a breakout.\n- The latest close sits in the upper-middle of the recent range, but still below the prior swing highs and below the earlier breakdown/rejection area around 187-188.\n- There is no clear bullish breakout confirmation, and no fresh support break either; this looks like a consolidation under resistance after a recovery.\n- Given the mixed regime and lack of decisive volume confirmation, the edge is limited. Slight bearish tilt due to repeated failure near resistance and fading momentum, but not strong enough for an aggressive short.\n</think>\n<action>\n0\n</action>",
+        "parsed_vote": 0.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock sold off sharply from the 193.66 high down to 176.87 on a volume spike, then rebounded back into the 184-187 area.\n- The rebound has been losing momentum: recent closes are drifting lower (186.28 -> 185.48 -> 185.23) and the latest candles are small-range, indecisive, and near the middle/lower part of the recent rebound range.\n- Volume has contracted steadily on the bounce, which suggests the recovery lacks strong sponsorship.\n- The prior breakdown area around 187-190 is acting as resistance; recent attempts to reclaim it have stalled below that zone.\n- There is no clear bullish reversal pattern yet, and no decisive high-volume reclaim of resistance. At the same time, the stock is not breaking down again with expanding volume, so downside edge is limited.\n- Overall this looks like a weak rebound inside a broader post-selloff consolidation, with mixed signals and insufficient confirmation for a high-conviction short or long.\n</think>\n<action>\n0\n</action>",
+        "parsed_vote": 0.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |   177.8400 |   180.3900 |   176.5000 |   178.2900 |     470554\n t-18 |   178.7900 |   181.5000 |   178.7200 |   181.1600 |     286043\n t-17 |   183.6800 |   187.7850 |   183.3750 |   185.8700 |     339725\n t-16 |   185.6600 |   187.0200 |   184.5700 |   184.6900 |     362145\n t-15 |   184.8300 |   187.2950 |   184.5000 |   186.3400 |     264851\n t-14 |   184.8300 |   186.1800 |   182.9300 |   185.9500 |     306730\n t-13 |   187.0500 |   188.0200 |   184.7700 |   185.9700 |     243271\n t-12 |   186.0000 |   188.4500 |   184.4600 |   187.3500 |     245792\n t-11 |   187.4100 |   190.9400 |   185.6900 |   186.2000 |     315830\n t-10 |   187.6800 |   190.1600 |   183.9900 |   189.4100 |     417977\n t-09 |   190.5900 |   193.6600 |   188.6100 |   188.7300 |     280206\n t-08 |   189.7800 |   190.1400 |   183.6800 |   184.1100 |     575982\n t-07 |   181.7600 |   181.7600 |   176.8700 |   179.5800 |     291830\n t-06 |   181.0600 |   184.9400 |   181.0600 |   183.1400 |     204210\n t-05 |   182.9800 |   183.9900 |   179.6900 |   180.3400 |     208876\n t-04 |   181.1500 |   183.0100 |   181.0000 |   182.2100 |     205190\n t-03 |   181.9600 |   184.3800 |   181.4000 |   184.1800 |     145317\n t-02 |   184.0000 |   187.2400 |   184.0000 |   186.2800 |     131374\n t-01 |   185.7700 |   186.7200 |   185.0300 |   185.4800 |     125979\n t-00 |   185.9400 |   187.2900 |   184.9100 |   185.2300 |     121592\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The stock had a strong run up into the 193.66 area, then suffered a sharp selloff down to 176.87 on elevated volume, which looks like a prior bullish breakout failure / distribution event.\n- Since that drop, price has stabilized and rebounded back into the 184-187 zone, but the rebound has been on steadily declining volume.\n- The last few sessions show tight, small-range candles near the upper-middle of the recent range, but closes are slightly weaker over the last two days (186.28 -> 185.48 -> 185.23), suggesting the bounce is stalling.\n- Key resistance is overhead around 186.7-187.3 and then 188+; the latest close is just below that zone, so there is no decisive reclaim.\n- Support is around 184-185 and then the prior swing low near 176.9. The current action is not breaking support, but it also is not showing strong upside momentum or volume confirmation.\n- Given the earlier failed rally, the weak-volume rebound, and the stall just under resistance, the edge is mildly bearish for the next day.\n- Confidence is moderate, not high, because the recent range is still intact and there is no fresh breakdown yet.\n</think>\n<action>\n-1\n</action>\n(parsed vote: SHORT (-1))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The stock had a strong rally into t-10/t-09, then a sharp selloff from the 193.66 high down to 176.87 on t-07, followed by a recovery back into the 184-187 area.\n- Since t-03, price has been grinding higher, but the latest candles (t-02 to t-00) show stalling just below the 187.24/187.29 resistance zone, with small real bodies and slightly lower closes.\n- Volume has been steadily declining on the rebound, which weakens the bullish case and suggests the bounce is losing momentum rather than expanding into a breakout.\n- The latest close sits in the upper-middle of the recent range, but still below the prior swing highs and below the earlier breakdown/rejection area around 187-188.\n- There is no clear bullish breakout confirmation, and no fresh support break either; this looks like a consolidation under resistance after a recovery.\n- Given the mixed regime and lack of decisive volume confirmation, the edge is limited. Slight bearish tilt due to repeated failure near resistance and fading momentum, but not strong enough for an aggressive short.\n</think>\n<action>\n0\n</action>\n(parsed vote: NO ACTION (0))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The stock sold off sharply from the 193.66 high down to 176.87 on a volume spike, then rebounded back into the 184-187 area.\n- The rebound has been losing momentum: recent closes are drifting lower (186.28 -> 185.48 -> 185.23) and the latest candles are small-range, indecisive, and near the middle/lower part of the recent rebound range.\n- Volume has contracted steadily on the bounce, which suggests the recovery lacks strong sponsorship.\n- The prior breakdown area around 187-190 is acting as resistance; recent attempts to reclaim it have stalled below that zone.\n- There is no clear bullish reversal pattern yet, and no decisive high-volume reclaim of resistance. At the same time, the stock is not breaking down again with expanding volume, so downside edge is limited.\n- Overall this looks like a weak rebound inside a broader post-selloff consolidation, with mixed signals and insufficient confirmation for a high-conviction short or long.\n</think>\n<action>\n0\n</action>\n(parsed vote: NO ACTION (0))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- Analyst 1 is bearish (-1), while Analysts 2 and 3 both call for no action (0).\n- All three agree the stock is in a post-selloff rebound that has stalled under the 187-188 resistance zone on fading volume.\n- The disagreement is only on whether that stall is enough to short. The data shows weak momentum and overhead resistance, but not a decisive breakdown or high-conviction bearish trigger.\n- With two analysts explicitly seeing insufficient confirmation and the price still holding the 184-185 support area, conviction is low.\n</think>\n<action>\n0\n</action>",
+    "parsed_vote": 0.0
+  },
+  "final_decision": 0.0,
+  "eval": {
+    "target_return": 0.008119078353047371,
+    "hit": null
+  }
+}

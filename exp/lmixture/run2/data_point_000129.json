@@ -1,0 +1,181 @@
+{
+  "data_point_id": 129,
+  "timestamp": "2026-05-16T00:01:12.480010+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        54.779998779296875,
+        55.2599983215332,
+        54.38999938964844,
+        55.029998779296875,
+        941371.0
+      ],
+      [
+        55.529998779296875,
+        56.189998626708984,
+        55.2599983215332,
+        55.79999923706055,
+        1612508.0
+      ],
+      [
+        55.599998474121094,
+        55.65999984741211,
+        50.400001525878906,
+        50.459999084472656,
+        3655139.0
+      ],
+      [
+        50.52000045776367,
+        51.521400451660156,
+        49.56999969482422,
+        51.22999954223633,
+        1504793.0
+      ],
+      [
+        51.70000076293945,
+        51.79999923706055,
+        49.27000045776367,
+        50.13999938964844,
+        1319057.0
+      ],
+      [
+        50.47999954223633,
+        50.47999954223633,
+        49.084999084472656,
+        49.459999084472656,
+        1744895.0
+      ],
+      [
+        49.36000061035156,
+        49.79779815673828,
+        48.099998474121094,
+        49.0,
+        1536614.0
+      ],
+      [
+        48.959999084472656,
+        48.959999084472656,
+        47.39500045776367,
+        47.560001373291016,
+        1297605.0
+      ],
+      [
+        47.77000045776367,
+        48.54999923706055,
+        47.599998474121094,
+        48.08000183105469,
+        634701.0
+      ],
+      [
+        48.290000915527344,
+        48.47999954223633,
+        47.34000015258789,
+        47.900001525878906,
+        675411.0
+      ],
+      [
+        48.0099983215332,
+        48.5099983215332,
+        47.869998931884766,
+        48.279998779296875,
+        875583.0
+      ],
+      [
+        48.18000030517578,
+        48.619998931884766,
+        48.060001373291016,
+        48.43000030517578,
+        887688.0
+      ],
+      [
+        48.119998931884766,
+        48.32500076293945,
+        47.52000045776367,
+        47.68000030517578,
+        907868.0
+      ],
+      [
+        47.755001068115234,
+        47.875,
+        46.790000915527344,
+        47.369998931884766,
+        1193788.0
+      ],
+      [
+        47.33000183105469,
+        47.65999984741211,
+        46.65999984741211,
+        46.720001220703125,
+        1397035.0
+      ],
+      [
+        46.880001068115234,
+        47.54999923706055,
+        46.595001220703125,
+        47.11000061035156,
+        1923346.0
+      ],
+      [
+        47.279998779296875,
+        47.369998931884766,
+        45.52000045776367,
+        46.0099983215332,
+        1072948.0
+      ],
+      [
+        45.84000015258789,
+        46.33000183105469,
+        45.349998474121094,
+        46.15999984741211,
+        1236576.0
+      ],
+      [
+        45.900001525878906,
+        47.59000015258789,
+        45.79999923706055,
+        47.349998474121094,
+        1190202.0
+      ],
+      [
+        47.63999938964844,
+        47.7400016784668,
+        46.40999984741211,
+        47.20000076293945,
+        914481.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    54.7800 |    55.2600 |    54.3900 |    55.0300 |     941371\n t-18 |    55.5300 |    56.1900 |    55.2600 |    55.8000 |    1612508\n t-17 |    55.6000 |    55.6600 |    50.4000 |    50.4600 |    3655139\n t-16 |    50.5200 |    51.5214 |    49.5700 |    51.2300 |    1504793\n t-15 |    51.7000 |    51.8000 |    49.2700 |    50.1400 |    1319057\n t-14 |    50.4800 |    50.4800 |    49.0850 |    49.4600 |    1744895\n t-13 |    49.3600 |    49.7978 |    48.1000 |    49.0000 |    1536614\n t-12 |    48.9600 |    48.9600 |    47.3950 |    47.5600 |    1297605\n t-11 |    47.7700 |    48.5500 |    47.6000 |    48.0800 |     634701\n t-10 |    48.2900 |    48.4800 |    47.3400 |    47.9000 |     675411\n t-09 |    48.0100 |    48.5100 |    47.8700 |    48.2800 |     875583\n t-08 |    48.1800 |    48.6200 |    48.0600 |    48.4300 |     887688\n t-07 |    48.1200 |    48.3250 |    47.5200 |    47.6800 |     907868\n t-06 |    47.7550 |    47.8750 |    46.7900 |    47.3700 |    1193788\n t-05 |    47.3300 |    47.6600 |    46.6600 |    46.7200 |    1397035\n t-04 |    46.8800 |    47.5500 |    46.5950 |    47.1100 |    1923346\n t-03 |    47.2800 |    47.3700 |    45.5200 |    46.0100 |    1072948\n t-02 |    45.8400 |    46.3300 |    45.3500 |    46.1600 |    1236576\n t-01 |    45.9000 |    47.5900 |    45.8000 |    47.3500 |    1190202\n t-00 |    47.6400 |    47.7400 |    46.4100 |    47.2000 |     914481"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    54.7800 |    55.2600 |    54.3900 |    55.0300 |     941371\n t-18 |    55.5300 |    56.1900 |    55.2600 |    55.8000 |    1612508\n t-17 |    55.6000 |    55.6600 |    50.4000 |    50.4600 |    3655139\n t-16 |    50.5200 |    51.5214 |    49.5700 |    51.2300 |    1504793\n t-15 |    51.7000 |    51.8000 |    49.2700 |    50.1400 |    1319057\n t-14 |    50.4800 |    50.4800 |    49.0850 |    49.4600 |    1744895\n t-13 |    49.3600 |    49.7978 |    48.1000 |    49.0000 |    1536614\n t-12 |    48.9600 |    48.9600 |    47.3950 |    47.5600 |    1297605\n t-11 |    47.7700 |    48.5500 |    47.6000 |    48.0800 |     634701\n t-10 |    48.2900 |    48.4800 |    47.3400 |    47.9000 |     675411\n t-09 |    48.0100 |    48.5100 |    47.8700 |    48.2800 |     875583\n t-08 |    48.1800 |    48.6200 |    48.0600 |    48.4300 |     887688\n t-07 |    48.1200 |    48.3250 |    47.5200 |    47.6800 |     907868\n t-06 |    47.7550 |    47.8750 |    46.7900 |    47.3700 |    1193788\n t-05 |    47.3300 |    47.6600 |    46.6600 |    46.7200 |    1397035\n t-04 |    46.8800 |    47.5500 |    46.5950 |    47.1100 |    1923346\n t-03 |    47.2800 |    47.3700 |    45.5200 |    46.0100 |    1072948\n t-02 |    45.8400 |    46.3300 |    45.3500 |    46.1600 |    1236576\n t-01 |    45.9000 |    47.5900 |    45.8000 |    47.3500 |    1190202\n t-00 |    47.6400 |    47.7400 |    46.4100 |    47.2000 |     914481\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The broader context is a clear downtrend: a major breakdown at t-17 on very high volume from the mid-55s to near 50, followed by persistent lower prices and no meaningful recovery back toward the breakdown zone.\n- Since t-12 the stock has been basing/sliding in the 45.3–48.6 area. Recent action shows a test of lower support at t-03/t-02 (45.52/45.35 lows), then a rebound to t-01, but t-00 failed to follow through and closed slightly lower.\n- Key levels: near resistance sits around 47.5–48.0, then 48.4–48.6. Support is around 45.3–45.5. The latest close 47.20 is in the upper-middle of the recent range, but still below resistance and far below the larger breakdown area.\n- Volume pattern matters: the t-01 rebound was not accompanied by standout volume, and t-00’s pullback came on lighter volume. That suggests no strong bearish impulse right now, but also no convincing accumulation or breakout confirmation.\n- Candlestick/price structure: t-01 was a decent bounce day, but t-00 opened higher, probed 47.74, and faded to 47.20. That stall just under resistance hints at weak upside momentum, though not a strong reversal signal by itself.\n- Momentum/regime: trend is still bearish on the larger window, but the very short-term action looks more like range trading/mean reversion after a support hold. Because support held and the rebound has not broken down, shorting into this area is less attractive. But because the bounce stalled below resistance without volume expansion, chasing long is also weak.\n- Relevant signals:\n  - Bearish larger trend and failed recovery from prior breakdown.\n  - Support around 45.3 held recently, reducing immediate short edge.\n  - Rebound into 47.5 resistance stalled on unimpressive volume.\n  - No decisive breakout or decisive support break.\n- Resolution: mixed signals with no strong edge. The stock is between support and resistance, in a weak rebound inside a broader downtrend. Confidence is low, so best decision is to stand aside.\n</think>\n<action>\n0\n</action>",
+        "parsed_vote": 0.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The broader 20-day structure is a clear downtrend: a major breakdown from the mid-55s to low-50s on very high volume at t-17, followed by persistent lower highs/lows into the mid-40s.\n- After the selloff, price based around 47.5-48.5, then broke lower again from t-07 to t-03, making a new swing low at 45.52.\n- The last three days show a rebound from that low: t-02 stabilized, t-01 had a strong up day from 45.8 to 47.35, and t-00 held most of that gain despite a small red candle.\n- Important levels: support near 45.3-45.5; resistance near 47.5-48.0, then 48.5. The latest close 47.20 sits near the upper part of the recent 45.35-47.74 short-term range, but still below clear resistance.\n- Volume does not confirm a strong bearish continuation right now. The recent dip into support did not break on expanding volume, and the rebound day t-01 was constructive. t-00 pulled back on lighter volume, which looks more like consolidation than renewed distribution.\n- Candlestick/context: t-03 was a sharp flush to new lows but did not trigger immediate follow-through; t-01 was a strong recovery candle. t-00 is a mild pause, not a decisive rejection.\n- Momentum is still weak on the larger trend, so this is countertrend. But per the lessons, drifting into support and rebounding without heavy-volume breakdown argues against fresh shorts. Also, after a selloff into support, stabilization/reclaim favors a cautious reversal long rather than shorting late.\n\nSignals that matter:\n- Major trend remains down bearish.\n- Recent support at 45.3-45.5 held.\n- Rebound from support was constructive.\n- Pullback on t-00 came on lighter volume and stayed above the recent rebound base.\n- Price is below resistance, so upside edge exists but is not high confidence.\n\nDirectional view and confidence:\n- Best synthesis is a cautious LONG for a short-term bounce/continuation from support, despite the larger downtrend.\n- Confidence: modest, because this is countertrend and resistance is nearby.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The broader 20-day structure is a clear downtrend: a major breakdown from the mid-55s at t-17 on very high volume, followed by persistent lower highs/lows into the mid-40s.\n- However, the most recent segment shows stabilization near support around 45.3-46.0. At t-03 price flushed to 45.52, then held. t-02 and t-01 rebounded, with t-01 a strong up day closing near the high and reclaiming back above 47.\n- t-00 was a mild pullback after that rebound: it opened higher, traded up to 47.74, but closed at 47.20. This is a small red candle, but still well above the recent lows and above the prior support zone. Volume on t-00 declined versus the rebound days, so the pullback lacks strong selling pressure.\n- Key levels: support sits around 45.3-45.8 and then 46.6-46.7; resistance is around 47.6-48.0, then 48.5. The latest close is near the upper half of the recent 5-10 day range, not at breakdown lows.\n- Signals that matter:\n  - Strong prior bearish trend and failed recoveries earlier favor caution.\n  - But recent undercut/rejection of lows near 45.5 followed by rebound suggests local exhaustion of sellers.\n  - The latest dip came on lighter volume, which fits a muted pullback into support rather than fresh distribution.\n  - No decisive high-volume breakdown below support is present.\n  - t-00 did stall under near-term resistance, so upside edge is not high-confidence.\n- Resolution: despite the larger downtrend, the immediate next-day setup leans toward a bounce/continuation long rather than a short, because recent selling pressure has eased and the latest pullback was low-volume after a rebound off support. Confidence is modest, not strong.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    54.7800 |    55.2600 |    54.3900 |    55.0300 |     941371\n t-18 |    55.5300 |    56.1900 |    55.2600 |    55.8000 |    1612508\n t-17 |    55.6000 |    55.6600 |    50.4000 |    50.4600 |    3655139\n t-16 |    50.5200 |    51.5214 |    49.5700 |    51.2300 |    1504793\n t-15 |    51.7000 |    51.8000 |    49.2700 |    50.1400 |    1319057\n t-14 |    50.4800 |    50.4800 |    49.0850 |    49.4600 |    1744895\n t-13 |    49.3600 |    49.7978 |    48.1000 |    49.0000 |    1536614\n t-12 |    48.9600 |    48.9600 |    47.3950 |    47.5600 |    1297605\n t-11 |    47.7700 |    48.5500 |    47.6000 |    48.0800 |     634701\n t-10 |    48.2900 |    48.4800 |    47.3400 |    47.9000 |     675411\n t-09 |    48.0100 |    48.5100 |    47.8700 |    48.2800 |     875583\n t-08 |    48.1800 |    48.6200 |    48.0600 |    48.4300 |     887688\n t-07 |    48.1200 |    48.3250 |    47.5200 |    47.6800 |     907868\n t-06 |    47.7550 |    47.8750 |    46.7900 |    47.3700 |    1193788\n t-05 |    47.3300 |    47.6600 |    46.6600 |    46.7200 |    1397035\n t-04 |    46.8800 |    47.5500 |    46.5950 |    47.1100 |    1923346\n t-03 |    47.2800 |    47.3700 |    45.5200 |    46.0100 |    1072948\n t-02 |    45.8400 |    46.3300 |    45.3500 |    46.1600 |    1236576\n t-01 |    45.9000 |    47.5900 |    45.8000 |    47.3500 |    1190202\n t-00 |    47.6400 |    47.7400 |    46.4100 |    47.2000 |     914481\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The broader context is a clear downtrend: a major breakdown at t-17 on very high volume from the mid-55s to near 50, followed by persistent lower prices and no meaningful recovery back toward the breakdown zone.\n- Since t-12 the stock has been basing/sliding in the 45.3–48.6 area. Recent action shows a test of lower support at t-03/t-02 (45.52/45.35 lows), then a rebound to t-01, but t-00 failed to follow through and closed slightly lower.\n- Key levels: near resistance sits around 47.5–48.0, then 48.4–48.6. Support is around 45.3–45.5. The latest close 47.20 is in the upper-middle of the recent range, but still below resistance and far below the larger breakdown area.\n- Volume pattern matters: the t-01 rebound was not accompanied by standout volume, and t-00’s pullback came on lighter volume. That suggests no strong bearish impulse right now, but also no convincing accumulation or breakout confirmation.\n- Candlestick/price structure: t-01 was a decent bounce day, but t-00 opened higher, probed 47.74, and faded to 47.20. That stall just under resistance hints at weak upside momentum, though not a strong reversal signal by itself.\n- Momentum/regime: trend is still bearish on the larger window, but the very short-term action looks more like range trading/mean reversion after a support hold. Because support held and the rebound has not broken down, shorting into this area is less attractive. But because the bounce stalled below resistance without volume expansion, chasing long is also weak.\n- Relevant signals:\n  - Bearish larger trend and failed recovery from prior breakdown.\n  - Support around 45.3 held recently, reducing immediate short edge.\n  - Rebound into 47.5 resistance stalled on unimpressive volume.\n  - No decisive breakout or decisive support break.\n- Resolution: mixed signals with no strong edge. The stock is between support and resistance, in a weak rebound inside a broader downtrend. Confidence is low, so best decision is to stand aside.\n</think>\n<action>\n0\n</action>\n(parsed vote: NO ACTION (0))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The broader 20-day structure is a clear downtrend: a major breakdown from the mid-55s to low-50s on very high volume at t-17, followed by persistent lower highs/lows into the mid-40s.\n- After the selloff, price based around 47.5-48.5, then broke lower again from t-07 to t-03, making a new swing low at 45.52.\n- The last three days show a rebound from that low: t-02 stabilized, t-01 had a strong up day from 45.8 to 47.35, and t-00 held most of that gain despite a small red candle.\n- Important levels: support near 45.3-45.5; resistance near 47.5-48.0, then 48.5. The latest close 47.20 sits near the upper part of the recent 45.35-47.74 short-term range, but still below clear resistance.\n- Volume does not confirm a strong bearish continuation right now. The recent dip into support did not break on expanding volume, and the rebound day t-01 was constructive. t-00 pulled back on lighter volume, which looks more like consolidation than renewed distribution.\n- Candlestick/context: t-03 was a sharp flush to new lows but did not trigger immediate follow-through; t-01 was a strong recovery candle. t-00 is a mild pause, not a decisive rejection.\n- Momentum is still weak on the larger trend, so this is countertrend. But per the lessons, drifting into support and rebounding without heavy-volume breakdown argues against fresh shorts. Also, after a selloff into support, stabilization/reclaim favors a cautious reversal long rather than shorting late.\n\nSignals that matter:\n- Major trend remains down bearish.\n- Recent support at 45.3-45.5 held.\n- Rebound from support was constructive.\n- Pullback on t-00 came on lighter volume and stayed above the recent rebound base.\n- Price is below resistance, so upside edge exists but is not high confidence.\n\nDirectional view and confidence:\n- Best synthesis is a cautious LONG for a short-term bounce/continuation from support, despite the larger downtrend.\n- Confidence: modest, because this is countertrend and resistance is nearby.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The broader 20-day structure is a clear downtrend: a major breakdown from the mid-55s at t-17 on very high volume, followed by persistent lower highs/lows into the mid-40s.\n- However, the most recent segment shows stabilization near support around 45.3-46.0. At t-03 price flushed to 45.52, then held. t-02 and t-01 rebounded, with t-01 a strong up day closing near the high and reclaiming back above 47.\n- t-00 was a mild pullback after that rebound: it opened higher, traded up to 47.74, but closed at 47.20. This is a small red candle, but still well above the recent lows and above the prior support zone. Volume on t-00 declined versus the rebound days, so the pullback lacks strong selling pressure.\n- Key levels: support sits around 45.3-45.8 and then 46.6-46.7; resistance is around 47.6-48.0, then 48.5. The latest close is near the upper half of the recent 5-10 day range, not at breakdown lows.\n- Signals that matter:\n  - Strong prior bearish trend and failed recoveries earlier favor caution.\n  - But recent undercut/rejection of lows near 45.5 followed by rebound suggests local exhaustion of sellers.\n  - The latest dip came on lighter volume, which fits a muted pullback into support rather than fresh distribution.\n  - No decisive high-volume breakdown below support is present.\n  - t-00 did stall under near-term resistance, so upside edge is not high-confidence.\n- Resolution: despite the larger downtrend, the immediate next-day setup leans toward a bounce/continuation long rather than a short, because recent selling pressure has eased and the latest pullback was low-volume after a rebound off support. Confidence is modest, not strong.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- Analysts 2 and 3 agree on a cautious LONG; Analyst 1 prefers NO ACTION.\n- All three agree on the larger bearish trend, but they also agree recent price action shows support holding near 45.3-45.5 and no renewed high-volume breakdown.\n- The main disagreement is whether the rebound/stabilization is enough to act. Analysts 2 and 3 argue the recent flush low was rejected, t-01 was a constructive rebound, and t-00 was only a light-volume pause rather than meaningful distribution.\n- That view is better supported by the data: the pullback into support did not expand in volume, the rebound reclaimed above 47, and the latest red day did not damage the rebound structure.\n- Since the majority view also aligns with the support-hold/low-volume-pullback lesson, the dominant decision is a modest countertrend long.\n</think>\n<action>\n1\n</action>",
+    "parsed_vote": 1.0
+  },
+  "final_decision": 1.0,
+  "eval": {
+    "target_return": 0.006335768382996321,
+    "hit": 1.0
+  }
+}

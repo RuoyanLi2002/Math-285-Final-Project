@@ -1,0 +1,181 @@
+{
+  "data_point_id": 43,
+  "timestamp": "2026-05-15T22:23:45.843831+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        20.709999084472656,
+        20.81999969482422,
+        20.325000762939453,
+        20.790000915527344,
+        146365.0
+      ],
+      [
+        20.860000610351562,
+        20.989999771118164,
+        20.770000457763672,
+        20.780000686645508,
+        96260.0
+      ],
+      [
+        20.850000381469727,
+        21.06999969482422,
+        20.850000381469727,
+        20.90999984741211,
+        61818.0
+      ],
+      [
+        21.030000686645508,
+        21.3799991607666,
+        20.950000762939453,
+        21.18000030517578,
+        170578.0
+      ],
+      [
+        21.270000457763672,
+        21.270000457763672,
+        21.030000686645508,
+        21.040000915527344,
+        69739.0
+      ],
+      [
+        21.100000381469727,
+        21.100000381469727,
+        20.170000076293945,
+        20.530000686645508,
+        62244.0
+      ],
+      [
+        20.43000030517578,
+        20.889999389648438,
+        20.31999969482422,
+        20.68000030517578,
+        97560.0
+      ],
+      [
+        20.329999923706055,
+        20.719999313354492,
+        20.049999237060547,
+        20.299999237060547,
+        64905.0
+      ],
+      [
+        20.440000534057617,
+        20.68000030517578,
+        20.360000610351562,
+        20.520000457763672,
+        49938.0
+      ],
+      [
+        20.360000610351562,
+        20.6299991607666,
+        20.31999969482422,
+        20.5,
+        194165.0
+      ],
+      [
+        20.479999542236328,
+        20.479999542236328,
+        19.700000762939453,
+        19.770000457763672,
+        110824.0
+      ],
+      [
+        19.899999618530273,
+        20.190500259399414,
+        19.600000381469727,
+        19.690000534057617,
+        89671.0
+      ],
+      [
+        19.59000015258789,
+        19.739999771118164,
+        19.309999465942383,
+        19.489999771118164,
+        132878.0
+      ],
+      [
+        19.670000076293945,
+        19.799999237060547,
+        19.059999465942383,
+        19.31999969482422,
+        115991.0
+      ],
+      [
+        18.989999771118164,
+        19.079999923706055,
+        18.40999984741211,
+        18.56999969482422,
+        211646.0
+      ],
+      [
+        18.68000030517578,
+        19.739999771118164,
+        18.520000457763672,
+        19.530000686645508,
+        194108.0
+      ],
+      [
+        20.209999084472656,
+        21.110000610351562,
+        20.209999084472656,
+        20.8700008392334,
+        262244.0
+      ],
+      [
+        20.950000762939453,
+        21.149999618530273,
+        20.33139991760254,
+        20.3799991607666,
+        120523.0
+      ],
+      [
+        20.530000686645508,
+        21.1200008392334,
+        20.530000686645508,
+        20.8700008392334,
+        112853.0
+      ],
+      [
+        21.09000015258789,
+        21.34000015258789,
+        20.670000076293945,
+        20.739999771118164,
+        113438.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    20.7100 |    20.8200 |    20.3250 |    20.7900 |     146365\n t-18 |    20.8600 |    20.9900 |    20.7700 |    20.7800 |      96260\n t-17 |    20.8500 |    21.0700 |    20.8500 |    20.9100 |      61818\n t-16 |    21.0300 |    21.3800 |    20.9500 |    21.1800 |     170578\n t-15 |    21.2700 |    21.2700 |    21.0300 |    21.0400 |      69739\n t-14 |    21.1000 |    21.1000 |    20.1700 |    20.5300 |      62244\n t-13 |    20.4300 |    20.8900 |    20.3200 |    20.6800 |      97560\n t-12 |    20.3300 |    20.7200 |    20.0500 |    20.3000 |      64905\n t-11 |    20.4400 |    20.6800 |    20.3600 |    20.5200 |      49938\n t-10 |    20.3600 |    20.6300 |    20.3200 |    20.5000 |     194165\n t-09 |    20.4800 |    20.4800 |    19.7000 |    19.7700 |     110824\n t-08 |    19.9000 |    20.1905 |    19.6000 |    19.6900 |      89671\n t-07 |    19.5900 |    19.7400 |    19.3100 |    19.4900 |     132878\n t-06 |    19.6700 |    19.8000 |    19.0600 |    19.3200 |     115991\n t-05 |    18.9900 |    19.0800 |    18.4100 |    18.5700 |     211646\n t-04 |    18.6800 |    19.7400 |    18.5200 |    19.5300 |     194108\n t-03 |    20.2100 |    21.1100 |    20.2100 |    20.8700 |     262244\n t-02 |    20.9500 |    21.1500 |    20.3314 |    20.3800 |     120523\n t-01 |    20.5300 |    21.1200 |    20.5300 |    20.8700 |     112853\n t-00 |    21.0900 |    21.3400 |    20.6700 |    20.7400 |     113438"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    20.7100 |    20.8200 |    20.3250 |    20.7900 |     146365\n t-18 |    20.8600 |    20.9900 |    20.7700 |    20.7800 |      96260\n t-17 |    20.8500 |    21.0700 |    20.8500 |    20.9100 |      61818\n t-16 |    21.0300 |    21.3800 |    20.9500 |    21.1800 |     170578\n t-15 |    21.2700 |    21.2700 |    21.0300 |    21.0400 |      69739\n t-14 |    21.1000 |    21.1000 |    20.1700 |    20.5300 |      62244\n t-13 |    20.4300 |    20.8900 |    20.3200 |    20.6800 |      97560\n t-12 |    20.3300 |    20.7200 |    20.0500 |    20.3000 |      64905\n t-11 |    20.4400 |    20.6800 |    20.3600 |    20.5200 |      49938\n t-10 |    20.3600 |    20.6300 |    20.3200 |    20.5000 |     194165\n t-09 |    20.4800 |    20.4800 |    19.7000 |    19.7700 |     110824\n t-08 |    19.9000 |    20.1905 |    19.6000 |    19.6900 |      89671\n t-07 |    19.5900 |    19.7400 |    19.3100 |    19.4900 |     132878\n t-06 |    19.6700 |    19.8000 |    19.0600 |    19.3200 |     115991\n t-05 |    18.9900 |    19.0800 |    18.4100 |    18.5700 |     211646\n t-04 |    18.6800 |    19.7400 |    18.5200 |    19.5300 |     194108\n t-03 |    20.2100 |    21.1100 |    20.2100 |    20.8700 |     262244\n t-02 |    20.9500 |    21.1500 |    20.3314 |    20.3800 |     120523\n t-01 |    20.5300 |    21.1200 |    20.5300 |    20.8700 |     112853\n t-00 |    21.0900 |    21.3400 |    20.6700 |    20.7400 |     113438\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The most recent close (t-0) is 20.7400, which is below the previous day's close (t-1) of 20.8700, indicating a potential bearish sentiment.\n- The recent price action shows a series of lower highs and lower lows from t-10 to t-00, suggesting a downtrend.\n- The volume on the latest day (t-0) is relatively low (113438) compared to the previous days, particularly the high-volume day at t-03 (262244), indicating a lack of strong buying interest.\n- The price has been unable to reclaim the recent highs above 21.00, and the last few closes have been in the lower half of their respective ranges, which can signal weakness.\n- Overall, the signals indicate continued bearish momentum with insufficient evidence of a reversal.\n\nConfidence level: Moderate to high in the bearish view due to the downtrend and low volume on the latest close.\n</think>\n<action>\n-1\n</action>",
+        "parsed_vote": -1.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The recent price action shows a recovery from a low of 19.4900 to a high of 21.3400 over the last few days, indicating a potential uptrend.\n- The most recent close at 20.7400 is above the previous day's close of 20.8700, suggesting a slight pullback but still within the range of the recent rally.\n- The volume on the last day (113438) is lower than the previous day (112853), indicating a lack of strong selling pressure.\n- The recent price movement has been characterized by higher lows and higher highs, which is a bullish signal.\n- There are no significant resistance levels immediately above the current close, and the stock has shown resilience after the recent pullback.\n- Overall, the signals suggest a continuation of the upward trend, favoring a long position.\n\nConfidence level: High.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The recent price action shows a recovery from a low of 18.5700 to a recent high of 21.3400, indicating a potential bullish trend.\n- The last few days have shown a series of higher lows and higher highs, suggesting upward momentum.\n- The most recent close at 20.7400 is above the previous day's close of 20.8700, indicating a potential continuation of the upward trend.\n- Volume has been relatively stable, with the last day's volume being slightly lower than the previous day but not significantly low.\n- There are no clear signs of exhaustion or reversal patterns in the recent price action.\n- Overall, the stock appears to be in a bullish phase, and the signals favor a long position.\n\nConfidence level: High.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    20.7100 |    20.8200 |    20.3250 |    20.7900 |     146365\n t-18 |    20.8600 |    20.9900 |    20.7700 |    20.7800 |      96260\n t-17 |    20.8500 |    21.0700 |    20.8500 |    20.9100 |      61818\n t-16 |    21.0300 |    21.3800 |    20.9500 |    21.1800 |     170578\n t-15 |    21.2700 |    21.2700 |    21.0300 |    21.0400 |      69739\n t-14 |    21.1000 |    21.1000 |    20.1700 |    20.5300 |      62244\n t-13 |    20.4300 |    20.8900 |    20.3200 |    20.6800 |      97560\n t-12 |    20.3300 |    20.7200 |    20.0500 |    20.3000 |      64905\n t-11 |    20.4400 |    20.6800 |    20.3600 |    20.5200 |      49938\n t-10 |    20.3600 |    20.6300 |    20.3200 |    20.5000 |     194165\n t-09 |    20.4800 |    20.4800 |    19.7000 |    19.7700 |     110824\n t-08 |    19.9000 |    20.1905 |    19.6000 |    19.6900 |      89671\n t-07 |    19.5900 |    19.7400 |    19.3100 |    19.4900 |     132878\n t-06 |    19.6700 |    19.8000 |    19.0600 |    19.3200 |     115991\n t-05 |    18.9900 |    19.0800 |    18.4100 |    18.5700 |     211646\n t-04 |    18.6800 |    19.7400 |    18.5200 |    19.5300 |     194108\n t-03 |    20.2100 |    21.1100 |    20.2100 |    20.8700 |     262244\n t-02 |    20.9500 |    21.1500 |    20.3314 |    20.3800 |     120523\n t-01 |    20.5300 |    21.1200 |    20.5300 |    20.8700 |     112853\n t-00 |    21.0900 |    21.3400 |    20.6700 |    20.7400 |     113438\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The most recent close (t-0) is 20.7400, which is below the previous day's close (t-1) of 20.8700, indicating a potential bearish sentiment.\n- The recent price action shows a series of lower highs and lower lows from t-10 to t-00, suggesting a downtrend.\n- The volume on the latest day (t-0) is relatively low (113438) compared to the previous days, particularly the high-volume day at t-03 (262244), indicating a lack of strong buying interest.\n- The price has been unable to reclaim the recent highs above 21.00, and the last few closes have been in the lower half of their respective ranges, which can signal weakness.\n- Overall, the signals indicate continued bearish momentum with insufficient evidence of a reversal.\n\nConfidence level: Moderate to high in the bearish view due to the downtrend and low volume on the latest close.\n</think>\n<action>\n-1\n</action>\n(parsed vote: SHORT (-1))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The recent price action shows a recovery from a low of 19.4900 to a high of 21.3400 over the last few days, indicating a potential uptrend.\n- The most recent close at 20.7400 is above the previous day's close of 20.8700, suggesting a slight pullback but still within the range of the recent rally.\n- The volume on the last day (113438) is lower than the previous day (112853), indicating a lack of strong selling pressure.\n- The recent price movement has been characterized by higher lows and higher highs, which is a bullish signal.\n- There are no significant resistance levels immediately above the current close, and the stock has shown resilience after the recent pullback.\n- Overall, the signals suggest a continuation of the upward trend, favoring a long position.\n\nConfidence level: High.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The recent price action shows a recovery from a low of 18.5700 to a recent high of 21.3400, indicating a potential bullish trend.\n- The last few days have shown a series of higher lows and higher highs, suggesting upward momentum.\n- The most recent close at 20.7400 is above the previous day's close of 20.8700, indicating a potential continuation of the upward trend.\n- Volume has been relatively stable, with the last day's volume being slightly lower than the previous day but not significantly low.\n- There are no clear signs of exhaustion or reversal patterns in the recent price action.\n- Overall, the stock appears to be in a bullish phase, and the signals favor a long position.\n\nConfidence level: High.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- Analyst 1 votes for a SHORT position (-1), citing bearish momentum, a downtrend, and low volume on the latest close.\n- Analysts 2 and 3 both vote for a LONG position (+1), highlighting a recovery from recent lows, higher lows and highs, and a lack of strong selling pressure.\n- There is a disagreement among the analysts: 1 vote for SHORT and 2 votes for LONG.\n- The bullish arguments from Analysts 2 and 3 are supported by the recent price action showing higher lows and highs, indicating upward momentum, and the absence of strong resistance levels.\n- Given that the bullish view is supported by two analysts and the recent price action, the LONG position should dominate the decision.\n</think>\n<action>\n1\n</action>",
+    "parsed_vote": 1.0
+  },
+  "final_decision": 1.0,
+  "eval": {
+    "target_return": -0.0004822582413908094,
+    "hit": 0.0
+  }
+}

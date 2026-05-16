@@ -1,0 +1,181 @@
+{
+  "data_point_id": 152,
+  "timestamp": "2026-05-16T00:05:57.833394+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        814.2100219726562,
+        814.7000122070312,
+        796.0700073242188,
+        803.6699829101562,
+        401325.0
+      ],
+      [
+        802.47998046875,
+        804.8599853515625,
+        783.010009765625,
+        787.3300170898438,
+        531624.0
+      ],
+      [
+        789.2100219726562,
+        789.5,
+        760.9299926757812,
+        776.739990234375,
+        767237.0
+      ],
+      [
+        760.0,
+        820.719970703125,
+        760.0,
+        819.0800170898438,
+        890120.0
+      ],
+      [
+        821.719970703125,
+        823.989990234375,
+        799.8350219726562,
+        802.4600219726562,
+        473461.0
+      ],
+      [
+        805.02001953125,
+        820.0,
+        800.030029296875,
+        815.2999877929688,
+        345038.0
+      ],
+      [
+        820.0,
+        853.6799926757812,
+        819.8599853515625,
+        850.3200073242188,
+        551228.0
+      ],
+      [
+        837.1799926757812,
+        845.0700073242188,
+        801.3699951171875,
+        806.9600219726562,
+        515206.0
+      ],
+      [
+        816.0,
+        829.0900268554688,
+        812.5499877929688,
+        818.8300170898438,
+        338046.0
+      ],
+      [
+        825.0,
+        842.719970703125,
+        819.0,
+        841.260009765625,
+        339525.0
+      ],
+      [
+        840.0,
+        842.6900024414062,
+        823.1599731445312,
+        832.02001953125,
+        267146.0
+      ],
+      [
+        829.219970703125,
+        852.4299926757812,
+        823.0,
+        852.0800170898438,
+        328534.0
+      ],
+      [
+        852.0800170898438,
+        866.0,
+        832.5599975585938,
+        838.4099731445312,
+        615373.0
+      ],
+      [
+        843.8499755859375,
+        848.2698974609375,
+        830.5590209960938,
+        840.2899780273438,
+        455454.0
+      ],
+      [
+        847.8800048828125,
+        853.0999755859375,
+        821.260009765625,
+        822.3400268554688,
+        307598.0
+      ],
+      [
+        828.3200073242188,
+        833.0,
+        771.6699829101562,
+        783.3499755859375,
+        500050.0
+      ],
+      [
+        767.3499755859375,
+        782.0900268554688,
+        735.2999877929688,
+        753.280029296875,
+        801182.0
+      ],
+      [
+        750.4199829101562,
+        806.780029296875,
+        740.0399780273438,
+        802.760009765625,
+        681384.0
+      ],
+      [
+        804.969970703125,
+        823.5800170898438,
+        801.0,
+        803.469970703125,
+        511823.0
+      ],
+      [
+        810.8200073242188,
+        855.6799926757812,
+        809.6500244140625,
+        851.9099731445312,
+        658268.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |   814.2100 |   814.7000 |   796.0700 |   803.6700 |     401325\n t-18 |   802.4800 |   804.8600 |   783.0100 |   787.3300 |     531624\n t-17 |   789.2100 |   789.5000 |   760.9300 |   776.7400 |     767237\n t-16 |   760.0000 |   820.7200 |   760.0000 |   819.0800 |     890120\n t-15 |   821.7200 |   823.9900 |   799.8350 |   802.4600 |     473461\n t-14 |   805.0200 |   820.0000 |   800.0300 |   815.3000 |     345038\n t-13 |   820.0000 |   853.6800 |   819.8600 |   850.3200 |     551228\n t-12 |   837.1800 |   845.0700 |   801.3700 |   806.9600 |     515206\n t-11 |   816.0000 |   829.0900 |   812.5500 |   818.8300 |     338046\n t-10 |   825.0000 |   842.7200 |   819.0000 |   841.2600 |     339525\n t-09 |   840.0000 |   842.6900 |   823.1600 |   832.0200 |     267146\n t-08 |   829.2200 |   852.4300 |   823.0000 |   852.0800 |     328534\n t-07 |   852.0800 |   866.0000 |   832.5600 |   838.4100 |     615373\n t-06 |   843.8500 |   848.2699 |   830.5590 |   840.2900 |     455454\n t-05 |   847.8800 |   853.1000 |   821.2600 |   822.3400 |     307598\n t-04 |   828.3200 |   833.0000 |   771.6700 |   783.3500 |     500050\n t-03 |   767.3500 |   782.0900 |   735.3000 |   753.2800 |     801182\n t-02 |   750.4200 |   806.7800 |   740.0400 |   802.7600 |     681384\n t-01 |   804.9700 |   823.5800 |   801.0000 |   803.4700 |     511823\n t-00 |   810.8200 |   855.6800 |   809.6500 |   851.9100 |     658268"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |   814.2100 |   814.7000 |   796.0700 |   803.6700 |     401325\n t-18 |   802.4800 |   804.8600 |   783.0100 |   787.3300 |     531624\n t-17 |   789.2100 |   789.5000 |   760.9300 |   776.7400 |     767237\n t-16 |   760.0000 |   820.7200 |   760.0000 |   819.0800 |     890120\n t-15 |   821.7200 |   823.9900 |   799.8350 |   802.4600 |     473461\n t-14 |   805.0200 |   820.0000 |   800.0300 |   815.3000 |     345038\n t-13 |   820.0000 |   853.6800 |   819.8600 |   850.3200 |     551228\n t-12 |   837.1800 |   845.0700 |   801.3700 |   806.9600 |     515206\n t-11 |   816.0000 |   829.0900 |   812.5500 |   818.8300 |     338046\n t-10 |   825.0000 |   842.7200 |   819.0000 |   841.2600 |     339525\n t-09 |   840.0000 |   842.6900 |   823.1600 |   832.0200 |     267146\n t-08 |   829.2200 |   852.4300 |   823.0000 |   852.0800 |     328534\n t-07 |   852.0800 |   866.0000 |   832.5600 |   838.4100 |     615373\n t-06 |   843.8500 |   848.2699 |   830.5590 |   840.2900 |     455454\n t-05 |   847.8800 |   853.1000 |   821.2600 |   822.3400 |     307598\n t-04 |   828.3200 |   833.0000 |   771.6700 |   783.3500 |     500050\n t-03 |   767.3500 |   782.0900 |   735.3000 |   753.2800 |     801182\n t-02 |   750.4200 |   806.7800 |   740.0400 |   802.7600 |     681384\n t-01 |   804.9700 |   823.5800 |   801.0000 |   803.4700 |     511823\n t-00 |   810.8200 |   855.6800 |   809.6500 |   851.9100 |     658268\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The series shows an initial selloff from ~814 to 777, then a sharp reversal day at t-16 on very high volume, followed by a rally to the 850s. After that, price became choppy near the highs, then rolled over hard from t-05 to t-03 with expanding volume down to 735. That selloff was then sharply reversed at t-02 with a very large bullish recovery day from 740 low to 803 close on strong volume.\n- Since t-02, price held the rebound: t-01 was a tight consolidation day, and t-00 was a strong breakout-style up day closing near the high at 851.91 with solid volume, reclaiming the whole prior breakdown zone and finishing near the top of the 20-day range.\n\nSignals that matter:\n- t-04 to t-03 was a high-volume bearish impulse, but t-02 immediately showed undercut-and-reclaim behavior with a powerful reversal from below support; this is a classic exhaustion/reversal signal.\n- t-01 was a muted pause after the reversal, not a bearish rejection.\n- t-00 expanded strongly upward with good volume and a close near the high, confirming continuation rather than a weak bounce.\n- Price has reclaimed prior resistance/breakdown area around 820-840 and closed above prior swing highs from t-10/t-11/t-09 and near the t-08/t-13 highs.\n- Latest close is in the extreme upper part of the recent range, indicating strong momentum.\n- Volume on the rebound/breakout is meaningfully stronger than the preceding consolidation days, which supports the move.\n- Risk: price is approaching prior highs around 852-866, so there is overhead supply nearby. But the current candle is not an exhaustion candle; it is a strong bullish expansion close.\n\nResolve into directional view and confidence level:\n- The dominant read is bullish continuation after a high-volume washout and successful reclaim. This fits the lesson to avoid shorts after exhaustion/reversal and to favor longs when support is reclaimed with strong closes.\n- Confidence is moderate: nearby resistance exists, but the most recent evidence favors upside follow-through over immediate failure.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The series shows an initial selloff from 803 to 777, then a sharp reversal at t-16 on very high volume from 760 low to 819 close. After that, price pushed to 850+, then failed and sold off hard from t-05 to t-03, reaching 735 on very high volume.\n- That t-03 washout was followed by a powerful rebound at t-02: huge range, strong close near the upper half, and high volume. t-01 was a quiet consolidation day holding above 800 on lower volume. t-00 then broke sharply higher to 851.91 with strong volume, closing near the high of the day.\n- Key support/resistance: support formed around 735-740 and then around 800-803 after the rebound. Resistance sat around 820-823, then 850-852. The latest day decisively reclaimed and closed above the 850 area, which had capped prior rallies.\n- Signals that matter:\n  - Multi-day high-volume selloff into support was followed by an undercut/reversal and strong rebound: bearish momentum likely exhausted.\n  - t-02 and t-00 are strong bullish impulse candles with elevated volume.\n  - t-01 was a low-range, lower-volume pause rather than a breakdown, suggesting consolidation before continuation.\n  - Latest close is near the top of the 20-day range and near the high of the day, indicating strong momentum.\n  - Breakout above prior resistance around 850 appears confirmed by volume, not a weak marginal high.\n  - Risk: price is extended after a large one-day move into prior highs, so chasing has some exhaustion risk. But the candle quality and volume are stronger than a typical false breakout.\n- Resolution: The dominant evidence favors bullish continuation. This looks like a high-volume reclaim/breakout after a washout low and successful consolidation, not a weak rebound into resistance. Confidence is moderate.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The sequence shows an initial selloff from the low 800s into 760, then a sharp reversal, then a choppy advance to the mid-850s, followed by a hard breakdown from t-05 to t-03 down to 735 on heavy volume. That bearish impulse was then sharply reversed at t-02 with a very strong rebound day from 740 low to 803 close on high volume, suggesting capitulation/exhaustion at the lows.\n- Since that reversal, t-01 was a quiet consolidation day holding above 800, and t-00 was a strong expansion day closing near the high at 851.91, reclaiming a large portion of the prior breakdown zone and finishing near the top of the 20-day range.\n\nSignals that matter:\n- t-04 to t-03 was a high-volume selloff, but t-02 printed a strong undercut-and-reclaim style reversal with a huge range and strong close: classic exhaustion/reversal signal.\n- t-01 was a muted-volume pause, not a rejection.\n- t-00 was a powerful bullish continuation: wide-range up day, close near session high, volume expanded versus t-01 and above many recent sessions.\n- Price reclaimed key resistance around 820-823, then 840-842, and closed just under/through prior swing highs in the 850 area.\n- Latest close is near the top of the recent range, showing strong momentum rather than mean-reversion weakness.\n- There is some overhead supply near 852-866 from t-08/t-07, but the strength of the reclaim and close near highs argues continuation rather than immediate fade.\n- No obvious bearish candlestick reversal on the latest bar; instead it looks like a breakout/reclaim bar with volume confirmation.\n\nResolve into directional view and confidence level:\n- The dominant signal is a high-volume bearish washout followed by a strong reclaim and breakout continuation. This aligns with avoiding shorts after exhaustion and favoring reversal/continuation longs.\n- Confidence is moderate: there is nearby resistance from prior highs, but the latest bar’s strength and volume tilt the edge bullish for the next day.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |   814.2100 |   814.7000 |   796.0700 |   803.6700 |     401325\n t-18 |   802.4800 |   804.8600 |   783.0100 |   787.3300 |     531624\n t-17 |   789.2100 |   789.5000 |   760.9300 |   776.7400 |     767237\n t-16 |   760.0000 |   820.7200 |   760.0000 |   819.0800 |     890120\n t-15 |   821.7200 |   823.9900 |   799.8350 |   802.4600 |     473461\n t-14 |   805.0200 |   820.0000 |   800.0300 |   815.3000 |     345038\n t-13 |   820.0000 |   853.6800 |   819.8600 |   850.3200 |     551228\n t-12 |   837.1800 |   845.0700 |   801.3700 |   806.9600 |     515206\n t-11 |   816.0000 |   829.0900 |   812.5500 |   818.8300 |     338046\n t-10 |   825.0000 |   842.7200 |   819.0000 |   841.2600 |     339525\n t-09 |   840.0000 |   842.6900 |   823.1600 |   832.0200 |     267146\n t-08 |   829.2200 |   852.4300 |   823.0000 |   852.0800 |     328534\n t-07 |   852.0800 |   866.0000 |   832.5600 |   838.4100 |     615373\n t-06 |   843.8500 |   848.2699 |   830.5590 |   840.2900 |     455454\n t-05 |   847.8800 |   853.1000 |   821.2600 |   822.3400 |     307598\n t-04 |   828.3200 |   833.0000 |   771.6700 |   783.3500 |     500050\n t-03 |   767.3500 |   782.0900 |   735.3000 |   753.2800 |     801182\n t-02 |   750.4200 |   806.7800 |   740.0400 |   802.7600 |     681384\n t-01 |   804.9700 |   823.5800 |   801.0000 |   803.4700 |     511823\n t-00 |   810.8200 |   855.6800 |   809.6500 |   851.9100 |     658268\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The series shows an initial selloff from ~814 to 777, then a sharp reversal day at t-16 on very high volume, followed by a rally to the 850s. After that, price became choppy near the highs, then rolled over hard from t-05 to t-03 with expanding volume down to 735. That selloff was then sharply reversed at t-02 with a very large bullish recovery day from 740 low to 803 close on strong volume.\n- Since t-02, price held the rebound: t-01 was a tight consolidation day, and t-00 was a strong breakout-style up day closing near the high at 851.91 with solid volume, reclaiming the whole prior breakdown zone and finishing near the top of the 20-day range.\n\nSignals that matter:\n- t-04 to t-03 was a high-volume bearish impulse, but t-02 immediately showed undercut-and-reclaim behavior with a powerful reversal from below support; this is a classic exhaustion/reversal signal.\n- t-01 was a muted pause after the reversal, not a bearish rejection.\n- t-00 expanded strongly upward with good volume and a close near the high, confirming continuation rather than a weak bounce.\n- Price has reclaimed prior resistance/breakdown area around 820-840 and closed above prior swing highs from t-10/t-11/t-09 and near the t-08/t-13 highs.\n- Latest close is in the extreme upper part of the recent range, indicating strong momentum.\n- Volume on the rebound/breakout is meaningfully stronger than the preceding consolidation days, which supports the move.\n- Risk: price is approaching prior highs around 852-866, so there is overhead supply nearby. But the current candle is not an exhaustion candle; it is a strong bullish expansion close.\n\nResolve into directional view and confidence level:\n- The dominant read is bullish continuation after a high-volume washout and successful reclaim. This fits the lesson to avoid shorts after exhaustion/reversal and to favor longs when support is reclaimed with strong closes.\n- Confidence is moderate: nearby resistance exists, but the most recent evidence favors upside follow-through over immediate failure.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The series shows an initial selloff from 803 to 777, then a sharp reversal at t-16 on very high volume from 760 low to 819 close. After that, price pushed to 850+, then failed and sold off hard from t-05 to t-03, reaching 735 on very high volume.\n- That t-03 washout was followed by a powerful rebound at t-02: huge range, strong close near the upper half, and high volume. t-01 was a quiet consolidation day holding above 800 on lower volume. t-00 then broke sharply higher to 851.91 with strong volume, closing near the high of the day.\n- Key support/resistance: support formed around 735-740 and then around 800-803 after the rebound. Resistance sat around 820-823, then 850-852. The latest day decisively reclaimed and closed above the 850 area, which had capped prior rallies.\n- Signals that matter:\n  - Multi-day high-volume selloff into support was followed by an undercut/reversal and strong rebound: bearish momentum likely exhausted.\n  - t-02 and t-00 are strong bullish impulse candles with elevated volume.\n  - t-01 was a low-range, lower-volume pause rather than a breakdown, suggesting consolidation before continuation.\n  - Latest close is near the top of the 20-day range and near the high of the day, indicating strong momentum.\n  - Breakout above prior resistance around 850 appears confirmed by volume, not a weak marginal high.\n  - Risk: price is extended after a large one-day move into prior highs, so chasing has some exhaustion risk. But the candle quality and volume are stronger than a typical false breakout.\n- Resolution: The dominant evidence favors bullish continuation. This looks like a high-volume reclaim/breakout after a washout low and successful consolidation, not a weak rebound into resistance. Confidence is moderate.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The sequence shows an initial selloff from the low 800s into 760, then a sharp reversal, then a choppy advance to the mid-850s, followed by a hard breakdown from t-05 to t-03 down to 735 on heavy volume. That bearish impulse was then sharply reversed at t-02 with a very strong rebound day from 740 low to 803 close on high volume, suggesting capitulation/exhaustion at the lows.\n- Since that reversal, t-01 was a quiet consolidation day holding above 800, and t-00 was a strong expansion day closing near the high at 851.91, reclaiming a large portion of the prior breakdown zone and finishing near the top of the 20-day range.\n\nSignals that matter:\n- t-04 to t-03 was a high-volume selloff, but t-02 printed a strong undercut-and-reclaim style reversal with a huge range and strong close: classic exhaustion/reversal signal.\n- t-01 was a muted-volume pause, not a rejection.\n- t-00 was a powerful bullish continuation: wide-range up day, close near session high, volume expanded versus t-01 and above many recent sessions.\n- Price reclaimed key resistance around 820-823, then 840-842, and closed just under/through prior swing highs in the 850 area.\n- Latest close is near the top of the recent range, showing strong momentum rather than mean-reversion weakness.\n- There is some overhead supply near 852-866 from t-08/t-07, but the strength of the reclaim and close near highs argues continuation rather than immediate fade.\n- No obvious bearish candlestick reversal on the latest bar; instead it looks like a breakout/reclaim bar with volume confirmation.\n\nResolve into directional view and confidence level:\n- The dominant signal is a high-volume bearish washout followed by a strong reclaim and breakout continuation. This aligns with avoiding shorts after exhaustion and favoring reversal/continuation longs.\n- Confidence is moderate: there is nearby resistance from prior highs, but the latest bar’s strength and volume tilt the edge bullish for the next day.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- All three analysts agree on a bullish interpretation and vote LONG (+1).\n- Their shared basis is consistent: a high-volume selloff into t-03 was followed by a strong undercut-and-reclaim reversal at t-02, then a low-volume hold at t-01, then a strong expansion/breakout day at t-00 closing near the high on solid volume.\n- This matches the lesson set favoring longs after exhaustion/reversal and after successful reclaim of broken levels, while avoiding shorts unless support fails again on expanding volume.\n- There is nearby overhead resistance from prior highs, but no analyst sees the latest bar as an exhaustion failure; the consensus bullish view is well supported by the data.\n</think>\n<action>\n1\n</action>",
+    "parsed_vote": 1.0
+  },
+  "final_decision": 1.0,
+  "eval": {
+    "target_return": -0.0542687363922596,
+    "hit": 0.0
+  }
+}

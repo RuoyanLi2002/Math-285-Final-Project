@@ -1,0 +1,181 @@
+{
+  "data_point_id": 497,
+  "timestamp": "2026-05-15T23:21:40.962223+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        27.020000457763672,
+        29.100000381469727,
+        26.639999389648438,
+        28.399999618530273,
+        526717.0
+      ],
+      [
+        28.399999618530273,
+        29.454999923706055,
+        27.594999313354492,
+        29.010000228881836,
+        561022.0
+      ],
+      [
+        28.670000076293945,
+        31.15999984741211,
+        28.610000610351562,
+        30.989999771118164,
+        790210.0
+      ],
+      [
+        30.799999237060547,
+        31.239999771118164,
+        29.395000457763672,
+        29.420000076293945,
+        731860.0
+      ],
+      [
+        29.56999969482422,
+        30.139999389648438,
+        28.975900650024414,
+        29.649999618530273,
+        446553.0
+      ],
+      [
+        30.559999465942383,
+        31.06999969482422,
+        30.110000610351562,
+        30.600000381469727,
+        396062.0
+      ],
+      [
+        28.739999771118164,
+        29.100000381469727,
+        27.8799991607666,
+        28.020000457763672,
+        3244726.0
+      ],
+      [
+        28.020000457763672,
+        28.3799991607666,
+        26.450000762939453,
+        26.56999969482422,
+        2459168.0
+      ],
+      [
+        26.440000534057617,
+        26.850000381469727,
+        24.8799991607666,
+        25.75,
+        2357890.0
+      ],
+      [
+        26.329999923706055,
+        28.010000228881836,
+        25.389999389648438,
+        27.719999313354492,
+        1285957.0
+      ],
+      [
+        27.81999969482422,
+        28.420000076293945,
+        26.979999542236328,
+        27.139999389648438,
+        816854.0
+      ],
+      [
+        27.920000076293945,
+        27.985000610351562,
+        27.09000015258789,
+        27.81999969482422,
+        412218.0
+      ],
+      [
+        28.110000610351562,
+        28.93000030517578,
+        27.87220001220703,
+        28.829999923706055,
+        386918.0
+      ],
+      [
+        29.190000534057617,
+        29.489999771118164,
+        28.645000457763672,
+        29.229999542236328,
+        266821.0
+      ],
+      [
+        29.010000228881836,
+        29.6299991607666,
+        28.94499969482422,
+        29.350000381469727,
+        337236.0
+      ],
+      [
+        29.049999237060547,
+        29.719999313354492,
+        28.81999969482422,
+        29.709999084472656,
+        318217.0
+      ],
+      [
+        29.610000610351562,
+        29.770000457763672,
+        28.280000686645508,
+        28.3799991607666,
+        572557.0
+      ],
+      [
+        28.540000915527344,
+        29.5049991607666,
+        28.110000610351562,
+        29.459999084472656,
+        550399.0
+      ],
+      [
+        29.190000534057617,
+        29.6200008392334,
+        28.227500915527344,
+        28.420000076293945,
+        459771.0
+      ],
+      [
+        28.5,
+        28.8799991607666,
+        27.5,
+        28.799999237060547,
+        959200.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    27.0200 |    29.1000 |    26.6400 |    28.4000 |     526717\n t-18 |    28.4000 |    29.4550 |    27.5950 |    29.0100 |     561022\n t-17 |    28.6700 |    31.1600 |    28.6100 |    30.9900 |     790210\n t-16 |    30.8000 |    31.2400 |    29.3950 |    29.4200 |     731860\n t-15 |    29.5700 |    30.1400 |    28.9759 |    29.6500 |     446553\n t-14 |    30.5600 |    31.0700 |    30.1100 |    30.6000 |     396062\n t-13 |    28.7400 |    29.1000 |    27.8800 |    28.0200 |    3244726\n t-12 |    28.0200 |    28.3800 |    26.4500 |    26.5700 |    2459168\n t-11 |    26.4400 |    26.8500 |    24.8800 |    25.7500 |    2357890\n t-10 |    26.3300 |    28.0100 |    25.3900 |    27.7200 |    1285957\n t-09 |    27.8200 |    28.4200 |    26.9800 |    27.1400 |     816854\n t-08 |    27.9200 |    27.9850 |    27.0900 |    27.8200 |     412218\n t-07 |    28.1100 |    28.9300 |    27.8722 |    28.8300 |     386918\n t-06 |    29.1900 |    29.4900 |    28.6450 |    29.2300 |     266821\n t-05 |    29.0100 |    29.6300 |    28.9450 |    29.3500 |     337236\n t-04 |    29.0500 |    29.7200 |    28.8200 |    29.7100 |     318217\n t-03 |    29.6100 |    29.7700 |    28.2800 |    28.3800 |     572557\n t-02 |    28.5400 |    29.5050 |    28.1100 |    29.4600 |     550399\n t-01 |    29.1900 |    29.6200 |    28.2275 |    28.4200 |     459771\n t-00 |    28.5000 |    28.8800 |    27.5000 |    28.8000 |     959200"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    27.0200 |    29.1000 |    26.6400 |    28.4000 |     526717\n t-18 |    28.4000 |    29.4550 |    27.5950 |    29.0100 |     561022\n t-17 |    28.6700 |    31.1600 |    28.6100 |    30.9900 |     790210\n t-16 |    30.8000 |    31.2400 |    29.3950 |    29.4200 |     731860\n t-15 |    29.5700 |    30.1400 |    28.9759 |    29.6500 |     446553\n t-14 |    30.5600 |    31.0700 |    30.1100 |    30.6000 |     396062\n t-13 |    28.7400 |    29.1000 |    27.8800 |    28.0200 |    3244726\n t-12 |    28.0200 |    28.3800 |    26.4500 |    26.5700 |    2459168\n t-11 |    26.4400 |    26.8500 |    24.8800 |    25.7500 |    2357890\n t-10 |    26.3300 |    28.0100 |    25.3900 |    27.7200 |    1285957\n t-09 |    27.8200 |    28.4200 |    26.9800 |    27.1400 |     816854\n t-08 |    27.9200 |    27.9850 |    27.0900 |    27.8200 |     412218\n t-07 |    28.1100 |    28.9300 |    27.8722 |    28.8300 |     386918\n t-06 |    29.1900 |    29.4900 |    28.6450 |    29.2300 |     266821\n t-05 |    29.0100 |    29.6300 |    28.9450 |    29.3500 |     337236\n t-04 |    29.0500 |    29.7200 |    28.8200 |    29.7100 |     318217\n t-03 |    29.6100 |    29.7700 |    28.2800 |    28.3800 |     572557\n t-02 |    28.5400 |    29.5050 |    28.1100 |    29.4600 |     550399\n t-01 |    29.1900 |    29.6200 |    28.2275 |    28.4200 |     459771\n t-00 |    28.5000 |    28.8800 |    27.5000 |    28.8000 |     959200\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The recent price action shows a series of fluctuations with a notable high-volume sell-off on t-12 and t-11, followed by a recovery attempt.\n- The last close (t-0) is at 28.8000, which is above the recent low of 27.5000 (t-0 low) but below the recent highs, indicating a potential consolidation phase.\n- The volume on the last day (t-0) is significantly higher than the previous days, suggesting increased interest and potential for a reversal.\n- The price has been bouncing around the 28.00-29.00 range, with the last close being near the upper end of this range.\n- There are no clear signs of exhaustion or reversal signals, and the price is holding above recent support levels.\n- Given the high volume and the close above the recent lows, there is a favorable environment for a potential bounce.\n\n- Signals that matter:\n  1. Recent high-volume close above support.\n  2. Price holding above recent lows.\n  3. Increased volume on the last trading day.\n\n- Overall, the signals suggest a cautious bullish outlook with a potential for a bounce.\n\nConfidence level: Moderate.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The recent price action shows a series of fluctuations with a notable high-volume sell-off followed by a consolidation phase.\n- The stock has recently bounced off a lower level (t-00 close at 28.8000) after a multi-day decline, indicating potential support around the 28.00-29.00 range.\n- The last few days have shown a pattern of lower highs and lower lows, but the most recent close is above the previous day's close, suggesting a possible reversal.\n- Volume on the last day (t-00) is significantly higher than the previous days, indicating increased interest and potential accumulation.\n- The price is currently above the recent lows, and the long lower wick on the previous day indicates buying pressure at lower levels.\n- Overall, the signals suggest a cautious reversal long could be favorable as the stock appears to be finding support.\n\nConfidence level: Moderate.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The recent daily close at t-0 is 28.8000, which is slightly above the previous day's close of 28.4200, indicating a potential bullish sentiment.\n- The last few days have shown a pattern of lower highs and lower lows, but the most recent close is above the previous day's close, suggesting a possible reversal.\n- The volume on the most recent day (t-0) is significantly higher than the previous day, indicating strong buying interest.\n- The price is still within the range established in the last few days, but the higher volume on the last day suggests that buyers are stepping in.\n- However, the overall trend has been bearish with recent lower closes, so caution is warranted.\n- Given the high volume on the last day and the close above the previous day's close, there is a signal for a potential bounce.\n\nDirectional view: Favoring a cautious long position due to the high volume and close above the previous day's close, but with awareness of the overall bearish trend.\n\nConfidence level: Moderate.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    27.0200 |    29.1000 |    26.6400 |    28.4000 |     526717\n t-18 |    28.4000 |    29.4550 |    27.5950 |    29.0100 |     561022\n t-17 |    28.6700 |    31.1600 |    28.6100 |    30.9900 |     790210\n t-16 |    30.8000 |    31.2400 |    29.3950 |    29.4200 |     731860\n t-15 |    29.5700 |    30.1400 |    28.9759 |    29.6500 |     446553\n t-14 |    30.5600 |    31.0700 |    30.1100 |    30.6000 |     396062\n t-13 |    28.7400 |    29.1000 |    27.8800 |    28.0200 |    3244726\n t-12 |    28.0200 |    28.3800 |    26.4500 |    26.5700 |    2459168\n t-11 |    26.4400 |    26.8500 |    24.8800 |    25.7500 |    2357890\n t-10 |    26.3300 |    28.0100 |    25.3900 |    27.7200 |    1285957\n t-09 |    27.8200 |    28.4200 |    26.9800 |    27.1400 |     816854\n t-08 |    27.9200 |    27.9850 |    27.0900 |    27.8200 |     412218\n t-07 |    28.1100 |    28.9300 |    27.8722 |    28.8300 |     386918\n t-06 |    29.1900 |    29.4900 |    28.6450 |    29.2300 |     266821\n t-05 |    29.0100 |    29.6300 |    28.9450 |    29.3500 |     337236\n t-04 |    29.0500 |    29.7200 |    28.8200 |    29.7100 |     318217\n t-03 |    29.6100 |    29.7700 |    28.2800 |    28.3800 |     572557\n t-02 |    28.5400 |    29.5050 |    28.1100 |    29.4600 |     550399\n t-01 |    29.1900 |    29.6200 |    28.2275 |    28.4200 |     459771\n t-00 |    28.5000 |    28.8800 |    27.5000 |    28.8000 |     959200\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The recent price action shows a series of fluctuations with a notable high-volume sell-off on t-12 and t-11, followed by a recovery attempt.\n- The last close (t-0) is at 28.8000, which is above the recent low of 27.5000 (t-0 low) but below the recent highs, indicating a potential consolidation phase.\n- The volume on the last day (t-0) is significantly higher than the previous days, suggesting increased interest and potential for a reversal.\n- The price has been bouncing around the 28.00-29.00 range, with the last close being near the upper end of this range.\n- There are no clear signs of exhaustion or reversal signals, and the price is holding above recent support levels.\n- Given the high volume and the close above the recent lows, there is a favorable environment for a potential bounce.\n\n- Signals that matter:\n  1. Recent high-volume close above support.\n  2. Price holding above recent lows.\n  3. Increased volume on the last trading day.\n\n- Overall, the signals suggest a cautious bullish outlook with a potential for a bounce.\n\nConfidence level: Moderate.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The recent price action shows a series of fluctuations with a notable high-volume sell-off followed by a consolidation phase.\n- The stock has recently bounced off a lower level (t-00 close at 28.8000) after a multi-day decline, indicating potential support around the 28.00-29.00 range.\n- The last few days have shown a pattern of lower highs and lower lows, but the most recent close is above the previous day's close, suggesting a possible reversal.\n- Volume on the last day (t-00) is significantly higher than the previous days, indicating increased interest and potential accumulation.\n- The price is currently above the recent lows, and the long lower wick on the previous day indicates buying pressure at lower levels.\n- Overall, the signals suggest a cautious reversal long could be favorable as the stock appears to be finding support.\n\nConfidence level: Moderate.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The recent daily close at t-0 is 28.8000, which is slightly above the previous day's close of 28.4200, indicating a potential bullish sentiment.\n- The last few days have shown a pattern of lower highs and lower lows, but the most recent close is above the previous day's close, suggesting a possible reversal.\n- The volume on the most recent day (t-0) is significantly higher than the previous day, indicating strong buying interest.\n- The price is still within the range established in the last few days, but the higher volume on the last day suggests that buyers are stepping in.\n- However, the overall trend has been bearish with recent lower closes, so caution is warranted.\n- Given the high volume on the last day and the close above the previous day's close, there is a signal for a potential bounce.\n\nDirectional view: Favoring a cautious long position due to the high volume and close above the previous day's close, but with awareness of the overall bearish trend.\n\nConfidence level: Moderate.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- All three analysts agree on a LONG (+1) vote.\n- The reasoning across their analyses highlights a potential for a bounce due to the recent price action, high volume on the last day, and the stock holding above recent lows.\n- There are no significant disagreements or conflicting signals among the analysts, reinforcing the consensus view.\n</think>\n<action>\n1\n</action>",
+    "parsed_vote": 1.0
+  },
+  "final_decision": 1.0,
+  "eval": {
+    "target_return": -0.023538747802376747,
+    "hit": 0.0
+  }
+}

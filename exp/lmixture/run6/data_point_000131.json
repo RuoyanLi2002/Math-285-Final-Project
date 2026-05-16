@@ -1,0 +1,181 @@
+{
+  "data_point_id": 131,
+  "timestamp": "2026-05-16T04:40:26.818996+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        33.91999816894531,
+        34.06999969482422,
+        33.244998931884766,
+        34.040000915527344,
+        14028574.0
+      ],
+      [
+        34.02000045776367,
+        34.02000045776367,
+        33.029998779296875,
+        33.66999816894531,
+        15141251.0
+      ],
+      [
+        34.119998931884766,
+        34.5099983215332,
+        33.25,
+        33.72999954223633,
+        10889717.0
+      ],
+      [
+        34.95000076293945,
+        37.040000915527344,
+        34.86000061035156,
+        36.310001373291016,
+        35697636.0
+      ],
+      [
+        36.970001220703125,
+        38.130001068115234,
+        36.22999954223633,
+        37.83000183105469,
+        27185750.0
+      ],
+      [
+        38.130001068115234,
+        38.459999084472656,
+        37.439998626708984,
+        38.13999938964844,
+        19010522.0
+      ],
+      [
+        38.650001525878906,
+        39.040000915527344,
+        36.77000045776367,
+        37.33000183105469,
+        21560540.0
+      ],
+      [
+        37.04999923706055,
+        37.244998931884766,
+        35.10499954223633,
+        35.880001068115234,
+        20581238.0
+      ],
+      [
+        34.83000183105469,
+        36.06999969482422,
+        34.220001220703125,
+        35.900001525878906,
+        21914284.0
+      ],
+      [
+        34.97999954223633,
+        35.689998626708984,
+        34.2400016784668,
+        34.7400016784668,
+        23923776.0
+      ],
+      [
+        35.689998626708984,
+        36.970001220703125,
+        35.560001373291016,
+        36.540000915527344,
+        22572904.0
+      ],
+      [
+        37.099998474121094,
+        39.07500076293945,
+        36.959999084472656,
+        39.04999923706055,
+        27041602.0
+      ],
+      [
+        38.54999923706055,
+        39.84000015258789,
+        38.54999923706055,
+        38.689998626708984,
+        19766600.0
+      ],
+      [
+        38.02000045776367,
+        39.66999816894531,
+        37.61000061035156,
+        39.349998474121094,
+        18574642.0
+      ],
+      [
+        39.95000076293945,
+        39.97999954223633,
+        37.64339828491211,
+        38.400001525878906,
+        18860186.0
+      ],
+      [
+        38.0,
+        38.69300079345703,
+        37.45000076293945,
+        37.709999084472656,
+        13696442.0
+      ],
+      [
+        38.404998779296875,
+        39.290000915527344,
+        38.209999084472656,
+        38.709999084472656,
+        22861624.0
+      ],
+      [
+        38.90999984741211,
+        39.279998779296875,
+        37.90250015258789,
+        39.220001220703125,
+        26489196.0
+      ],
+      [
+        39.93000030517578,
+        41.7400016784668,
+        39.20000076293945,
+        41.540000915527344,
+        37186904.0
+      ],
+      [
+        42.0,
+        42.189998626708984,
+        40.72999954223633,
+        42.06999969482422,
+        25202208.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    33.9200 |    34.0700 |    33.2450 |    34.0400 |   14028574\n t-18 |    34.0200 |    34.0200 |    33.0300 |    33.6700 |   15141251\n t-17 |    34.1200 |    34.5100 |    33.2500 |    33.7300 |   10889717\n t-16 |    34.9500 |    37.0400 |    34.8600 |    36.3100 |   35697636\n t-15 |    36.9700 |    38.1300 |    36.2300 |    37.8300 |   27185750\n t-14 |    38.1300 |    38.4600 |    37.4400 |    38.1400 |   19010522\n t-13 |    38.6500 |    39.0400 |    36.7700 |    37.3300 |   21560540\n t-12 |    37.0500 |    37.2450 |    35.1050 |    35.8800 |   20581238\n t-11 |    34.8300 |    36.0700 |    34.2200 |    35.9000 |   21914284\n t-10 |    34.9800 |    35.6900 |    34.2400 |    34.7400 |   23923776\n t-09 |    35.6900 |    36.9700 |    35.5600 |    36.5400 |   22572904\n t-08 |    37.1000 |    39.0750 |    36.9600 |    39.0500 |   27041602\n t-07 |    38.5500 |    39.8400 |    38.5500 |    38.6900 |   19766600\n t-06 |    38.0200 |    39.6700 |    37.6100 |    39.3500 |   18574642\n t-05 |    39.9500 |    39.9800 |    37.6434 |    38.4000 |   18860186\n t-04 |    38.0000 |    38.6930 |    37.4500 |    37.7100 |   13696442\n t-03 |    38.4050 |    39.2900 |    38.2100 |    38.7100 |   22861624\n t-02 |    38.9100 |    39.2800 |    37.9025 |    39.2200 |   26489196\n t-01 |    39.9300 |    41.7400 |    39.2000 |    41.5400 |   37186904\n t-00 |    42.0000 |    42.1900 |    40.7300 |    42.0700 |   25202208"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. Do not short a sharp multi-day selloff into recent range support on elevated volume unless price decisively closes below that support on expanding volume with follow-through.\n  1. When a persistent lower-high/lower-low downtrend ends with a high-volume breakdown or weak consolidation near fresh lows, favor short.\n  2. When a multi-day pullback stabilizes into higher lows and the latest bar reclaims the short-term range near its high, favor long.\n  3. Do not take a long on a short-term rebound into range resistance unless it closes decisively above prior highs with strong volume.\n  4. Do not short a high-volume close near 20-day lows after a multi-day selloff unless there is clear next-day downside follow-through confirmation, such as a support break on expanding volume.\n  5. When a multi-day pullback ends with a strong bullish reversal candle closing above the prior close and near the day’s high, favor long.\n  6. When a steady uptrend culminates in a close at fresh 20-day highs, favor long.\n  7. When price breaks out of a multi-day consolidation after a pullback and closes near recent highs, favor long.\n\nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    33.9200 |    34.0700 |    33.2450 |    34.0400 |   14028574\n t-18 |    34.0200 |    34.0200 |    33.0300 |    33.6700 |   15141251\n t-17 |    34.1200 |    34.5100 |    33.2500 |    33.7300 |   10889717\n t-16 |    34.9500 |    37.0400 |    34.8600 |    36.3100 |   35697636\n t-15 |    36.9700 |    38.1300 |    36.2300 |    37.8300 |   27185750\n t-14 |    38.1300 |    38.4600 |    37.4400 |    38.1400 |   19010522\n t-13 |    38.6500 |    39.0400 |    36.7700 |    37.3300 |   21560540\n t-12 |    37.0500 |    37.2450 |    35.1050 |    35.8800 |   20581238\n t-11 |    34.8300 |    36.0700 |    34.2200 |    35.9000 |   21914284\n t-10 |    34.9800 |    35.6900 |    34.2400 |    34.7400 |   23923776\n t-09 |    35.6900 |    36.9700 |    35.5600 |    36.5400 |   22572904\n t-08 |    37.1000 |    39.0750 |    36.9600 |    39.0500 |   27041602\n t-07 |    38.5500 |    39.8400 |    38.5500 |    38.6900 |   19766600\n t-06 |    38.0200 |    39.6700 |    37.6100 |    39.3500 |   18574642\n t-05 |    39.9500 |    39.9800 |    37.6434 |    38.4000 |   18860186\n t-04 |    38.0000 |    38.6930 |    37.4500 |    37.7100 |   13696442\n t-03 |    38.4050 |    39.2900 |    38.2100 |    38.7100 |   22861624\n t-02 |    38.9100 |    39.2800 |    37.9025 |    39.2200 |   26489196\n t-01 |    39.9300 |    41.7400 |    39.2000 |    41.5400 |   37186904\n t-00 |    42.0000 |    42.1900 |    40.7300 |    42.0700 |   25202208\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock has been in a strong uptrend overall: after the mid-window pullback from the high-38s to mid-34s, price rebuilt with higher lows and then broke out.\n- The key recent signal is the breakout sequence from t-03 through t-00: closes moved from 38.71 -> 39.22 -> 41.54 -> 42.07, with t-01 showing a strong expansion candle and t-00 holding near the highs.\n- Volume confirmed the move, especially on t-01 with the highest volume in the window, and t-00 still above average, suggesting the breakout is being accepted rather than rejected.\n- The latest close is at/near fresh highs for the window, not stretched into obvious resistance from this sample, and there is no bearish reversal candle or failed breakout.\n- This fits the “steady uptrend culminating in a close at fresh highs” and “breakout after consolidation/pullback” long setup.\n- Confidence is moderately high for continuation next day.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock has been in a strong uptrend over the full window, with a clear sequence of higher highs and higher lows after the mid-window pullback.\n- The pullback from t-08 through t-04 stabilized and then resolved upward, which fits a constructive continuation pattern rather than a breakdown.\n- The last two sessions are especially bullish: t-01 closed near the high on very strong volume and t-00 followed through with another higher close, making a fresh local high.\n- The latest close is near the top of the recent range, not stretched below support, and there is no sign of reversal or distribution.\n- Volume on the breakout/continuation move is strong enough to confirm demand.\n- This aligns with the lesson to favor long when a steady uptrend culminates in a close at fresh highs and when a pullback resolves into a breakout near recent highs.\n- Confidence is moderately high for upside continuation next day.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock has been in a clear uptrend: after the mid-window pullback, price formed higher lows and then pushed to new highs.\n- The latest two bars are especially strong: t-01 closed near its high on very heavy volume, and t-00 followed through with another higher close, making a fresh high close.\n- There is no sign of exhaustion reversal, breakdown, or failed breakout; instead, momentum and volume both confirm the breakout.\n- The latest close is near the top of the recent range, which supports continuation rather than mean reversion.\n- Overall signal alignment is bullish, with strong breakout confirmation and favorable trend structure.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. Do not short a sharp multi-day selloff into recent range support on elevated volume unless price decisively closes below that support on expanding volume with follow-through.\n  1. When a persistent lower-high/lower-low downtrend ends with a high-volume breakdown or weak consolidation near fresh lows, favor short.\n  2. When a multi-day pullback stabilizes into higher lows and the latest bar reclaims the short-term range near its high, favor long.\n  3. Do not take a long on a short-term rebound into range resistance unless it closes decisively above prior highs with strong volume.\n  4. Do not short a high-volume close near 20-day lows after a multi-day selloff unless there is clear next-day downside follow-through confirmation, such as a support break on expanding volume.\n  5. When a multi-day pullback ends with a strong bullish reversal candle closing above the prior close and near the day’s high, favor long.\n  6. When a steady uptrend culminates in a close at fresh 20-day highs, favor long.\n  7. When price breaks out of a multi-day consolidation after a pullback and closes near recent highs, favor long.\n\nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    33.9200 |    34.0700 |    33.2450 |    34.0400 |   14028574\n t-18 |    34.0200 |    34.0200 |    33.0300 |    33.6700 |   15141251\n t-17 |    34.1200 |    34.5100 |    33.2500 |    33.7300 |   10889717\n t-16 |    34.9500 |    37.0400 |    34.8600 |    36.3100 |   35697636\n t-15 |    36.9700 |    38.1300 |    36.2300 |    37.8300 |   27185750\n t-14 |    38.1300 |    38.4600 |    37.4400 |    38.1400 |   19010522\n t-13 |    38.6500 |    39.0400 |    36.7700 |    37.3300 |   21560540\n t-12 |    37.0500 |    37.2450 |    35.1050 |    35.8800 |   20581238\n t-11 |    34.8300 |    36.0700 |    34.2200 |    35.9000 |   21914284\n t-10 |    34.9800 |    35.6900 |    34.2400 |    34.7400 |   23923776\n t-09 |    35.6900 |    36.9700 |    35.5600 |    36.5400 |   22572904\n t-08 |    37.1000 |    39.0750 |    36.9600 |    39.0500 |   27041602\n t-07 |    38.5500 |    39.8400 |    38.5500 |    38.6900 |   19766600\n t-06 |    38.0200 |    39.6700 |    37.6100 |    39.3500 |   18574642\n t-05 |    39.9500 |    39.9800 |    37.6434 |    38.4000 |   18860186\n t-04 |    38.0000 |    38.6930 |    37.4500 |    37.7100 |   13696442\n t-03 |    38.4050 |    39.2900 |    38.2100 |    38.7100 |   22861624\n t-02 |    38.9100 |    39.2800 |    37.9025 |    39.2200 |   26489196\n t-01 |    39.9300 |    41.7400 |    39.2000 |    41.5400 |   37186904\n t-00 |    42.0000 |    42.1900 |    40.7300 |    42.0700 |   25202208\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The stock has been in a strong uptrend overall: after the mid-window pullback from the high-38s to mid-34s, price rebuilt with higher lows and then broke out.\n- The key recent signal is the breakout sequence from t-03 through t-00: closes moved from 38.71 -> 39.22 -> 41.54 -> 42.07, with t-01 showing a strong expansion candle and t-00 holding near the highs.\n- Volume confirmed the move, especially on t-01 with the highest volume in the window, and t-00 still above average, suggesting the breakout is being accepted rather than rejected.\n- The latest close is at/near fresh highs for the window, not stretched into obvious resistance from this sample, and there is no bearish reversal candle or failed breakout.\n- This fits the “steady uptrend culminating in a close at fresh highs” and “breakout after consolidation/pullback” long setup.\n- Confidence is moderately high for continuation next day.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The stock has been in a strong uptrend over the full window, with a clear sequence of higher highs and higher lows after the mid-window pullback.\n- The pullback from t-08 through t-04 stabilized and then resolved upward, which fits a constructive continuation pattern rather than a breakdown.\n- The last two sessions are especially bullish: t-01 closed near the high on very strong volume and t-00 followed through with another higher close, making a fresh local high.\n- The latest close is near the top of the recent range, not stretched below support, and there is no sign of reversal or distribution.\n- Volume on the breakout/continuation move is strong enough to confirm demand.\n- This aligns with the lesson to favor long when a steady uptrend culminates in a close at fresh highs and when a pullback resolves into a breakout near recent highs.\n- Confidence is moderately high for upside continuation next day.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The stock has been in a clear uptrend: after the mid-window pullback, price formed higher lows and then pushed to new highs.\n- The latest two bars are especially strong: t-01 closed near its high on very heavy volume, and t-00 followed through with another higher close, making a fresh high close.\n- There is no sign of exhaustion reversal, breakdown, or failed breakout; instead, momentum and volume both confirm the breakout.\n- The latest close is near the top of the recent range, which supports continuation rather than mean reversion.\n- Overall signal alignment is bullish, with strong breakout confirmation and favorable trend structure.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- All three analysts agree on the same view: bullish continuation.\n- The data support their consensus: a multi-day pullback resolved into higher lows, then a strong breakout with t-01 on very heavy volume and t-00 following through to a fresh high close near the day’s high.\n- There is no meaningful bearish counter-signal or failed breakout; conviction is high enough to follow the consensus.\n</think>\n<action>\n1\n</action>",
+    "parsed_vote": 1.0
+  },
+  "final_decision": 1.0,
+  "eval": {
+    "target_return": 0.044172775000333786,
+    "hit": 1.0
+  }
+}

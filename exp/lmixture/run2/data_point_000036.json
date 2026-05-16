@@ -1,0 +1,181 @@
+{
+  "data_point_id": 36,
+  "timestamp": "2026-05-15T23:43:19.960834+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        46.68000030517578,
+        46.91999816894531,
+        45.869998931884766,
+        45.9900016784668,
+        1112067.0
+      ],
+      [
+        46.38999938964844,
+        46.529998779296875,
+        45.670101165771484,
+        46.13999938964844,
+        1400584.0
+      ],
+      [
+        45.88999938964844,
+        47.06999969482422,
+        45.59000015258789,
+        45.81999969482422,
+        1584174.0
+      ],
+      [
+        45.939998626708984,
+        47.5099983215332,
+        45.810001373291016,
+        46.9900016784668,
+        1250113.0
+      ],
+      [
+        47.08000183105469,
+        47.22999954223633,
+        46.18000030517578,
+        46.79999923706055,
+        806523.0
+      ],
+      [
+        46.290000915527344,
+        46.5099983215332,
+        45.279998779296875,
+        45.810001373291016,
+        1758871.0
+      ],
+      [
+        45.900001525878906,
+        46.1150016784668,
+        44.7599983215332,
+        45.54999923706055,
+        1414496.0
+      ],
+      [
+        44.47999954223633,
+        45.25,
+        43.980098724365234,
+        44.31999969482422,
+        2189907.0
+      ],
+      [
+        44.86000061035156,
+        45.59000015258789,
+        44.220001220703125,
+        45.529998779296875,
+        2479410.0
+      ],
+      [
+        45.220001220703125,
+        46.18000030517578,
+        44.869998931884766,
+        46.099998474121094,
+        1402324.0
+      ],
+      [
+        45.83000183105469,
+        45.869998931884766,
+        44.44499969482422,
+        44.63999938964844,
+        1501192.0
+      ],
+      [
+        44.70000076293945,
+        45.34000015258789,
+        44.400001525878906,
+        44.4900016784668,
+        909409.0
+      ],
+      [
+        44.02000045776367,
+        44.58000183105469,
+        43.51499938964844,
+        43.93000030517578,
+        1568348.0
+      ],
+      [
+        43.630001068115234,
+        44.34000015258789,
+        42.97999954223633,
+        43.040000915527344,
+        1837759.0
+      ],
+      [
+        41.61000061035156,
+        42.47999954223633,
+        40.970001220703125,
+        41.91999816894531,
+        1943016.0
+      ],
+      [
+        41.97999954223633,
+        44.029998779296875,
+        41.79999923706055,
+        43.79999923706055,
+        2567015.0
+      ],
+      [
+        44.099998474121094,
+        44.119998931884766,
+        40.14500045776367,
+        40.650001525878906,
+        7932676.0
+      ],
+      [
+        40.630001068115234,
+        40.900001525878906,
+        39.7599983215332,
+        40.029998779296875,
+        3456988.0
+      ],
+      [
+        40.5,
+        41.16999816894531,
+        40.2599983215332,
+        40.61000061035156,
+        2529841.0
+      ],
+      [
+        40.75,
+        41.66999816894531,
+        40.54499816894531,
+        40.81999969482422,
+        1857110.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    46.6800 |    46.9200 |    45.8700 |    45.9900 |    1112067\n t-18 |    46.3900 |    46.5300 |    45.6701 |    46.1400 |    1400584\n t-17 |    45.8900 |    47.0700 |    45.5900 |    45.8200 |    1584174\n t-16 |    45.9400 |    47.5100 |    45.8100 |    46.9900 |    1250113\n t-15 |    47.0800 |    47.2300 |    46.1800 |    46.8000 |     806523\n t-14 |    46.2900 |    46.5100 |    45.2800 |    45.8100 |    1758871\n t-13 |    45.9000 |    46.1150 |    44.7600 |    45.5500 |    1414496\n t-12 |    44.4800 |    45.2500 |    43.9801 |    44.3200 |    2189907\n t-11 |    44.8600 |    45.5900 |    44.2200 |    45.5300 |    2479410\n t-10 |    45.2200 |    46.1800 |    44.8700 |    46.1000 |    1402324\n t-09 |    45.8300 |    45.8700 |    44.4450 |    44.6400 |    1501192\n t-08 |    44.7000 |    45.3400 |    44.4000 |    44.4900 |     909409\n t-07 |    44.0200 |    44.5800 |    43.5150 |    43.9300 |    1568348\n t-06 |    43.6300 |    44.3400 |    42.9800 |    43.0400 |    1837759\n t-05 |    41.6100 |    42.4800 |    40.9700 |    41.9200 |    1943016\n t-04 |    41.9800 |    44.0300 |    41.8000 |    43.8000 |    2567015\n t-03 |    44.1000 |    44.1200 |    40.1450 |    40.6500 |    7932676\n t-02 |    40.6300 |    40.9000 |    39.7600 |    40.0300 |    3456988\n t-01 |    40.5000 |    41.1700 |    40.2600 |    40.6100 |    2529841\n t-00 |    40.7500 |    41.6700 |    40.5450 |    40.8200 |    1857110"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    46.6800 |    46.9200 |    45.8700 |    45.9900 |    1112067\n t-18 |    46.3900 |    46.5300 |    45.6701 |    46.1400 |    1400584\n t-17 |    45.8900 |    47.0700 |    45.5900 |    45.8200 |    1584174\n t-16 |    45.9400 |    47.5100 |    45.8100 |    46.9900 |    1250113\n t-15 |    47.0800 |    47.2300 |    46.1800 |    46.8000 |     806523\n t-14 |    46.2900 |    46.5100 |    45.2800 |    45.8100 |    1758871\n t-13 |    45.9000 |    46.1150 |    44.7600 |    45.5500 |    1414496\n t-12 |    44.4800 |    45.2500 |    43.9801 |    44.3200 |    2189907\n t-11 |    44.8600 |    45.5900 |    44.2200 |    45.5300 |    2479410\n t-10 |    45.2200 |    46.1800 |    44.8700 |    46.1000 |    1402324\n t-09 |    45.8300 |    45.8700 |    44.4450 |    44.6400 |    1501192\n t-08 |    44.7000 |    45.3400 |    44.4000 |    44.4900 |     909409\n t-07 |    44.0200 |    44.5800 |    43.5150 |    43.9300 |    1568348\n t-06 |    43.6300 |    44.3400 |    42.9800 |    43.0400 |    1837759\n t-05 |    41.6100 |    42.4800 |    40.9700 |    41.9200 |    1943016\n t-04 |    41.9800 |    44.0300 |    41.8000 |    43.8000 |    2567015\n t-03 |    44.1000 |    44.1200 |    40.1450 |    40.6500 |    7932676\n t-02 |    40.6300 |    40.9000 |    39.7600 |    40.0300 |    3456988\n t-01 |    40.5000 |    41.1700 |    40.2600 |    40.6100 |    2529841\n t-00 |    40.7500 |    41.6700 |    40.5450 |    40.8200 |    1857110\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The broader 20-day structure is clearly bearish: price fell from the mid-46/47 area to around 40 after a sequence of lower highs/lows and a major breakdown.\n- Key bearish impulse came at t-03: huge-volume collapse from the prior rebound, slicing through support around 42-43 and closing near the low. That likely reset the trend lower.\n- Since then, t-02 to t-00 show only a modest rebound/sideways stabilization from 39.76-40.90 up to 40.82. This bounce has occurred on declining volume each day, which suggests weak buying interest rather than strong accumulation.\n- Price remains well below broken support/resistance zones: 41.8-44.0 from t-04 and especially the breakdown area near 42+. The latest close is still trapped in the lower part of the recent 20-day range.\n- Candlestick-wise, t-00 is a small up day with some upper wick after testing 41.67, but no decisive reclaim and no strong volume confirmation. There is no obvious capitulation-reversal candle with a powerful reclaim of broken levels.\n- Support near 39.8-40.0 did hold for two days, so immediate downside momentum has slowed. That reduces confidence in an aggressive short, but the rebound quality is poor.\n- Signals that matter:\n  - Strong prevailing downtrend.\n  - High-volume bearish breakdown at t-03.\n  - Weak, fading-volume rebound afterward.\n  - Failure to reclaim nearby resistance/breakdown levels.\n  - Latest close still near range lows, not a strong reversal posture.\n- Resolution: this fits the lesson that after bearish impulses/support breaks, low-volume rebounds stalling below resistance favor shorts until a decisive reclaim occurs. Confidence is moderate, not high, because near-term support around 40 has held.\n</think>\n<action>\n-1\n</action>",
+        "parsed_vote": -1.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The broader 20-day structure is bearish: price fell from the 46-47 area to the low 40s, with a major breakdown on t-03 (huge volume, wide range, close near lows). That establishes a strong bearish impulse and likely overhead resistance around 41.8-44.0, then 44.5+.\n- After that breakdown, price made a fresh low on t-02 at 39.76 but did not collapse further. The last three sessions (t-02 to t-00) show stabilization and a mild rebound: 40.03 -> 40.61 -> 40.82.\n- Volume has been declining since the panic break: 7.93M on t-03, 3.46M on t-02, 2.53M on t-01, 1.86M on t-00. That means the bounce lacks strong accumulation/confirmation.\n- Candlestick-wise, t-02 undercut prior lows and closed off the low, suggesting some exhaustion. t-00 is a small positive day with close in the upper half of the day’s range, but not a decisive breakout candle.\n- Support appears near 39.8-40.1 from t-02/t-03. Resistance is near 41.7-42.5 first, then 43.8-44.0 from the failed rebound zone.\n- This looks like a weak rebound within a downtrend after a breakdown, and the rebound is occurring on fading volume below clear resistance. That generally favors shorts, but there is also evidence of short-term selling exhaustion near support, which argues against pressing a fresh short at current depressed levels.\n- The latest close is still near the lower end of the full 20-day range, but not breaking support; momentum is weakly positive over the last 3 days, though still countertrend.\n\nSignals that matter:\n- Strong prior bearish impulse/breakdown on extreme volume: bearish.\n- Bounce after undercut of lows and stabilization near support: mildly bullish / anti-short.\n- Rebound volume fading and still below breakdown level/resistance: bearish.\n- No decisive reclaim of broken levels or high-volume reversal confirmation: bearish/neutral.\n- Price sitting between nearby support (~40) and nearby resistance (~41.7-42.5): limited edge.\n\nResolve into directional view and confidence level:\n- The dominant trend remains down, but the immediate setup is not ideal for a new short because price is basing just above support after a likely exhaustion flush.\n- The rebound is too weak and unconfirmed to justify a long.\n- Net: insufficient edge for next day; low confidence directional call, so stand aside.\n</think>\n<action>\n0\n</action>",
+        "parsed_vote": 0.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The broader 20-day structure is bearish: price fell from the mid-46/47 area to around 40 after a sharp breakdown. Key support around 43.5-44 and then 41 failed decisively.\n- The most important event is t-03: a huge-volume bearish impulse with a collapse from 44 to 40.65, confirming distribution and a regime shift lower.\n- Since that breakdown, the last three sessions (t-02 to t-00) show only a weak rebound/base near 40:\n  - t-02 continued lower to 39.76 and closed weak.\n  - t-01 and t-00 bounced modestly, but volume has declined each day.\n  - t-00 tested up to 41.67 but still closed only 40.82, well below broken support near 41.8-44.\n- This looks like a low-volume rebound after a bearish impulse, stalling below resistance. That aligns with a weak countertrend bounce rather than a true reversal.\n- Positives: price did hold above the t-02 low, and t-00 closed in the upper half of its daily range. There is some evidence of short-term stabilization around 40.\n- Negatives outweigh: dominant downtrend, failed reclaim of broken levels, fading volume on rebound, and close still near the lower end of the recent multi-day range. No decisive high-volume reversal candle or reclaim.\n- Directional view: favor continuation lower or at least failure of the bounce.\n- Confidence level: moderate.\n</think>\n<action>\n-1\n</action>",
+        "parsed_vote": -1.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |    46.6800 |    46.9200 |    45.8700 |    45.9900 |    1112067\n t-18 |    46.3900 |    46.5300 |    45.6701 |    46.1400 |    1400584\n t-17 |    45.8900 |    47.0700 |    45.5900 |    45.8200 |    1584174\n t-16 |    45.9400 |    47.5100 |    45.8100 |    46.9900 |    1250113\n t-15 |    47.0800 |    47.2300 |    46.1800 |    46.8000 |     806523\n t-14 |    46.2900 |    46.5100 |    45.2800 |    45.8100 |    1758871\n t-13 |    45.9000 |    46.1150 |    44.7600 |    45.5500 |    1414496\n t-12 |    44.4800 |    45.2500 |    43.9801 |    44.3200 |    2189907\n t-11 |    44.8600 |    45.5900 |    44.2200 |    45.5300 |    2479410\n t-10 |    45.2200 |    46.1800 |    44.8700 |    46.1000 |    1402324\n t-09 |    45.8300 |    45.8700 |    44.4450 |    44.6400 |    1501192\n t-08 |    44.7000 |    45.3400 |    44.4000 |    44.4900 |     909409\n t-07 |    44.0200 |    44.5800 |    43.5150 |    43.9300 |    1568348\n t-06 |    43.6300 |    44.3400 |    42.9800 |    43.0400 |    1837759\n t-05 |    41.6100 |    42.4800 |    40.9700 |    41.9200 |    1943016\n t-04 |    41.9800 |    44.0300 |    41.8000 |    43.8000 |    2567015\n t-03 |    44.1000 |    44.1200 |    40.1450 |    40.6500 |    7932676\n t-02 |    40.6300 |    40.9000 |    39.7600 |    40.0300 |    3456988\n t-01 |    40.5000 |    41.1700 |    40.2600 |    40.6100 |    2529841\n t-00 |    40.7500 |    41.6700 |    40.5450 |    40.8200 |    1857110\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The broader 20-day structure is clearly bearish: price fell from the mid-46/47 area to around 40 after a sequence of lower highs/lows and a major breakdown.\n- Key bearish impulse came at t-03: huge-volume collapse from the prior rebound, slicing through support around 42-43 and closing near the low. That likely reset the trend lower.\n- Since then, t-02 to t-00 show only a modest rebound/sideways stabilization from 39.76-40.90 up to 40.82. This bounce has occurred on declining volume each day, which suggests weak buying interest rather than strong accumulation.\n- Price remains well below broken support/resistance zones: 41.8-44.0 from t-04 and especially the breakdown area near 42+. The latest close is still trapped in the lower part of the recent 20-day range.\n- Candlestick-wise, t-00 is a small up day with some upper wick after testing 41.67, but no decisive reclaim and no strong volume confirmation. There is no obvious capitulation-reversal candle with a powerful reclaim of broken levels.\n- Support near 39.8-40.0 did hold for two days, so immediate downside momentum has slowed. That reduces confidence in an aggressive short, but the rebound quality is poor.\n- Signals that matter:\n  - Strong prevailing downtrend.\n  - High-volume bearish breakdown at t-03.\n  - Weak, fading-volume rebound afterward.\n  - Failure to reclaim nearby resistance/breakdown levels.\n  - Latest close still near range lows, not a strong reversal posture.\n- Resolution: this fits the lesson that after bearish impulses/support breaks, low-volume rebounds stalling below resistance favor shorts until a decisive reclaim occurs. Confidence is moderate, not high, because near-term support around 40 has held.\n</think>\n<action>\n-1\n</action>\n(parsed vote: SHORT (-1))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The broader 20-day structure is bearish: price fell from the 46-47 area to the low 40s, with a major breakdown on t-03 (huge volume, wide range, close near lows). That establishes a strong bearish impulse and likely overhead resistance around 41.8-44.0, then 44.5+.\n- After that breakdown, price made a fresh low on t-02 at 39.76 but did not collapse further. The last three sessions (t-02 to t-00) show stabilization and a mild rebound: 40.03 -> 40.61 -> 40.82.\n- Volume has been declining since the panic break: 7.93M on t-03, 3.46M on t-02, 2.53M on t-01, 1.86M on t-00. That means the bounce lacks strong accumulation/confirmation.\n- Candlestick-wise, t-02 undercut prior lows and closed off the low, suggesting some exhaustion. t-00 is a small positive day with close in the upper half of the day’s range, but not a decisive breakout candle.\n- Support appears near 39.8-40.1 from t-02/t-03. Resistance is near 41.7-42.5 first, then 43.8-44.0 from the failed rebound zone.\n- This looks like a weak rebound within a downtrend after a breakdown, and the rebound is occurring on fading volume below clear resistance. That generally favors shorts, but there is also evidence of short-term selling exhaustion near support, which argues against pressing a fresh short at current depressed levels.\n- The latest close is still near the lower end of the full 20-day range, but not breaking support; momentum is weakly positive over the last 3 days, though still countertrend.\n\nSignals that matter:\n- Strong prior bearish impulse/breakdown on extreme volume: bearish.\n- Bounce after undercut of lows and stabilization near support: mildly bullish / anti-short.\n- Rebound volume fading and still below breakdown level/resistance: bearish.\n- No decisive reclaim of broken levels or high-volume reversal confirmation: bearish/neutral.\n- Price sitting between nearby support (~40) and nearby resistance (~41.7-42.5): limited edge.\n\nResolve into directional view and confidence level:\n- The dominant trend remains down, but the immediate setup is not ideal for a new short because price is basing just above support after a likely exhaustion flush.\n- The rebound is too weak and unconfirmed to justify a long.\n- Net: insufficient edge for next day; low confidence directional call, so stand aside.\n</think>\n<action>\n0\n</action>\n(parsed vote: NO ACTION (0))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The broader 20-day structure is bearish: price fell from the mid-46/47 area to around 40 after a sharp breakdown. Key support around 43.5-44 and then 41 failed decisively.\n- The most important event is t-03: a huge-volume bearish impulse with a collapse from 44 to 40.65, confirming distribution and a regime shift lower.\n- Since that breakdown, the last three sessions (t-02 to t-00) show only a weak rebound/base near 40:\n  - t-02 continued lower to 39.76 and closed weak.\n  - t-01 and t-00 bounced modestly, but volume has declined each day.\n  - t-00 tested up to 41.67 but still closed only 40.82, well below broken support near 41.8-44.\n- This looks like a low-volume rebound after a bearish impulse, stalling below resistance. That aligns with a weak countertrend bounce rather than a true reversal.\n- Positives: price did hold above the t-02 low, and t-00 closed in the upper half of its daily range. There is some evidence of short-term stabilization around 40.\n- Negatives outweigh: dominant downtrend, failed reclaim of broken levels, fading volume on rebound, and close still near the lower end of the recent multi-day range. No decisive high-volume reversal candle or reclaim.\n- Directional view: favor continuation lower or at least failure of the bounce.\n- Confidence level: moderate.\n</think>\n<action>\n-1\n</action>\n(parsed vote: SHORT (-1))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- Analysts 1 and 3 agree on SHORT; Analyst 2 says NO ACTION. No one argues for LONG.\n- All three agree on the key facts: strong bearish trend, major high-volume breakdown at t-03, and only a weak/fading-volume rebound since then.\n- The disagreement is only about timing: Analyst 2 notes support near 40 and possible short-term exhaustion, making a fresh short less attractive immediately.\n- The dominant view is still bearish because the rebound has not reclaimed broken support, volume keeps fading on the bounce, and price remains below nearby resistance after a clear breakdown. That best matches the lesson favoring shorts after bearish impulses when rebounds stall below resistance without strong reclaim.\n</think>\n<action>\n-1\n</action>",
+    "parsed_vote": -1.0
+  },
+  "final_decision": -1.0,
+  "eval": {
+    "target_return": -0.02983812987804413,
+    "hit": 1.0
+  }
+}

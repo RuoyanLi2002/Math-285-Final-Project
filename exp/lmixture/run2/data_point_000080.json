@@ -1,0 +1,181 @@
+{
+  "data_point_id": 80,
+  "timestamp": "2026-05-15T23:51:47.192940+00:00",
+  "input": {
+    "ohlcv_window": [
+      [
+        9.329999923706055,
+        9.635000228881836,
+        9.300000190734863,
+        9.34000015258789,
+        866659.0
+      ],
+      [
+        9.140000343322754,
+        9.140000343322754,
+        8.970000267028809,
+        9.069999694824219,
+        624596.0
+      ],
+      [
+        9.010000228881836,
+        9.069999694824219,
+        8.630000114440918,
+        8.75,
+        1211784.0
+      ],
+      [
+        8.75,
+        8.970000267028809,
+        8.649999618530273,
+        8.770000457763672,
+        1086229.0
+      ],
+      [
+        8.59000015258789,
+        8.760000228881836,
+        8.369999885559082,
+        8.729999542236328,
+        1938082.0
+      ],
+      [
+        9.029999732971191,
+        9.449999809265137,
+        8.989999771118164,
+        9.300000190734863,
+        1742615.0
+      ],
+      [
+        9.244999885559082,
+        9.390000343322754,
+        9.170000076293945,
+        9.289999961853027,
+        659719.0
+      ],
+      [
+        9.180000305175781,
+        9.289999961853027,
+        9.0600004196167,
+        9.0600004196167,
+        750548.0
+      ],
+      [
+        8.960000038146973,
+        8.989999771118164,
+        8.640000343322754,
+        8.739999771118164,
+        1120896.0
+      ],
+      [
+        8.779999732971191,
+        8.859999656677246,
+        8.670000076293945,
+        8.75,
+        714077.0
+      ],
+      [
+        8.989999771118164,
+        9.039999961853027,
+        8.729999542236328,
+        8.770000457763672,
+        1238595.0
+      ],
+      [
+        8.760000228881836,
+        8.789999961853027,
+        8.460000038146973,
+        8.699999809265137,
+        1070788.0
+      ],
+      [
+        8.800000190734863,
+        8.800000190734863,
+        8.539999961853027,
+        8.640000343322754,
+        614840.0
+      ],
+      [
+        8.720000267028809,
+        8.979999542236328,
+        8.6899995803833,
+        8.9399995803833,
+        747417.0
+      ],
+      [
+        8.899999618530273,
+        8.970000267028809,
+        8.6899995803833,
+        8.779999732971191,
+        639215.0
+      ],
+      [
+        8.770000457763672,
+        9.100000381469727,
+        8.739999771118164,
+        8.949999809265137,
+        681608.0
+      ],
+      [
+        8.960000038146973,
+        9.149100303649902,
+        8.949999809265137,
+        8.989999771118164,
+        618154.0
+      ],
+      [
+        8.989999771118164,
+        9.079999923706055,
+        8.859999656677246,
+        8.960000038146973,
+        476653.0
+      ],
+      [
+        9.069999694824219,
+        9.09000015258789,
+        8.800000190734863,
+        8.880000114440918,
+        496614.0
+      ],
+      [
+        9.34000015258789,
+        9.5600004196167,
+        9.289999961853027,
+        9.420000076293945,
+        775146.0
+      ]
+    ],
+    "formatted_series": "  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     9.3300 |     9.6350 |     9.3000 |     9.3400 |     866659\n t-18 |     9.1400 |     9.1400 |     8.9700 |     9.0700 |     624596\n t-17 |     9.0100 |     9.0700 |     8.6300 |     8.7500 |    1211784\n t-16 |     8.7500 |     8.9700 |     8.6500 |     8.7700 |    1086229\n t-15 |     8.5900 |     8.7600 |     8.3700 |     8.7300 |    1938082\n t-14 |     9.0300 |     9.4500 |     8.9900 |     9.3000 |    1742615\n t-13 |     9.2450 |     9.3900 |     9.1700 |     9.2900 |     659719\n t-12 |     9.1800 |     9.2900 |     9.0600 |     9.0600 |     750548\n t-11 |     8.9600 |     8.9900 |     8.6400 |     8.7400 |    1120896\n t-10 |     8.7800 |     8.8600 |     8.6700 |     8.7500 |     714077\n t-09 |     8.9900 |     9.0400 |     8.7300 |     8.7700 |    1238595\n t-08 |     8.7600 |     8.7900 |     8.4600 |     8.7000 |    1070788\n t-07 |     8.8000 |     8.8000 |     8.5400 |     8.6400 |     614840\n t-06 |     8.7200 |     8.9800 |     8.6900 |     8.9400 |     747417\n t-05 |     8.9000 |     8.9700 |     8.6900 |     8.7800 |     639215\n t-04 |     8.7700 |     9.1000 |     8.7400 |     8.9500 |     681608\n t-03 |     8.9600 |     9.1491 |     8.9500 |     8.9900 |     618154\n t-02 |     8.9900 |     9.0800 |     8.8600 |     8.9600 |     476653\n t-01 |     9.0700 |     9.0900 |     8.8000 |     8.8800 |     496614\n t-00 |     9.3400 |     9.5600 |     9.2900 |     9.4200 |     775146"
+  },
+  "analysts": {
+    "system_prompt": "You are a trading analyst.\n \nYou consider all relevant signals -- chart patterns (double tops/bottoms,\nhead-and-shoulders, breakouts), support/resistance levels, candlestick formations,\nmomentum, volume confirmation, trend vs mean-reversion regime, dispersion of\nreturns, and the position of the latest close within the recent range -- and\nsynthesize them into a single directional decision.\n \nYou will receive a sequence of daily OHLCV bars (open, high, low, close, volume)\nfor a single stock, where t-0 is the most recent observed day. Your task is to\nDECIDE the next-day action for the stock.\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:\n \n<think>\nStep-by-step reasoning:\n- Summarize what you see in the data.\n- List the signals that matter.\n- Resolve them into a directional view and a confidence level.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG       (close is expected to rise)\n  -1  => SHORT      (close is expected to fall)\n   0  => NO ACTION  (insufficient edge / hold)\nDo not output any other value. Do not output a magnitude, probability, or log return.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     9.3300 |     9.6350 |     9.3000 |     9.3400 |     866659\n t-18 |     9.1400 |     9.1400 |     8.9700 |     9.0700 |     624596\n t-17 |     9.0100 |     9.0700 |     8.6300 |     8.7500 |    1211784\n t-16 |     8.7500 |     8.9700 |     8.6500 |     8.7700 |    1086229\n t-15 |     8.5900 |     8.7600 |     8.3700 |     8.7300 |    1938082\n t-14 |     9.0300 |     9.4500 |     8.9900 |     9.3000 |    1742615\n t-13 |     9.2450 |     9.3900 |     9.1700 |     9.2900 |     659719\n t-12 |     9.1800 |     9.2900 |     9.0600 |     9.0600 |     750548\n t-11 |     8.9600 |     8.9900 |     8.6400 |     8.7400 |    1120896\n t-10 |     8.7800 |     8.8600 |     8.6700 |     8.7500 |     714077\n t-09 |     8.9900 |     9.0400 |     8.7300 |     8.7700 |    1238595\n t-08 |     8.7600 |     8.7900 |     8.4600 |     8.7000 |    1070788\n t-07 |     8.8000 |     8.8000 |     8.5400 |     8.6400 |     614840\n t-06 |     8.7200 |     8.9800 |     8.6900 |     8.9400 |     747417\n t-05 |     8.9000 |     8.9700 |     8.6900 |     8.7800 |     639215\n t-04 |     8.7700 |     9.1000 |     8.7400 |     8.9500 |     681608\n t-03 |     8.9600 |     9.1491 |     8.9500 |     8.9900 |     618154\n t-02 |     8.9900 |     9.0800 |     8.8600 |     8.9600 |     476653\n t-01 |     9.0700 |     9.0900 |     8.8000 |     8.8800 |     496614\n t-00 |     9.3400 |     9.5600 |     9.2900 |     9.4200 |     775146\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.",
+    "outputs": [
+      {
+        "name": "Analyst 1",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The broader 20-day picture shows an initial selloff from 9.34 down into the 8.37-8.65 area, then a sharp recovery at t-14 back to 9.30 on strong volume, followed by a long sideways consolidation mostly between about 8.64 and 9.10.\n- Recent action from t-07 to t-01 was a tight, low-volume range with muted pullbacks, suggesting consolidation rather than active distribution.\n- On t-00, price gapped up strongly from 8.88 to close 9.42, with a high of 9.56. This is a decisive breakout above the recent range highs around 9.10-9.30 and above prior closes. Volume expanded versus the immediately prior several sessions, though not to the absolute peak of the window.\n\nSignals that matter:\n- Breakout: t-00 cleared the multi-day range and reclaimed/overcame resistance around 9.10, 9.30, and even the earlier t-19 high area.\n- Candle quality: strong bullish day, close near the upper part of the day’s range, not a weak fade.\n- Volume confirmation: volume increased materially versus the recent consolidation days, supporting the breakout.\n- Regime: after a quiet sideways base, this looks more like trend continuation / breakout than mean reversion.\n- Support/resistance: old resistance near 9.10-9.30 may now act as support.\n- Caution: the day was a gap-up and somewhat extended in one session, so chasing carries some risk, but there is no clear exhaustion signal like a long upper wick with weak close.\n\nDirectional view and confidence:\n- The dominant signal is a bullish breakout from a low-volume consolidation with improved volume and a strong close.\n- This favors upside continuation on the next day more than a fade.\n- Confidence: moderate.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 2",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The broader 20-day picture shows an initial selloff from 9.34 to the 8.37-8.46 area, then a recovery spike at t-14 to 9.30 on strong volume, followed by a long sideways consolidation mostly between about 8.64 and 9.10.\n- Recent days t-07 through t-01 were tight and low-volume, suggesting compression rather than active distribution. Price repeatedly held the upper-8.8s/low-8.9s.\n- On t-00, the stock gapped up strongly from 8.88 to open at 9.34 and closed 9.42 near the high (9.56), with volume expanding versus the prior several sessions. This is a clear breakout above the recent range and above prior resistance around 9.10-9.30.\n- Important support/resistance: old resistance sat near 9.06-9.10, then 9.29-9.30. Those levels were decisively reclaimed. Next resistance is around 9.56 and then the older t-19 high near 9.64.\n- Candlestick/price action: t-00 is a wide-range bullish candle closing in the upper half, not a reversal rejection. There is some upper wick, but not enough to outweigh the breakout character.\n- Volume confirmation is decent: not extreme versus the biggest historical days, but clearly stronger than the recent consolidation volume, which supports the move.\n- Regime looks like consolidation-to-breakout rather than exhausted rally. This is not a marginal new high after many strong up days; instead it is a fresh expansion out of a base.\n- The main caution is that t-00 was a large gap-and-run day into nearby overhead resistance from t-19/t-00 highs, so chasing has some risk. But the balance of evidence still favors continuation over immediate failure.\n\nSignals that matter:\n- Bullish breakout above multi-day range/resistance.\n- Close near the top of the recent 20-day range.\n- Expanded volume versus prior consolidation days.\n- Prior pullback/consolidation occurred on muted volume, consistent with accumulation rather than breakdown.\n- No clear bearish reversal candle or failed breakout yet.\n\nDirectional view and confidence:\n- Bias is bullish for next day, with moderate confidence. Breakout/continuation setup outweighs the risk of a one-day overextension.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      },
+      {
+        "name": "Analyst 3",
+        "raw_response": "<think>\nStep-by-step reasoning:\n- The stock sold off from 9.34 to the 8.37-8.46 area earlier in the window, then had a strong rebound day at t-14 back to 9.30 on high volume. After that, it spent many sessions consolidating mostly between roughly 8.64 and 9.10 with generally lighter volume.\n- The recent pullback/consolidation from t-13 to t-01 was relatively muted in volume and did not break the prior support zone around 8.64-8.70 decisively. That fits a consolidation rather than active distribution.\n- t-00 is a strong bullish breakout: gap up from 8.88 open reference, wide-range green candle, close near the high (9.42 vs 9.56 high), and it clears the recent range highs around 9.10 and also exceeds the prior rebound high near 9.30. Volume expanded versus the immediately prior several days, confirming participation.\n- Resistance around 9.30-9.39 was reclaimed decisively. The latest close is near the top of the 20-day range, which is bullish momentum rather than mean-reversion weakness given the breakout context.\n- There is no obvious exhaustion signal on t-00: no long upper wick, not a weak close, and not a marginal new high on collapsing volume. Volume is not extreme versus the biggest historical days, but it is clearly stronger than the consolidation period and adequate for confirmation.\n- Key signals:\n  - Range breakout above multi-day consolidation\n  - Strong close near session high\n  - Volume expansion on breakout\n  - Prior pullback was low-volume and held support\n  - Reclaim of prior resistance/breakdown area\n- Directional view: bullish continuation is favored for the next day. Confidence is moderate, not maximum, because the breakout comes after a gap and into the upper end of the broader range, but overall the evidence supports upside follow-through.\n</think>\n<action>\n1\n</action>",
+        "parsed_vote": 1.0
+      }
+    ]
+  },
+  "orchestrator": {
+    "system_prompt": "You are the head portfolio manager.\n \nThree independent analysts have each looked at the same OHLCV window and produced\n(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0\n(no action). They were given identical instructions and worked independently;\ndifferences between them reflect genuine uncertainty about the next move.\n \nYour job is NOT to redo their work. Combine their votes into one decision:\n  - When they agree, take the consensus.\n  - When they disagree, lean toward the analysis best supported by the data.\n  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).\n\nImportant Lessons Distilled from Previous Trades:\n  0. In downtrends after bearish impulses/support breaks, low-volume rebounds stalling below resistance, prior highs, or breakdown levels signal weak distribution; favor shorts until decisive high-volume reclaim.\n  1. After multi-day high-volume selloffs into support, held/reclaimed or undercut-rejected lows with long lower wicks and upper-half/up closes signal exhaustion; avoid shorts and favor cautious reversal longs.\n  2. When pullbacks drift into support/range lows on muted volume, even with lower highs/lows, avoid shorts and favor bounce longs unless support breaks on expanding volume.\n  3. After a high-volume bullish breakout, fading-volume pullbacks—even 20%+ retracements—into/above the breakout support zone are consolidation; avoid shorts and favor rebound/continuation longs unless support breaks on expanding volume.\n  4. After a multi-day rally, marginal fresh highs on weak volume or long-upper-wick lower-half red closes signal exhaustion/false-break risk; avoid chasing longs and consider shorts.\n \nYou MUST respond in this <think>...</think> and <action>...</action> format:\n \n<think>\n- Note where the three analysts agree and disagree.\n- Decide which view dominates and why.\n</think>\n<action>\nA single number -- exactly one of:\n   1  => LONG\n  -1  => SHORT\n   0  => NO ACTION\nDo not output any other value.\n</action>\n",
+    "user_prompt": "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n  t   |       Open |       High |        Low |      Close |     Volume\n----------------------------------------------------------------------\n t-19 |     9.3300 |     9.6350 |     9.3000 |     9.3400 |     866659\n t-18 |     9.1400 |     9.1400 |     8.9700 |     9.0700 |     624596\n t-17 |     9.0100 |     9.0700 |     8.6300 |     8.7500 |    1211784\n t-16 |     8.7500 |     8.9700 |     8.6500 |     8.7700 |    1086229\n t-15 |     8.5900 |     8.7600 |     8.3700 |     8.7300 |    1938082\n t-14 |     9.0300 |     9.4500 |     8.9900 |     9.3000 |    1742615\n t-13 |     9.2450 |     9.3900 |     9.1700 |     9.2900 |     659719\n t-12 |     9.1800 |     9.2900 |     9.0600 |     9.0600 |     750548\n t-11 |     8.9600 |     8.9900 |     8.6400 |     8.7400 |    1120896\n t-10 |     8.7800 |     8.8600 |     8.6700 |     8.7500 |     714077\n t-09 |     8.9900 |     9.0400 |     8.7300 |     8.7700 |    1238595\n t-08 |     8.7600 |     8.7900 |     8.4600 |     8.7000 |    1070788\n t-07 |     8.8000 |     8.8000 |     8.5400 |     8.6400 |     614840\n t-06 |     8.7200 |     8.9800 |     8.6900 |     8.9400 |     747417\n t-05 |     8.9000 |     8.9700 |     8.6900 |     8.7800 |     639215\n t-04 |     8.7700 |     9.1000 |     8.7400 |     8.9500 |     681608\n t-03 |     8.9600 |     9.1491 |     8.9500 |     8.9900 |     618154\n t-02 |     8.9900 |     9.0800 |     8.8600 |     8.9600 |     476653\n t-01 |     9.0700 |     9.0900 |     8.8000 |     8.8800 |     496614\n t-00 |     9.3400 |     9.5600 |     9.2900 |     9.4200 |     775146\n\nDecide the next-day action for this stock: LONG (+1), SHORT (-1), or NO ACTION (0). Respond strictly in the <think>...</think><action>...</action> format.\n\n--- Independent votes ---\n\n### Analyst 1\n<think>\nStep-by-step reasoning:\n- The broader 20-day picture shows an initial selloff from 9.34 down into the 8.37-8.65 area, then a sharp recovery at t-14 back to 9.30 on strong volume, followed by a long sideways consolidation mostly between about 8.64 and 9.10.\n- Recent action from t-07 to t-01 was a tight, low-volume range with muted pullbacks, suggesting consolidation rather than active distribution.\n- On t-00, price gapped up strongly from 8.88 to close 9.42, with a high of 9.56. This is a decisive breakout above the recent range highs around 9.10-9.30 and above prior closes. Volume expanded versus the immediately prior several sessions, though not to the absolute peak of the window.\n\nSignals that matter:\n- Breakout: t-00 cleared the multi-day range and reclaimed/overcame resistance around 9.10, 9.30, and even the earlier t-19 high area.\n- Candle quality: strong bullish day, close near the upper part of the day’s range, not a weak fade.\n- Volume confirmation: volume increased materially versus the recent consolidation days, supporting the breakout.\n- Regime: after a quiet sideways base, this looks more like trend continuation / breakout than mean reversion.\n- Support/resistance: old resistance near 9.10-9.30 may now act as support.\n- Caution: the day was a gap-up and somewhat extended in one session, so chasing carries some risk, but there is no clear exhaustion signal like a long upper wick with weak close.\n\nDirectional view and confidence:\n- The dominant signal is a bullish breakout from a low-volume consolidation with improved volume and a strong close.\n- This favors upside continuation on the next day more than a fade.\n- Confidence: moderate.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 2\n<think>\nStep-by-step reasoning:\n- The broader 20-day picture shows an initial selloff from 9.34 to the 8.37-8.46 area, then a recovery spike at t-14 to 9.30 on strong volume, followed by a long sideways consolidation mostly between about 8.64 and 9.10.\n- Recent days t-07 through t-01 were tight and low-volume, suggesting compression rather than active distribution. Price repeatedly held the upper-8.8s/low-8.9s.\n- On t-00, the stock gapped up strongly from 8.88 to open at 9.34 and closed 9.42 near the high (9.56), with volume expanding versus the prior several sessions. This is a clear breakout above the recent range and above prior resistance around 9.10-9.30.\n- Important support/resistance: old resistance sat near 9.06-9.10, then 9.29-9.30. Those levels were decisively reclaimed. Next resistance is around 9.56 and then the older t-19 high near 9.64.\n- Candlestick/price action: t-00 is a wide-range bullish candle closing in the upper half, not a reversal rejection. There is some upper wick, but not enough to outweigh the breakout character.\n- Volume confirmation is decent: not extreme versus the biggest historical days, but clearly stronger than the recent consolidation volume, which supports the move.\n- Regime looks like consolidation-to-breakout rather than exhausted rally. This is not a marginal new high after many strong up days; instead it is a fresh expansion out of a base.\n- The main caution is that t-00 was a large gap-and-run day into nearby overhead resistance from t-19/t-00 highs, so chasing has some risk. But the balance of evidence still favors continuation over immediate failure.\n\nSignals that matter:\n- Bullish breakout above multi-day range/resistance.\n- Close near the top of the recent 20-day range.\n- Expanded volume versus prior consolidation days.\n- Prior pullback/consolidation occurred on muted volume, consistent with accumulation rather than breakdown.\n- No clear bearish reversal candle or failed breakout yet.\n\nDirectional view and confidence:\n- Bias is bullish for next day, with moderate confidence. Breakout/continuation setup outweighs the risk of a one-day overextension.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\n### Analyst 3\n<think>\nStep-by-step reasoning:\n- The stock sold off from 9.34 to the 8.37-8.46 area earlier in the window, then had a strong rebound day at t-14 back to 9.30 on high volume. After that, it spent many sessions consolidating mostly between roughly 8.64 and 9.10 with generally lighter volume.\n- The recent pullback/consolidation from t-13 to t-01 was relatively muted in volume and did not break the prior support zone around 8.64-8.70 decisively. That fits a consolidation rather than active distribution.\n- t-00 is a strong bullish breakout: gap up from 8.88 open reference, wide-range green candle, close near the high (9.42 vs 9.56 high), and it clears the recent range highs around 9.10 and also exceeds the prior rebound high near 9.30. Volume expanded versus the immediately prior several days, confirming participation.\n- Resistance around 9.30-9.39 was reclaimed decisively. The latest close is near the top of the 20-day range, which is bullish momentum rather than mean-reversion weakness given the breakout context.\n- There is no obvious exhaustion signal on t-00: no long upper wick, not a weak close, and not a marginal new high on collapsing volume. Volume is not extreme versus the biggest historical days, but it is clearly stronger than the consolidation period and adequate for confirmation.\n- Key signals:\n  - Range breakout above multi-day consolidation\n  - Strong close near session high\n  - Volume expansion on breakout\n  - Prior pullback was low-volume and held support\n  - Reclaim of prior resistance/breakdown area\n- Directional view: bullish continuation is favored for the next day. Confidence is moderate, not maximum, because the breakout comes after a gap and into the upper end of the broader range, but overall the evidence supports upside follow-through.\n</think>\n<action>\n1\n</action>\n(parsed vote: LONG (+1))\n\nNow produce the final combined decision in the required format.",
+    "raw_response": "<think>\n- All three analysts agree: each votes +1 (LONG).\n- Their analyses are aligned: the stock spent many sessions in a low-volume consolidation, then t-00 produced a strong gap-up breakout above the 9.10-9.30 resistance zone with a strong close and higher volume versus the recent base.\n- This matches the bullish breakout/consolidation lesson set best: muted-volume pullback/base followed by decisive reclaim favors continuation, not a short or no-action stance.\n- Conviction is moderate but sufficient because there is clear consensus and the price/volume evidence supports the breakout view more than exhaustion.\n</think>\n<action>\n1\n</action>",
+    "parsed_vote": 1.0
+  },
+  "final_decision": 1.0,
+  "eval": {
+    "target_return": 0.004237245302647352,
+    "hit": 1.0
+  }
+}
