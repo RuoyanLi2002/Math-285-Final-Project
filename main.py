@@ -83,6 +83,17 @@ def main():
     parser.add_argument("--seq_length", type=int)
     parser.add_argument("--split_interval", type=int)
 
+    parser.add_argument("--horizon", type=int, default=5,
+                        help="Forecast horizon in trading days (default 5).")
+    
+    parser.add_argument("--top_n_stocks", type=int, default=10,
+                        help="Keep only the N stocks with highest mean dollar "
+                             "volume across the loaded period (0 = keep all).")
+    
+    parser.add_argument("--burn_in", type=int, default=30,
+                        help="Skip this many days at the start of the loaded "
+                             "data so RSI/MACD have warmed up (default 30).")
+
     parser.add_argument("--config", type=str)
 
     args = parser.parse_args()

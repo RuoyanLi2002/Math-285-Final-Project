@@ -208,13 +208,13 @@ class Mixture(torch.nn.Module):
         lines = [header, sep]
  
         for row_idx in range(seq_len):
-            days_ago = seq_len - 1 - row_idx  # row 0 -> oldest, last row -> t-0
+            days_ago = seq_len - 1 - row_idx
             cells = []
             for col_idx in range(n_feat):
                 v = float(arr[row_idx, col_idx])
-                if col_idx == 4:  # Volume
+                if col_idx == 4:
                     cells.append(f"{v:>10.0f}")
-                else:  # OHLC prices
+                else:
                     cells.append(f"{v:>10.4f}")
             lines.append(f" t-{days_ago:02d} | " + " | ".join(cells))
         return "\n".join(lines)

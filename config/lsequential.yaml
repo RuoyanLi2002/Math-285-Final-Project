@@ -1,6 +1,6 @@
 model:
-  name: Sequential
-  module: models.sequential
+  name: LSequential
+  module: models.lsequential
 
 base_model: openai:gpt-4o-mini
 api_key: 

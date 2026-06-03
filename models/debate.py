@@ -15,14 +15,21 @@ import torch
 
 DEBATE_AGENT_SYSTEM = """You are a trading analyst participating in a multi-round debate.
 
-You consider all relevant signals -- chart patterns (double tops/bottoms,
-head-and-shoulders, breakouts), support/resistance levels, candlestick formations,
-momentum, volume confirmation, trend vs mean-reversion regime, dispersion of
-returns, and the position of the latest close within the recent range -- and
-synthesize them into a single directional decision.
+You consider all relevant signals -- chart patterns, momentum (RSI), trend
+(MACD), volatility regime, support/resistance levels, candlestick formations,
+volume confirmation, and the position of the latest close within the recent
+range -- and synthesize them into a single directional decision.
 
-You will receive a sequence of daily OHLCV bars (open, high, low, close, volume)
-for a single stock, where t-0 is the most recent observed day.
+You will receive a sequence of daily bars for a single stock, where t-0 is the
+most recent observed day. Each bar contains:
+  - Open, High, Low, Close, Volume : raw OHLCV
+  - ret_1d    : 1-day log return of Close
+  - rsi_14    : 14-day RSI (0..100; >70 overbought, <30 oversold)
+  - macd_line : MACD line, EMA12(Close) - EMA26(Close)
+  - macd_hist : MACD histogram, macd_line - EMA9(macd_line);
+                positive and rising = bullish momentum building,
+                negative and falling = bearish momentum building
+  - vol_20d   : 20-day annualised realised volatility of ret_1d
 
 In round 1 you analyze the data independently. In later rounds you will also see
 the previous-round analyses from the other analysts (and your own). You may
@@ -31,21 +38,23 @@ ground -- but think for yourself. Do not change your vote just to match the
 group; only change it if the evidence or another analyst's argument actually
 moves you.
 
-Your task is to DECIDE the next-day action for the stock.
+Your task is to DECIDE the action for the stock over the next {HORIZON} trading
+day(s): will the Close {HORIZON} trading days from t-0 be higher (LONG), lower
+(SHORT), or do the signals not give you enough edge (NO ACTION)?
 
 You MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:
 
 <think>
 Step-by-step reasoning:
-- Summarize what you see in the data.
+- Summarize what you see in the data (recent trend, RSI, MACD, vol regime).
 - (Round 2+) State where you agree or disagree with the other analysts and why.
 - List the signals that matter.
 - Resolve them into a directional view and a confidence level.
 </think>
 <action>
 A single number -- exactly one of:
-   1  => LONG       (close is expected to rise)
-  -1  => SHORT      (close is expected to fall)
+   1  => LONG       (Close in {HORIZON} day(s) is expected to be higher)
+  -1  => SHORT      (Close in {HORIZON} day(s) is expected to be lower)
    0  => NO ACTION  (insufficient edge / hold)
 Do not output any other value. Do not output a magnitude, probability, or log return.
 </action>
@@ -98,6 +107,14 @@ class Debate(torch.nn.Module):
         self.max_retries = int(getattr(config, "max_retries", 2))
         self.num_agents = int(getattr(config, "num_agents", 3))
         self.num_rounds = max(1, int(getattr(config, "num_rounds", 2)))
+        self.save_eval_info = True
+
+        self.horizon = int(getattr(args, "horizon", None)
+                           or getattr(config, "horizon", 5))
+
+        self._agent_system = DEBATE_AGENT_SYSTEM.replace(
+            "{HORIZON}", str(self.horizon)
+        )
 
         self.exp_name = args.exp_name
         if self.exp_name:
@@ -115,7 +132,7 @@ class Debate(torch.nn.Module):
             {
                 "key": f"analyst_{i + 1}",
                 "name": f"Analyst {i + 1}",
-                "system": DEBATE_AGENT_SYSTEM,
+                "system": self._agent_system,
             }
             for i in range(self.num_agents)
         ]
@@ -174,37 +191,42 @@ class Debate(torch.nn.Module):
 
     @staticmethod
     def _format_series(x_single: torch.Tensor) -> str:
+        from utils import FEATURE_NAMES
         arr = x_single.detach().cpu().numpy()
         seq_len, n_feat = arr.shape
-        assert n_feat == 5, (
-            f"_format_series expects 5 features (OHLCV), got {n_feat}."
+        assert n_feat == len(FEATURE_NAMES), (
+            f"_format_series expects {len(FEATURE_NAMES)} features "
+            f"({FEATURE_NAMES}), got {n_feat}."
         )
 
-        names = ["Open", "High", "Low", "Close", "Volume"]
-        header = "  t   | " + " | ".join(f"{n:>10}" for n in names)
+        widths = [max(10, len(n)) for n in FEATURE_NAMES]
+        header = "  t   | " + " | ".join(
+            f"{n:>{w}}" for n, w in zip(FEATURE_NAMES, widths)
+        )
         sep = "-" * len(header)
         lines = [header, sep]
 
         for row_idx in range(seq_len):
-            days_ago = seq_len - 1 - row_idx  # row 0 -> oldest, last row -> t-0
+            days_ago = seq_len - 1 - row_idx
             cells = []
-            for col_idx in range(n_feat):
+            for col_idx, name in enumerate(FEATURE_NAMES):
                 v = float(arr[row_idx, col_idx])
-                if col_idx == 4:  # Volume
-                    cells.append(f"{v:>10.0f}")
-                else:  # OHLC prices
-                    cells.append(f"{v:>10.4f}")
+                w = widths[col_idx]
+                if name == "Volume":
+                    cells.append(f"{v:>{w}.0f}")
+                else:
+                    cells.append(f"{v:>{w}.4f}")
             lines.append(f" t-{days_ago:02d} | " + " | ".join(cells))
         return "\n".join(lines)
 
-    @staticmethod
-    def _build_data_prompt(series_table: str) -> str:
+    def _build_data_prompt(self, series_table: str) -> str:
         return (
-            "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n"
+            "Recent daily bars (OHLCV + indicators) for a single stock; "
+            "t-0 is the most recent day:\n\n"
             f"{series_table}\n\n"
-            "Decide the next-day action for this stock: LONG (+1), SHORT (-1), or "
-            "NO ACTION (0). Respond strictly in the "
-            "<think>...</think><action>...</action> format."
+            f"Decide the action for this stock over the next {self.horizon} "
+            f"trading day(s): LONG (+1), SHORT (-1), or NO ACTION (0). "
+            f"Respond strictly in the <think>...</think><action>...</action> format."
         )
 
     @staticmethod
@@ -222,7 +244,6 @@ class Debate(torch.nn.Module):
         round_idx: int,
         self_name: str,
     ) -> str:
-        """User prompt for round 2+; shows every agent's previous-round response."""
         parts = [base_prompt, "", f"--- Round {round_idx - 1} analyses ---", ""]
         for o in prev_round_outputs:
             tag = " (you)" if o["name"] == self_name else ""
@@ -292,9 +313,6 @@ class Debate(torch.nn.Module):
         self,
         round_user_prompts: List[str],
     ) -> List[Dict[str, Any]]:
-        """Run one debate round across all agents in parallel. Each agent gets its
-        own user prompt (the per-agent debate prompt), and the system prompt is
-        shared from agent['system']."""
         outputs: List[Dict[str, Any]] = [None] * len(self.agents)  # type: ignore
         with ThreadPoolExecutor(max_workers=max(1, len(self.agents))) as ex:
             futs = {
@@ -312,8 +330,6 @@ class Debate(torch.nn.Module):
 
     @staticmethod
     def _majority_vote(votes: List[float]) -> float:
-        """Majority vote across {-1, 0, +1}. Ties resolve to 0 (no action) -- the
-        conservative posture used elsewhere in this codebase."""
         if not votes:
             return 0.0
         counts = Counter(round(v) for v in votes)
@@ -321,7 +337,7 @@ class Debate(torch.nn.Module):
         winners = [v for v, c in counts.items() if c == max_count]
         if len(winners) == 1:
             return float(winners[0])
-        # tie -- prefer 0 if it's among the winners; otherwise stay flat
+        
         if 0 in winners:
             return 0.0
         return 0.0
@@ -332,6 +348,7 @@ class Debate(torch.nn.Module):
         data_prompt: str,
         rounds: List[List[Dict[str, Any]]],
         final_decision: float,
+        target_return: float | None = None,
     ) -> None:
         if not self.exp_name:
             return
@@ -352,7 +369,7 @@ class Debate(torch.nn.Module):
                 "num_rounds": self.num_rounds,
             },
             "analysts": {
-                "system_prompt": DEBATE_AGENT_SYSTEM,
+                "system_prompt": self._agent_system,
                 "round_1_user_prompt": data_prompt,
                 "rounds": [
                     {
@@ -377,6 +394,15 @@ class Debate(torch.nn.Module):
             "final_decision": final_decision,
         }
 
+        if self.save_eval_info and target_return is not None:
+            hit = None
+            if final_decision != 0.0:
+                hit = float(np.sign(final_decision) == np.sign(target_return))
+            trace["eval"] = {
+                "target_return": float(target_return),
+                "hit": hit,
+            }
+
         path = os.path.join(self.exp_name, f"data_point_{dp_id:06d}.json")
         try:
             with open(path, "w") as f:
@@ -384,18 +410,16 @@ class Debate(torch.nn.Module):
         except Exception as e:
             print(f"[Debate] failed to write trace {path}: {e}")
 
-    def _process_one(self, x_single: torch.Tensor) -> float:
+    def _process_one(self, x_single: torch.Tensor,
+                     target_return: float | None = None) -> float:
         data_prompt = self._build_data_prompt(self._format_series(x_single))
 
         rounds: List[List[Dict[str, Any]]] = []
 
-        # Round 1: every agent gets the same independent prompt.
         round_prompts = [data_prompt for _ in self.agents]
         first = self._run_round(round_prompts)
         rounds.append(first)
 
-        # Rounds 2..N: every agent sees the previous round's outputs from every
-        # agent (including its own) and is asked to reconsider.
         for r in range(2, self.num_rounds + 1):
             prev = rounds[-1]
             round_prompts = [
@@ -412,23 +436,30 @@ class Debate(torch.nn.Module):
         final_votes = [o["value"] for o in rounds[-1]]
         final_decision = self._majority_vote(final_votes)
 
-        self._save_trace(x_single, data_prompt, rounds, final_decision)
+        self._save_trace(x_single, data_prompt, rounds, final_decision,
+                         target_return=target_return)
 
         return final_decision
 
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
-        """
-        x: (batch_size, seq_length, num_features)
-        returns: (batch_size, 1) tensor of directional decisions in {-1, 0, +1}
-        """
+    def forward(self, x: torch.Tensor,
+                target_return: torch.Tensor | None = None) -> torch.Tensor:
         if x.dim() == 2:
             x = x.unsqueeze(0)
         batch_size = x.shape[0]
 
+        target_returns = None
+        if self.save_eval_info and target_return is not None:
+            target_returns = (target_return.squeeze(-1)
+                              if target_return.dim() > 1 else target_return)
+
         preds = [0.0] * batch_size
         with ThreadPoolExecutor(max_workers=self.max_workers) as ex:
             future_to_idx = {
-                ex.submit(self._process_one, x[i]): i for i in range(batch_size)
+                ex.submit(
+                    self._process_one, x[i],
+                    float(target_returns[i].item())
+                    if target_returns is not None else None,
+                ): i for i in range(batch_size)
             }
             for fut in future_to_idx:
                 i = future_to_idx[fut]

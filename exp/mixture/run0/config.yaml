@@ -1,9 +1,0 @@
-api_key: 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
-base_model: openai:gpt-4o-mini
-max_retries: 4
-max_workers: 4
-model:
-  module: models.mixture
-  name: Mixture
-num_agents: 3
-temperature: 0.3

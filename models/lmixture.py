@@ -11,60 +11,75 @@ from typing import Any, Dict, List, Tuple
 import numpy as np
 import torch
 
-# 1. When a persistent lower-high/lower-low downtrend ends with a high-volume breakdown or weak consolidation near fresh lows, favor short.
+
 
 SHARED_AGENT_SYSTEM = """You are a trading analyst.
- 
-You consider all relevant signals -- chart patterns (double tops/bottoms,
-head-and-shoulders, breakouts), support/resistance levels, candlestick formations,
-momentum, volume confirmation, trend vs mean-reversion regime, dispersion of
-returns, and the position of the latest close within the recent range -- and
-synthesize them into a single directional decision.
- 
-You will receive a sequence of daily OHLCV bars (open, high, low, close, volume)
-for a single stock, where t-0 is the most recent observed day. Your task is to
-DECIDE the next-day action for the stock.
 
-Important Lessons Distilled from Previous Trades:
-  0. Do not short a sharp multi-day selloff into recent range support on elevated volume unless price decisively closes below that support on expanding volume with follow-through.
-  1. When a multi-day pullback stabilizes into higher lows and the latest bar reclaims the short-term range near its high, favor long.
+You consider all relevant signals -- chart patterns, momentum (RSI), trend
+(MACD), volatility regime, support/resistance levels, candlestick formations,
+volume confirmation, and the position of the latest close within the recent
+range -- and synthesize them into a single directional decision.
 
-You MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:
- 
+You will receive a sequence of daily bars for a single stock, where t-0 is
+the most recent observed day. Each bar contains:
+  - Open, High, Low, Close, Volume : raw OHLCV
+  - ret_1d    : 1-day log return of Close
+  - rsi_14    : 14-day RSI (0..100; >70 overbought, <30 oversold)
+  - macd_line : MACD line, EMA12(Close) - EMA26(Close)
+  - macd_hist : MACD histogram, macd_line - EMA9(macd_line);
+                positive and rising = bullish momentum building,
+                negative and falling = bearish momentum building
+  - vol_20d   : 20-day annualised realised volatility of ret_1d
+
+Lessons distilled from previous trades:
+  0. Do not take a long after a steep multi-day rally with RSI near/above 70 and stretched positive MACD unless price breaks out on expanding volume.
+
+
+Your task is to DECIDE the action for the stock over the next {HORIZON}
+trading day(s): will the Close {HORIZON} trading days from t-0 be higher
+(LONG), lower (SHORT), or do the signals not give you enough edge (NO ACTION)?
+
+You MUST respond in this <think>...</think> and <action>...</action> format
+with no extra text outside the tags:
+
 <think>
 Step-by-step reasoning:
-- Summarize what you see in the data.
+- Summarize what you see in the data (recent trend, RSI, MACD, vol regime).
 - List the signals that matter.
 - Resolve them into a directional view and a confidence level.
 </think>
 <action>
 A single number -- exactly one of:
-   1  => LONG       (close is expected to rise)
-  -1  => SHORT      (close is expected to fall)
+   1  => LONG       (Close in {HORIZON} day(s) is expected to be higher)
+  -1  => SHORT      (Close in {HORIZON} day(s) is expected to be lower)
    0  => NO ACTION  (insufficient edge / hold)
 Do not output any other value. Do not output a magnitude, probability, or log return.
 </action>
 """
- 
- 
-ORCHESTRATOR_SYSTEM = """You are the head portfolio manager.
- 
-Three independent analysts have each looked at the same OHLCV window and produced
-(a) a written analysis and (b) a directional vote: +1 (long), -1 (short), or 0
-(no action). They were given identical instructions and worked independently;
-differences between them reflect genuine uncertainty about the next move.
- 
+
+
+ORCHESTRATOR_SYSTEM = """You are the head portfolio manager.0. Do not take a long after a steep multi-day rally with RSI near/above 70 and stretched positive MACD unless price breaks out on expanding volume.
+  1. When an oversold selloff is followed by RSI reclaiming 50 and MACD histogram turning positive, favor long.
+  2. When RSI is sub-40 or rolling down toward/below 50 and MACD histogram is negative or deteriorating during a high-volume breakdown or failed bounce, favor short.
+
+Three independent analysts have each looked at the same window of daily bars
+(OHLCV plus RSI, MACD, and 20-day volatility indicators) and produced
+(a) a written analysis and (b) a directional vote for the {HORIZON}-day-ahead
+move: +1 (long), -1 (short), or 0 (no action). They were given identical
+instructions and worked independently; differences between them reflect
+genuine uncertainty about the next move.
+
+Lessons distilled from previous trades:
+  0. Do not take a long after a steep multi-day rally with RSI near/above 70 and stretched positive MACD unless price breaks out on expanding volume.
+
+
 Your job is NOT to redo their work. Combine their votes into one decision:
   - When they agree, take the consensus.
   - When they disagree, lean toward the analysis best supported by the data.
   - If conviction is low or signals cancel, output exactly 0 (NO ACTION).
 
-Important Lessons Distilled from Previous Trades:
-  0. Do not short a sharp multi-day selloff into recent range support on elevated volume unless price decisively closes below that support on expanding volume with follow-through.
-  1. When a multi-day pullback stabilizes into higher lows and the latest bar reclaims the short-term range near its high, favor long.
-  
 You MUST respond in this <think>...</think> and <action>...</action> format:
- 
+
 <think>
 - Note where the three analysts agree and disagree.
 - Decide which view dominates and why.
@@ -125,6 +140,16 @@ class LMixture(torch.nn.Module):
         self.num_agents = int(getattr(config, "num_agents", 3))
         self.save_eval_info = True
 
+        self.horizon = int(getattr(args, "horizon", None)
+                           or getattr(config, "horizon", 5))
+
+        self._analyst_system = SHARED_AGENT_SYSTEM.replace(
+            "{HORIZON}", str(self.horizon)
+        )
+        self._orch_system = ORCHESTRATOR_SYSTEM.replace(
+            "{HORIZON}", str(self.horizon)
+        )
+
         self.exp_name = args.exp_name
         if self.exp_name:
             if not os.path.exists(self.exp_name):
@@ -141,14 +166,14 @@ class LMixture(torch.nn.Module):
             {
                 "key": f"analyst_{i + 1}",
                 "name": f"Analyst {i + 1}",
-                "system": SHARED_AGENT_SYSTEM,
+                "system": self._analyst_system,
             }
             for i in range(self.num_agents)
         ]
 
         self.orchestrator = {
             "name": "Head Portfolio Manager",
-            "system": ORCHESTRATOR_SYSTEM,
+            "system": self._orch_system,
         }
 
     def _init_client(self):
@@ -205,37 +230,42 @@ class LMixture(torch.nn.Module):
 
     @staticmethod
     def _format_series(x_single: torch.Tensor) -> str:
+        from utils import FEATURE_NAMES
         arr = x_single.detach().cpu().numpy()
         seq_len, n_feat = arr.shape
-        assert n_feat == 5, (
-            f"_format_series expects 5 features (OHLCV), got {n_feat}."
+        assert n_feat == len(FEATURE_NAMES), (
+            f"_format_series expects {len(FEATURE_NAMES)} features "
+            f"({FEATURE_NAMES}), got {n_feat}."
         )
- 
-        names = ["Open", "High", "Low", "Close", "Volume"]
-        header = "  t   | " + " | ".join(f"{n:>10}" for n in names)
+
+        widths = [max(10, len(n)) for n in FEATURE_NAMES]
+        header = "  t   | " + " | ".join(
+            f"{n:>{w}}" for n, w in zip(FEATURE_NAMES, widths)
+        )
         sep = "-" * len(header)
         lines = [header, sep]
- 
+
         for row_idx in range(seq_len):
-            days_ago = seq_len - 1 - row_idx  # row 0 -> oldest, last row -> t-0
+            days_ago = seq_len - 1 - row_idx
             cells = []
-            for col_idx in range(n_feat):
+            for col_idx, name in enumerate(FEATURE_NAMES):
                 v = float(arr[row_idx, col_idx])
-                if col_idx == 4:  # Volume
-                    cells.append(f"{v:>10.0f}")
-                else:  # OHLC prices
-                    cells.append(f"{v:>10.4f}")
+                w = widths[col_idx]
+                if name == "Volume":
+                    cells.append(f"{v:>{w}.0f}")
+                else:
+                    cells.append(f"{v:>{w}.4f}")
             lines.append(f" t-{days_ago:02d} | " + " | ".join(cells))
         return "\n".join(lines)
 
-    @staticmethod
-    def _build_data_prompt(series_table: str) -> str:
+    def _build_data_prompt(self, series_table: str) -> str:
         return (
-            "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n"
+            "Recent daily bars (OHLCV + indicators) for a single stock; "
+            "t-0 is the most recent day:\n\n"
             f"{series_table}\n\n"
-            "Decide the next-day action for this stock: LONG (+1), SHORT (-1), or "
-            "NO ACTION (0). Respond strictly in the "
-            "<think>...</think><action>...</action> format."
+            f"Decide the action for this stock over the next {self.horizon} "
+            f"trading day(s): LONG (+1), SHORT (-1), or NO ACTION (0). "
+            f"Respond strictly in the <think>...</think><action>...</action> format."
         )
 
     @staticmethod
@@ -312,7 +342,7 @@ class LMixture(torch.nn.Module):
                 "formatted_series": self._format_series(x_single),
             },
             "analysts": {
-                "system_prompt": SHARED_AGENT_SYSTEM,
+                "system_prompt": self._analyst_system,
                 "user_prompt": data_prompt,
                 "outputs": [
                     {
@@ -324,7 +354,7 @@ class LMixture(torch.nn.Module):
                 ],
             },
             "orchestrator": {
-                "system_prompt": ORCHESTRATOR_SYSTEM,
+                "system_prompt": self._orch_system,
                 "user_prompt": orch_user,
                 "raw_response": orch_resp,
                 "parsed_vote": final_decision,

@@ -8,34 +8,46 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from typing import Any, Dict, Tuple
 
+import numpy as np
 import torch
 
 
 GENERATOR_SYSTEM = """You are a trading analyst.
 
-You consider all relevant signals -- chart patterns (double tops/bottoms,
-head-and-shoulders, breakouts), support/resistance levels, candlestick formations,
-momentum, volume confirmation, trend vs mean-reversion regime, dispersion of
-returns, and the position of the latest close within the recent range -- and
-synthesize them into a single directional decision.
+You consider all relevant signals -- chart patterns, momentum (RSI), trend
+(MACD), volatility regime, support/resistance levels, candlestick formations,
+volume confirmation, and the position of the latest close within the recent
+range -- and synthesize them into a single directional decision.
 
-You will receive a sequence of daily OHLCV bars (open, high, low, close, volume)
-for a single stock, where t-0 is the most recent observed day. Your task is to
-produce an INITIAL directional view for the next day. A senior reviewer will audit
-your reasoning afterwards, so be explicit about which signals you are relying on.
+You will receive a sequence of daily bars for a single stock, where t-0 is the
+most recent observed day. Each bar contains:
+  - Open, High, Low, Close, Volume : raw OHLCV
+  - ret_1d    : 1-day log return of Close
+  - rsi_14    : 14-day RSI (0..100; >70 overbought, <30 oversold)
+  - macd_line : MACD line, EMA12(Close) - EMA26(Close)
+  - macd_hist : MACD histogram, macd_line - EMA9(macd_line);
+                positive and rising = bullish momentum building,
+                negative and falling = bearish momentum building
+  - vol_20d   : 20-day annualised realised volatility of ret_1d
+
+Your task is to produce an INITIAL directional view for the {HORIZON}-day-ahead
+move: will the Close {HORIZON} trading days from t-0 be higher (LONG), lower
+(SHORT), or do the signals not give enough edge (NO ACTION)? A senior reviewer
+will audit your reasoning afterwards, so be explicit about which signals you
+are relying on.
 
 You MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:
 
 <think>
 Step-by-step reasoning:
-- Summarize what you see in the data.
+- Summarize what you see in the data (recent trend, RSI, MACD, vol regime).
 - List the signals that matter.
 - Resolve them into a directional view and a confidence level.
 </think>
 <action>
 A single number -- exactly one of:
-   1  => LONG       (close is expected to rise)
-  -1  => SHORT      (close is expected to fall)
+   1  => LONG       (Close in {HORIZON} day(s) is expected to be higher)
+  -1  => SHORT      (Close in {HORIZON} day(s) is expected to be lower)
    0  => NO ACTION  (insufficient edge / hold)
 Do not output any other value. Do not output a magnitude, probability, or log return.
 </action>
@@ -45,8 +57,10 @@ Do not output any other value. Do not output a magnitude, probability, or log re
 CRITIC_SYSTEM = """You are a risk reviewer.
 
 An analyst has produced an initial directional call on a stock from a recent
-OHLCV window. You will see both the raw OHLCV data and the analyst's full reasoning
-and vote. Your job is to AUDIT that analysis, not to redo it.
+window of daily bars (OHLCV plus RSI, MACD, and 20-day volatility indicators)
+over a {HORIZON}-day-ahead horizon. You will see both the raw data and the
+analyst's full reasoning and vote. Your job is to AUDIT that analysis, not to
+redo it.
 
 You produce two things:
 
@@ -59,6 +73,7 @@ You produce two things:
      - Confusing support and resistance.
      - Ignoring an obvious breakout or breakdown visible in the bars.
      - Citing a chart pattern that is not actually present in the data.
+     - Misreading an obvious RSI overbought/oversold signal or MACD crossover.
      - Recommending LONG into a clear downtrend with no reversal signal (or vice versa).
      - Treating noise as signal in a flat, low-conviction tape.
      - Internal contradiction between the stated reasoning and the final vote.
@@ -89,8 +104,9 @@ You MUST respond in this format with no extra text outside the tags:
 REFINER_SYSTEM = """You are the head portfolio manager. You make the final call.
 
 You will receive:
-  (a) the OHLCV window for a stock,
-  (b) an initial directional call from a junior analyst (full reasoning + vote),
+  (a) the window of daily bars (OHLCV + RSI/MACD/vol indicators) for a stock,
+  (b) an initial directional call from a junior analyst for the {HORIZON}-day-ahead
+      move (full reasoning + vote),
   (c) a senior reviewer's audit of that call, listing strengths and any serious issues.
 
 Your job is to produce the final decision. Guidelines:
@@ -122,11 +138,6 @@ Do not output any other value.
 
 
 class Sequential(torch.nn.Module):
-    """Generator -> Critic -> Refiner pipeline.
-
-    Drop-in replacement for the Mixture class with the same forward() signature.
-    """
-
     def __init__(self, args, config):
         super().__init__()
         self.config = config
@@ -170,6 +181,14 @@ class Sequential(torch.nn.Module):
         self.temperature = float(getattr(config, "temperature", 0.3))
         self.max_workers = int(getattr(config, "max_workers", 4))
         self.max_retries = int(getattr(config, "max_retries", 2))
+        self.save_eval_info = True
+
+        self.horizon = int(getattr(args, "horizon", None)
+                           or getattr(config, "horizon", 5))
+
+        self._gen_system     = GENERATOR_SYSTEM.replace("{HORIZON}", str(self.horizon))
+        self._critic_system  = CRITIC_SYSTEM.replace("{HORIZON}", str(self.horizon))
+        self._refiner_system = REFINER_SYSTEM.replace("{HORIZON}", str(self.horizon))
 
         self.exp_name = args.exp_name
         if self.exp_name:
@@ -237,36 +256,41 @@ class Sequential(torch.nn.Module):
 
     @staticmethod
     def _format_series(x_single: torch.Tensor) -> str:
+        from utils import FEATURE_NAMES
         arr = x_single.detach().cpu().numpy()
         seq_len, n_feat = arr.shape
-        assert n_feat == 5, (
-            f"_format_series expects 5 features (OHLCV), got {n_feat}."
+        assert n_feat == len(FEATURE_NAMES), (
+            f"_format_series expects {len(FEATURE_NAMES)} features "
+            f"({FEATURE_NAMES}), got {n_feat}."
         )
 
-        names = ["Open", "High", "Low", "Close", "Volume"]
-        header = "  t   | " + " | ".join(f"{n:>10}" for n in names)
+        widths = [max(10, len(n)) for n in FEATURE_NAMES]
+        header = "  t   | " + " | ".join(
+            f"{n:>{w}}" for n, w in zip(FEATURE_NAMES, widths)
+        )
         sep = "-" * len(header)
         lines = [header, sep]
 
         for row_idx in range(seq_len):
             days_ago = seq_len - 1 - row_idx
             cells = []
-            for col_idx in range(n_feat):
+            for col_idx, name in enumerate(FEATURE_NAMES):
                 v = float(arr[row_idx, col_idx])
-                if col_idx == 4:
-                    cells.append(f"{v:>10.0f}")
+                w = widths[col_idx]
+                if name == "Volume":
+                    cells.append(f"{v:>{w}.0f}")
                 else:
-                    cells.append(f"{v:>10.4f}")
+                    cells.append(f"{v:>{w}.4f}")
             lines.append(f" t-{days_ago:02d} | " + " | ".join(cells))
         return "\n".join(lines)
 
-    @staticmethod
-    def _build_data_prompt(series_table: str) -> str:
+    def _build_data_prompt(self, series_table: str) -> str:
         return (
-            "Recent daily OHLCV window for a single stock (t-0 is the most recent day):\n\n"
+            "Recent daily bars (OHLCV + indicators) for a single stock; "
+            "t-0 is the most recent day:\n\n"
             f"{series_table}\n\n"
-            "Decide the next-day action for this stock: LONG (+1), SHORT (-1), or "
-            "NO ACTION (0)."
+            f"Decide the action for this stock over the next {self.horizon} "
+            f"trading day(s): LONG (+1), SHORT (-1), or NO ACTION (0)."
         )
 
     @staticmethod
@@ -315,11 +339,6 @@ class Sequential(torch.nn.Module):
 
     @staticmethod
     def _parse_critic(response: str) -> Dict[str, Any]:
-        """Pull strengths and serious_issues out of the critic's tagged response.
-
-        Returns a dict with 'strengths', 'serious_issues', and 'has_serious_issues'.
-        Best-effort: if a tag is missing, the field will just be empty.
-        """
         if not response:
             return {"strengths": "", "serious_issues": "", "has_serious_issues": False}
 
@@ -328,7 +347,6 @@ class Sequential(torch.nn.Module):
         strengths = s.group(1).strip() if s else ""
         issues = i.group(1).strip() if i else ""
 
-        # "NONE" (case-insensitive, possibly with trailing punctuation) means no serious issues.
         norm = re.sub(r"[\s\-\*\.]+", "", issues).lower()
         has_serious = bool(issues) and norm != "none"
 
@@ -358,6 +376,7 @@ class Sequential(torch.nn.Module):
         refiner_user: str,
         refiner_resp: str,
         final_decision: float,
+        target_return: float | None = None,
     ) -> None:
         if not self.exp_name:
             return
@@ -375,25 +394,34 @@ class Sequential(torch.nn.Module):
                 "formatted_series": self._format_series(x_single),
             },
             "generator": {
-                "system_prompt": GENERATOR_SYSTEM,
+                "system_prompt": self._gen_system,
                 "user_prompt": data_prompt,
                 "raw_response": gen_resp,
                 "parsed_vote": gen_vote,
             },
             "critic": {
-                "system_prompt": CRITIC_SYSTEM,
+                "system_prompt": self._critic_system,
                 "user_prompt": critic_user,
                 "raw_response": critic_resp,
                 "parsed": critic_parsed,
             },
             "refiner": {
-                "system_prompt": REFINER_SYSTEM,
+                "system_prompt": self._refiner_system,
                 "user_prompt": refiner_user,
                 "raw_response": refiner_resp,
                 "parsed_vote": final_decision,
             },
             "final_decision": final_decision,
         }
+
+        if self.save_eval_info and target_return is not None:
+            hit = None
+            if final_decision != 0.0:
+                hit = float(np.sign(final_decision) == np.sign(target_return))
+            trace["eval"] = {
+                "target_return": float(target_return),
+                "hit": hit,
+            }
 
         path = os.path.join(self.exp_name, f"data_point_{dp_id:06d}.json")
         try:
@@ -402,14 +430,13 @@ class Sequential(torch.nn.Module):
         except Exception as e:
             print(f"[Sequential] failed to write trace {path}: {e}")
 
-    def _process_one(self, x_single: torch.Tensor) -> float:
+    def _process_one(self, x_single: torch.Tensor,
+                     target_return: float | None = None) -> float:
         data_prompt = self._build_data_prompt(self._format_series(x_single))
 
-        # Stage 1: generator produces initial call from data alone.
-        gen_resp = self._call_llm(GENERATOR_SYSTEM, data_prompt)
+        gen_resp = self._call_llm(self._gen_system, data_prompt)
         gen_vote = self._parse_action(gen_resp)
 
-        # Stage 2: critic audits the initial call. Sees data + analyst output.
         critic_user = (
             f"{data_prompt}\n\n"
             "--- Initial analyst output ---\n\n"
@@ -418,10 +445,9 @@ class Sequential(torch.nn.Module):
             "Now audit the analyst's reasoning in the required "
             "<strengths>/<serious_issues> format."
         )
-        critic_resp = self._call_llm(CRITIC_SYSTEM, critic_user)
+        critic_resp = self._call_llm(self._critic_system, critic_user)
         critic_parsed = self._parse_critic(critic_resp)
 
-        # Stage 3: refiner produces the final call from data + analyst + critic.
         refiner_user = (
             f"{data_prompt}\n\n"
             "--- Initial analyst output ---\n\n"
@@ -431,7 +457,7 @@ class Sequential(torch.nn.Module):
             f"{critic_resp.strip()}\n\n"
             "Now produce the final combined decision in the required format."
         )
-        refiner_resp = self._call_llm(REFINER_SYSTEM, refiner_user)
+        refiner_resp = self._call_llm(self._refiner_system, refiner_user)
         final_decision = self._parse_action(refiner_resp)
 
         self._save_trace(
@@ -445,23 +471,30 @@ class Sequential(torch.nn.Module):
             refiner_user=refiner_user,
             refiner_resp=refiner_resp,
             final_decision=final_decision,
+            target_return=target_return,
         )
 
         return final_decision
 
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
-        """
-        x: (batch_size, seq_length, num_features)
-        returns: (batch_size, 1) tensor of directional decisions in {-1, 0, +1}
-        """
+    def forward(self, x: torch.Tensor,
+                target_return: torch.Tensor | None = None) -> torch.Tensor:
         if x.dim() == 2:
             x = x.unsqueeze(0)
         batch_size = x.shape[0]
 
+        target_returns = None
+        if self.save_eval_info and target_return is not None:
+            target_returns = (target_return.squeeze(-1)
+                              if target_return.dim() > 1 else target_return)
+
         preds = [0.0] * batch_size
         with ThreadPoolExecutor(max_workers=self.max_workers) as ex:
             future_to_idx = {
-                ex.submit(self._process_one, x[i]): i for i in range(batch_size)
+                ex.submit(
+                    self._process_one, x[i],
+                    float(target_returns[i].item())
+                    if target_returns is not None else None,
+                ): i for i in range(batch_size)
             }
             for fut in future_to_idx:
                 i = future_to_idx[fut]

@@ -4,6 +4,7 @@ import json
 import os
 import re
 import threading
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Tuple
@@ -12,16 +13,15 @@ import numpy as np
 import torch
 
 
-
-SHARED_AGENT_SYSTEM = """You are a trading analyst.
+DEBATE_AGENT_SYSTEM = """You are a trading analyst participating in a multi-round debate.
 
 You consider all relevant signals -- chart patterns, momentum (RSI), trend
 (MACD), volatility regime, support/resistance levels, candlestick formations,
 volume confirmation, and the position of the latest close within the recent
 range -- and synthesize them into a single directional decision.
 
-You will receive a sequence of daily bars for a single stock, where t-0 is
-the most recent observed day. Each bar contains:
+You will receive a sequence of daily bars for a single stock, where t-0 is the
+most recent observed day. Each bar contains:
   - Open, High, Low, Close, Volume : raw OHLCV
   - ret_1d    : 1-day log return of Close
   - rsi_14    : 14-day RSI (0..100; >70 overbought, <30 oversold)
@@ -31,16 +31,30 @@ the most recent observed day. Each bar contains:
                 negative and falling = bearish momentum building
   - vol_20d   : 20-day annualised realised volatility of ret_1d
 
-Your task is to DECIDE the action for the stock over the next {HORIZON}
-trading day(s): will the Close {HORIZON} trading days from t-0 be higher
-(LONG), lower (SHORT), or do the signals not give you enough edge (NO ACTION)?
+In round 1 you analyze the data independently. In later rounds you will also see
+the previous-round analyses from the other analysts (and your own). You may
+incorporate their strongest points, push back on weak reasoning, or stand your
+ground -- but think for yourself. Do not change your vote just to match the
+group; only change it if the evidence or another analyst's argument actually
+moves you.
 
-You MUST respond in this <think>...</think> and <action>...</action> format
-with no extra text outside the tags:
+Your task is to DECIDE the action for the stock over the next {HORIZON} trading
+day(s): will the Close {HORIZON} trading days from t-0 be higher (LONG), lower
+(SHORT), or do the signals not give you enough edge (NO ACTION)?
+
+Lessons distilled from previous trades:
+  0. When a sharp late pullback leaves RSI near 35–50 after a prior uptrend and no volume capitulation, favor long for mean-reversion.
+  1. When analysts stay split on a downtrend with oversold RSI and improving MACD histogram, output 0 (no action) unless price breaks fresh lows on expanding volume.
+  2. When a sharp rally leaves RSI near 70 and MACD histogram below its recent peak despite a close near highs, favor short.
+  3. When recent closes roll over into lower highs/lows and the MACD histogram turns or stays negative despite only moderately oversold RSI around 30–40, favor short.
+  
+
+You MUST respond in this <think>...</think> and <action>...</action> format with no extra text outside the tags:
 
 <think>
 Step-by-step reasoning:
 - Summarize what you see in the data (recent trend, RSI, MACD, vol regime).
+- (Round 2+) State where you agree or disagree with the other analysts and why.
 - List the signals that matter.
 - Resolve them into a directional view and a confidence level.
 </think>
@@ -54,36 +68,7 @@ Do not output any other value. Do not output a magnitude, probability, or log re
 """
 
 
-ORCHESTRATOR_SYSTEM = """You are the head portfolio manager.
-
-Three independent analysts have each looked at the same window of daily bars
-(OHLCV plus RSI, MACD, and 20-day volatility indicators) and produced
-(a) a written analysis and (b) a directional vote for the {HORIZON}-day-ahead
-move: +1 (long), -1 (short), or 0 (no action). They were given identical
-instructions and worked independently; differences between them reflect
-genuine uncertainty about the next move.
-
-Your job is NOT to redo their work. Combine their votes into one decision:
-  - When they agree, take the consensus.
-  - When they disagree, lean toward the analysis best supported by the data.
-  - If conviction is low or signals cancel, output exactly 0 (NO ACTION).
-
-You MUST respond in this <think>...</think> and <action>...</action> format:
-
-<think>
-- Note where the three analysts agree and disagree.
-- Decide which view dominates and why.
-</think>
-<action>
-A single number -- exactly one of:
-   1  => LONG
-  -1  => SHORT
-   0  => NO ACTION
-Do not output any other value.
-</action>
-"""
-
-class CMixture(torch.nn.Module):
+class LDebate(torch.nn.Module):
     def __init__(self, args, config):
         super().__init__()
         self.config = config
@@ -101,8 +86,6 @@ class CMixture(torch.nn.Module):
             mf = model_field.lower()
             if "gemini" in mf:
                 provider, model_name = "gemini", model_field
-            elif "claude" in mf:
-                provider, model_name = "anthropic", model_field
             elif mf.startswith(("gpt", "o1", "o3", "o4")):
                 provider, model_name = "openai", model_field
             else:
@@ -123,25 +106,20 @@ class CMixture(torch.nn.Module):
                     os.environ.get("GEMINI_API_KEY")
                     or os.environ.get("GOOGLE_API_KEY")
                 )
-            elif self.provider == "anthropic":
-                self.api_key = os.environ.get("ANTHROPIC_API_KEY")
         if not self.api_key:
             raise ValueError(f"No API key found for provider '{self.provider}'.")
 
         self.temperature = float(getattr(config, "temperature", 0.3))
-        self.max_tokens = int(getattr(config, "max_tokens", 6144)) 
         self.max_workers = int(getattr(config, "max_workers", 4))
         self.max_retries = int(getattr(config, "max_retries", 2))
         self.num_agents = int(getattr(config, "num_agents", 3))
+        self.num_rounds = max(1, int(getattr(config, "num_rounds", 2)))
         self.save_eval_info = True
 
         self.horizon = int(getattr(args, "horizon", None)
                            or getattr(config, "horizon", 5))
 
-        self._analyst_system = SHARED_AGENT_SYSTEM.replace(
-            "{HORIZON}", str(self.horizon)
-        )
-        self._orch_system = ORCHESTRATOR_SYSTEM.replace(
+        self._agent_system = DEBATE_AGENT_SYSTEM.replace(
             "{HORIZON}", str(self.horizon)
         )
 
@@ -161,15 +139,10 @@ class CMixture(torch.nn.Module):
             {
                 "key": f"analyst_{i + 1}",
                 "name": f"Analyst {i + 1}",
-                "system": self._analyst_system,
+                "system": self._agent_system,
             }
             for i in range(self.num_agents)
         ]
-
-        self.orchestrator = {
-            "name": "Head Portfolio Manager",
-            "system": self._orch_system,
-        }
 
     def _init_client(self):
         if self.provider == "openai":
@@ -185,13 +158,6 @@ class CMixture(torch.nn.Module):
             except ImportError as e:
                 raise ImportError("Install with: pip install google-genai") from e
             self.client = genai.Client(api_key=self.api_key)
-
-        elif self.provider == "anthropic":
-            try:
-                import anthropic
-            except ImportError as e:
-                raise ImportError("Install with: pip install anthropic") from e
-            self.client = anthropic.Anthropic(api_key=self.api_key)
 
         else:
             raise ValueError(
@@ -224,24 +190,10 @@ class CMixture(torch.nn.Module):
                         ),
                     )
                     return resp.text or ""
-                
-                elif self.provider == "anthropic":
-                    resp = self.client.messages.create(
-                        model=self.model_name,
-                        max_tokens=self.max_tokens,
-                        system=system_prompt,
-                        messages=[{"role": "user", "content": user_prompt}],
-                        temperature=self.temperature,
-                    )
-                    return "".join(
-                        block.text for block in resp.content
-                        if getattr(block, "type", None) == "text"
-                    )
-                
             except Exception as e:
                 last_err = e
 
-        print(f"[MoA] LLM call failed after {self.max_retries + 1} attempts: {last_err}")
+        print(f"[Debate] LLM call failed after {self.max_retries + 1} attempts: {last_err}")
         return "<think>API error; defaulting to no action.</think>\n<action>0.0</action>"
 
     @staticmethod
@@ -285,35 +237,65 @@ class CMixture(torch.nn.Module):
         )
 
     @staticmethod
+    def _vote_label(v: float) -> str:
+        if v > 0:
+            return "LONG (+1)"
+        if v < 0:
+            return "SHORT (-1)"
+        return "NO ACTION (0)"
+
+    def _build_debate_prompt(
+        self,
+        base_prompt: str,
+        prev_round_outputs: List[Dict[str, Any]],
+        round_idx: int,
+        self_name: str,
+    ) -> str:
+        parts = [base_prompt, "", f"--- Round {round_idx - 1} analyses ---", ""]
+        for o in prev_round_outputs:
+            tag = " (you)" if o["name"] == self_name else ""
+            parts.append(f"### {o['name']}{tag}")
+            parts.append(o["response"].strip())
+            parts.append(f"(parsed vote: {self._vote_label(o['value'])})")
+            parts.append("")
+        parts.append(
+            f"This is round {round_idx} of {self.num_rounds}. Reconsider your view in "
+            "light of the analyses above. You may keep or change your vote; only "
+            "change it if the evidence or another analyst's argument actually moves "
+            "you. Respond strictly in the <think>...</think><action>...</action> format."
+        )
+        return "\n".join(parts)
+
+    @staticmethod
     def _parse_action(response: str) -> float:
         if not response:
             return 0.0
- 
+
         m = re.search(r"<action>\s*(.*?)\s*</action>", response, re.DOTALL | re.IGNORECASE)
         body = m.group(1) if m else response
         low = body.lower()
- 
+
         has_long = bool(re.search(r"\blong\b", low))
         has_short = bool(re.search(r"\bshort\b", low))
         has_hold = bool(re.search(r"\b(hold|do nothing|no action|no[- ]op|neutral)\b", low))
- 
+
         nums = re.findall(r"-?\d+\.?\d*(?:[eE][-+]?\d+)?", body)
         if nums:
             try:
                 val = float(nums[0])
             except ValueError:
                 val = 0.0
- 
+
             if has_short and val > 0:
                 val = -1.0
             elif has_long and val < 0:
                 val = 1.0
- 
+
             if val > 0:
                 return 1.0
             if val < 0:
                 return -1.0
-            
+
             if has_long:
                 return 1.0
             if has_short:
@@ -328,18 +310,50 @@ class CMixture(torch.nn.Module):
             return 0.0
         return 0.0
 
-
-    def _query_agent(self, agent: Dict[str, Any], data_prompt: str) -> Tuple[str, float]:
-        resp = self._call_llm(agent["system"], data_prompt)
+    def _query_agent(
+        self, agent: Dict[str, Any], user_prompt: str
+    ) -> Tuple[str, float]:
+        resp = self._call_llm(agent["system"], user_prompt)
         return resp, self._parse_action(resp)
+
+    def _run_round(
+        self,
+        round_user_prompts: List[str],
+    ) -> List[Dict[str, Any]]:
+        outputs: List[Dict[str, Any]] = [None] * len(self.agents)
+        with ThreadPoolExecutor(max_workers=max(1, len(self.agents))) as ex:
+            futs = {
+                ex.submit(self._query_agent, a, round_user_prompts[i]): i
+                for i, a in enumerate(self.agents)
+            }
+            for fut, i in futs.items():
+                resp, val = fut.result()
+                outputs[i] = {
+                    "name": self.agents[i]["name"],
+                    "response": resp,
+                    "value": val,
+                }
+        return outputs
+
+    @staticmethod
+    def _majority_vote(votes: List[float]) -> float:
+        if not votes:
+            return 0.0
+        counts = Counter(round(v) for v in votes)
+        max_count = max(counts.values())
+        winners = [v for v, c in counts.items() if c == max_count]
+        if len(winners) == 1:
+            return float(winners[0])
+        
+        if 0 in winners:
+            return 0.0
+        return 0.0
 
     def _save_trace(
         self,
         x_single: torch.Tensor,
         data_prompt: str,
-        agent_outputs: List[Dict[str, Any]],
-        orch_user: str,
-        orch_resp: str,
+        rounds: List[List[Dict[str, Any]]],
         final_decision: float,
         target_return: float | None = None,
     ) -> None:
@@ -357,27 +371,36 @@ class CMixture(torch.nn.Module):
                 "ohlcv_window": x_single.detach().cpu().tolist(),
                 "formatted_series": self._format_series(x_single),
             },
+            "config": {
+                "num_agents": self.num_agents,
+                "num_rounds": self.num_rounds,
+            },
             "analysts": {
-                "system_prompt": self._analyst_system,
-                "user_prompt": data_prompt,
-                "outputs": [
+                "system_prompt": self._agent_system,
+                "round_1_user_prompt": data_prompt,
+                "rounds": [
                     {
-                        "name": o["name"],
-                        "raw_response": o["response"],
-                        "parsed_vote": o["value"],
+                        "round": r_idx + 1,
+                        "outputs": [
+                            {
+                                "name": o["name"],
+                                "raw_response": o["response"],
+                                "parsed_vote": o["value"],
+                            }
+                            for o in round_outputs
+                        ],
                     }
-                    for o in agent_outputs
+                    for r_idx, round_outputs in enumerate(rounds)
                 ],
             },
-            "orchestrator": {
-                "system_prompt": self._orch_system,
-                "user_prompt": orch_user,
-                "raw_response": orch_resp,
-                "parsed_vote": final_decision,
+            "voting": {
+                "method": "majority_vote",
+                "tie_break": "no_action",
+                "final_round_votes": [o["value"] for o in rounds[-1]],
             },
             "final_decision": final_decision,
         }
- 
+
         if self.save_eval_info and target_return is not None:
             hit = None
             if final_decision != 0.0:
@@ -392,63 +415,65 @@ class CMixture(torch.nn.Module):
             with open(path, "w") as f:
                 json.dump(trace, f, indent=2, ensure_ascii=False)
         except Exception as e:
-            print(f"[MoA] failed to write trace {path}: {e}")
+            print(f"[Debate] failed to write trace {path}: {e}")
 
-    def _process_one(self, x_single: torch.Tensor, target_return: float | None = None) -> float:
+    def _process_one(self, x_single: torch.Tensor,
+                     target_return: float | None = None) -> float:
         data_prompt = self._build_data_prompt(self._format_series(x_single))
- 
-        agent_outputs = []
-        with ThreadPoolExecutor(max_workers=max(1, len(self.agents))) as ex:
-            futs = [ex.submit(self._query_agent, a, data_prompt) for a in self.agents]
-            for a, f in zip(self.agents, futs):
-                resp, val = f.result()
-                agent_outputs.append({"name": a["name"], "response": resp, "value": val})
- 
-        orch_user = data_prompt + "\n\n--- Independent votes ---\n\n"
-        for o in agent_outputs:
-            v = o["value"]
-            label = "LONG (+1)" if v > 0 else "SHORT (-1)" if v < 0 else "NO ACTION (0)"
-            orch_user += (
-                f"### {o['name']}\n"
-                f"{o['response'].strip()}\n"
-                f"(parsed vote: {label})\n\n"
-            )
-        orch_user += "Now produce the final combined decision in the required format."
- 
-        orch_resp = self._call_llm(self.orchestrator["system"], orch_user)
-        final_decision = self._parse_action(orch_resp)
 
-        self._save_trace(
-            x_single, data_prompt, agent_outputs, orch_user, orch_resp, final_decision, target_return=target_return
-        )
+        rounds: List[List[Dict[str, Any]]] = []
+
+        round_prompts = [data_prompt for _ in self.agents]
+        first = self._run_round(round_prompts)
+        rounds.append(first)
+
+        for r in range(2, self.num_rounds + 1):
+            prev = rounds[-1]
+            round_prompts = [
+                self._build_debate_prompt(
+                    base_prompt=data_prompt,
+                    prev_round_outputs=prev,
+                    round_idx=r,
+                    self_name=a["name"],
+                )
+                for a in self.agents
+            ]
+            rounds.append(self._run_round(round_prompts))
+
+        final_votes = [o["value"] for o in rounds[-1]]
+        final_decision = self._majority_vote(final_votes)
+
+        self._save_trace(x_single, data_prompt, rounds, final_decision,
+                         target_return=target_return)
 
         return final_decision
 
-    def forward(self, x: torch.Tensor, target_return: torch.Tensor | None = None) -> torch.Tensor:
-        """
-        x: (batch_size, seq_length, num_features)
-        returns: (batch_size, 1) tensor of directional decisions in {-1, 0, +1}
-        """
+    def forward(self, x: torch.Tensor,
+                target_return: torch.Tensor | None = None) -> torch.Tensor:
         if x.dim() == 2:
             x = x.unsqueeze(0)
         batch_size = x.shape[0]
 
         target_returns = None
         if self.save_eval_info and target_return is not None:
-            target_returns = target_return.squeeze(-1) if target_return.dim() > 1 else target_return
-
+            target_returns = (target_return.squeeze(-1)
+                              if target_return.dim() > 1 else target_return)
 
         preds = [0.0] * batch_size
         with ThreadPoolExecutor(max_workers=self.max_workers) as ex:
             future_to_idx = {
-                ex.submit(self._process_one, x[i], float(target_returns[i].item()) if target_returns is not None else None): i for i in range(batch_size)
+                ex.submit(
+                    self._process_one, x[i],
+                    float(target_returns[i].item())
+                    if target_returns is not None else None,
+                ): i for i in range(batch_size)
             }
             for fut in future_to_idx:
                 i = future_to_idx[fut]
                 try:
                     preds[i] = fut.result()
                 except Exception as e:
-                    print(f"[MoA] batch item {i} failed: {e}")
+                    print(f"[Debate] batch item {i} failed: {e}")
                     preds[i] = 0.0
 
         return torch.tensor(preds, dtype=torch.float32).unsqueeze(-1)
